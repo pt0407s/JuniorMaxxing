@@ -1,0 +1,1053 @@
+                         Chief Reader Report on Student Responses:
+                               2025 AP® Biology Free-Response Questions
+
+    • Number of Students Scored                     288,132
+    • Number of Readers                             1,424
+    • Score Distribution                               Exam Score     N             %At
+                                                            5       54,306          18.8
+                                                            4       69,446          24.1
+                                                            3       78,923          27.4
+                                                            2       60,673          21.1
+                                                            1       24,784           8.6
+    • Global Mean                                   3.24
+
+
+
+     The following comments on the 2025 free-response questions for AP® Biology were written by the
+     Chief Reader, Jay Mager, Ohio Northern University, Ada, Ohio; with substantial assistance from the
+     Operational Exam Leader, Amy Doling, Simpson College, Indianola, Iowa; and Question Leaders,
+     Cyndie Beale, West Valley High School, Fairbanks, Alaska; Rob Benedetto, Central Catholic High
+     School, Lawrence, Massachusetts; Monika Biro, Aurora High School, Aurora, Ohio; Deborah Jones,
+     Oxford High School, Oxford, Mississippi; Jeff Regier, Thompson Valley High School, Loveland,
+     Colorado; and Michelle Solensky, University of Jamestown, Jamestown, North Dakota. The
+     comments provide an overview of each free-response question and outline how students performed
+     on the question, including typical student errors. General comments regarding the skills and content
+     with which students frequently have the most difficulty are included. Some suggestions for
+     improving student preparation in these areas are also provided. Teachers are encouraged to attend a
+     College Board workshop to learn strategies for improving student performance in specific areas.
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 1
+Task: Interpreting and Evaluating Experimental Results
+Topic: ER Translocation
+
+                                           Max Points:                     Mean Score:
+Point A1                                       1.0                            0.64
+Point B1                                       1.0                            0.79
+Point B2                                       1.0                            0.16
+Point B3                                       1.0                            0.83
+Point C1                                       1.0                            0.76
+Point C2                                       1.0                            0.89
+Point C3                                       1.0                            0.49
+Point D1                                       1.0                            0.14
+Point D2                                       1.0                            0.02
+Overall Mean Score: 4.74
+
+What were the responses to this question expected to demonstrate?
+
+The stimulus of Question 1 explained that proteins that are secreted from a cell must be transported to the
+endoplasmic reticulum (ER) and that this transport can occur during or after translation. It describes a protein
+that is involved in each of these types of transport and explains the creation of small interfering RNAs
+(siRNAs) that reduce the expression of either the SR protein, which is necessary for transport during
+translation, or the Sec62 protein, which is necessary for transport after translation. Figure 1 shows the effect
+on Sec62 and SR protein production of each of the siRNAs, relative to a control siRNA. Figure 2 shows the
+amount of transport of three different proteins in cells that were treated with each type of siRNA.
+
+In part A responses were expected to describe the function of ribosomes.
+
+Part B referred students to Figure 1. In part B (i) and B (ii) responses were expected to demonstrate an
+understanding of experimental design (Skill 3.C). In part B (i) responses were expected to identify the
+dependent variable (Skill 3.C). In part B (ii) responses were expected to justify the control of measuring both
+proteins when treated with an siRNA that was created to interfere with only one of the proteins (Skill 3.C). In
+part B (iii) responses were expected to describe the effect of a specific treatment on the production of one of
+the proteins (Skill 4.B).
+
+Parts C (i) and C (ii) referred students to Figure 2. In part C (i) responses were expected to identify the
+independent variable (Skill 3.C). In part C (ii) responses were expected to identify the protein(s) that showed
+an increase in transport in response to the Sec62 siRNA treatment (Skill 4.B). Part C (iii) assessed whether
+students could convert a difference in nucleotides to a difference in the number of amino acids encoded by
+those nucleotides; responses were expected to calculate that difference from the data provided (Skill 5.A; LO
+IST-1.O).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+Part D (i) referred students to Figure 2 and described the claim that “protein 1 is the only tested protein that is
+transported to the ER following its complete translation in the cytosol.” Responses were expected to support
+this claim by explaining that only protein 1 had reduced transport when cells were treated with Sec62 siRNA
+(Skill 6.B). Part D (ii) assessed whether students could use their understanding of factors that affect the
+transport of proteins across membranes to justify a claim that “amino acids close to the protein’s amino
+terminus determine how likely the protein is to pass through the protein channel within the ER membrane.”
+Responses were expected to explain that entry into the channel would be more likely if the channel and amino
+acids (at the amino terminus) had similar polarity or opposite charges (Skill 6.B; LO ENE-2.G).
+
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+Describing the function of subcellular components (Skill 1.A):
+    •    A moderate number of responses correctly described protein synthesis as the function of ribosomes
+         (part A; LO SYI-1.D). Some responses incorrectly focused on the role of ribosomes in protein transport
+         rather than protein synthesis, and some responses described an incorrect function, such as
+         transcription.
+
+Identifying experimental procedures that are aligned to the question (Skill 3.C):
+    •    Many responses correctly identified the dependent (part B (i)) and independent (part C (i)) variables
+         using the figures provided.
+    •    Few responses provided appropriate justification for an experimental control (part B (ii)). Many
+         responses included vague references to a control as a “baseline” or an indicator of “what was normal,”
+         but few were able to explain that the researchers measured both proteins after treating cells with one
+         kind of siRNA to determine whether that specific siRNA reduced production of the target protein but
+         not the other protein.
+
+Describing data from a table or graph (Skill 4.B):
+    •    Most responses correctly described data from a graph. Most correctly described that SR production
+         increased in cells treated with Sec62 siRNA (part B (iii)) and that proteins 2 and 3 had increased
+         transport in the group treated with Sec62 siRNA.
+
+Performing mathematical calculations (Skill 5.A; LO IST-1.O):
+    •    A moderate number of responses used the biological concept that a 3-nucleotide codon directs the
+         addition of 1 amino acid to translate a difference in nucleotides to a difference in amino acids between
+         two proteins (part C (iii)). Some responses calculated the difference in nucleotides but either divided by
+         2 instead of 3 or did not divide the difference by 3 (to determine the number of codons/amino acids
+         from the number of nucleotides) and instead reported the difference in nucleotides as the answer.
+
+Supporting a claim with evidence from biological principles, concepts, processes, and/or data (Skill 6.B):
+    •    Few responses provided an explanation that fully supported the claim in part D (i) that “protein 1 is the
+         only tested protein that is transported to the ER following its complete translation in the cytosol.” Some
+         responses correctly described the pattern of reduced transport of protein 1 in cells treated with Sec62
+         siRNA but did complete their support for this claim by specifying that this pattern was only observed
+         for protein 1 or that it was not observed for proteins 2 or 3. Some responses described other patterns
+         within the graph that, although accurate, did not support this claim (e.g., that transport of protein 1
+         was lower in cells treated with Sec62 siRNA than in cells treated with SR siRNA).
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+    •    Very few responses provided an explanation that fully justified the claim in part D (ii) that “amino acids
+         close to the protein’s amino terminus determine how likely the protein is to pass through the protein
+         channel within the ER membrane” (LO ENE-2.G). Some responses correctly described the polarity of
+         the cell membrane and how such polarity might affect protein transport; however, they did not connect
+         this to the ability of a protein to pass through the channel. Some responses described features of an
+         entire protein, such as size or folding, rather than the properties of the amino acids close to the
+         protein’s amino terminus.
+
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                   Responses that Demonstrate Understanding
+
+  Part A                                                 Part A
+   •    Misconception: Ribosomes make amino              •   “The function of ribosomes is to synthesize proteins
+        acids.                                               from mRNA strands and respective amino acid
+                                                             molecules.”
+   •    Knowledge Gap: The function of ribosomes is
+        to synthesize proteins—transport is         •        “Ribosomes are used in the synthesis of proteins by
+        associated with that process but is not the          being the site in which RNA is translated.”
+        function of a ribosome.
+                                                    •        “The function of ribosomes is to make and transport
+                                                             proteins.”
+
+  Part B (ii)                                            Part B (ii)
+   •    Skills Gap: Justifying the purpose of a control •    “They were included as controls to see if Sec62
+        in the context of a specific experiment,             siRNA reduced Sec62 protein amounts but not the
+        moving beyond phrases like “establish a              amount of SR.”
+        baseline” or “to see what is normal” (Skill
+                                                        •    “Including the control of measuring both Sec62 and
+        3.C)
+                                                             SR protein amount in cells treated with Sec62 siRNA
+                                                             only allows researchers to determine if Sec62 siRNA
+                                                             affects SR as well as Sec62.”
+
+  Part C (iii)                                           Part C (iii)
+   •    Knowledge Gap: Recognizing that calculating •        “Protein 2 has 87 more amino acids than protein 1.”
+        the difference in amino acids when given the
+        number of nucleotides requires the division
+        by 3 to account for 3 nucleotides being
+        translated to 1 amino acid
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  Part D (i)                                               Part D (i)
+   •      Skills Gap: Interpreting complex graphs with     •   “Of all three proteins, protein 1 is the only one which
+          more than one independent variable (e.g.,            experienced a decrease in the relative amount of
+          clustered bar graph) (Skill 6.B)                     protein transported to the ER when Sec62 siRNA
+                                                               was added to the cell. As Sec 62 is the ER membrane
+                                                               protein needed for proteins transported after
+                                                               translation, the negative effect of Sec62 siRNA on
+                                                               protein 1 suggests it is transported to the ER
+                                                               following translation.”
+                                                           •   “In the Figure 2 experiment, % protein transported to
+                                                               the ER decreased for Protein 1 when Sec62 siRNA
+                                                               was added. Because Sec62 protein is used to
+                                                               transport proteins completed in the cytosol into the
+                                                               ER, and protein 1 transport decreased when Sec62
+                                                               siRNA interfered with Sec62, it is clear that Protein 1
+                                                               must be translated completely in the cytosol before
+                                                               being transported into the ER by Sec62. Proteins 2
+                                                               and 3 increased transport under Sec62 siRNA so
+                                                               they must use SR to enter the ER during translation.”
+
+  Part D (ii)                                              Part D (ii)
+  •       Skills Gap: Applying biological concept to a     •   “Proteins that are transported across membranes
+          novel scenario (amino terminus entering ER           should have the same polarity of the protein channel
+          through a protein channel) (Skill 6.C).              they are going through. Polar amino acids will more
+                                                               easily go through channels with polar insides.”
+  •       Misconception: The amino terminus of a
+          protein has a poly(A) tail. There seems to be    •   “Amino acids close to the protein’s amino terminus
+          some confusion about components of mRNA              will have similar polarity to the protein channel and
+          and proteins.                                        will pass through the channel easier than amino
+                                                               acids that differ from the terminus.”
+
+
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+      •    Ask students to practice explaining the experimental design and the reason(s) for including each group
+           represented on a graph with respect to the question and study design.
+               o   TIP: Practice with published data to develop skills in reading and interpreting graphs; there are
+                   good secondary sources (e.g., New Scientist) that students could use to find a study that
+                   interests them. These typically include links to the primary source that may have graphs that
+                   students can practice with to identify the dependent and independent variables, experimental
+                   and control groups, and the patterns illustrated.
+               o   TIP: When asking students to practice interpreting graphs, start by asking, “What do you see?”
+                   (experimental design components, such as dependent and independent variables). Then ask,
+                   “What does it mean?” This is a longer discussion that requires students to compare the results
+                   of different treatments, identify and explain controls, and interpret patterns. After the
+                   discussion, ask students to explain it in written form—articulating these explanations is an
+                   additional skill that goes beyond explaining them verbally.
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+     •    Topic questions and progress checks from Topics 2.1, 2.6, 4.6, and 6.4 for formative assessments
+     •    AP Daily videos, Topics 2.1, 2.6, 4.6, and 6.4, as well as Faculty Lectures 4 and 6
+
+From the AP Biology Online Teacher Community:
+     •    Data resources outlined in the Online Resources Recommended by AP Teachers
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 2
+Task: Interpreting and Evaluating Experimental Results with Graphing
+Topic: Mating Behavior in Moths
+
+                                           Max Points:                       Mean Score:
+Point A1                                       1.0                              0.50
+Point B1                                       1.0                              0.88
+Point B2                                       1.0                              0.66
+Point B3                                       1.0                              0.63
+Point B4                                       1.0                              0.72
+Point C1                                       1.0                              0.75
+Point C2                                       1.0                              0.47
+Point D1                                       1.0                              0.34
+Point D2                                       1.0                              0.21
+Overall Mean Score: 5.17
+
+What were the responses to this question expected to demonstrate?
+
+Question 2 presented a table of data from an experiment designed to investigate details of part of the signaling
+pathway that enables male moths to respond to pheromones released by female moths. Specifically, the
+question investigates whether the binding of the extracellular signaling molecule 20E to its receptor, DopEcR,
+affects male moth behavior. In the experiment, scientists inhibited the expression of the DopEcR gene and
+determined the effect of that manipulation on two types of moth activity: general activity, defined as
+“movement in any direction,” and oriented activity, defined as “movement toward an area of high pheromone
+concentration.”
+
+Part A expected responses to describe the polarity of the portion of the receptor that is inside the membrane.
+This prompt assessed student understanding of the biological concept of polarity (Skill 1.A; LO SYI-1.B).
+
+In part B (i) responses were expected to construct a bar graph (Points B1, B2, and B3) representing the
+experimental data (Skill 4.A). Part B (ii) expected responses to use the provided data to determine the type of
+activity (Point B4) that was affected by inhibiting the expression of the DopEcR gene (Skill 4.B).
+
+In part C (i) responses were expected to use the provided data to identify the treatment group in which the
+oriented activity was greater than 50% of the general activity (Skill 4.B). Part C (ii) referred students to a figure
+illustrating a simplified model of a G-protein signaling pathway; students were then provided information
+about a mutation in the gene encoding the G protein. Responses were expected to predict the effect of this
+mutation on the oriented activity in male moths exposed to the pheromone (Skill 6.E; IST-3.G).
+
+Part D (i) presented information about changes in gene expression that occur as male moths reach sexual
+maturity, and the scientists’ claim that “this increase in gene expression increases the likelihood of males
+finding females.” Responses were expected to use evidence from the information provided to support the
+scientists’ claim (Skill 6.B). In part D (ii) responses were expected to explain how an inhibitor of the DopEcR
+pathway might serve as an effective chemical to protect crops from moth damage (Skill 6.E).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+Describing the properties of biological macromolecules:
+      •    A moderate number of responses correctly described the polar properties of biomolecules (the polarity
+           of the portion of a protein inside a membrane is nonpolar/hydrophobic) (Skill 1.A).
+
+Constructing an appropriately labeled graph and describing/evaluating data in the graph:
+      •    Most responses represented the data in a bar graph (Skill 4.A).
+      •    Many responses corrected constructed a bar graph (Skill 4.A).
+      •    Many responses correctly labeled the graph and accurately plotted the data points and error bars (Skill
+           4.A).
+      •    Many responses correctly determined the effect of inhibiting expression of a key gene (the type of
+           activity affected by inhibiting DopEcR gene expression) (Skill 4.B).
+
+Making predictions based on disruptions of a biological process:
+      •    Most responses correctly identified the treatment group specified (the one where oriented activity was
+           greater than 50% of general activity), based on the data provided (Skill 4.B).
+      •    A moderate number of responses correctly predicted the effect of a mutation on a biological process (a
+           signaling pathway) (Skill 6.E).
+
+Understanding a signaling pathway and explaining the impact of an inhibitor on the pathway:
+      •    Some responses used evidence from the question to provide support for the scientists’ claim (increased
+           gene expression increases the likelihood of males finding females) (Skill 6.B).
+      •    Fewer responses correctly explained the downstream effects of inhibiting a biological process (the
+           DopEcR pathway) (Skill 6.E).
+
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                        Responses that Demonstrate Understanding
+
+  •       Misconception: Molecules of opposite polarity       •   “The portion of the receptor that is inside the
+          attract each other                                      membrane is nonpolar.”
+
+  •       Skills Gap: Inability to support a claim with       •   “As the expression of the DopEcR gene
+          evidence from biological principles, concepts,          increases, oriented activity will increase,
+          processes, and/or data (Skill 6.B)                      resulting in an increase of attracted mates.”
+
+  •       Skills Gap: Inability to to predict the causes or   •   “This mutation prevents activation of the G-
+          effects of a change in, or disruption to, one or        protein. This decreases oriented activity in male
+          more components in a biological system based on         moths exposed to the pheromone.”
+          a visual representation of a biological process
+          (Skill 6.E)
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  •       Skills Gap: Inability to label a graph and
+          accurately plot data points and error bars (Skill
+          4.A); inability to utilize appropriate y-axis scaling
+
+
+
+
+                                                                  •
+
+
+
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+      •    Because graphs are found in multiple free-response questions in every exam, utilize graphs often, for
+           increasingly complex data sets, and practice graph construction and interpretation.
+      •    Give students practice in choosing when to use different types of graphs, how to appropriately label
+           axes, how to scale such that all the data are contained in the graph, and how to use error bars to make
+           conclusions.
+      •    Practice articulating the steps in a biological process that lead to a result (For example: If there is a
+           mutation or a change in a step in a cell signaling pathway, describe how this will change the
+           response).
+
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+      •    AP Daily videos, Topics 1.3, 2.3, and 4.3, as well as Faculty Lectures 1 and 4
+      •    Topic questions and progress checks from Topics 1.3, 2.3, and 4.3 for formative assessments
+
+From AP Biology Online Teacher Community Resources:
+      •    Data resources outlined in the Online Resources Recommended by AP Teachers
+      •    For graphing support and practice, the resources within the Quantitative Skills Guide
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 3
+Task: Scientific Investigation
+Topic: Buffelgrass and Saguaro Cactus
+
+                                           Max Points:                     Mean Score:
+Part A                                         1.0                            0.32
+Part B                                         1.0                            0.60
+Part C                                         1.0                            0.55
+Part D                                         1.0                            0.25
+Overall Mean Score: 1.72
+
+What were the responses to this question expected to demonstrate?
+
+Question 3 introduced buffelgrass, an invasive grass species in southwestern desert ecosystems, that is
+threatening the saguaro cactus, a keystone species in these ecosystems. The stimulus of the question
+described an experiment conducted to determine whether scientists could control the abundance of the
+buffelgrass population with native grasses. Several native grass species were identified that might reduce the
+abundance of buffelgrass when grown together. In this experiment, buffelgrass was grown in the presence of
+different native grasses in either drought or nondrought conditions, and the change in the height and dry
+weight of the buffelgrass were measured over time.
+
+In part A responses were expected to describe how keystone species contribute to maintaining the diversity of
+an ecosystem as well as the relationship between ecosystem diversity and the ecosystem’s resilience to
+changes in the environment (Skill 1.A; LO SY1-3.F).
+
+In part B responses were expected to identify a control group to be included in the experiment testing the
+effect of native grass on the height and dry weight of buffelgrass (Skill 3.C).
+
+In part C responses were expected to state the null hypothesis for this experiment (Skill 3.B).
+
+In part D responses were expected to justify the claim that the abundance of invasive buffelgrass plants will
+increase in the ecosystem after a wildfire (Skill 6.B; LO SY1-2.A).
+
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+    •    In part A a moderate number of responses described the effect of removing a keystone species as the
+         collapse of an ecosystem. Few responses connected their understanding of keystone species to the
+         biodiversity in an ecosystem and the ecosystem’s resulting resilience to change (Skill 1.A; LO SY1-
+         3.F).
+
+    •    In part B many responses identified the control for the experiment as buffelgrass grown alone
+         without native species (Skill 3.C).
+
+    •    In part C a moderate number of responses stated the null hypothesis for the experiment as there will
+         be no change in the height and dry weight of the buffelgrass when grown in the presence of native
+         grass species (Skill 3.B).
+
+    •    In part D few responses justified the claim that the invasive buffelgrass will increase in abundance
+         after a fire by using the information given regarding growth rates of buffelgrass and native grasses
+         after a wildfire and then connecting that information to an understanding that these differences in
+         growth rates will affect the abundance of the buffelgrass and native grasses (Skill 6C; LO SY1-2.A).
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                          Responses that Demonstrate Understanding
+
+
+  Part A                                                        Part A
+  Knowledge Gaps:
+  •    Inability to describe the significant role of a          •   “Removing a keystone species would lead to a
+       keystone species in an ecosystem: Many                       severe decrease in biodiversity and resilience in
+       responses did not describe the removal of a                  the ecosystem and could cause it to collapse.”
+       keystone species as affecting the biodiversity and
+                                                                •   “Removing a keystone species from an
+       resilience of an ecosystem but instead described
+                                                                    ecosystem will have a negative effect on the
+       the effect as a negative outcome on a single food
+                                                                    ecosystem. The removal of a keystone species
+       chain.
+                                                                    will result in a top-down effect in which many
+  •    Inability to properly refer to the different levels of       species and populations will decrease. Overall,
+       organization within an ecosystem                             this reduces the biodiversity in an ecosystem,
+       (population/community/ecosystem and food                     making it less resilient.”
+       chains/trophic levels/food webs) and describe
+                                                                •   “Removing a keystone species will impact all
+       how their interactions may affect biodiversity
+                                                                    trophic levels of an ecosystem. First, removing
+       within the whole ecosystem: Many responses
+                                                                    that species could result in an overabundance of
+       used the terms population, species, and
+                                                                    species that is consumed by the keystone
+       community interchangeably and focused on the
+                                                                    species, leading to the depletion of the species
+       effect of the loss of a keystone species on a single
+                                                                    preyed upon by the keystone species’ prey. It will
+       food chain.
+                                                                    have impacts on trophic levels above and below
+                                                                    that cause an imbalance that cannot be resolved.
+                                                                    It will cause a severe reduction of biodiversity
+                                                                    and make the ecosystem more at risk.”
+
+  Part B                                                        Part B
+  •    Misconception: A control group is equivalent to          •   “A control group the scientist should include is
+       the controlled variables in an experiment. Many              simply a wildtype buffelgrass that is grown
+       responses did not identify a control group as the            without the native species in both conditions
+       group not exposed to the independent variable.               (nondrought and drought).”
+       Instead, these responses identified a control
+                                                                •   “Grow buffelgrass alone without any of those
+       group as the groups with the same exposure to
+                                                                    native grass species and measure its height and
+       water, light, temperature, and other factors that
+                                                                    dry weight.”
+       are to be kept constant in the experiment (Skill
+       3.C).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  Part C                                                   Part C
+  Skills Gaps:
+  •    A null hypothesis means there will always be a      •   “The presence of native grass species will have
+       decrease, negative effect, or a decline within a        no effect on the height and dry weight of the
+       study.                                                  buffelgrass”
+  •    A null hypothesis is mistaken for an experimental   •   “There is no change in height or dry weight of
+       hypothesis. Many responses did not state a null         the buffelgrass when in the presence of a native
+       hypothesis that the independent variable has no         species, and any change is due to chance.”
+       effect on the dependent variable in the
+                                                           •   “The growth of buffelgrass is unaffected by the
+       experiment. Instead, responses provided a
+                                                               presence of a native grass species.”
+       hypothesis stating that the buffelgrass would
+       survive in the presence of native grasses or that   •   “The presence of native species has no
+       the native grasses would reduce the abundance           significant effect on buffelgrass growth.”
+       of buffelgrass (Skill 3.B).
+
+  Part D                                                   Part D
+  •    Skills Gap/Knowledge Gap: Inability to justify a    •   “This is true because buffelgrass will have no
+       claim using information given AND knowledge of          competition as it grows exponentially after a fire
+       biological principles, concepts, processes, and         while the native species are slower to come
+       data (Skill 6.C). Many responses did not apply          back.”
+       knowledge of how invasive species affect
+                                                           •   “Wildfires will increase the abundance of
+       ecosystem dynamics (LO SYI-2.1, LO SYI –
+                                                               buffelgrass plants due to less competition from
+       2.A.1). Instead, most responses restated the
+                                                               native species. Because the growth of native
+       stimulus and did not use knowledge of biological
+                                                               grasses slows down after a wildfire, there will be
+       concepts to explain why the expected change will
+                                                               more resources/nutrients and space available for
+       occur.
+                                                               the drought-tolerant buffelgrass. This allows the
+                                                               buffelgrass population to grow and the
+                                                               abundance of it to increase.”
+                                                           •   “The scientists’ claim is justified by the fact that
+                                                               the fast rate of buffelgrass growth after a
+                                                               wildfire, compared to the slower growth rate of
+                                                               other native species, will allow the buffelgrass to
+                                                               outcompete with the other species by taking up
+                                                               the space and nutrients before the other plants
+                                                               get a chance to grow, leading to an increased
+                                                               abundance of buffelgrass.”
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+    •    Provide opportunities for students to model complex interactions between multiple species in an
+         ecosystem, including keystone species. Build models by layering food chains on top of food chains to
+         build food webs, communities, and ultimately ecosystems. Then let students explore disruptions to the
+         ecosystem, make predictions or claims, and use their models to justify their claims.
+              o    TIP: Allow students to collaborate to build these models and explain their reasoning as they
+                   make and justify claims, both verbally and in writing, correctly using terminology (e.g.,
+                   population, community, ecosystem, keystone population) from the course.
+              o    TIP: Provide students with multiple scenarios to apply their understanding of these ecological
+                   concepts to new contexts.
+
+    •    Challenge students to design experiments, clearly stating both experimental and null hypotheses,
+         identifying independent and dependent variables, and describing the factors that must be held
+         constant.
+              o    TIP: In each unit, ask a scientific question and challenge students to design an experiment to
+                   answer the question. Allow students to collaborate to design and conduct experiments.
+
+    •    Provide multiple opportunities for students to analyze their experiments through Claim-Evidence-
+         Reasoning and to present their CER to their peers.
+              o    TIP: Frequent practice helps students understand the differences between evidence and
+                   reasoning and justification. Responses to “provide evidence to support the claim” and “justify
+                   the claim” are often the same. Teach students that evidence supports the what of the claim (i.e.,
+                   what change is observed). Justification asks students to apply their understanding of biological
+                   concepts to explain why the claim is happening.
+
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+     •    Topic questions and progress checks from Topics 8.6 and 8.7 for formative assessments
+     •    AP Daily videos, Topics 8.6 and 8.7, as well as Faculty Lecture 8
+
+From the AP Biology Online Teacher Community:
+     •    Data resources outlined in the Online Resources Recommended by AP Teachers
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 4
+Task: Conceptual Analysis
+Topic: Isthmus of Panama
+
+                                           Max Points:                     Mean Score:
+Part A                                         1.0                            0.12
+Part B                                         1.0                            0.27
+Part C                                         1.0                            0.71
+Part D                                         1.0                            0.61
+Overall Mean Score: 1.72
+
+What were the responses to this question expected to demonstrate?
+
+Question 4 introduced a major geologic event, the formation of the Isthmus of Panama, which occurred
+millions of years ago and affected the evolution of both marine species and species living in South America.
+The stimulus of the question explained that the formation of the Isthmus separated the Caribbean Sea and the
+Pacific Ocean and created different environmental conditions for the species living there. These
+environmental changes initiated the speciation processes of marine organisms and altered the ecological
+interactions of land species.
+
+Responses in part A were expected to describe the genetic evidence that evolution is occurring in a population
+(Skill 1.A; LO EVO-1.L).
+
+Responses in part B were expected to explain how the isolation of marine species by the formation of a land
+barrier can lead to divergent evolution of those species (Skill 1.B; LO EVO-3.E).
+
+Responses in part C were expected to predict the effect the formation of the Isthmus had on resource
+availability for South American species (Skill 3.B; LO ENE-4.B).
+
+Responses in part D were expected to justify the predicted effect with respect to resource availability for South
+American species (Skill 6.C; LO ENE-4.B).
+
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+    •    Few responses correctly described the genetic evidence that evolution is occurring in a population
+         (Skill 1.A; LO EVO-1.L).
+
+    •    Some responses clearly and accurately explained how geographic isolation of marine species can lead
+         to divergent evolution of those species (Skill 1.B; LO EVO-3.E).
+
+    •    Many responses correctly predicted how the formation of the Isthmus of Panama would affect the
+         resource availability for South American land animal species (Skill 6.E; LO ENE-4.B).
+
+    •    Many responses correctly justified the reason for the decreased resource availability for the South
+         American species of land animals (Skill 6.C; LO ENE-4.B).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                       Responses that Demonstrate Understanding
+
+  Misconceptions:
+  •    The lack of the conditions of the Hardy–Weinberg      •   “Genetic evidence for evolution includes changes
+       equilibrium alone is sufficient as genetic evidence       in allele frequency in the population over time.”
+       of evolution.
+                                                             •   “The isolation of marine species by the land
+  •    Adaptation is an umbrella term that is commonly           barrier results in reproductive isolation, in which
+       used in place of any other term in evolution and          groups of the separated populations are no
+       any evolutionary process, including speciation.           longer able to interbreed and produce fertile,
+                                                                 viable offspring.”
+  •    Differences in DNA sequences in organisms
+       equals evolution.                                     •   “Genetic evidence for evolution includes changes
+                                                                 in allele frequencies in a population over time.
+  •    Changes in the environment cause new traits to
+                                                                 This can be seen through DNA analysis showing
+       develop.
+                                                                 genetic differences between populations or the
+  •    Expanding the range/land mass that populations            appearance of new mutations.”
+       can occupy automatically increases resources,
+                                                             •   “Geographic isolation of marine species would
+       disregarding the species that are already living
+                                                                 prevent individuals on each side of the barrier
+       there.
+                                                                 from mating. Additionally, the barrier would
+                                                                 create two different environments in which
+                                                                 different traits would be favored and passed
+                                                                 down. This would lead to different changes in
+                                                                 allele frequencies on each side of the barrier.”
+                                                             •   “North American species migrated to South
+                                                                 America and competed for similar resources like
+                                                                 food with the South American species.”
+
+  Knowledge Gaps:
+  •    Overall, the language of the responses was            •   “The formation of the isthmus decreased
+       inaccurate and ambiguous.                                 resource availability for South American
+                                                                 species.”
+  •    “Phenotype” and “gene frequency” are not
+       interchangeable terms.                                •   “Evolution is occurring in a population if allele
+                                                                 frequencies are changing between generations.
+                                                                 This means that ... genotypes (and as a result,
+                                                                 expressed phenotypes) are becoming different.”
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  Skills Gaps:
+  •       Many responses demonstrated the inability to         •   “The genetic evidence that evolution is occurring
+          concisely describe biological concepts and               in a population includes a change in allele
+          processes (Skills 1.A and 1.B).                          frequencies.”
+  •       Many responses demonstrated the inability to         •   “Resource availability for South American
+          chose a term to demonstrate directionality of            species will decrease.”
+          changes in ecosystems (Skill 6.E).
+                                                               •   “As the North American species are occupying
+  •       Many responses demonstrated the inability to             similar niches as the South American ones, they
+          justify a claim (about how the South American            will be competing for resources.”
+          species will be affected by the migration of North
+          American land animal species) based on the
+          provided evidence (Skill 6.C).
+
+
+
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+      •    Provide opportunities in class for students to express their knowledge and understanding verbally and
+           in writing to reinforce fundamental questions in evolution (e.g., natural selection).
+               o   TIP: Allow students to work in groups so they can solve and analyze problems together.
+               o   TIP: Give students regular formative checks so that they can score responses for each other.
+                   During the scoring process, allow them to ask questions and clarifications to understand how
+                   to express their thoughts more clearly.
+               o   TIP: Use dry-erase boards (or something similar) during review, so you can walk around and
+                   check students’ thinking and writing as they work out the answers.
+
+      •    Provide sample questions with various task verbs throughout the year.
+               o   TIP: Model how to use the task verbs during review and assessments.
+               o   TIP: At the beginning of the year, provide students with the definitions of the task verbs from
+                   the AP Biology Course and Exam Description.
+
+      •    Use case studies, primary research, and graphs to illustrate various specific examples of biological
+           concepts and processes in ecology and evolution.
+
+      •    Use case studies and various specific examples to predict and justify the consequences of changes and
+           disruptions in populations as a result of abiotic events (e.g., creation of geological barriers,
+           introduction into new environments) and biotic events (e.g., competition).
+
+      •    Apply the concept of evolution in different contexts and scenarios.
+
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+      •     Topic questions and progress checks from Topics 7.1, 7.3, 7.5, and 8.7 for formative assessments
+      •     AP Daily videos, Topics 7.1, 7.3, 7.5, and 8.7, as well as Faculty Lectures 7 and 8
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 5
+Task: Analyze Model or Visual Representation of a Biological Concept or Process
+Topic: Synthesis of Amino Acid
+
+                                           Max Points:                     Mean Score:
+Part A                                         1.0                            0.55
+Part B                                         1.0                            0.37
+Part C                                         1.0                            0.72
+Part D                                         1.0                            0.36
+Overall Mean Score: 2.00
+
+What were the responses to this question expected to demonstrate?
+
+The stimulus of Question 5 provided a model of a multistep metabolic pathway transforming one amino acid,
+A, into another amino acid, B. The model displayed three enzymatic reactions and ended with amino acid B
+allosterically inhibiting the first enzyme (enzyme 1) of the pathway.
+
+In part A the responses were expected to describe a characteristic of an enzyme’s active site that allows it to
+catalyze specific reactions (Skill 1.A; LOs ENE-1.D and ENE-1.E).
+
+In part B the responses were expected to explain how the binding of the first amino acid (A) to its enzyme (1)
+was regulated by the presence of another amino acid (B) (Skill 2.B; LO ENE-1.D and ENE-1.F).
+
+In part C the responses were expected to identify the product of one of the enzymatically controlled reactions
+within the metabolic pathway (Skill 2.D; LO ENE-1.D).
+
+In part D the responses were expected to explain how changes in environmental pH could affect one of the
+enzymes (3) within the metabolic pathway, altering the amount of product produced (amino acid B) by this
+reaction (Skill 2.C; LOs ENE-1.G and ENE-1.F).
+
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+Enzyme Characteristics:
+    •    Many responses indicated that the shape or chemical characteristics of the enzyme’s active site must
+         be compatible with the substrate for specific chemical reactions to occur (Skill 1.A; EKs ENE-1.D.1 and
+         ENE-1.D.2).
+    •    Some responses focused on enzyme-substrate molecular interactions that resulted in the chemical
+         reaction (Skill 1.A; EKs ENE-1.D.2. and ENE-1.E.1).
+    •    Some responses incorrectly described components of enzyme-mediated reactions or indicated that
+         enzymes change in these reactions.
+
+Explanations of Enzymatic Feedback Loops Using a Model:
+    •    Some responses explained that the interaction between one molecule and an enzyme (amino acid B
+         and enzyme 1) prevented the interaction between the enzyme and its substrate (enzyme 1 and amino
+         acid A) (Skill 2.B; LO ENE-1.F).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+      •    Some responses explained that the interaction between one molecule and the enzyme (amino acid B
+           and enzyme 1) was an allosteric inhibition feedback mechanism and that the inhibitor (amino acid B)
+           altered the shape of the enzyme’s active site, preventing any interaction with its substrate (amino acid
+           A) (Skill 2.B; LO ENE-1.D, ENE-1.G).
+      •    Some responses incorrectly interpreted the model and indicated that the presence of the inhibitor
+           molecule (amino acid B) is an activator that enables the enzyme to function (allows enzyme 1 to
+           interact with amino acid A).
+      •    Many responses incorrectly explained that the model and interactions demonstrated enzyme regulation
+           via competitive inhibition.
+
+Identifying Elements of a Model:
+      •    Most responses properly identified the product of the enzymatic reaction involving enzyme 2 (Skill 2.D;
+           LO ENE-1.E).
+
+Environmental Factors Affecting Enzymes and Metabolic Pathways:
+      •    Some responses explained how pH could affect an enzyme’s shape and functionality, resulting in its
+           inability to interact with its substrate (intermediate Y) (Skill 2.C; EKs ENE-1.F and ENE-1.G).
+      •    Many responses explained that enzymes denature in suboptimal conditions; however, they did not go
+           far enough to explain why the final product (amino acid B) was not produced.
+
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                         Responses that Demonstrate Understanding
+
+  Part A                                                       Part A
+  Misconceptions:
+                                                               •   “active sites have a specific shape which allows
+  •       Enzymes and receptors perform the same
+                                                                   specific amino acids to bind”
+          functions.
+                                                               •   “substrates are compatible with certain
+  •       Ligands and substrates are synonyms.
+                                                                   enzymes”
+
+  Part B                                                       Part B
+  •       Misconceptions: Confusion between competitve         •   “amino acid B is an inhibitor to enzyme 1 and
+          and noncompetitive inhibition.                           prevents amino acid A from binding to the
+                                                                   enzyme”
+  •       Misconception: Allosteric and active sites are
+          interchangeable or the same.                         •   “amino acid B is an allosteric inhibitor that when
+                                                                   attached to enzyme 1 changes the shape of the
+  •       Misconception: Confusion between positive and
+                                                                   enzyme’s active site so that amino acid A cannot
+          negative feedback regulation.
+                                                                   attach to enzyme 1”
+  •       Skills Gap: Identifying action elements of a
+          metabolic pathway model (e.g., T-bars vs. arrows)
+          (Skill 2.B).
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  Part C                                                       Part C
+  •       Skills Gap: Distinguising between elements and       •   “intermediate Y”
+          actions in a model (Skill 2.D)
+
+  Part D                                                       Part D
+  •       Skills Gap: Explaining what happens outside of       •   “lowering the pH can denature enzyme 3 which
+          the boundaries of the model once the model has           would make it impossible for intermediate Y to
+          been disrupted (Skill 2.C)                               bind to the enzyme and synthesize amino acid B”
+                                                               •   “a change in pH will change the shape of enzyme
+                                                                   3’s active site and...the substrate will no longer
+                                                                   attach to the enzyme”
+
+
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+      •    Assess student use of language and communication skills.
+              o    TIP: Have students write responses and then read responses aloud. Provide immediate
+                   feedback.
+
+      •    Apply feedback principles across all scales (biomolecular to ecosystem).
+              o    TIP: Describe positive and negative feedback to students, and ask them to describe how
+                   systems across the curriculum self-regulate.
+
+      •    Have students construct, interact, and manipulate models (do not just have them interpret existing
+           models).
+
+      •    Add disruptions to the models students construct.
+              o    TIP: Have students make and justify predictions when elements or actions of a model are
+                   altered.
+
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+      •     Topic questions and progress checks from Topics 3.1 and 3.2 for formative assessments
+      •     AP Daily videos, Topics 3.1 and 3.2, as well as Faculty Lecture 3
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+                                                         Question 6
+Task: Analyze Data
+Topic: ALD and Meiosis
+
+                                           Max Points:                   Mean Score:
+Part A                                         1.0                          0.73
+Part B                                         1.0                          0.67
+Part C                                         1.0                          0.25
+Part D                                         1.0                          0.04
+Overall Mean Score: 1.7
+
+What were the responses to this question expected to demonstrate?
+
+Question 6 analyzed data for the ald gene in fruit flies that encodes the ALD protein, which is associated
+with centromeres and protein filaments involved in separating homologous chromosomes in meiosis. Four
+mutations of the ald gene were generated, and scientists analyzed different ald genotypes in comparison to
+homozygous WT/WT. Students were asked to compare two data sets, one presenting the impact of the
+various genotypes on the percentage of cells with ALD-associated filaments, and one showing the amount
+of ALD protein produced.
+
+Part A asked students to identify which fly genotype produced a specific percentage of cells with ALD-
+associated filaments (Skill 4.B).
+
+Part B asked students to describe the difference between two specific genotypes in ALD protein production
+(Skill 4.B).
+
+Part C asked students to use the two data sets to support a hypothesis that “gamete-forming metaphase
+cells can produce a normal amount of ALD-associated filaments even when they produce half as much ALD
+protein as the wild-type cells produce” (Skill 5.B).
+
+Part D asked students to explain why two specific genotypes could produce the same amount of ALD
+protein but have different phenotypes (Skill 6.D; IST-2.E).
+
+How well did the responses address the course content related to this question? How well did the
+responses integrate the skill(s) required on this question?
+
+    •    Many responses correctly identified a specific data point (the genotype with an average percent of
+         cells with ALD-associated filaments close to 12%) (Skill 4.B).
+
+    •    Many responses correctly described the difference in ALD protein production between two
+         genotypes (Skill 4.B).
+
+    •    Some responses were able to use data from two different data sets (percent of metaphase cells with
+         ALD-associated filaments and ALD protein amount) to support a hypothesis (Skill 5.D).
+
+    •    Some responses were able to use the data to support the scientists’ hypothesis that even with only
+         half of the ALD protein production, there was no difference in the amount of ALD-associated
+         filaments produced by metaphase cells (Skill 5.D).
+
+    •    Few responses were able to use the data to fully explain why two genotypes (WT/del and ald1/del)
+         could produce the same amount of protein but have different phenotypes (Skill 6.D; IST-2.E).
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+      •    Some responses incorrectly associated a mutation as resulting in a nonfunctional protein rather than
+           having reduced function or failed to give a qualifier for how the protein product was different (IST-
+           2.E).
+
+      •    Many responses failed to connect the production of a protein (ALD protein) with the resulting
+           phenotype (ALD-associated filaments) (IST-2.E.1).
+
+What common student misconceptions or gaps in knowledge were seen in the responses to this
+question?
+
+
+  Common Misconceptions/Knowledge Gaps                        Responses that Demonstrate Understanding
+
+  Part B                                                      Part B
+  •       Skills Gap: Even when told which data set to        •   “Flies with the genotype ald3/ald23 produce a
+          reference, the wrong data set was used to answer        small amount of ALD protein while flies with the
+          the question (Skill 4.B).                               genotype ald23/del produce absolutely none.”
+
+
+
+  Part C                                                      Part C
+  •       Misconception: There can be arithmetic              •   “Figure 1A shows the wild type having a percent
+          differences in data that have no statistical            of metaphase cells with ALD-associated
+          significance.                                           filaments around 60%, and the WT/del to be
+                                                                  around 75%. Since the error bars of these two
+                                                                  overlap, they are not significantly different.”
+
+  Part C                                                      Part C
+  •       Skills Gap: The ability to compare different data   •   “We see in Figure 1B that WT/WT is double the
+          sets in multiple figures (Skill 4.B)                    thickness of WT/del ... indicating that WT/del ...
+                                                                  produce about half as much ALD protein as the
+                                                                  wild types produces. However in Figure 1A the
+                                                                  WT/del still produce a normal amount of ALD-
+                                                                  associated filaments showing that gamete-
+                                                                  forming metaphase cells can produce a normal
+                                                                  amount of ALD-associated filaments despite
+                                                                  producing less ALD protein.”
+
+  Part D                                                      Part D
+  •       Misconception: A change in genotype/mutation        •   “Even though the proteins are being produced,
+          results in a nonfunctional protein/phenotype (LO        they are not the same, the flies with the ald1/del
+          IST-2.E).                                               genotype have a much less functional variant
+                                                                  compared to those carrying WT/del, and so even
+                                                                  if they produce the same amount of protein, the
+                                                                  fly with the ald/1/del genotype is not having a
+                                                                  normal amount of filament produced.”
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+  Part D                                                        Part D
+  •       Misconception: Organisms with two different           •   “Wild type (homozygous) is normal, reasoning
+          alleles only produce one protein if one of them is        that WT/del would function somewhat similarly
+          the wildtype (EK IST-2.E.1.a.i).                          to normal and produce half as much ALD
+                                                                    protein.”
+
+  Part D                                                        Part D
+  •       Skills Gap: Inability to explain the relationship     •   “Because the ALD protein made by ald1/del is
+          between experimental results and larger                   less functional and efficient than the ALD protein
+          biological concepts, processes, or theories (Skill        made by WT/del. Less functional proteins are
+          6.D)                                                      unable to do their job as well, which would result
+                                                                    in less ALD-associated filaments.”
+
+
+
+Based on your experience at the AP® Reading with student responses, what advice would you offer
+teachers to help them improve student performance on the exam?
+
+      •    Provide opportunities in class for students to analyze experimental data, particularly in experiments
+           where the students cannot draw conclusions if they cannot correctly interpret the data in two or more
+           sets.
+               o   TIP: Use information in one data set or figure to describe how it relates to another data set.
+               o   TIP: Use specific examples of gene mutations that produce proteins of reduced function or
+                   enhanced function rather than having no function.
+               o   TIP: Reinforce the central dogma and what gene products do. DNA contains genes, and a gene
+                   encodes a protein, which has a function and is evident as the phenotype.
+               o   TIP: At the cellular level, have students explain why an organism with cells that are
+                   heterozygous for a mutation may have a normal phenotype or may have an altered phenotype.
+               o   TIP: Have students practice determining whether data are statistically significant.
+
+What resources would you recommend to teachers to better prepare their students for the content
+and skill(s) required on this question?
+
+From AP Classroom:
+      •     Topic questions and progress checks from Topics 5.3, 5.4, 6.5, and 6.6 for formative assessments
+      •     AP Daily videos, Topics 5.3, 5.4, 6.5, and 6.6, as well as Faculty Lectures 5 and 6
+
+From AP Biology Online Teacher Community Resources:
+      •    Data resources outlined in the Online Resources Recommended by AP Teachers
+      •    For graphing support and practice, the resources within the Quantitative Skills Guide
+
+
+
+
+© 2025 College Board.
+Visit College Board on the web: collegeboard.org.
+
