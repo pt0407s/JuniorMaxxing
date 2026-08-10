@@ -96,20 +96,22 @@ Track every grade the day you get it back. Calculate running grade for each:
 | Class | Major avg | Minor avg | Overall | Target |
 |-------|-----------|-----------|---------|--------|
 | Mobile App DEV | | | | 100 |
-| APUSH | | | | 97+ |
-| AP Precalc | | | | 97+ |
-| AP Lang | | | | 97+ |
-| AP Chem | | | | 97+ |
-| AP Bio | | | | 97+ |
+| APUSH | | | | 100 |
+| AP Precalc | | | | 100 |
+| AP Lang | | | | 100 |
+| AP Chem | | | | 100 |
+| AP Bio | | | | 100 |
 | Entrepreneurship | | | | 100 |
-| AP Physics 1 | | | | 97+ |
+| AP Physics 1 | | | | 100 |
 
 **Formula for every class:** `Overall = 0.6 × Major avg + 0.4 × Minor avg`
 
-**To hit 97:** Major ≥ 95 + Minor = 100
-**To hit 100:** Major = 100 + Minor = 100
+**Target: 100.** This requires Major = 100 AND Minor = 100. Zero margin for error.
+- A single 98 on a test → 98.8 overall → 100 is gone for that 6-week period
+- A single missed homework → Minor drops → 100 is gone
 
-The Minor category is the same across all 8 classes — never lose a free point in any of them. That's 40% of every grade that's fully in your control.
+**The Minor category (40%) is non-negotiable.** 100 on every homework, classwork, and quiz in all 8 classes. This is fully in your control.
+**The Major category (60%) requires over-preparation.** Every test, lab, and project = 100. Use the 3-day test prep protocol. Check your work. Use lab rubrics as checklists.
 
 ## Anki across all subjects
 

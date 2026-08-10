@@ -8,13 +8,16 @@ NOT focused on the AP exam. Focused entirely on maxing your class grade every 6-
 
 Your grading: Major 60% (tests, labs, projects) / Minor 40% (homework, classwork, quizzes)
 
-To get 100 overall: **you need 100 in both categories.** There's no cushion — a 100 requires perfection.
+To get 100 overall: **you need 100 in both categories.** Zero margin for error.
 
-To get 97+: Major ≥ 95, Minor = 100. That's your realistic floor.
+- A single 98 on a test: `0.6(98) + 0.4(100) = 98.8` — 100 is gone
+- A single 95 on a test: `0.6(95) + 0.4(100) = 97.0` — 100 is gone
+- A single missed homework: Minor drops below 100 — 100 is gone
 
 ### What this means
-- **Minor (40%): NEVER lose a point.** This is entirely in your control — do every assignment, every homework, every classwork, prep for every quiz. 100 here is non-negotiable.
-- **Major (60%): Every test and lab matters.** In a 25-day 6-week period, you might have 2-3 tests and 1-2 labs. One 90 on a test = 0.6 × 90 = 54 contribution. You'd need 100 on everything else and still only hit ~97. Can't slip.
+- **Minor (40%): NEVER lose a point.** This is entirely in your control — do every assignment, every homework, every classwork, prep for every quiz. 100 here is non-negotiable. One zero kills your 100.
+- **Major (60%): Every test and lab = 100.** No careless mistakes. No missing lab sections. No lost formatting points. You must over-prepare and double-check everything.
+- **In a 25-day 6-week period, you might have 2-3 tests and 1-2 labs.** Every single one must be 100. One 98 and your 100 is gone for the entire 6 weeks.
 
 ---
 
@@ -211,16 +214,20 @@ New AP teachers at a new school are usually eager to share this info — they wa
 
 ---
 
-## The 100-vs-97 reality check
+## The 100 reality check
 
-Getting 100 requires perfection in both categories. That's hard but possible if:
-1. You never miss a Minor assignment (100 in 40% of your grade)
-2. You ace every test and lab (95+ in 60% of your grade)
+Getting 100 requires perfection in both categories. Zero margin.
 
-0.4(100) + 0.6(95) = 97. That's your floor with perfect minors.
-0.4(100) + 0.6(100) = 100. That's your ceiling — requires perfect majors too.
+0.4(100) + 0.6(100) = 100. The only path.
 
-The Minor category is the part you fully control. Major it first. Then push Major as high as possible. If you slip on a test, your Minor 100 keeps you at 97+.
+- Minor 100 is the baseline — never lose a point there
+- Major 100 is the challenge — every test, every lab, every project must be perfect
+- One slip in either category and 100 is gone for that 6-week period
+
+**What to do if you slip:**
+- If you get a 98 on a test, 100 is likely gone for that period. Shift target to 98+ and make sure nothing else drops.
+- Go to the teacher IMMEDIATELY to review what you missed. Sometimes teachers offer retakes, extra credit, or partial credit if you show you care.
+- Don't let one slip cascade into two. A 98 is recoverable for a high grade; two 95s tank you.
 
 ---
 
