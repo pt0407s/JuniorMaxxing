@@ -1,258 +1,223 @@
-# AP Biology — Research-Backed Study Plan
+# AP Biology — Class Grade Strategy (Target: 100 each 6 weeks)
 
-Target: 97+ in class. Built from actual research + College Board Chief Reader Reports.
-
----
-
-## The evidence: what actually works for AP Bio
-
-### 1. Only ~14-19% of students score a 5 (2025: 18.8%)
-Source: 2025 Chief Reader Report (288,132 students scored). The exam is hard, but the pattern among 5-scorers is clear: **they don't study more, they study differently** — active recall over re-reading, daily consistency over cramming, FRQ practice over passive review.
-
-### 2. The two highest-utility techniques (Dunlosky 2013, meta-analysis 2021 — 242 studies)
-- **Practice testing (active recall)** — self-quizzing, flashcards, practice problems
-- **Distributed practice (spaced repetition)** — spreading review over time
-
-Karpicke & Roediger (2008, Science): students using retrieval practice retained ~50% more after 1 week than re-readers. **80% of your study time should be testing yourself, not reading.**
-
-### 3. Interleaving boosts science scores (Sana & Yan 2022, grades 9-12)
-Interleaved quizzes beat blocked quizzes (63% vs 54%, d=0.35) in real high school science classrooms. Mix bio topics when you review — don't do all of Unit 3 then all of Unit 4.
-
-### 4. FRQs are 50% of the exam and very patterned
-The rubric system awards specific points for specific actions. Top scorers don't ramble — they hit each rubric point deliberately. The Chief Reader Reports reveal exactly what students get wrong year after year.
+NOT focused on the AP exam. Focused entirely on maxing your class grade every 6-week period.
 
 ---
 
-## Unit priority (where the points are)
+## The math of getting a 100
 
-| Unit | Title | Weight | Priority | Why |
-|------|-------|--------|----------|-----|
-| 7 | Natural Selection | 13–20% | **CRITICAL** | Highest weight, most FRQ-heavy, most common errors |
-| 6 | Gene Expression & Regulation | 12–16% | **CRITICAL** | High weight, complex, appears in long FRQs |
-| 3 | Cellular Energetics | 12–16% | **HIGH** | High weight, math-heavy, lab-heavy |
-| 4 | Cell Communication & Cell Cycle | 10–15% | **HIGH** | Signal transduction + feedback = frequent FRQ |
-| 8 | Ecology | 10–15% | **HIGH** | Often paired with evolution in FRQs |
-| 2 | Cells | 10–13% | MEDIUM | Foundational, supports other units |
-| 1 | Chemistry of Life | 8–11% | MEDIUM | Foundational but lower weight |
-| 5 | Heredity | 8–11% | MEDIUM | Lower weight but genetics FRQs are common |
+Your grading: Major 60% (tests, labs, projects) / Minor 40% (homework, classwork, quizzes)
 
-**Time allocation rule:** Spend ~40% of your study time on Units 6, 7, and 3 combined. They're 37-52% of the exam and the most common FRQ topics.
+To get 100 overall: **you need 100 in both categories.** There's no cushion — a 100 requires perfection.
+
+To get 97+: Major ≥ 95, Minor = 100. That's your realistic floor.
+
+### What this means
+- **Minor (40%): NEVER lose a point.** This is entirely in your control — do every assignment, every homework, every classwork, prep for every quiz. 100 here is non-negotiable.
+- **Major (60%): Every test and lab matters.** In a 25-day 6-week period, you might have 2-3 tests and 1-2 labs. One 90 on a test = 0.6 × 90 = 54 contribution. You'd need 100 on everything else and still only hit ~97. Can't slip.
 
 ---
 
-## What students ACTUALLY get wrong (from 2025 Chief Reader Report)
+## The 6-week cycle (how to prep for class tests, not the AP exam)
 
-These are the real, documented mistakes from 288,132 students on the 2025 exam. Avoid these and you're ahead of 80% of test-takers.
+### Week 1-2 of each 6-week period: Build the foundation
+- **Pre-read before each class** (10 min the night before): skim the textbook section / CED unit file / AP Daily guided notes for the next day's topic
+- **Process notes same day** (10-15 min): turn class notes into Anki cards while it's fresh
+- **Anki daily** (15 min): reviews + new cards
+- **Do every homework perfectly and on time** — never lose a Minor point
+- **Participate in class** — some teachers grade participation, and it builds relationship for later
 
-### Experimental design (killed students across multiple FRQs)
-- **Confusing control group with controlled variables.** Control = the group NOT exposed to the independent variable. Controlled variables = factors kept constant. These are different things.
-- **Can't justify WHY a control exists.** "To establish a baseline" = zero points. You must explain what specific comparison the control enables (e.g., "to confirm Sec62 siRNA affects Sec62 but not SR protein").
-- **Null hypothesis confusion.** Null = independent variable has NO effect. Students wrote experimental hypotheses instead. "There is no significant effect of X on Y" — that's a null.
-- **Can't identify independent vs dependent variables** from complex experiments.
+### Week 3-4: First test usually hits here
+- **3 days before test:** Make a 1-page recall sheet from class notes (questions, not answers)
+- **2 days before:** Do the textbook end-of-chapter questions + any study guide the teacher gave
+- **1 day before:** Self-quiz from your recall sheet + Anki. Re-do any problem types you're shaky on
+- **Night before:** Sleep 7+ hrs
+- **After the test:** Log your grade immediately. If you slipped, go to the teacher THAT WEEK to review what you missed
 
-### Graphing & data analysis
-- **Can't label graphs, plot points, or scale axes correctly.** This was a widespread skill gap.
-- **Confusing statistical significance with arithmetic difference.** Just because two bars are different heights doesn't mean they're statistically significant — check if error bars overlap.
-- **Can't compare across multiple data sets/figures.** Students used the wrong data set even when told which to reference.
-- **Nucleotide → amino acid math.** Given nucleotide difference, students forgot to divide by 3 (3 nucleotides = 1 amino acid).
-
-### Evolution (Unit 7 — highest weight, most errors)
-- **Thinking HWE conditions alone = evidence of evolution.** No — evolution = change in allele frequencies over time. HWE violation is a mechanism, not the evidence itself.
-- **Using "adaptation" as a catch-all.** Adaptation ≠ speciation ≠ evolution. Use the right term.
-- **"DNA differences = evolution."** No. Evolution = allele frequency change in a POPULATION over generations.
-- **"Environmental changes cause new traits to develop."** No — environments SELECT for existing traits; they don't create them.
-- **Confusing phenotype and gene/allele frequency.** Not interchangeable.
-
-### Cell communication & enzymes (Unit 4)
-- **Confusing competitive vs noncompetitive inhibition.** Competitive = binds active site. Noncompetitive/allosteric = binds elsewhere, changes shape.
-- **Confusing allosteric site and active site.** Different locations.
-- **Confusing positive and negative feedback.** Know the difference cold.
-- **Can't read T-bars vs arrows in pathway models.** T-bar = inhibition. Arrow = activation.
-
-### Genetics (Units 5/6)
-- **"Mutation = nonfunctional protein."** Not always — mutations can reduce function, enhance function, or have no effect. Don't assume loss-of-function.
-- **"Heterozygotes only produce one protein."** No — they produce BOTH allelic versions (unless one is silenced).
-- **Can't explain why heterozygotes might have normal OR abnormal phenotype.** Depends on whether reduced protein function is sufficient (haplosufficiency) or not (haploinsufficiency).
-
-### Ecology (Unit 8)
-- **Confusing population/community/ecosystem levels.** Not interchangeable. Know the hierarchy.
-- **Describing keystone species removal as affecting one food chain.** It affects the ENTIRE ecosystem — biodiversity, resilience, multiple trophic levels.
-- **Can't use directional language.** "Increase," "decrease," "no change" — be specific.
+### Week 5-6: Second test + labs due
+- Same test prep protocol
+- **Lab reports:** Start the day of the lab, not the night before. Draft the data/results section while it's fresh. Finish the discussion/conclusion 2 days before due.
+- **Check your grade calc:** Know exactly where you stand before the period closes. If you're at 96, find out if there's any extra credit or makeup before it's too late.
 
 ---
 
-## The Anki system for AP Bio
+## How to ace class tests (not AP exams — class tests)
 
-### Card types (use the right one for each content type)
+Class tests are different from AP exams. They're written by YOUR teacher, not College Board. They test what was covered IN CLASS, not the entire CED.
 
-| Content | Card type | Example |
-|---------|-----------|---------|
-| Vocab/definitions | Cloze | "The {{c1::ribosome}} synthesizes proteins from mRNA." |
-| Processes/pathways | Basic (open-ended) | "Explain the full path of a secreted protein from ribosome to ER to Golgi to membrane." |
-| Diagrams (cells, pathways, cycles) | Image Occlusion | Screenshot of glycolysis pathway, hide enzyme names |
-| Experimental design concepts | Basic | "What's the difference between a control group and controlled variables? Give an example." |
-| Common misconceptions | Basic | "Why is 'DNA differences = evolution' wrong? What's the correct definition?" |
+### Step 1: Figure out your teacher's test style (Week 1)
+- What format? MCQ, short answer, FRQ-style, matching, diagrams?
+- Do they test from the textbook, from slides, from lectures, or from study guides?
+- Are tests more memorization-heavy or application-heavy?
+- **Ask a student who had this teacher last year** — this is the single highest-ROI intel you can get
 
-### Card design rules (from research on effective flashcards)
-1. **One idea per card** — atomic. Don't cram a paragraph.
-2. **Strong cues** — instead of "Photosynthesis," write "List the inputs and outputs of the light-dependent reactions."
-3. **Include context** — add the unit number or a brief scenario.
-4. **Add error-based cards** — when you get something wrong on a test/FRQ, make a card for the correct reasoning.
-5. **Tag everything** — by unit, topic, difficulty, and "MCQ" or "FRQ" relevance.
+### Step 2: Study what the teacher emphasized, not what the CED says
+- If the teacher spent 2 days on water properties and 30 min on functional groups, the test probably weights water properties heavily
+- Pay attention to what they say "this will be on the test" about — write it down
+- Study from the teacher's slides/notes FIRST, textbook SECOND
+- The CED is a reference, not the test blueprint — your teacher is the test blueprint
 
-### Deck structure
+### Step 3: The recall sheet method
+- Day -3: Go through all class notes + slides. Write QUESTIONS (not answers) on one page.
+- Day -2: Answer every question from memory. Check against notes. Mark what you got wrong.
+- Day -1: Re-answer only the marked ones. Then do practice problems.
+- This is active recall — the highest-utility technique per the research.
+
+### Step 4: Vocab quizzes (Minor category — free points)
+- Your teacher has a vocab list (linked in your Unit 1 study doc)
+- Anki the vocab daily — you should never miss a vocab quiz
+- Vocab quizzes are the easiest 100s in the Minor category
+
+---
+
+## Lab reports (Major category — 60% of grade)
+
+### Start the lab report the day of the lab
+- During lab: take detailed notes on procedure, observations, data
+- That evening: draft the data/results section while it's fresh (30 min)
+- 2 days before due: write the discussion (CER format) and conclusion
+- 1 day before: proofread, check formatting, verify all sections present
+
+### Standard lab report structure (max every point)
+| Section | What to do |
+|---------|-----------|
+| Title | Concise, describes the activity |
+| Purpose | 1-2 sentences, what you're investigating |
+| Hypothesis | "If [IV], then [DV] because [biological reasoning]" |
+| Materials | List everything used |
+| Procedure | Numbered steps, clear enough to replicate |
+| Variables | IV, DV, control group, constants — labeled explicitly |
+| Results | Data table + graph (labeled axes, units, title) + qualitative observations |
+| Discussion | Claim → Evidence (cite your data) → Reasoning (bio concept). Reference hypothesis. Error analysis (specific, directional). |
+| Conclusion | Summarize findings. 2+ improvements. 2+ future questions with hypotheses. |
+
+### Lab point-killers to avoid
+- Missing units on data/axes
+- No error analysis or vague "human error"
+- Hypothesis without a "because" (no reasoning)
+- Not labeling IV/DV/control explicitly
+- Discussion that doesn't reference the actual data
+- Graphs with no title or unlabeled axes
+
+---
+
+## The Minor category (40% — your insurance policy)
+
+This is where you bank points to offset any Major slip. **Goal: 100 in this category every 6 weeks.**
+
+### Homework
+- Do it the day it's assigned, not the night before it's due
+- Complete every question — if you don't know one, try your best and flag it for class
+- Never skip — a zero on a homework is devastating in a 25-day period
+
+### Classwork
+- Stay on task during class — teachers notice and sometimes grade on completion
+- If it's collected, make sure your name is on it and it's complete
+- If you finish early, work on Anki or pre-read
+
+### Quizzes
+- Vocab quizzes: Anki daily = guaranteed 100
+- Pop quizzes: pre-read before class = you'll know the material
+- Announced quizzes: same protocol as tests but lighter (2-day prep)
+
+### "Proof of preparation" grades
+Your teacher requires you to show notes for a grade (from the syllabus study guide). **Always do this.** It's a free 100. Pick the AP Daily guided notes option — you already have the links, and filling them in is fast.
+
+---
+
+## The daily Bio routine (~20-25 min/day)
+
+| When | What | Time |
+|------|------|------|
+| Night before class | Pre-read next topic (skim textbook/slides) | 10 min |
+| After class (same day) | Process notes into Anki cards | 10 min |
+| Evening | Anki reviews (all subjects, Bio portion) | 10 min |
+
+**Before a test (3 days out):** Add 20-30 min for recall sheet + practice problems
+**Lab week:** Add 30 min/day for 2-3 days to write the report
+
+**Total: ~20-25 min/day normal, ~45-55 min/day during test/lab weeks**
+
+---
+
+## Anki for class (not AP exam)
+
+### What to card
+- **Vocab from the teacher's vocab lists** — these are on quizzes, guaranteed
+- **Anything the teacher emphasized in class** — if they said it twice, card it
+- **Diagrams from slides** — image occlusion on any labeled diagram the teacher showed
+- **Process steps** — "List the steps of [process]" as open-ended cards
+- **Things you got wrong on past tests/quizzes** — error-based cards
+
+### What NOT to card (for class purposes)
+- Don't card the entire CED — your teacher isn't testing all of it
+- Don't card AP exam-specific stuff (FRQ rubric points, etc.) — that's for May, not for your 6-week grade
+- Don't over-card — 10-15 good cards per topic beats 50 mediocre ones
+
+### Deck structure (simplified for class)
 ```
 AP Biology/
-├── Unit 1 - Chemistry of Life/
-├── Unit 2 - Cells/
-├── Unit 3 - Cellular Energetics/
-├── Unit 4 - Cell Communication & Cell Cycle/
-├── Unit 5 - Heredity/
-├── Unit 6 - Gene Expression/
-├── Unit 7 - Natural Selection/
-├── Unit 8 - Ecology/
-└── Cross-Unit/
-    ├── Experimental Design
-    ├── Data Analysis & Graphing
-    ├── Statistics
-    └── Common Misconceptions
+├── Current Unit/    (whatever unit you're in now)
+├── Past Units/      (for cumulative finals/semester exams)
+└── Vocab/           (teacher's vocab lists — quiz prep)
 ```
 
-The **Cross-Unit** deck is critical — the Chief Reader Report shows that experimental design, graphing, and statistics errors appear across EVERY unit's FRQs. These are skills, not content, and they need their own practice.
+---
 
-### Daily Anki routine
-- **15-20 min/day** — do reviews first (Anki auto-schedules), then add new cards from that day's content
-- **Add cards the SAME DAY you learn the material** — while it's fresh
-- **Never skip** — the algorithm depends on consistency. One skipped day = backlog = pain
-- Target: ~10-15 new cards/day during a unit, ~5/day during review periods
+## Grade tracking (do this every 6 weeks)
+
+Keep a running log of every grade. The day you get something back, enter it.
+
+| Assignment | Category | Grade | Date | Notes |
+|------------|----------|-------|------|-------|
+| HW: Ch 3 questions | Minor | 100 | Aug 14 | |
+| Quiz: Unit 1 vocab | Minor | 100 | Aug 20 | |
+| Test: Unit 1 | Major | 96 | Aug 28 | Missed water potential Q |
+| Lab: Osmosis | Major | 98 | Sept 4 | Lost 2 pts on error analysis |
+
+**Calculate your running grade after every entry:**
+- Minor avg = sum of minor grades / count
+- Major avg = sum of major grades / count
+- Overall = (Major avg × 0.6) + (Minor avg × 0.4)
+
+If you drop below 97 at any point, you know immediately and can act — not after the period closes.
 
 ---
 
-## FRQ training (this is where 97 vs 90 lives)
+## Before Wednesday Aug 12 (action items for the FIRST 6 weeks)
 
-### FRQ format
-- 2 long FRQs (8-10 points each, ~20-25 min each)
-- 4 short FRQs (4 points each, ~6-8 min each)
-- 90 min total + 10 min reading period
-- 50% of exam score
+The 1st 6 weeks is only 25 days — the shortest period. Every point is worth more.
 
-### How rubrics work (from the Chief Reader Reports)
-Each FRQ part has specific point values. You earn points by hitting exact requirements:
-- **Describe** = state what happens
-- **Explain** = state WHY it happens (mechanism)
-- **Justify** = support a claim with evidence + reasoning
-- **Predict** = state what will happen if X changes
-- **Identify** = name the specific thing
-
-**Bolded words in FRQs = task verbs.** They tell you exactly what's needed for the point. Don't over-write — hit the verb and move on.
-
-### FRQ practice protocol
-1. **Weekly:** Do 1-2 released FRQs from College Board (free on AP Central — 2023, 2024, 2025 available)
-2. **Grade yourself with the official scoring guidelines** — be harsh
-3. **Log every missed point** in an error tracker (what you missed, why, correct answer)
-4. **Make an Anki card** for every missed point
-5. **Before tests:** Re-do FRQs from that unit — you'll see patterns
-
-### The 6 FRQ skill areas (from College Board science practices)
-| Skill | Weight | What to practice |
-|-------|--------|------------------|
-| Concept Explanation | 25-33% | Explaining biological processes in writing |
-| Visual Representations | 16-24% | Reading diagrams, pathways, models |
-| Questions & Methods | 8-14% | Experimental design, identifying variables |
-| Data Representation | 8-14% | Graphing, data tables, labeling |
-| Statistical Analysis | 8-14% | Chi-square, mean, error bars, significance |
-| Argumentation | 20-26% | Justifying claims with evidence |
-
-**Argumentation + Concept Explanation = ~45-59% of the exam.** These are writing skills. Practice explaining bio concepts in clear, concise sentences.
+- [ ] Download Anki (ankiweb.net)
+- [ ] Find a student who had this Bio teacher last year — ask about test style, lab format, quiz frequency
+- [ ] Read the syllabus grading again: Major 60% / Minor 40%
+- [ ] Pre-read Unit 1 topics 1.1-1.3 before Wed (skim the CED unit file in this repo)
+- [ ] Set up the grade tracker (spreadsheet or notebook)
+- [ ] Bookmark the vocab list link from your Unit 1 study doc
+- [ ] Fill in AP Daily guided notes for videos 1.1-1.3 (this is your "proof of preparation" grade)
+- [ ] Make 15-20 Anki cards from Unit 1 vocab
 
 ---
 
-## Lab reports (Major category = 60% of class grade)
+## The 100-vs-97 reality check
 
-### Standard AP Bio lab report structure (from official rubric)
-| Section | Points | What's needed |
-|---------|--------|---------------|
-| Title | 1 | Concise, indicates activity |
-| Abstract | 2 | ≤100 words summarizing the whole investigation |
-| Introduction | 5 | Background, purpose, hypothesis in "if...then" format |
-| Experimental Design | 6 | Materials, procedure, IV/DV/control/constants identified |
-| Results | 7 | Qualitative + quantitative data, proper graphs/tables with labels |
-| Discussion | 14 | CER format, references data, references hypothesis, error analysis |
-| Conclusion | 8 | Summary, improvements, 2+ future questions with hypotheses |
-| Post-lab questions | 4 | Answered correctly, referencing data |
-| Appearance | 2 | Typed, 12pt, 1" margins, organized |
+Getting 100 requires perfection in both categories. That's hard but possible if:
+1. You never miss a Minor assignment (100 in 40% of your grade)
+2. You ace every test and lab (95+ in 60% of your grade)
 
-### Lab report rules for 97+
-- **Hypothesis = "If [IV changes], then [DV will change] because [biological reasoning]."** Always include the "because."
-- **Identify IV, DV, control group, AND controlled variables** explicitly. Don't make the teacher hunt for them.
-- **Graphs: title, labeled axes WITH units, appropriate scale, data points, error bars if applicable.** This is where most students lose points.
-- **Discussion uses CER:** Claim (your answer to the question) → Evidence (specific data) → Reasoning (biological concept that explains it).
-- **Error analysis:** Name a SPECIFIC source of error + HOW it affected results (directionally). "Human error" = 0 points. "The thermometer was miscalibrated by +2°C, which would overestimate the optimal temperature" = full points.
-- **Future questions:** Must be testable and include a hypothesis for each.
-- **Tie conclusion to a Big Idea** (EVO, ENE, IST, SYI) — teachers and graders love this.
+0.4(100) + 0.6(95) = 97. That's your floor with perfect minors.
+0.4(100) + 0.6(100) = 100. That's your ceiling — requires perfect majors too.
 
----
-
-## The weekly Bio system (~3-4 hr/week total)
-
-| Day | Activity | Time |
-|-----|----------|------|
-| Mon | Anki reviews + process Friday's notes into cards | 20 min |
-| Tue | Anki reviews + pre-read tomorrow's topic (skim CED + AP Daily guided notes) | 25 min |
-| Wed | Anki reviews + same-day note processing from class | 20 min |
-| Thu | Anki reviews + 1 FRQ from current/recent unit + grade with rubric | 30 min |
-| Fri | Anki reviews + same-day note processing | 20 min |
-| Sat | Interleaved review: mix problems from 2-3 units + add error cards from the week | 40 min |
-| Sun | Plan week + review Anki flags + make sure no missing assignments | 15 min |
-
-**Total: ~2.5-3 hr/week** — sustainable, leaves room for your other 5 APs + clubs + life.
-
-### Before a Bio test (Major = 60% of grade)
-- **Day -4:** Make 1-page active recall sheet (questions, not answers) from notes + CED
-- **Day -3:** Do the AP Classroom Progress Check for that unit (MCQ + FRQ)
-- **Day -2:** Interleaved practice — mix problem types from this unit + related past units
-- **Day -1:** Re-do the FRQs you missed. Light Anki. Sleep 7+ hrs.
-- **Day 0:** Skim recall sheet before class. Done.
-
----
-
-## Resources (ranked by ROI)
-
-| Resource | Use for | ROI |
-|----------|---------|-----|
-| AP Classroom Progress Checks | Test prep, identifying gaps | **Highest** — official, mirrors exam |
-| Released FRQs + scoring guidelines (AP Central) | FRQ practice | **Highest** — these ARE the exam |
-| Chief Reader Reports | Understanding what graders want | **High** — reveals common errors |
-| AP Daily videos + guided notes (you already have these) | Pre-learning, filling gaps | **High** — already set up |
-| Anki | Daily spaced repetition | **High** — your memory engine |
-| Bozeman Science (Paul Andersen) | Conceptual understanding | **High** — aligns with CED |
-| Pearson textbook (your teacher uses this) | Deep dives, assigned reading | Medium — use for assigned work |
-| Khan Academy | Filling specific gaps | Medium — good but not AP-specific |
-| Princeton Review / 5 Steps to a 5 | Broad review before exams | Low — use only for AP exam prep in spring |
-
----
-
-## Before Wednesday Aug 12 (your action items)
-
-- [ ] Download Anki (ankiweb.net — free on desktop)
-- [ ] Create the deck structure above (8 unit subdecks + Cross-Unit)
-- [ ] Read `units/unit_1.txt` in this repo — skim topics 1.1-1.3
-- [ ] Watch AP Daily videos 1.1, 1.2, 1.3 with the guided notes (links in `notes/Guided Notes for AP Daily Videos .md`)
-- [ ] Make your first 15-20 Anki cards from Unit 1 vocab (link in `notes/AP Bio Studying Unit 1.md`)
-- [ ] Bookmark AP Central FRQ page: https://apstudents.collegeboard.org/courses/ap-biology/free-response-questions-by-year
-- [ ] Read the "What students get wrong" section above one more time — these are your traps to avoid
+The Minor category is the part you fully control. Major it first. Then push Major as high as possible. If you slip on a test, your Minor 100 keeps you at 97+.
 
 ---
 
 ## Sources
 
-1. 2025 AP Biology Chief Reader Report (College Board) — 288,132 students, actual FRQ errors
-2. 2024 AP Biology Chief Reader Report (College Board)
-3. Dunlosky et al. (2013) + Adesope et al. (2021) meta-analysis — study technique effectiveness
-4. Karpicke & Roediger (2008, Science) — retrieval practice retention
-5. Sana & Yan (2022, Psychological Science) — interleaving in HS science
-6. AP Biology CED (College Board) — unit weightings, science practices
-7. AP Biology Lab Report Rubric (Zunick) — standard lab format
-8. AP Biology Syllabus Development Guide (College Board) — lab requirements
-9. Cerebrum Biology Academy — 5-scorer patterns
-10. PrepScholar, SaveMyExams, RevisionDojo — 5-scorer strategy compilations
+1. Dunlosky et al. (2013) + Adesope et al. (2021) — active recall + spaced repetition are highest-utility
+2. Theobald (2025) — good technique compensates for less time
+3. Cal Newport — top students process during class, study in focused chunks
+4. LHISD 2026-27 calendar — 6-week grading period dates
+5. Your Bio syllabus — Major 60% / Minor 40%
+6. Your teacher's study guide — "proof of preparation" grade requirement
+7. AP Bio lab report rubric (standard format)
