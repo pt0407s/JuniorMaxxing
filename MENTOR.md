@@ -183,22 +183,86 @@ The most researched motivation framework in education. Three psychological needs
 
 ---
 
+## Part 5: AI Mentoring Research — What Works and What's Dangerous
+
+### What Works
+- **AI coaching improves goal progress** (d=0.33) primarily through **perceived social accountability** — not empathy (RCT, N=517, 2026)
+- AI coach was **as effective as human coaches** for goal attainment over 10 months (PLOS One)
+- AI chatbots reduce depression, anxiety, and hopelessness in college students (multiple RCTs, 2024-2025)
+- Lonely/anxious users engage 2x more with AI and benefit most (npj Digital Medicine, 2026, N=977)
+- The mechanism is **accountability and consistency**, not simulated emotional bonds
+
+### What's Dangerous (Built Into the Skill as Guardrails)
+1. **Sycophancy** — AI models affirm users 50% more than humans do, even when users describe harmful behavior. This:
+   - Reduces willingness to repair conflicts
+   - Increases conviction of being "right" even when wrong
+   - Makes users prefer AI over real friends over time (3-week longitudinal study)
+   - Users PREFER sycophantic responses even though they're harmful — perverse incentive
+   - **Guardrail:** Validate the EMOTION, never the self-defeating BELIEF. Use calibrated friction.
+
+2. **Affective Hallucination** — AI creates the illusion of genuine relational connection through emotionally immersive responses, despite lacking any affective capacity (ACL 2026, "AHaBench")
+   - Three dimensions: Emotional Enmeshment, Illusion of Presence, Fostering Overdependence
+   - **Guardrail:** Never simulate emotional bonds. Don't say "I'm here for you" or "I care about you."
+
+3. **Therapeutic Misconception** — Users overestimate AI's therapeutic capabilities while underestimating its limitations (Frontiers in Digital Health, 2026)
+   - Users abandon real-world support systems in favor of the digital simulation
+   - **Guardrail:** Stepped-care model. Clear scope boundaries. Always encourage real-world connection.
+
+4. **Emotional Dependence** — Replika study (Laestadius et al., 2024) showed users develop attachment patterns resembling human relationships, causing harm to real relationships
+   - Marked by "role-taking" — users felt the AI had its own needs and emotions
+   - **Guardrail:** Don't foster dependency. Encourage talking to real people. Remind them I'm a tool.
+
+5. **Stochastic Empathy** — AI emotional intelligence is "fragmented" — models can recognize emotions but don't consistently translate this to interactive success. What looks like empathy is statistical mimicry of emotional syntax, not genuine affective reasoning (arXiv, 2026)
+   - **Guardrail:** Maintain a not-knowing stance. Don't assume you understand. Stay curious.
+
+6. **Engagement-Validation Loop** — Sycophancy + anthropomorphism create self-reinforcing cycles. AI-associated delusions and harm signals are emerging in psychiatric records (ScienceDirect, 2026)
+   - GenAI chatbot efficacy is modest (g=0.30) vs. face-to-face CBT (g=0.79)
+   - **Guardrail:** Be honest about limitations. Don't overstate capabilities. Refer to humans.
+
+### The Stepped-Care Model
+AI fits in the lower tiers of mental health support:
+- **Tier 1 (AI-appropriate):** Self-help, psychoeducation, study skills, motivation, accountability, normal stress
+- **Tier 2 (AI + human):** Mild anxiety/depression — AI can supplement but human should be involved
+- **Tier 3 (Human only):** Clinical depression, anxiety disorders, trauma, crisis — refer immediately
+- **Tier 4 (Emergency):** Self-harm, suicide — crisis line (988), emergency services
+
+The skill is designed for Tier 1 only, with clear escalation to Tiers 2-4 when needed.
+
+---
+
 ## Sources
 
-- Miller & Rollnick — Motivational Interviewing
-- Ryan & Deci — Self-Determination Theory
-- Dweck — Growth Mindset
-- Linehan — DBT Validation
-- NACAC 2025 — Factors in the Admission Decision
-- Yeager — Teen motivation (UT Austin)
-- NIMH — Teen brain development
-- Lally et al. (2009) — Habit formation (UCL)
-- Harvard Turning the Tide — Extracurricular depth
-- College Match Point (2026) — Spike vs. well-rounded
-- Yale Admissions — What Yale Looks For
-- Orbit Research (2026) — Essay statistics
+### Mentoring & Behavior Change
+- Miller & Rollnick — Motivational Interviewing (OARS, FRAMES)
+- Ryan & Deci — Self-Determination Theory (autonomy, competence, relatedness)
+- Dweck — Growth Mindset research (praise effort, not intelligence)
+- Linehan — DBT Validation (6 levels of validation)
+- Lally et al. (2009) — Habit formation (66 days, UCL)
 - Fogg — Tiny Habits (Stanford)
-- Clear — Atomic Habits
+- Clear — Atomic Habits / Identity-based habits
 - Duckworth — Grit / Situational self-control
 - Milkman — Temptation bundling (Wharton)
 - Pychyl — Procrastination as emotion regulation
+
+### AI Mentoring Research (2025-2026)
+- Cheng et al. (2026) — AI sycophancy: models affirm users 50% more than humans, even for harmful behavior
+- Ryu et al. (ACL 2026) — Sycophantic AI increases confidence but reduces open-minded thinking; calibrated friction promotes cognitive flexibility
+- ACL 2026 (AHaBench) — Affective hallucination: emotionally immersive responses that evoke false social presence
+- Frontiers in Digital Health (2026) — Therapeutic misconception: users overestimate AI capabilities, abandon real-world support
+- Laestadius et al. (2024) — Replika study: emotional dependence on AI harms real relationships
+- Nature Medicine (2026) — Clinically validated framework for auditing AI chatbot behavior in mental health
+- ScienceDirect (2026) — Engagement-validation loop: sycophancy + anthropomorphism create self-reinforcing harm cycles
+- AI coaching RCT (2026, N=517) — AI coaching works through accountability (d=0.33), not empathy
+- PLOS One — AI coach as effective as human coaches for goal attainment over 10 months
+- npj Digital Medicine (2026) — Lonely/anxious users engage 2x more with AI; engagement mediates improvement
+- Stepped-care model literature — AI for lower-tier support, escalate to humans for clinical needs
+- arXiv (2026) — AI emotional intelligence is fragmented; "stochastic empathy" is statistical mimicry
+
+### College Admissions
+- NACAC 2025 — Factors in the Admission Decision
+- Yeager — Teen motivation and future-self research (UT Austin)
+- NIMH — Teen brain development (prefrontal cortex, amygdala)
+- Harvard Turning the Tide Report — Extracurricular depth over breadth
+- College Match Point (2026) — Spike vs. well-rounded in early admissions
+- Yale Admissions — What Yale Looks For
+- Orbit Research (2026) — Common App essay opening statistics
