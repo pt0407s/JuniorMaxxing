@@ -188,14 +188,26 @@ If you drop below 97 at any point, you know immediately and can act — not afte
 
 The 1st 6 weeks is only 25 days — the shortest period. Every point is worth more.
 
+**NOTE:** Legacy Ranch HS opened in August 2024 — you're in the first junior cohort. There is NO "ask a student who had this teacher last year." See `SCHOOL-INTEL.md` for details. You have to gather intel in real-time.
+
 - [ ] Download Anki (ankiweb.net)
-- [ ] Find a student who had this Bio teacher last year — ask about test style, lab format, quiz frequency
 - [ ] Read the syllabus grading again: Major 60% / Minor 40%
 - [ ] Pre-read Unit 1 topics 1.1-1.3 before Wed (skim the CED unit file in this repo)
 - [ ] Set up the grade tracker (spreadsheet or notebook)
 - [ ] Bookmark the vocab list link from your Unit 1 study doc
 - [ ] Fill in AP Daily guided notes for videos 1.1-1.3 (this is your "proof of preparation" grade)
 - [ ] Make 15-20 Anki cards from Unit 1 vocab
+
+### Week 1 intel-gathering (replaces "ask a past student")
+- [ ] Which bio teacher do you have? (Cannon or Maddox) — note their style
+- [ ] First quiz/test format — document it: MCQ? Short answer? FRQ-style? Matching?
+- [ ] Does the teacher use AP Classroom for grades? (Progress Checks)
+- [ ] Lab format — is there a rubric? Get it.
+- [ ] Ask the teacher directly: "What's the best way to prepare for your tests?"
+- [ ] Ask: "Should I focus more on textbook or slides?"
+- [ ] Ask: "How are labs graded?"
+
+New AP teachers at a new school are usually eager to share this info — they want the program to succeed.
 
 ---
 
