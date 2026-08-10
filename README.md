@@ -17,16 +17,23 @@ This is the system. Not a plan you read once and forget — a living infrastruct
 
 ## Daily use
 
-- **[grade-tracker.csv](grade-tracker.csv)** — Log every grade the day you get it. Calculate running average.
+- **[daily-check-in.md](daily-check-in.md)** — Print this. 2-minute nightly review. The feedback loop.
+- **[grade-tracker.csv](grade-tracker.csv)** — Log every grade the day you get it.
+- **[grade-calculator.py](grade-calculator.py)** — Run `python3 grade-calculator.py` to see running averages. Shows where you stand vs 100.
 - **[weekly-checklist.md](weekly-checklist.md)** — Print or copy this. Check it off every Sunday.
 - **[test-prep-checklist.md](test-prep-checklist.md)** — Use this 5 days before any test.
 
 ## Reference
 
 - **[SCHEDULE.md](SCHEDULE.md)** — A/B day class order
-- **[CALENDAR.md](CALENDAR.md)** — 6-week grading periods, holidays, key dates
+- **[CALENDAR.md](CALENDAR.md)** — 6-week grading periods, holidays, **2027 AP exam dates (May 3–12)**, AP prep countdown
+- **[SAT-ACT-TIMELINE.md](SAT-ACT-TIMELINE.md)** — SAT/ACT dates, strategy, how to avoid colliding with AP prep
 - **[SCHOOL-INTEL.md](SCHOOL-INTEL.md)** — What we know about Legacy Ranch HS and why being a new school matters
 - **[RESOURCES.md](RESOURCES.md)** — Free online resources for every AP (College Board, YouTube, study sites, unit weightings, exam formats, Chief Reader insights)
+
+## Before school starts
+
+- **[BEFORE-DAY-1.md](BEFORE-DAY-1.md)** — One-day prep plan for Tuesday Aug 11. Anki setup, AP Bio pre-read, if-then plans, bag packing.
 
 ## Class folders
 
@@ -63,6 +70,7 @@ Read [MENTOR.md](MENTOR.md). Talk to someone real. The systems in this repo work
 
 - 8 class folders (6 APs + 2 electives)
 - AP Bio: 8 unit breakdowns, 2 note files, chief reader report, one-pagers, 8 PDF originals
-- 5 study plans (AP Bio + 4 new — AP Chem, Physics 1, Precalc, APUSH, Lang)
+- 6 study plans (one per AP class)
 - Research-backed strategy, discipline, grading, college admissions, and mentor docs
-- Grade tracker + weekly + test prep checklists
+- Grade tracker + grade calculator (Python) + daily check-in + weekly + test prep checklists
+- Confirmed 2027 AP exam dates (May 3–12) + SAT/ACT timeline

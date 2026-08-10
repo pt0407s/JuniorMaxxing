@@ -40,6 +40,43 @@
 - **Last day:** May 27
 - Graduation: May 28
 
+## AP Exam Dates — May 2027 (confirmed, College Board)
+
+Your 6 AP exams, in calendar order:
+
+| Date | Day | Exam | Session | Start Time (CDT) |
+|------|-----|------|---------|-------------------|
+| May 3 | Monday | **AP Biology** | Session 2 (afternoon) | 12:00 PM |
+| May 5 | Wednesday | **AP Physics 1** | Session 2 (afternoon) | 12:00 PM |
+| May 6 | Thursday | **AP Chemistry** | Session 2 (afternoon) | 12:00 PM |
+| May 7 | Friday | **APUSH** | Session 2 (afternoon) | 12:00 PM |
+| May 11 | Tuesday | **AP Precalculus** | Session 1 (morning) | 8:00 AM |
+| May 12 | Wednesday | **AP English Lang** | Session 1 (morning) | 8:00 AM |
+
+Late-testing window: May 17–21 (only if conflict/emergency, requires AP coordinator approval)
+
+### What this means for you
+
+**Week 1 (May 3–7): 4 exams in 5 days.** This is the gauntlet. Bio → Physics 1 → Chem → APUSH, all afternoon exams. You get a rest day Tuesday May 4.
+
+**Week 2 (May 11–12): 2 exams in 2 days.** Precalc (morning) then Lang (morning). You have the weekend May 8–10 to prep these two.
+
+### AP exam prep countdown (work backward from May 3)
+
+| Date | Milestone |
+|------|-----------|
+| Aug 12, 2026 | School starts. Day 1 of content learning. |
+| Jan 6, 2027 | Spring semester begins. ~4 months to exams. |
+| Mar 12, 2027 | AP exam ordering deadline (your AP coordinator handles this). Confirm you're registered for all 6. |
+| Apr 5, 2027 | **8 weeks out.** Start full-length practice tests. 1 per week per subject minimum. |
+| Apr 19, 2027 | **2 weeks out.** Switch from learning to review mode. No new content. Anki + practice tests only. |
+| Apr 26, 2027 | **1 week out.** Light review. Sleep priority. No cramming past 9 PM. |
+| May 3, 2027 | **AP Biology exam.** Game time. |
+| May 12, 2027 | **Last exam (AP Lang).** Freedom. |
+
+See [test-prep-checklist.md](test-prep-checklist.md) for the detailed test prep protocol.
+See [SAT-ACT-TIMELINE.md](SAT-ACT-TIMELINE.md) for SAT/ACT planning (don't let test prep collide with AP exams).
+
 ## Critical observation for 100s
 
 The 1st and 4th 6-week periods are the SHORTEST (25 and 24 days). That means:
