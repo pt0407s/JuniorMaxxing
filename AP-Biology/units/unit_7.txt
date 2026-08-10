@@ -1,0 +1,1116 @@
+AP BIOLOGY
+
+
+UNIT 7
+Natural
+Selection
+
+
+
+
+     13–20%
+     AP EXAM WEIGHTING
+
+
+
+     ~20–23
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 7
+Multiple-choice: ~40 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results with
+    Graphing
+ §§ Analyze Data
+                                        UNIT
+
+                                        7                  13–20% AP EXAM WEIGHTING ~20–23 CLASS PERIODS
+
+
+                                 Natural Selection
+
+
+                                 Developing Understanding
+  BIG IDEA 1                     The concepts in Unit 7 build on foundational content from previous units as students discover
+  Evolution    EVO               natural selection, a mechanism of evolution—the theory that populations that are better
+  §§ What conditions in a        adapted to their environment will survive and reproduce. Thus, the evolution of a species
+     population make it more     involves a change in its genetic makeup over time. In this unit, students study the evidence for
+     or less likely to evolve?   and mechanisms of evolutionary change. Students also learn what happens when a species
+                                 does not adapt to a changing or volatile environment and about the Hardy-Weinberg equilibrium
+  §§ Scientifically defend the
+                                 as a model for describing and predicting allele frequencies in nonevolving populations. Students
+     theory of evolution.
+                                 will learn to calculate and draw conclusions about the evolution, or lack thereof, of a population
+                                 from data related to allele frequencies. Biological principles studied here and in previous units
+  BIG IDEA 4
+                                 will culminate in Unit 8, which covers ecology.
+  Systems Interactions
+  SYI
+  §§ How does species            Building Science Practices                            Preparing for the AP Exam
+     interaction encourage        1.B    2.A     2.D.c   3.B   3.E.a   4.B.c   5.A.a
+                                                                                       The principle of natural selection and its
+     or slow changes in
+                                                                                       components appears throughout the course.
+                                  6.C    6.E.b
+     species?
+                                 By now, students should be accustomed to              It is important that students are precise in
+                                 using visual models and representations to            the language they use when writing about
+                                 explain or illustrate biological processes. This      evolution, being careful to avoid writing
+                                 unit provides students the opportunity to             statements that are Lamarckian. A common
+                                 gain proficiency in describing a given model          student error is using buzzwords such as
+                                 or representation and communicating the               “fitness” without proper explanation of
+                                 biological meaning it represents. Mastery             the underlying concept. Students should
+                                 is demonstrated when students can create              recall the sources of genetic variation
+                                 or use models such as cladograms and                  learned in Unit 5 in order to demonstrate
+                                 phylogenetic trees to communicate biological          the understanding that genetic variation is
+                                 phenomena, analyze situations, or solve               necessary for natural selection and describe
+                                 new problems.                                         its role in reproductive success. In their
+                                                                                       writing, students should be clear that while
+                                 Hardy-Weinberg equations are used with
+                                                                                       natural selection acts on individuals, it is
+                                 respect to a specific gene. Thus, when
+                                                                                       populations that evolve. Another common
+                                 teaching students how to use the equations,
+                                                                                       error on the exam is that students do not
+                                 be careful to distinguish between allele and
+                                                                                       clearly differentiate the types of reproductive
+                                 genotype frequencies. The Hardy-Weinberg
+                                                                                       isolating mechanisms that lead to speciation.
+                                 principle clarifies the factors that alter allele
+                                 frequency, but it does not imply that allele
+                                 frequencies are static. This is an important
+                                 understanding that students need in order
+                                 to make predictions about a change in a
+                                 population and to justify the reasoning for
+                                 their predictions.
+
+
+AP Biology Course and Exam Description                                                                 Course Framework V.1    |   125
+                      UNIT
+
+                       7                    Natural Selection
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                            Class Periods
+Understanding
+                    Topic                             Suggested Skill                                       ~20–23 CLASS PERIODS
+
+                    7.1 Introduction to Natural      2.A Describe characteristics of a
+                       Selection                      biological concept, process, or model represented
+                                                      visually.
+
+
+                    7.2 Natural Selection             1.B   Explain biological concepts and/or processes.
+
+
+
+                    7.3 Artificial Selection           4.B.c Describe data from a table or graph,
+                                                      including describing relationships between
+
+   EVO-1
+                                                      variables.
+
+
+                    7.4 Population Genetics           3.B State the null or alternative hypotheses, or
+                                                      predict the results of an experiment.
+
+
+                    7.5 Hardy-Weinberg Equilibrium    5.A.a Perform mathematical calculations,
+                                                      including mathematical equations in the
+                                                      curriculum.
+
+                                                      1.C Explain biological concepts, processes, and/
+                                                      or models in applied contexts.
+
+
+EVO-1               7.6 Evidence of Evolution          4.B.a Describe data from a table or graph,
+
+EVO-2                                                 including identifying specific data points.
+
+
+                    7.7 Common Ancestry                6.E.b Predict the causes or effects of a change
+                                                      in, or disruption to, one or more components in a
+   EVO-2
+                                                      biological system based on a visual representation
+                                                      of a biological concept, process, or model.
+
+
+
+                                                                                                              continued on next page
+
+
+
+
+126             |   Course Framework V.1                                                      AP Biology Course and Exam Description
+                                                                                                                     UNIT
+Natural Selection
+                                                                                                                      7
+UNIT AT A GLANCE (cont’d)
+
+Enduring
+                                                                                                             Class Periods
+Understanding
+                Topic                                 Suggested Skill                                        ~20–23 CLASS PERIODS
+
+                 7.8 Continuing Evolution             3.E.a Propose a new/next investigation based on
+                                                      an evaluation of the evidence from an experiment.
+
+
+
+                 7.9 Phylogeny                        2.D.c Represent relationships within biological
+                                                      models, including flowcharts.
+
+
+                7.10 Speciation                        6.E.a Predict the causes or effects of a change
+                                                      in, or disruption to, one or more components in a
+   EVO-3                                              biological system based on biological concepts or
+                                                      processes.
+
+                                                      2.B.a Explain relationships between different
+                                                      characteristics of biological concepts, processes,
+                                                      or models represented visually in theoretical
+                                                      contexts.
+
+
+                7.11 Extinction                       3.B State the null or alternative hypotheses, or
+                                                      predict the results of an experiment.
+
+
+                7.12 Variations in Populations        6.C Provide reasoning to justify a claim by
+                                                      connecting evidence to biological theories.
+   SYI-3
+                7.13 Origin of Life on Earth          3.B State the null or alternative hypotheses, or
+                                                      predict the results of an experiment.
+
+
+                Go to AP Classroom to assign the Personal Progress Check for Unit 7.
+                 Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+AP Biology Course and Exam Description                                                                   Course Framework V.1   |   127
+           UNIT
+
+            7                    Natural Selection
+
+
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity         Topic      Suggested Activity
+
+      1            7.3       Construct an Argument
+                             Students can perform a brine shrimp lab, placing groups of brine shrimp eggs in petri
+                             dishes with various concentrations of salt in the water. They monitor the number of eggs
+                             and swimming shrimp in the petri dishes at regular time intervals over a period of two to
+                             three days. Students can calculate the hatching viability in each petri dish and then graph
+                             their data. Chi-square can be used to analyze the null hypothesis.
+
+      2            7.5       Error Analysis
+                             Have students use one of the Rock Pocket Mouse activities available online to learn
+                             the principles of the Hardy-Weinberg theorem and to calculate allele frequencies in a
+                             population.
+
+      3           7.10       Ask the Expert
+                             Show students a cartoon of an isolating mechanism that leads to speciation. Discuss
+                             with students what is happening in this cartoon and how it relates to speciation. Students
+                             should do research on other isolating mechanisms and draw their own cartoon to illustrate
+                             their learnings.
+
+
+
+
+              Unit Planning Notes
+      Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+      your methods of instruction and assessment.
+
+
+
+
+128   |   Course Framework V.1                                                               AP Biology Course and Exam Description
+                                                                                                           UNIT
+Natural Selection
+                                                                                                            7
+TOPIC 7.1                                                                                        SUGGESTED SKILL
+                                                                                                        Visual
+
+Introduction to
+                                                                                                        Representations
+                                                                                                  2.A
+
+
+
+Natural Selection
+                                                                                                 Describe characteristics
+                                                                                                 of a biological concept,
+                                                                                                 process, or model
+                                                                                                 represented visually.
+
+
+
+
+Required Course Content                                                                          AVAILABLE RESOURCES
+                                                                                                  §§ Classroom Resources >
+                                                                                                     Visualizing Information
+                                                                                                  §§ Classroom Resources >
+                                                                                                     Evolution and Change
+   ENDURING UNDERSTANDING
+    EVO-1
+   Evolution is characterized by a change in the genetic makeup of a population over
+   time and is supported by multiple lines of evidence.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-1.C                              EVO-1.C.1
+   Describe the causes of                Natural selection is a major mechanism
+   natural selection.                    of evolution.
+                                         EVO-1.C.2
+                                         According to Darwin’s theory of natural
+                                         selection, competition for limited resources
+                                         results in differential survival. Individuals with
+                                         more favorable phenotypes are more likely
+                                         to survive and produce more offspring, thus
+                                         passing traits to subsequent generations.
+
+
+    EVO-1.D                              EVO-1.D.1
+   Explain how natural selection         Evolutionary fitness is measured by
+   affects populations.                  reproductive success.
+                                         EVO-1.D.2
+                                         Biotic and abiotic environments can be more or
+                                         less stable/fluctuating, and this affects the rate
+                                         and direction of evolution; different genetic
+                                         variations can be selected in each generation.
+
+
+
+
+AP Biology Course and Exam Description                                                        Course Framework V.1   |    129
+            UNIT
+
+            7                    Natural Selection
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 7.2
+1.B
+Explain biological concepts
+and/or processes.
+                                 Natural Selection
+
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    Evolution and Change
+
+ILLUSTRATIVE EXAMPLES
+
+EVO-1.E.2                          ENDURING UNDERSTANDING
+ §§ Flowering time in relation
+                                   EVO-1
+    to global climate change
+ §§ Peppered moth
+                                   Evolution is characterized by a change in the genetic makeup of a population over
+                                   time and is supported by multiple lines of evidence.
+EVO-1.E.3 B
+ §§ Sickle cell anemia
+ §§ DDT resistance in insects
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   EVO-1.E                              EVO-1.E.1
+                                   Describe the importance             Natural selection acts on phenotypic variations
+                                   of phenotypic variation in a        in populations.
+                                   population.                          EVO-1.E.2
+                                                                       Environments change and apply selective
+                                                                       pressures to populations.
+                                                                        EVO-1.E.3
+                                                                       Some phenotypic variations significantly
+                                                                       increase or decrease fitness of the organism in
+                                                                       particular environments.
+
+
+
+
+130   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                         UNIT
+Natural Selection
+                                                                                                          7
+TOPIC 7.3                                                                                      SUGGESTED SKILL
+                                                                                                    Representing and
+
+
+Artificial Selection
+                                                                                                    Describing Data
+                                                                                                4.B.c
+                                                                                               Describe data from a
+                                                                                               table or graph, including
+                                                                                               describing relationships
+                                                                                               between variables.
+
+
+
+
+Required Course Content                                                                        AVAILABLE RESOURCES
+                                                                                                §§ Classroom Resources >
+                                                                                                   Evolution and Change
+                                                                                                §§ AP Biology Lab Manual >
+                                                                                                   Artificial Selection Lab
+   ENDURING UNDERSTANDING
+    EVO-1
+   Evolution is characterized by a change in the genetic makeup of a population over
+   time and is supported by multiple lines of evidence.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-1.F                              EVO-1.F.1
+   Explain how humans can                Through artificial selection, humans affect
+   affect diversity within a             variation in other species.
+   population.
+
+
+    EVO-1.G                              EVO-1.G.1
+   Explain the relationship              Convergent evolution occurs when similar
+   between changes in the                selective pressures result in similar phenotypic
+   environment and evolutionary          adaptations in different populations or species.
+   changes in the population.
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1    |   131
+           UNIT
+
+            7                    Natural Selection
+
+
+SUGGESTED SKILL
+      Questions and
+                                 TOPIC 7.4
+                                 Population Genetics
+      Methods
+3.B
+State the null or alternative
+hypotheses, or predict
+the results of an
+experiment.
+
+
+
+
+AVAILABLE RESOURCES              Required Course Content
+ §§ Classroom Resources >
+    Evolution and Change
+
+
+                                   ENDURING UNDERSTANDING
+                                   EVO-1
+                                   Evolution is characterized by a change in the genetic makeup of a population over
+                                   time and is supported by multiple lines of evidence.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   EVO-1.H                              EVO-1.H.1
+                                   Explain how random                  Evolution is also driven by random
+                                   occurrences affect the              occurrences—
+                                   genetic makeup of a                 a. Mutation is a random process that
+                                   population.                            contributes to evolution.
+                                                                       b. Genetic drift is a nonselective process
+                                                                          occurring in small populations—
+                                                                          i. Bottlenecks.
+                                                                          ii. Founder effect.
+                                                                       c. Migration/gene flow can drive evolution.
+
+
+                                   EVO-1.I                              EVO-1.I.1
+                                   Describe the role of random         Reduction of genetic variation within a given
+                                   processes in the evolution of       population can increase the differences
+                                   specific populations.               between populations of the same species.
+
+
+                                   EVO-1.J                              EVO-1.J.1
+                                   Describe the change in              Mutation results in genetic variation, which
+                                   the genetic makeup of a             provides phenotypes on which natural
+                                   population over time.               selection acts.
+
+
+
+
+132   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                               UNIT
+Natural Selection
+                                                                                                                7
+TOPIC 7.5                                                                                           SUGGESTED SKILLS
+                                                                                                           Statistical Tests
+
+
+Hardy-Weinberg                                                                                       5.A.a
+                                                                                                    Perform mathematical
+                                                                                                    calculations, including
+
+Equilibrium                                                                                         mathematical equations in
+                                                                                                    the curriculum.
+
+                                                                                                           Data Analysis
+                                                                                                           and Concept
+                                                                                                           Explanation
+                                                                                                     1.C
+                                                                                                    Explain biological concepts,
+                                                                                                    processes, and/or models
+Required Course Content                                                                             in applied contexts.
+
+
+
+
+   ENDURING UNDERSTANDING
+                                                                                                    AVAILABLE RESOURCES
+    EVO-1
+                                                                                                     §§ Classroom Resources >
+   Evolution is characterized by a change in the genetic makeup of a population over                    Evolution and Change
+   time and is supported by multiple lines of evidence.
+                                                                                                     §§ AP Biology Lab Manual >
+                                                                                                        Mathematical Modeling
+
+                                                                                                    ILLUSTRATIVE EXAMPLE
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+                                                                                                    EVE-1.K.2
+    EVO-1.K                              EVO-1.K.1                                                   §§ Graphical analysis of
+   Describe the conditions               Hardy-Weinberg is a model for describing and                   allele frequencies in a
+   under which allele and                predicting allele frequencies in a nonevolving                 population
+   genotype frequencies will             population. Conditions for a population or
+   change in populations.                an allele to be in Hardy-Weinberg equilibrium
+                                         are—(1) a large population size, (2) absence
+                                         of migration, (3) no net mutations, (4) random
+                                         mating, and (5) absence of selection. These
+                                         conditions are seldom met, but they provide a
+                                         valuable null hypothesis.
+                                         EVO-1.K.2
+                                         Allele frequencies in a population can be
+                                         calculated from genotype frequencies.
+
+                                          RELEVANT EQUATION
+                                          Hardy-Weinberg Equation—
+                                              p2 + 2pq + q2 = 1
+                                              p+q=1
+                                          where:
+                                          p = frequency of allele 1 in the population
+                                          q = frequency of allele 2 in the population
+
+
+                                                                        continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                           Course Framework V.1      |   133
+           UNIT
+
+            7                    Natural Selection
+
+
+
+                                   LEARNING OBJECTIVE         ESSENTIAL KNOWLEDGE
+                                   EVO-1.L                    EVO-1.L.1
+                                   Explain the impacts on     Changes in allele frequencies provide evidence
+                                   the population if any of   for the occurrence of evolution in a population.
+                                   the conditions of Hardy-
+                                                              EVO-1.L.2
+                                   Weinberg are not met.
+                                                              Small populations are more susceptible
+                                                              to random environmental impact than
+                                                              large populations.
+
+
+
+
+134   |   Course Framework V.1                                             AP Biology Course and Exam Description
+                                                                                                         UNIT
+Natural Selection
+                                                                                                          7
+TOPIC 7.6                                                                                      SUGGESTED SKILL
+                                                                                                    Representing and
+
+
+Evidence of Evolution
+                                                                                                    Describing Data
+                                                                                                4.B.a
+                                                                                               Describe data from a
+                                                                                               table or graph, including
+                                                                                               identifying specific
+                                                                                               data points.
+
+
+
+
+Required Course Content                                                                        AVAILABLE RESOURCES
+                                                                                                §§ Classroom Resources >
+                                                                                                   Evolution and Change
+
+
+
+   ENDURING UNDERSTANDING
+    EVO-1
+   Evolution is characterized by a change in the genetic makeup of a population over
+   time and is supported by multiple lines of evidence.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-1.M                              EVO-1.M.1
+   Describe the types of data            Evolution is supported by scientific evidence
+   that provide evidence                 from many disciplines (geographical, geological,
+   for evolution.                        physical, biochemical, and mathematical data).
+
+
+    EVO-1.N                              EVO-1.N.1
+   Explain how morphological,            Molecular, morphological, and genetic
+   biochemical, and geological           evidence from extant and extinct organisms
+   data provide evidence that            adds to our understanding of evolution—
+   organisms have changed                a. Fossils can be dated by a variety of methods.
+   over time.                               These include:
+                                            i. The age of the rocks where a fossil
+                                               is found
+                                            ii. The rate of decay of isotopes including
+                                                carbon-14
+                                           iii. Geographical data
+                                         b. Morphological homologies, including
+                                            vestigial structures, represent features
+                                            shared by common ancestry.
+                                         EVO-1.N.2
+                                         A comparison of DNA nucleotide sequences
+                                         and/or protein amino acid sequences provides
+                                         evidence for evolution and common ancestry.
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1    |   135
+           UNIT
+
+            7                    Natural Selection
+
+
+
+                                   ENDURING UNDERSTANDING
+                                   EVO-2
+                                   Organisms are linked by lines of descent from common ancestry.
+
+
+
+                                   LEARNING OBJECTIVE                 ESSENTIAL KNOWLEDGE
+                                   EVO-2.B                             EVO-2.B.1
+                                   Describe the fundamental           Many fundamental molecular and cellular
+                                   molecular and cellular             features and processes are conserved
+                                   features shared across             across organisms.
+                                   all domains of life, which          EVO-2.B.2
+                                   provide evidence of
+                                                                      Structural and functional evidence supports
+                                   common ancestry.
+                                                                      the relatedness of organisms in all domains.
+
+
+
+
+136   |   Course Framework V.1                                                     AP Biology Course and Exam Description
+                                                                                            UNIT
+Natural Selection
+                                                                                              7
+TOPIC 7.7                                                                          SUGGESTED SKILL
+                                                                                        Argumentation
+
+
+Common Ancestry                                                                     6.E.b
+                                                                                   Predict the causes or
+                                                                                   effects of a change in,
+                                                                                   or disruption to, one or
+                                                                                   more components in a
+                                                                                   biological system based
+                                                                                   on a visual representation
+                                                                                   of a biological concept,
+                                                                                   process, or model.
+
+
+
+
+Required Course Content
+                                                                                   AVAILABLE RESOURCES
+                                                                                    §§ Classroom Resources >
+   ENDURING UNDERSTANDING                                                              Evolution and Change
+
+    EVO-2
+   Organisms are linked by lines of descent from common ancestry.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-2.C                              EVO-2.C.1
+   Describe structural and               Structural evidence indicates common
+   functional evidence on                ancestry of all eukaryotes—
+   cellular and molecular levels         a. Membrane-bound organelles
+   that provides evidence for
+                                         b. Linear chromosomes
+   the common ancestry of
+   all eukaryotes.                       c. Genes that contain introns
+
+
+
+
+AP Biology Course and Exam Description                                          Course Framework V.1    |   137
+             UNIT
+
+              7                    Natural Selection
+
+
+SUGGESTED SKILL
+      Questions and
+                                   TOPIC 7.8
+                                   Continuing Evolution
+      Methods
+3.E.a
+Propose a new/next
+investigation based on an
+evaluation of the evidence
+from an experiment.
+
+
+
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                   Required Course Content
+    Evolution and Change
+
+
+                                     ENDURING UNDERSTANDING
+                                     EVO-3
+                                     Life continues to evolve within a changing environment.
+
+
+
+                                     LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                     EVO-3.A                              EVO-3.A.1
+                                     Explain how evolution is            Populations of organisms continue to evolve.
+                                     an ongoing process in all
+                                                                          EVO-3.A.2
+                                     living organisms.
+                                                                         All species have evolved and continue
+                                                                         to evolve—
+                                                                         a. Genomic changes over time.
+                                                                         b. Continuous change in the fossil record.
+                                                                         c. Evolution of resistance to
+                                                                            antibiotics, pesticides, herbicides, or
+                                                                            chemotherapy drugs.
+                                                                         d. Pathogens evolve and cause
+                                                                            emergent diseases.
+
+
+
+
+138     |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                             UNIT
+Natural Selection
+                                                                                                               7
+TOPIC 7.9                                                                                           SUGGESTED SKILL
+                                                                                                         Visual
+
+
+Phylogeny
+                                                                                                         Representations
+                                                                                                     2.D.c
+                                                                                                    Represent relationships
+                                                                                                    within biological models,
+                                                                                                    including flowcharts.
+
+
+
+
+Required Course Content                                                                             AVAILABLE RESOURCES
+                                                                                                     §§ Classroom Resources >
+                                                                                                        Evolution and Change
+
+
+   ENDURING UNDERSTANDING
+    EVO-3
+   Life continues to evolve within a changing environment.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-3.B                              EVO-3.B.1
+   Describe the types of                 Phylogenetic trees and cladograms show
+   evidence that can be used             evolutionary relationships among lineages—
+   to infer an evolutionary              a. Phylogenetic trees and cladograms both
+   relationship.                            show relationships between lineages, but
+                                            phylogenetic trees show the amount of
+                                            change over time calibrated by fossils or a
+                                            molecular clock.
+                                         b. Traits that are either gained or lost during
+                                            evolution can be used to construct
+                                            phylogenetic trees and cladograms—
+                                            i. Shared characters are present in more
+                                               than one lineage.
+                                            ii. Shared, derived characters indicate
+                                                common ancestry and are informative for
+                                                the construction of phylogenetic trees
+                                                and cladograms.
+                                           iii. The out-group represents the lineage that
+                                                is least closely related to the remainder of
+                                                the organisms in the phylogenetic tree or
+                                                cladogram.
+                                         c. Molecular data typically provide more
+                                            accurate and reliable evidence than
+                                            morphological traits in the construction of
+                                            phylogenetic trees or cladograms.
+
+
+                                                                        continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                           Course Framework V.1    |   139
+           UNIT
+
+            7                    Natural Selection
+
+
+
+                                   LEARNING OBJECTIVE              ESSENTIAL KNOWLEDGE
+                                   EVO-3.C                         EVO-3.C.1
+                                   Explain how a phylogenetic      Phylogenetic trees and cladograms can be
+                                   tree and/or cladogram can       used to illustrate speciation that has occurred.
+                                   be used to infer evolutionary   The nodes on a tree represent the most recent
+                                   relatedness.                    common ancestor of any two groups or lineages.
+
+                                                                   EVO-3.C.2
+                                                                   Phylogenetic trees and cladograms can be
+                                                                   constructed from morphological similarities
+                                                                   of living or fossil species and from DNA and
+                                                                   protein sequence similarities.
+
+                                                                   EVO-3.C.3
+                                                                   Phylogenetic trees and cladograms represent
+                                                                   hypotheses and are constantly being revised,
+                                                                   based on evidence.
+
+
+
+
+140   |   Course Framework V.1                                                  AP Biology Course and Exam Description
+                                                                                                              UNIT
+Natural Selection
+                                                                                                                7
+TOPIC 7.10                                                                                          SUGGESTED SKILLS
+                                                                                                         Argumentation
+
+
+Speciation                                                                                           6.E.a
+                                                                                                    Predict the causes or
+                                                                                                    effects of a change in, or
+                                                                                                    disruption to, one or more
+                                                                                                    components in a biological
+                                                                                                    system based on biological
+                                                                                                    concepts or processes.
+
+                                                                                                         Visual
+                                                                                                         Representations
+                                                                                                     2.B.a
+                                                                                                    Explain relationships
+Required Course Content                                                                             between different
+                                                                                                    characteristics of biological
+                                                                                                    concepts, processes, or
+                                                                                                    models represented visually
+                                                                                                    in theoretical contexts.
+   ENDURING UNDERSTANDING
+    EVO-3
+   Life continues to evolve within a changing environment.
+                                                                                                    AVAILABLE RESOURCES
+                                                                                                     §§ Classroom Resources >
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE                                            Evolution and Change
+
+    EVO-3.D                              EVO-3.D.1                                                  ILLUSTRATIVE EXAMPLES
+
+   Describe the conditions               Speciation may occur when two populations                  EVO-3.F.1
+   under which new species               become reproductively isolated from                         §§ Hawaiian Drosophilia
+   may arise.                            each other.                                                 §§ Caribbean Anolis
+                                         EVO-3.D.2                                                   §§ Apple maggot Rhagoletis
+                                         The biological species concept provides
+                                         a commonly used definition of species for
+                                         sexually reproducing organisms. It states that
+                                         species can be defined as a group capable
+                                         of interbreeding and exchanging genetic
+                                         information to produce viable, fertile offspring.
+
+
+    EVO-3.E                              EVO-3.E.1
+   Describe the rate of                  Punctuated equilibrium is when evolution
+   evolution and speciation              occurs rapidly after a long period of stasis.
+   under different ecological            Gradualism is when evolution occurs slowly
+   conditions.                           over hundreds of thousands or millions
+                                         of years.
+                                         EVO-3.E.2
+                                         Divergent evolution occurs when adaptation
+                                         to new habitats results in phenotypic
+                                         diversification. Speciation rates can be
+                                         especially rapid during times of adaptive
+                                         radiation as new habitats become available.
+
+
+                                                                        continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                           Course Framework V.1      |   141
+           UNIT
+
+            7                    Natural Selection
+
+
+
+                                   LEARNING OBJECTIVE          ESSENTIAL KNOWLEDGE
+                                   EVO-3.F                     EVO-3.F.1
+                                   Explain the processes and   Speciation results in diversity of life forms.
+                                   mechanisms that drive       EVO-3.F.2
+                                   speciation.
+                                                               Speciation may be sympatric or allopatric.
+                                                               EVO-3.F.3
+                                                               Various prezygotic and postzygotic
+                                                               mechanisms can maintain reproductive
+                                                               isolation and prevent gene flow
+                                                               between populations.
+
+
+
+
+142   |   Course Framework V.1                                               AP Biology Course and Exam Description
+                                                                                                        UNIT
+Natural Selection
+                                                                                                         7
+TOPIC 7.11                                                                                    SUGGESTED SKILL
+                                                                                                     Questions and
+
+
+Extinction
+                                                                                                     Methods
+                                                                                               3.B
+                                                                                              State the null or alternative
+                                                                                              hypotheses, or predict
+                                                                                              the results of an
+                                                                                              experiment.
+
+
+
+
+Required Course Content                                                                       AVAILABLE RESOURCES
+                                                                                               §§ Classroom Resources >
+                                                                                                  Evolution and Change
+
+
+   ENDURING UNDERSTANDING
+    EVO-3
+   Life continues to evolve within a changing environment.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    EVO-3.G                              EVO-3.G.1
+   Describe factors that lead to         Extinctions have occurred throughout Earth’s
+   the extinction of a population.       history.
+                                         EVO-3.G.2
+                                         Extinction rates can be rapid during times of
+                                         ecological stress.
+
+
+    EVO-3.H                              EVO-3.H.1
+   Explain how the risk of               Human activity can drive changes in
+   extinction is affected by             ecosystems that cause extinctions.
+   changes in the environment.
+
+
+    EVO-3.I                              EVO-3.I.1
+   Explain species diversity in          The amount of diversity in an ecosystem can
+   an ecosystem as a function            be determined by the rate of speciation and the
+   of speciation and extinction          rate of extinction.
+   rates.
+
+
+    EVO-3.J                              EVO-3.J.1
+   Explain how extinction can            Extinction provides newly available niches that
+   make new environments                 can then be exploited by different species.
+   available for adaptive
+   radiation.
+
+
+
+
+AP Biology Course and Exam Description                                                     Course Framework V.1      |   143
+           UNIT
+
+              7                      Natural Selection
+
+
+SUGGESTED SKILL
+      Argumentation
+                                     TOPIC 7.12
+6.C
+Provide reasoning to justify
+a claim by connecting
+                                     Variations in
+evidence to biological
+theories.                            Populations
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                     Required Course Content
+    Evolution and Change
+
+ILLUSTRATIVE EXAMPLES
+SYI-3.D.1.a                            ENDURING UNDERSTANDING
+ §§ California condors
+                                       SYI-3
+ §§ Black-footed ferrets
+                                       Naturally occurring diversity among and between components within biological
+ §§ Prairie chickens
+                                       systems affects interactions with the environment.
+ §§ Potato blight
+ §§ Corn rust
+ §§ Genetic diversity and
+                                       LEARNING OBJECTIVE                 ESSENTIAL KNOWLEDGE
+    selective pressures
+ §§ Antibiotic resistance in           SYI-3.D                             SYI-3.D.1
+    bacteria. (Not all individuals     Explain how the genetic            The level of variation in a population affects
+    in a diverse population are        diversity of a species or          population dynamics—
+    susceptible to a disease           population affects its ability     a. Population ability to respond to changes in the
+    outbreak.)                         to withstand environmental            environment is influenced by genetic diversity.
+                                       pressures.                            Species and populations with little genetic
+                                                                             diversity are at risk of decline or extinction.
+                                                                          b. Genetically diverse populations are more
+                                                                             resilient to environmental perturbation
+                                                                             because they are more likely to contain
+                                                                             individuals who can withstand the
+                                                                             environmental pressure.
+                                                                          c. Alleles that are adaptive in one environmental
+                                                                             condition may be deleterious in another
+                                                                             because of different selective pressures.
+
+
+
+
+144   |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                               UNIT
+Natural Selection
+                                                                                                                7
+TOPIC 7.13                                                                                           SUGGESTED SKILL
+                                                                                                            Questions and
+
+
+Origins of Life
+                                                                                                            Methods
+                                                                                                      3.B
+                                                                                                     State the null or alternative
+
+on Earth                                                                                             hypotheses, or predict
+                                                                                                     the results of an
+                                                                                                     experiment.
+
+
+
+
+Required Course Content                                                                               AVAILABLE RESOURCES
+                                                                                                       §§ Classroom Resources >
+                                                                                                          Evolution and Change
+
+
+   ENDURING UNDERSTANDING
+    SYI-3
+   Naturally occurring diversity among and between components within biological
+   systems affects interactions with the environment.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-3.E                              SYI-3.E.1
+   Describe the scientific               Several hypotheses about the origin of life on
+   evidence that provides                Earth are supported with scientific evidence—
+   support for models of the             a. Geological evidence provides support for
+   origin of life on Earth.                 models of the origin of life on Earth.
+                                            i. Earth formed approximately 4.6 billion
+                                               years ago (bya). The environment was
+                                               too hostile for life until 3.9 bya, and the
+                                               earliest fossil evidence for life dates to
+                                               3.5 bya. Taken together, this evidence
+                                               provides a plausible range of dates when
+                                               the origin of life could have occurred.
+                                         b. There are several models about the origin of
+                                            life on Earth—
+                                            i. Primitive Earth provided inorganic
+                                               precursors from which organic
+                                               molecules could have been synthesized
+                                               because of the presence of available free
+                                               energy and the absence of a significant
+                                               quantity of atmospheric oxygen (O2).
+                                           ii. Organic molecules could have been
+                                               transported to Earth by a meteorite or
+                                               other celestial event.
+
+
+                                                                         continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1      |   145
+           UNIT
+
+            7                    Natural Selection
+
+
+
+                                   LEARNING OBJECTIVE          ESSENTIAL KNOWLEDGE
+                                   SYI-3.E                     c. Chemical experiments have shown that it is
+                                   Describe the scientific        possible to form complex organic molecules
+                                   evidence that provides         from inorganic molecules in the absence
+                                   support for models of the      of life—
+                                   origin of life on Earth.      i. Organic molecules/monomers served
+                                                                    as building blocks for the formation of
+                                                                    more complex molecules, including amino
+                                                                    acids and nucleotides.
+                                                                 ii. The joining of these monomers produced
+                                                                     polymers with the ability to replicate,
+                                                                     store, and transfer information.
+                                                               SYI-3.E.2
+                                                               The RNA World Hypothesis proposes that RNA
+                                                               could have been the earliest genetic material.
+
+
+
+
+146   |   Course Framework V.1                                              AP Biology Course and Exam Description
+

@@ -1,0 +1,597 @@
+AP BIOLOGY
+
+
+UNIT 5
+Heredity
+
+
+
+
+     8–11%
+     AP EXAM WEIGHTING
+
+
+
+     ~9–11
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 5
+Multiple-choice: ~25 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results with
+    Graphing
+ §§ Conceptual Analysis
+                                      UNIT
+
+                                      5                  8–11% AP EXAM WEIGHTING             ~9–11 CLASS PERIODS
+
+
+                                Heredity
+
+
+                                Developing Understanding
+  BIG IDEA 1                    Unit 5 focuses on heredity and the biological concepts and processes involved in ensuring the
+  Evolution EVO                 continuity of life. Students learn that the storage and transmission of genetic information via
+  §§ How is our                 chromosomes from one generation to the next occur through meiosis. Meiotic division ensures
+     understanding of           genetic diversity, which is crucial to the survival of a species. In this unit, students gain a deeper
+     evolution influenced       understanding of Mendelian genetics and learning how non-Mendelian genetics describes
+     by our knowledge of        those patterns of inheritance that seem to violate Mendel’s laws. This unit also teaches the role
+     genetics?                  played by chromosomal inheritance, environmental factors, and nondisjunction on an individual’s
+                                phenotype. In Unit 6, students move on to learn about gene expression and regulation.
+  BIG IDEA 3
+  Information Storage           Building Science Practices                          Preparing for the AP Exam
+  and Transmission IST
+  §§ Why is it important
+                                1.B   1.C 3.A   5.C   6.E.b 6.E.c
+                                                                                    In this unit students need to analyze and
+     that not all inherited     Data can convey important information about         construct models of chromosomal exchange,
+     characteristics get        biological systems. In order to understand          using them to predict the results of a given
+     expressed in the next      that information, students need to practice         scenario, such as a mistake in crossing over
+     generation?                describing data and then identifying and            or the haploid results of meiosis.
+                                describing the patterns and trends that might
+  §§ How would Mendel’s                                                             Students also need to calculate genotypic
+                                make the data meaningful for the researcher
+     laws have been affected                                                        and/or phenotypic ratios. Be sure students
+                                and possibly lead to the discovery of new
+     if he had studied a                                                            understand the difference in these two types
+                                information or the development of new
+     different type of plant?                                                       of ratios, as confusion between them is a
+                                concepts. Comparing patterns and trends
+                                                                                    common student error on the exam.
+                                in data helps students describe biological
+  BIG IDEA 4
+                                changes that occur over time, predict               Additionally, students should expect to
+  Systems Interactions
+                                short-term and long-term changes, and               calculate a chi-square value and explain the
+  SYI
+                                draw conclusions about the causes and/or            meaning in context of a given scenario. On
+  §§ How does the diversity
+                                solutions to problems in biological systems.        the exam, students commonly fail to identify
+     of a species affect
+                                                                                    the null hypothesis rather than an alternate
+     inheritance?               Students should understand the value and
+                                                                                    hypothesis; thus, they will need multiple and
+                                application of the chi-square test in additional
+                                                                                    varied opportunities to practice this skill.
+                                contexts beyond genetics. Students should
+                                                                                    Building their skills in experimental design
+                                learn the difference between null and
+                                                                                    throughout the course will help address
+                                alternate hypotheses while understanding
+                                                                                    this misconception. Emphasis should be on
+                                that the chi-square is not always the most
+                                                                                    helping students understand when to reject
+                                appropriate statistical test to analyze the
+                                                                                    or fail to reject the null hypothesis.
+                                results of an experiment.
+
+
+
+
+AP Biology Course and Exam Description                                                                 Course Framework V.1     |   95
+                        UNIT
+
+                         5                   Heredity
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                                  Class Periods
+Understanding
+                       Topic                                Suggested Skill                                       ~9–11 CLASS PERIODS
+
+                       5.1 Meiosis                          1.B   Explain biological concepts and/or processes.
+
+   IST-1                                                    3.A Identify or pose a testable question based on
+                       5.2 Meiosis and
+                           Genetic Diversity                an observation, data, or a model.
+
+
+                       5.3 Mendelian Genetics                     Perform chi-square hypothesis testing.
+
+
+   EVO-2, IST-1
+                                                            5.C
+
+
+                                                             6.E.c Predict the causes or effects of a change
+                                                            in, or disruption to, one or more components in a
+                                                            biological system based on data.
+
+
+                       5.4 Non-Mendelian Genetics           5.A.b Perform mathematical calculations, including
+                                                            means.
+   IST-1
+                                                            5.C   Perform chi-square hypothesis testing.
+
+
+                       5.5 Environmental Effects           1.C Explain biological concepts, processes, and/or
+                           on Phenotype                     models in applied contexts.
+
+
+   SYI-3               5.6 Chromosomal                      6.E.b Predict the causes or effects of a change
+                           Inheritance                      in, or disruption to, one or more components in a
+                                                            biological system based on a visual representation
+                                                            of a biological concept, process, or model.
+
+
+                       Go to AP Classroom to assign the Personal Progress Check for Unit 5.
+                        Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+96                |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                                        UNIT
+Heredity
+                                                                                                                         5
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic        Sample Activity
+
+     1            5.1        Think-Pair-Share
+                             Students can construct simulated chromosomes with pop beads or pipe cleaners and
+                             manipulate them through the stages of meiosis. As students are modeling the process,
+                             they can make a sketch or take a photograph of each stage. They should begin with either
+                             a 2n = 4 or a 2n = 6 “cell” so that they can build their understanding using a simpler system
+                             before applying what they have learned to meiosis in humans. This can be introduced or
+                             de-briefed using a Think-Pair-Share approach.
+
+     2            5.3        Construct an Argument
+                             Students can use genetic corn to apply the chi-square test to a dihybrid cross. First,
+                             students calculate the expected genotypic and phenotypic ratios using a Punnett square.
+                             They then formulate null hypotheses for the cross and perform a chi-square test. They
+                             conclude by stating whether they should reject or fail to reject the null hypothesis and justify
+                             their reasoning.
+
+     3            5.5        Debate
+                             Students can read a case study about the genetics and evolution of skin color, then answer
+                             any questions that may accompany the case study. Alternately, teachers can provide
+                             appropriate questions and/or assignments to ensure that students understand the concepts
+                             addressed in the case study. Instead of answering the questions on paper, students can be
+                             divided into groups to debate possible answers to some or all of the questions. This activity
+                             can be augmented by having students read an article about the biology of skin color.
+
+
+
+
+             Unit Planning Notes
+     Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+     your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                     Course Framework V.1   |   97
+            UNIT
+
+             5                   Heredity
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 5.1
+1.B
+Explain biological concepts
+and/or processes.
+                                 Meiosis
+
+
+AVAILABLE RESOURCES
+ §§ AP Biology Lab Manual >
+                                 Required Course Content
+    Meiosis Lab
+
+
+                                   ENDURING UNDERSTANDING
+                                   IST-1
+                                   Heritable information provides for continuity of life.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   IST-1.F                                 IST-1.F.1
+                                   Explain how meiosis results            Meiosis is a process that ensures the formation
+                                   in the transmission of                 of haploid gamete cells in sexually reproducing
+                                   chromosomes from one                   diploid organisms—
+                                   generation to the next.                a. Meiosis results in daughter cells with half the
+                                                                             number of chromosomes of the parent cell.
+                                                                          b. Meiosis involves two rounds of a sequential
+                                                                             series of steps (meiosis I and meiosis II).
+
+
+                                   IST-1.G                                 IST-1.G.1
+                                   Describe similarities and/             Mitosis and meiosis are similar in the way
+                                   or differences between the             chromosomes segregate but differ in the
+                                   phases and outcomes of                 number of cells produced and the genetic
+                                   mitosis and meiosis.                   content of the daughter cells.
+
+
+
+
+98    |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                            UNIT
+Heredity
+                                                                                                             5
+TOPIC 5.2                                                                                         SUGGESTED SKILL
+                                                                                                         Questions and
+
+
+Meiosis and
+                                                                                                         Methods
+                                                                                                   3.A
+                                                                                                  Identify or pose a testable
+
+Genetic Diversity                                                                                 question based on an
+                                                                                                  observation, data, or
+                                                                                                  a model.
+
+
+
+
+Required Course Content                                                                           AVAILABLE RESOURCES
+                                                                                                   §§ AP Biology Lab Manual>
+                                                                                                      Meiosis Lab
+
+
+   ENDURING UNDERSTANDING
+    IST-1
+   Heritable information provides for continuity of life.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    IST-1.H                               IST-1.H.1
+   Explain how the process of             Separation of the homologous chromosomes
+   meiosis generates genetic              in meiosis I ensures that each gamete
+   diversity.                             receives a haploid (1n) set of chromosomes
+                                          that comprises both maternal and paternal
+                                          chromosomes.
+                                          IST-1.H.2
+                                          During meiosis I, homologous chromatids
+                                          exchange genetic material via a process
+                                          called “crossing over” (recombination),
+                                          which increases genetic diversity among the
+                                          resultant gametes.
+                                          IST-1.H.3
+                                          Sexual reproduction in eukaryotes involving
+                                          gamete formation—including crossing over,
+                                          the random assortment of chromosomes
+                                          during meiosis, and subsequent fertilization of
+                                          gametes—serves to increase variation.
+                                           X EXCLUSION STATEMENT—The details of
+                                             sexual reproduction cycles in various plants and
+                                             animals are beyond the scope of the course and
+                                             the AP Exam.
+
+
+
+
+AP Biology Course and Exam Description                                                          Course Framework V.1     |   99
+             UNIT
+
+              5                    Heredity
+
+
+SUGGESTED SKILLS
+      Argumentation
+                                   TOPIC 5.3
+6.E.c
+Predict the causes or effects
+of a change in, or disruption
+                                   Mendelian Genetics
+to, one or more components
+in a biological system based
+on data.
+
+      Statistical Tests and
+      Data Analysis
+5.C
+Perform chi-square
+hypothesis testing.
+                                   Required Course Content
+
+
+                                     ENDURING UNDERSTANDING
+                                     EVO-2
+                                     Organisms are linked by lines of descent from common ancestry.
+                                     IST-1
+                                     Heritable information provides for continuity of life.
+
+
+
+                                     LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                     EVO-2.A                                 EVO-2.A.1
+                                     Explain how shared,                    DNA and RNA are carriers of genetic
+                                     conserved, fundamental                 information.
+                                     processes and features                  EVO-2.A.2
+                                     support the concept of
+                                                                            Ribosomes are found in all forms of life.
+                                     common ancestry for all
+                                     organisms.                              EVO-2.A.3
+                                                                            Major features of the genetic code are shared
+                                                                            by all modern living systems.
+                                                                             EVO-2.A.4
+                                                                            Core metabolic pathways are conserved
+                                                                            across all currently recognized domains.
+
+
+                                     IST-1.I                                 IST-1.I.1
+                                     Explain the inheritance of             Mendel’s laws of segregation and independent
+                                     genes and traits as described          assortment can be applied to genes that are on
+                                     by Mendel’s laws.                      different chromosomes.
+
+
+                                                                                                              continued on next page
+
+
+
+
+100     |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                        UNIT
+Heredity
+                                                                                                         5
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-1.I                              IST-1.I.2
+   Explain the inheritance of            Fertilization involves the fusion of two haploid
+   genes and traits as described         gametes, restoring the diploid number of
+   by Mendel’s laws.                     chromosomes and increasing genetic variation
+                                         in populations by creating new combinations of
+                                         alleles in the zygote—
+                                         a. Rules of probability can be applied to
+                                            analyze passage of single-gene traits from
+                                            parent to offspring.
+                                         b. The pattern of inheritance (monohybrid,
+                                            dihybrid, sex-linked, and genetically linked
+                                            genes) can often be predicted from data,
+                                            including pedigree, that give the parent
+                                            genotype/phenotype and the offspring
+                                            genotypes/phenotypes.
+
+                                          RELEVANT EQUATION
+                                          Laws of Probability—
+                                          If A and B are mutually exclusive, then:
+                                          P ( A or B ) = P ( A ) + P ( B )
+                                          If A and B are independent, then:
+                                          P ( A and B ) = P ( A ) × P ( B )
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1   |   101
+             UNIT
+
+              5                    Heredity
+
+
+SUGGESTED SKILLS
+      Statistical Tests and
+                                   TOPIC 5.4
+                                   Non-Mendelian
+      Data Analysis
+5.A.b
+Perform mathematical
+calculations, including
+means.
+5.C
+                                   Genetics
+Perform chi-square
+hypothesis testing.
+
+
+
+
+                                   Required Course Content
+ILLUSTRATIVE EXAMPLES
+ §§ Sex-linked genes reside
+    on sex chromosomes.
+ §§ In mammals and flies,
+                                     ENDURING UNDERSTANDING
+    females are XX and               IST-1
+    males are XY; as such,           Heritable information provides for continuity of life.
+    X-linked recessive traits
+    are always expressed in
+    males.
+ §§ In certain species, the          LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    chromosomal basis
+                                     IST-1.J                                 IST-1.J.1
+    of sex determination
+    is not based on X                Explain deviations from                Patterns of inheritance of many traits do not
+    and Y chromosomes                Mendel’s model of the                  follow ratios predicted by Mendel’s laws and
+    (such as ZW in birds,            inheritance of traits.                 can be identified by quantitative analysis,
+    haplodiploidy in bees).                                                 where observed phenotypic ratios statistically
+                                                                            differ from the predicted ratios—
+                                                                            a. Genes that are adjacent and close to
+                                                                               one another on the same chromosome
+                                                                               may appear to be genetically linked; the
+                                                                               probability that genetically linked genes will
+                                                                               segregate as a unit can be used to calculate
+                                                                               the map distance between them.
+                                                                             IST-1.J.2
+                                                                            Some traits are determined by genes on
+                                                                            sex chromosomes and are known as sex-
+                                                                            linked traits. The pattern of inheritance of
+                                                                            sex-linked traits can often be predicted from
+                                                                            data, including pedigree, indicating the parent
+                                                                            genotype/phenotype and the offspring
+                                                                            genotypes/phenotypes.
+                                                                             IST-1.J.3
+                                                                            Many traits are the product of multiple genes
+                                                                            and/or physiological processes acting in
+                                                                            combination; these traits therefore do not
+                                                                            segregate in Mendelian patterns.
+
+
+                                                                                                               continued on next page
+
+
+
+
+102     |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                      UNIT
+Heredity
+                                                                                                       5
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-1.J                              IST-1.J.4
+   Explain deviations from               Some traits result from non-nuclear
+   Mendel’s model of the                 inheritance—
+   inheritance of traits.                a. Chloroplasts and mitochondria are randomly
+                                            assorted to gametes and daughter cells;
+                                            thus, traits determined by chloroplast and
+                                            mitochondrial DNA do not follow simple
+                                            Mendelian rules.
+                                         b. In animals, mitochondria are transmitted by
+                                            the egg and not by sperm; as such, traits
+                                            determined by the mitochondrial DNA are
+                                            maternally inherited.
+                                         c. In plants, mitochondria and chloroplasts
+                                            are transmitted in the ovule and not in the
+                                            pollen; as such, mitochondria-determined
+                                            and chloroplast-determined traits are
+                                            maternally inherited.
+
+
+
+
+AP Biology Course and Exam Description                                                    Course Framework V.1   |   103
+            UNIT
+
+             5                    Heredity
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                  TOPIC 5.5
+1.C
+Explain biological concepts,
+processes, and/or models
+                                  Environmental Effects
+in applied contexts.
+                                  on Phenotype
+
+ILLUSTRATIVE EXAMPLES
+ §§ Height and weight in
+                                  Required Course Content
+    humans
+ §§ Flower color based on
+    soil pH
+ §§ Seasonal fur color in
+                                    ENDURING UNDERSTANDING
+    arctic animals                  SYI-3
+ §§ Sex determination in            Naturally occurring diversity among and between components within biological
+    reptiles                        systems affects interactions with the environment.
+ §§ Effect of increased UV
+    on melanin production
+    in animals
+ §§ Presence of the
+                                    LEARNING OBJECTIVE                 ESSENTIAL KNOWLEDGE
+    opposite mating type on         SYI-3.B                             SYI-3.B.1
+    pheromone production
+                                    Explain how the same               Environmental factors influence gene
+    in yeast and other fungi
+                                    genotype can result in             expression and can lead to phenotypic
+                                    multiple phenotypes under          plasticity. Phenotypic plasticity occurs when
+                                    different environmental            individuals with the same genotype exhibit
+                                    conditions.                        different phenotypes in different environments.
+
+
+
+
+104    |   Course Framework V.1                                                     AP Biology Course and Exam Description
+                                                                                                           UNIT
+Heredity
+                                                                                                           5
+TOPIC 5.6                                                                                      SUGGESTED SKILL
+                                                                                                    Argumentation
+
+
+Chromosomal                                                                                     6.E.b
+                                                                                               Predict the causes or
+                                                                                               effects of a change in,
+
+Inheritance                                                                                    or disruption to, one or
+                                                                                               more components in a
+                                                                                               biological system based
+                                                                                               on a visual representation
+                                                                                               of a biological concept,
+                                                                                               process, or model.
+
+
+
+
+Required Course Content
+                                                                                               ILLUSTRATIVE EXAMPLES
+                                                                                               SYI-3.C.3
+                                                                                                §§ Sickle cell anemia
+   ENDURING UNDERSTANDING
+                                                                                                §§ Tay-Sachs disease
+    SYI-3
+                                                                                                §§ Huntington’s disease
+   Naturally occurring diversity among and between components within biological
+                                                                                                §§ X-linked color blindness
+   systems affects interactions with the environment.
+                                                                                                §§ Trisomy 21/Down
+                                                                                                   syndrome
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-3.C                              SYI-3.C.1
+   Explain how chromosomal               Segregation, independent assortment of
+   inheritance generates                 chromosomes, and fertilization result in genetic
+   genetic variation in sexual           variation in populations.
+   reproduction.                         SYI-3.C.2
+                                         The chromosomal basis of inheritance
+                                         provides an understanding of the pattern of
+                                         transmission of genes from parent to offspring.
+                                         SYI-3.C.3
+                                         Certain human genetic disorders can
+                                         be attributed to the inheritance of a
+                                         single affected or mutated allele or
+                                         specific chromosomal changes, such as
+                                         nondisjunction.
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1     |   105
+

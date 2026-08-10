@@ -1,0 +1,822 @@
+AP BIOLOGY
+
+
+UNIT 6
+Gene Expression
+and Regulation
+
+
+
+
+     12–16%
+     AP EXAM WEIGHTING
+
+
+
+     ~18–21
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 6
+Multiple-choice: ~25 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results
+ §§ Analyze Model or Visual
+    Representation
+                                    UNIT
+
+                                     6                 12–16% AP EXAM WEIGHTING ~18–21 CLASS PERIODS
+
+
+                                Gene Expression
+                                and Regulation
+
+                                Developing Understanding
+  BIG IDEA 3                    Progressing from the continuity of life to gene expression, in Unit 6 students gain
+  Information Storage           in-depth knowledge about nucleic acids and their role in gene expression. Students
+  and Transmission IST          receive a finer focus on the comparison between the structures of DNA and RNA. This unit
+  §§ How does gene              highlights how an individual’s genotype is physically expressed through that individual’s
+     regulation relate to the   phenotype. Understanding protein synthesis (transcription and translation) is vital to
+     continuity of life?        answering essential questions about gene expression. Regulation of gene expression
+                                and cell specialization are instrumental in ensuring survival within an individual and across
+  §§ How is a species’
+                                populations. Unit 7 moves on to cover natural selection.
+     genetic information
+     diversified from
+     generation to              Building Science Practices                         Preparing for the AP Exam
+     generation?                1.C 2.B.b 2.C   6.A   6.B   6.D 6.E.a
+                                                                                   Students often do not understand the
+                                The ability to describe, analyze, and create       difference between a gene and an allele.
+                                models and representations to explain and/         Gene expression occurs at many levels, all of
+                                or illustrate biological processes and make        which are crucial in producing an organism’s
+                                predictions about them is an important             phenotype. Students can use the lac operon
+                                skill for students to master. The primary          in E. coli to help them understand the
+                                learning goal in this unit is to create or use     significance of positive gene regulation.
+                                a representation/model to communicate
+                                                                                   Often on the exam, students fail to provide
+                                biological phenomena, use the model to
+                                                                                   reasoning connecting a change on the
+                                solve a problem, and refine the model or
+                                                                                   molecular level (e.g., a mutation) to a change
+                                representation to analyze situations or
+                                                                                   in phenotype (e.g., an increase or decrease in
+                                solve problems.
+                                                                                   protein levels). Students should understand
+                                Throughout the course, students should             that the location of a mutation in the codon
+                                have had multiple opportunities that involve       can affect the structure and function of a
+                                making a claim, supporting it with evidence,       protein. Common errors include stating
+                                and providing reasoning to support the             that mutations result in the denaturation
+                                claim. In this unit and throughout the course,     of a protein or that point mutations cause
+                                students should become proficient in               frameshift mutations. Students also tend to
+                                argumentation by predicting the causes or          describe all mutations as having negative
+                                effects of a change in, or disruption to, one or   effects; exposure to examples of mutations
+                                more components in a biological system.            that have no impact on phenotype can help
+                                                                                   prevent this misunderstanding.
+
+
+
+
+AP Biology Course and Exam Description                                                             Course Framework V.1    |   109
+                        UNIT
+
+                         6                   Gene Expression and Regulation
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                                   Class Periods
+Understanding
+                      Topic                              Suggested Skill                                           ~18–21 CLASS PERIODS
+
+                      6.1 DNA and RNA Structure         1.C Explain biological concepts, processes, and/or
+                                                         models in applied contexts.
+
+                      6.2 Replication                    2.B.b Explain relationships between different
+                                                         characteristics of biological concepts, processes, or
+                                                         models represented visually in applied contexts.
+
+                      6.3 Transcription and RNA          2.B.b Explain relationships between different
+
+   IST-1                 Processing                      characteristics of biological concepts, processes, or
+                                                         models represented visually in applied contexts.
+
+                      6.4 Translation                   2.D.b Represent relationships within biological
+                                                         models, including diagrams.
+
+                                                          6.E.a Predict the causes or effects of a change in, or
+                                                         disruption to, one or more components in a biological
+                                                         system based on biological concepts.
+
+                      6.5 Regulation of Gene            6.A   Make a scientific claim.
+                         Expression
+   IST-2
+                      6.6 Gene Expression and Cell     6.B Support a claim with evidence from biological
+                         Specialization                  principles, concepts, processes, and/or data.
+
+                      6.7 Mutations                     2.C Explain how biological concepts or processes
+
+
+
+
+   IST-2, IST-4
+                                                         represented visually relate to larger biological
+                                                         principles, concepts, processes, or theories.
+
+                                                          3.D Make observations or collect data from
+                                                         representations of laboratory setups or results.
+
+                      6.8 Biotechnology                  6.D Explain the relationship between experimental
+
+   IST-1                                                 results and larger biological concepts, processes, or
+                                                         theories.
+
+
+                      Go to AP Classroom to assign the Personal Progress Check for Unit 6.
+                       Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+110               |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                                     UNIT
+Gene Expression and Regulation
+                                                                                                                      6
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic        Sample Activity
+
+     1            6.2        Misconception Check
+                             Using diagrams of nucleotides that can be found on the internet and photocopied, students
+                             can model the process of replication, explaining what is happening as they go. You can easily
+                             assess their understanding by observing the results of replication that students produce.
+
+     2            6.3        Think-Pair-Share
+                             Students build a model of transcription using pool noodles that can be purchased at
+                             a dollar store. Using everyday materials, such as tape, colored paper, yarn (or string),
+                             and markers, they identify the promoter region, TATA box, transcription start site, and
+                             terminal sequence. They describe the process of transcription from the initial binding of
+                             the transcription factors to the production of the transcript. This can be introduced or
+                             de-briefed using a Think-Pair-Share approach.
+
+     3            6.4        Construct an Argument
+                             Students develop a skit to demonstrate the process of translation. Once they have an
+                             understanding of the process, challenge them to act out what might happen if there were a
+                             change in the DNA sequence or if one of the needed components was unavailable. Debrief
+                             by having students explain the rationale for the modifications they made in their skit.
+
+
+
+
+            Unit Planning Notes
+    Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+    your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                 Course Framework V.1   |   111
+           UNIT
+
+            6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 6.1
+1.C
+Explain biological concepts,
+processes, and/or models
+                                 DNA and
+in applied contexts.
+                                 RNA Structure
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    From Gene to
+    Protein—A Historical
+    Perspective
+ §§ Classroom Resources >          ENDURING UNDERSTANDING
+    Rosalind Franklin:
+                                   IST-1
+    She’s Worth Another
+    Look                           Heritable information provides for continuity of life.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   IST-1.K                                 IST-1.K.1
+                                   Describe the structures                DNA, and in some cases RNA, is the primary
+                                   involved in passing hereditary         source of heritable information.
+                                   information from one                    IST-1.K.2
+                                   generation to the next.
+                                                                          Genetic information is transmitted from one
+                                                                          generation to the next through DNA or RNA—
+                                                                          a. Genetic information is stored in and
+                                                                             passed to subsequent generations through
+                                                                             DNA molecules and, in some cases,
+                                                                             RNA molecules.
+                                                                          b. Prokaryotic organisms typically have circular
+                                                                             chromosomes, while eukaryotic organisms
+                                                                             typically have multiple linear chromosomes.
+                                                                           IST-1.K.3
+                                                                          Prokaryotes and eukaryotes can contain
+                                                                          plasmids, which are small extra-chromosomal,
+                                                                          double-stranded, circular DNA molecules.
+
+
+                                   IST-1.L                                 IST-1.L.1
+                                   Describe the characteristics           DNA, and sometimes RNA, exhibits specific
+                                   of DNA that allow it to be             nucleotide base pairing that is conserved
+                                   used as the hereditary                 through evolution: adenine pairs with thymine
+                                   material.                              or uracil (A-T or A-U) and cytosine pairs with
+                                                                          guanine (C-G)—
+                                                                          a. Purines (G and A) have a double
+                                                                             ring structure.
+                                                                          b. Pyrimidines (C, T, and U) have a single
+                                                                             ring structure.
+
+
+
+112   |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                          UNIT
+Gene Expression and Regulation
+                                                                                                           6
+TOPIC 6.2                                                                                       SUGGESTED SKILL
+                                                                                                     Visual
+
+
+Replication
+                                                                                                     Representations
+                                                                                                 2.B.b
+                                                                                                Explain relationships
+                                                                                                between different
+                                                                                                characteristics of biological
+                                                                                                concepts, processes, or
+                                                                                                models represented visually
+                                                                                                in applied contexts.
+
+
+
+
+Required Course Content                                                                         AVAILABLE RESOURCES
+                                                                                                 §§ Classroom Resources >
+                                                                                                    From Gene to
+                                                                                                    Protein—A Historical
+   ENDURING UNDERSTANDING                                                                           Perspective
+
+    IST-1
+   Heritable information provides for continuity of life.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    IST-1.M                                IST-1.M.1
+   Describe the mechanisms                DNA replication ensures continuity of
+   by which genetic information           hereditary information—
+   is copied for transmission             a. DNA is synthesized in the 5’ to 3’ direction.
+   between generations.
+                                          b. Replication is a semiconservative
+                                             process—that is, one strand of DNA
+                                             serves as the template for a new strand
+                                             of complementary DNA.
+                                          c. Helicase unwinds the DNA strands.
+                                          d. Topoisomerase relaxes supercoiling in front
+                                             of the replication fork.
+                                          e. DNA polymerase requires RNA primers to
+                                             initiate DNA synthesis.
+                                          f. DNA polymerase synthesizes new strands of
+                                             DNA continuously on the leading strand and
+                                             discontinuously on the lagging strand.
+                                          g. Ligase joins the fragments on the
+                                             lagging strand.
+
+                                            X EXCLUSION STATEMENT—The names of the
+                                              steps and particular enzymes involved—beyond
+                                              DNA polymerase, ligase, RNA polymerase,
+                                              helicase, and topoisomerase—are beyond the
+                                              scope of the course and the AP Exam.
+
+
+
+
+AP Biology Course and Exam Description                                                       Course Framework V.1     |   113
+             UNIT
+
+              6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILL
+      Visual
+                                   TOPIC 6.3
+                                   Transcription and
+      Representations
+2.B.b
+Explain relationships
+between different
+characteristics of biological
+concepts, processes, or
+                                   RNA Processing
+models represented visually
+in applied contexts.
+
+
+
+
+AVAILABLE RESOURCES
+                                   Required Course Content
+ §§ Classroom Resources >
+    From Gene to
+    Protein—A Historical
+    Perspective                      ENDURING UNDERSTANDING
+                                     IST-1
+                                     Heritable information provides for continuity of life.
+
+
+
+                                     LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                     IST-1.N                                 IST-1.N.1
+                                     Describe the mechanisms                The sequence of the RNA bases, together with
+                                     by which genetic information           the structure of the RNA molecule, determines
+                                     flows from DNA to RNA                  RNA function—
+                                     to protein.                            a. mRNA molecules carry information from
+                                                                               DNA to the ribosome.
+                                                                            b. Distinct tRNA molecules bind specific amino
+                                                                               acids and have anti-codon sequences that
+                                                                               base pair with the mRNA. tRNA is recruited to
+                                                                               the ribosome during translation to generate
+                                                                               the primary peptide sequence based on the
+                                                                               mRNA sequence.
+                                                                            c. rRNA molecules are functional building
+                                                                               blocks of ribosomes.
+                                                                             IST-1.N.2
+                                                                            Genetic information flows from a sequence
+                                                                            of nucleotides in DNA to a sequence of bases
+                                                                            in an mRNA molecule to a sequence of amino
+                                                                            acids in a protein.
+                                                                             IST-1.N.3
+                                                                            RNA polymerases use a single template strand
+                                                                            of DNA to direct the inclusion of bases in the
+                                                                            newly formed RNA molecule. This process is
+                                                                            known as transcription.
+
+
+                                                                                                              continued on next page
+
+
+
+
+114     |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                         UNIT
+Gene Expression and Regulation
+                                                                                                          6
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-1.N                              IST-1.N.4
+   Describe the mechanisms               The DNA strand acting as the template strand
+   by which genetic information          is also referred to as the noncoding strand,
+   flows from DNA to RNA                 minus strand, or antisense strand. Selection
+   to protein.                           of which DNA strand serves as the template
+                                         strand depends on the gene being transcribed.
+                                         IST-1.N.5
+                                         The enzyme RNA polymerase synthesizes
+                                         mRNA molecules in the 5’ to 3’ direction by
+                                         reading the template DNA strand in the 3’ to 5’
+                                         direction.
+                                         IST-1.N.6
+                                         In eukaryotic cells the mRNA transcript
+                                         undergoes a series of enzyme-regulated
+                                         modifications—
+                                         a. Addition of a poly-A tail.
+                                         b. Addition of a GTP cap.
+                                         c. Excision of introns and splicing and retention
+                                            of exons.
+                                         d. Excision of introns and splicing and retention
+                                            of exons can generate different versions of
+                                            the resulting mRNA molecule; this is known
+                                            as alternative splicing.
+
+
+
+
+AP Biology Course and Exam Description                                                       Course Framework V.1   |   115
+             UNIT
+
+              6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILLS
+      Argumentation
+                                   TOPIC 6.4
+6.E.a
+Predict the causes or effects
+of a change in, or disruption
+                                   Translation
+to, one or more components
+in a biological system based
+on biological concepts.
+
+      Visual
+      Representations
+2.D.b
+Represent relationships
+within biological models,
+including diagrams.                Required Course Content
+
+
+                                     ENDURING UNDERSTANDING
+AVAILABLE RESOURCES
+                                     IST-1
+ §§ Classroom Resources >
+    From Gene to                     Heritable information provides for continuity of life.
+    Protein—A Historical
+    Perspective
+
+                                     LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                     IST-1.O                                 IST-1.O.1
+                                     Explain how the phenotype of           Translation of the mRNA to generate a
+                                     an organism is determined by           polypeptide occurs on ribosomes that are
+                                     its genotype.                          present in the cytoplasm of both prokaryotic
+                                                                            and eukaryotic cells and on the rough
+                                                                            endoplasmic reticulum of eukaryotic cells.
+                                                                             IST-1.O.2
+                                                                            In prokaryotic organisms, translation of the mRNA
+                                                                            molecule occurs while it is being transcribed.
+                                                                             IST-1.O.3
+                                                                            Translation involves energy and many
+                                                                            sequential steps, including initiation, elongation,
+                                                                            and termination.
+                                                                              X EXCLUSION STATEMENT—The details and
+                                                                                names of the enzymes and factors involved in each
+                                                                                of these steps are beyond the scope of the course
+                                                                                and the AP Exam.
+
+                                                                             IST-1.O.4
+                                                                            The salient features of translation include—
+                                                                            a. Translation is initiated when the rRNA in the
+                                                                               ribosome interacts with the mRNA at the start
+                                                                               codon.
+                                                                            b. The sequence of nucleotides on the mRNA is
+                                                                               read in triplets called codons.
+
+
+                                                                                                              continued on next page
+
+
+
+
+116     |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                             UNIT
+Gene Expression and Regulation
+                                                                                                              6
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-1.O                              c. Each codon encodes a specific amino acid,
+   Explain how the phenotype of             which can be deduced by using a genetic
+   an organism is determined by             code chart. Many amino acids are encoded
+   its genotype.                            by more than one codon.
+                                         d. Nearly all living organisms use the same
+                                            genetic code, which is evidence for the
+                                            common ancestry of all living organisms.
+                                         e. tRNA brings the correct amino acid to the
+                                            correct place specified by the codon on the
+                                            mRNA.
+                                         f. The amino acid is transferred to the growing
+                                            polypeptide chain.
+                                         g. The process continues along the mRNA until
+                                            a stop codon is reached.
+                                         h. The process terminates by release of the
+                                            newly synthesized polypeptide/protein.
+                                          X EXCLUSION STATEMENT—Memorization of
+                                            the genetic code is beyond the scope of the course
+                                            and the AP Exam.
+
+                                         IST-1.O.5
+                                         Genetic information in retroviruses is a special
+                                         case and has an alternate flow of information:
+                                         from RNA to DNA, made possible by reverse
+                                         transcriptase, an enzyme that copies the
+                                         viral RNA genome into DNA. This DNA
+                                         integrates into the host genome and becomes
+                                         transcribed and translated for the assembly of
+                                         new viral progeny.
+                                          X EXCLUSION STATEMENT—The names of the
+                                            steps and particular enzymes involved—beyond
+                                            DNA polymerase, ligase, RNA polymerase,
+                                            helicase, and topoisomerase—are beyond the
+                                            scope of the course and the AP Exam.
+
+
+
+
+AP Biology Course and Exam Description                                                           Course Framework V.1   |   117
+           UNIT
+
+            6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 6.5
+6.A
+Make a scientific claim.         Regulation of
+                                 Gene Expression
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    From Gene to
+    Protein—A Historical
+    Perspective
+                                   ENDURING UNDERSTANDING
+                                   IST-2
+                                   Differences in the expression of genes account for some of the phenotypic
+                                   differences between organisms.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   IST-2.A                             IST-2.A.1
+                                   Describe the types of               Regulatory sequences are stretches of DNA
+                                   interactions that regulate          that interact with regulatory proteins to
+                                   gene expression.                    control transcription.
+                                                                       IST-2.A.2
+                                                                       Epigenetic changes can affect gene expression
+                                                                       through reversible modifications of DNA or histones.
+                                                                       IST-2.A.3
+                                                                       The phenotype of a cell or organism is determined
+                                                                       by the combination of genes that are expressed
+                                                                       and the levels at which they are expressed—
+                                                                       a. Observable cell differentiation results
+                                                                          from the expression of genes for tissue-
+                                                                          specific proteins.
+                                                                       b. Induction of transcription factors during
+                                                                          development results in sequential
+                                                                          gene expression.
+
+
+                                   IST-2.B                             IST-2.B.1
+                                   Explain how the location of         Both prokaryotes and eukaryotes have groups
+                                   regulatory sequences relates        of genes that are coordinately regulated—
+                                   to their function.                  a. In prokaryotes, groups of genes called
+                                                                          operons are transcribed in a single mRNA
+                                                                          molecule. The lac operon is an example of an
+                                                                          inducible system.
+                                                                       b. In eukaryotes, groups of genes may be
+                                                                          influenced by the same transcription factors
+                                                                          to coordinately regulate expression.
+
+
+118   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                      UNIT
+Gene Expression and Regulation
+                                                                                                       6
+TOPIC 6.6                                                                                   SUGGESTED SKILL
+                                                                                                   Argumentation
+
+
+Gene Expression and                                                                          6.B
+                                                                                            Support a claim with
+                                                                                            evidence from biological
+
+Cell Specialization                                                                         principles, concepts,
+                                                                                            processes, and/or data.
+
+
+
+
+Required Course Content                                                                      AVAILABLE RESOURCES
+                                                                                             §§ Classroom Resources >
+                                                                                                From Gene to
+                                                                                                Protein—A Historical
+                                                                                                Perspective
+   ENDURING UNDERSTANDING
+    IST-2
+   Differences in the expression of genes account for some of the phenotypic
+   differences between organisms.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-2.C                              IST-2.C.1
+   Explain how the binding               Promoters are DNA sequences upstream of the
+   of transcription factors to           transcription start site where RNA polymerase
+   promoter regions affects              and transcription factors bind to initiate
+   gene expression and/or the            transcription.
+   phenotype of the organism.            IST-2.C.2
+                                         Negative regulatory molecules inhibit gene
+                                         expression by binding to DNA and blocking
+                                         transcription.
+
+
+    IST-2.D                              IST-2.D.1
+   Explain the connection                Gene regulation results in differential gene
+   between the regulation                expression and influences cell products and
+   of gene expression and                function.
+   phenotypic differences in             IST-2.D.2
+   cells and organisms.
+                                         Certain small RNA molecules have roles in
+                                         regulating gene expression.
+
+
+
+
+AP Biology Course and Exam Description                                                   Course Framework V.1   |   119
+             UNIT
+
+              6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILLS
+      Visual
+                                   TOPIC 6.7
+                                   Mutations
+      Representations
+2.C
+Explain how biological
+concepts or processes
+represented visually relate to
+larger biological principles,
+concepts, processes, or
+theories.
+
+      Questions and
+      Methods
+3.D
+Make observations                  Required Course Content
+or collect data from
+representations of
+laboratory setups
+or results.
+                                     ENDURING UNDERSTANDING
+                                     IST-2
+                                     Differences in the expression of genes account for some of the phenotypic
+                                     differences between organisms.
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+    From Gene to
+    Protein—A Historical             LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+    Perspective                      IST-2.E                             IST-2.E.1
+ILLUSTRATIVE EXAMPLES                Describe the various types of       Changes in genotype can result in changes in
+IST-2.E.1                            mutation.                           phenotype—
+ §§ Mutations in the CFTR                                                a. The function and amount of gene products
+    gene disrupt ion                                                        determine the phenotype of organisms.
+    transport and result in
+                                                                           i. The normal function of the genes and
+    cystic fibrosis.
+                                                                              gene products collectively comprises the
+ §§ Mutations in the MC1R
+    gene give adaptive
+                                                                              normal function of organisms.
+    melanism in pocket                                                     ii. Disruptions in genes and gene products
+    mice.                                                                      cause new phenotypes.
+IST-4.B.1                                                                IST-2.E.2
+ §§ Antibiotic resistance
+                                                                         Alterations in a DNA sequence can lead to
+    mutations
+                                                                         changes in the type or amount of the protein
+ §§ Pesticide resistance                                                 produced and the consequent phenotype. DNA
+    mutations
+                                                                         mutations can be positive, negative, or neutral
+ §§ Sickle cell disorder and                                             based on the effect or the lack of effect they
+    heterozygote advantage                                               have on the resulting nucleic acid or protein and
+                                                                         the phenotypes that are conferred by the protein.
+
+
+                                                                                                        continued on next page
+
+
+
+
+120    |    Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                              UNIT
+Gene Expression and Regulation
+                                                                                                               6
+   ENDURING UNDERSTANDING
+    IST-4
+   The processing of genetic information is imperfect and is a source of genetic variation.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-4.A                               IST-4.A.1
+   Explain how changes in                Errors in DNA replication or DNA repair
+   genotype may result in                mechanisms, and external factors, including
+   changes in phenotype.                 radiation and reactive chemicals, can cause
+                                         random mutations in the DNA—
+                                         a. Whether a mutation is detrimental, beneficial, or
+                                            neutral depends on the environmental context.
+                                         b. Mutations are the primary source of
+                                            genetic variation.
+                                          IST-4.A.2
+                                         Errors in mitosis or meiosis can result in
+                                         changes in phenotype—
+                                         a. Changes in chromosome number often result
+                                            in new phenotypes, including sterility caused by
+                                            triploidy, and increased vigor of other polyploids.
+                                         b. Changes in chromosome number often
+                                            result in human disorders with developmental
+                                            limitations, including Down syndrome/
+                                            Trisomy 21 and Turner syndrome.
+
+
+    IST-4.B                               IST-4.B.1
+   Explain how alterations in            Changes in genotype may affect phenotypes
+   DNA sequences contribute to           that are subject to natural selection. Genetic
+   variation that can be subject         changes that enhance survival and reproduction
+   to natural selection.                 can be selected for by environmental
+                                         conditions—
+                                         a. The horizontal acquisitions of genetic
+                                            information primarily in prokaryotes via
+                                            transformation (uptake of naked DNA),
+                                            transduction (viral transmission of genetic
+                                            information), conjugation (cell-to-cell
+                                            transfer of DNA), and transposition
+                                            (movement of DNA segments within and
+                                            between DNA molecules) increase variation.
+                                         b. Related viruses can combine/recombine genetic
+                                            information if they infect the same host cell.
+                                         c. Reproduction processes that increase genetic
+                                            variation are evolutionarily conserved and are
+                                            shared by various organisms.
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1   |   121
+           UNIT
+
+            6                    Gene Expression and Regulation
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 6.8
+6.D
+Explain the relationship
+between experimental
+                                 Biotechnology
+results and larger biological
+concepts, processes,
+or theories.
+
+
+
+
+AVAILABLE RESOURCES
+ §§ AP Biology Lab Manual >
+                                 Required Course Content
+    Gel Electrophoresis
+    Lab
+ §§ AP Biology Lab Manual >
+    Transformation Lab             ENDURING UNDERSTANDING
+ §§ Classroom Resources >          IST-1
+    Visualizing Information
+                                   Heritable information provides for continuity of life.
+ILLUSTRATIVE EXAMPLES
+ §§ Amplified DNA
+    fragments can be
+    used to identify               LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    organisms and perform          IST-1.P                                 IST-1.P.1
+    phylogenetic analyses.
+                                   Explain the use of genetic             Genetic engineering techniques can be used to
+ §§ Analysis of DNA can            engineering techniques in              analyze and manipulate DNA and RNA—
+    be used for forensic
+                                   analyzing or manipulating              a. Electrophoresis separates molecules
+    identification.
+                                   DNA.                                      according to size and charge.
+ §§ Genetically modified
+    organisms include                                                     b. During polymerase chain reaction (PCR),
+    transgenic animals.                                                      DNA fragments are amplified.
+ §§ Gene cloning allows                                                   c. Bacterial transformation introduces DNA into
+    propagation of                                                           bacterial cells.
+    DNA fragments.                                                        d. DNA sequencing determines the order of
+                                                                             nucleotides in a DNA molecule.
+                                                                            X EXCLUSION STATEMENT—The details of these
+                                                                              processes are beyond the scope of this course. The
+                                                                              focus should be on the conceptual understanding
+                                                                              of the application of these techniques.
+
+
+
+
+122   |   Course Framework V.1                                                              AP Biology Course and Exam Description
+

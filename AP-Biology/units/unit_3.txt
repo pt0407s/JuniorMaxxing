@@ -1,0 +1,760 @@
+AP BIOLOGY
+
+
+UNIT 3
+Cellular
+Energetics
+
+
+
+
+     12–16%
+     AP EXAM WEIGHTING
+
+
+
+     ~14–17
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 3
+Multiple-choice: ~20 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results with
+    Graphing (partial)
+ §§ Scientific Investigation (partial)
+                                       UNIT
+
+                                       3                 12–16% AP EXAM WEIGHTING ~14–17 CLASS PERIODS
+
+
+                                 Cellular Energetics
+
+
+                                 Developing Understanding
+  BIG IDEA 2                     In Unit 3, students build on knowledge gained in Unit 2 about the structure and function of
+  Energetics ENE                 cells, focusing on cellular energetics. Living systems are complex in their organization and
+  §§ How is energy captured      require constant energy input. This unit will provide students with the knowledge necessary to
+     and then used by a living   master the concepts of energy capture and use. Students work through enzyme structure and
+     system?                     function, learning the ways in which the environment plays a role in how enzymes perform their
+                                 function(s). Students gain a deeper understanding of the processes of photosynthesis and
+  BIG IDEA 4                     cellular respiration, knowledge they will use in Unit 6 while studying how cells use energy to fuel
+  Systems                        life processes.
+  Interactions    SYI
+  §§ How do organisms use        Building Science Practices                         Preparing for the AP Exam
+     energy or conserve
+     energy to respond to
+                                 1.B   3.C.b   3.C.c   4.A   6.B   6.C   6.E.c
+                                                                                    Students often lack an understanding of
+     environmental stimuli?      Since students learned how to make                 metabolic pathways, confusing them with
+                                 scientific claims in the previous unit, the        other processes. Students should know
+                                 instructional focus of this unit should be         inputs and outputs of metabolic pathways,
+                                 on gaining proficiency in argumentation            predict how changes in reactants affect
+                                 through supporting claims with evidence. The       them, and explain how organisms and
+                                 evidence can be from biological principles,        ecosystems are affected by changes.
+                                 concepts, processes, and/or data. Students
+                                                                                    Common misconceptions include: only
+                                 should provide reasoning to justify a claim by
+                                                                                    animals conduct cellular respiration, oxygen
+                                 connecting evidence to biological theories.
+                                                                                    is created during photosynthesis, and only
+                                 A key concept in this unit is structure-           plants conduct photosynthesis. Be sure
+                                 function relationships. This should be             to make clear the distinction between
+                                 reinforced in context as students proceed          memorizing molecules and demonstrating
+                                 through the course. It is important that           an understanding of how molecular events
+                                 students understand rates of enzyme                connect to overall function of organisms
+                                 reactions and how they are affected by             and to carbon transfer within ecosystems.
+                                 environmental factors, such as enzyme or           Students should have an understanding
+                                 substrate concentration, pH, temperature,          of cellular respiration and photosynthesis
+                                 and the presence of inhibitors.                    to predict and justify the effect of
+                                                                                    environmental changes on those processes.
+                                 As students learn about cellular respiration
+                                 and photosynthesis, be sure to emphasize           Students may be required to graph data
+                                 the differences between the two processes,         from an experiment—using the skills
+                                 how they function together within an               learned in Unit 2—and calculate reaction
+                                 ecosystem, and the consequences of a               rates. Students are advised to show their
+                                 disruption in either process on a cellular,        calculations, ensuring that units are included
+                                 organismal, and ecosystem level.                   in their final answer.
+
+
+
+
+AP Biology Course and Exam Description                                                                 Course Framework V.1     |   65
+                  UNIT
+
+                   3                    Cellular Energetics
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                               Class Periods
+Understanding
+                  Topic                                Suggested Skill                                         ~14–17 CLASS PERIODS
+
+                  3.1 Enzyme Structure                 1.B Explain biological concepts and/
+                                                       or processes.
+
+
+                  3.2 Enzyme Catalysis                 3.C.b Identify experimental procedures that are
+                                                       aligned to the question, including identifying
+                                                       appropriate controls.
+
+                                                       3.C.c Identify experimental procedures that
+                                                       are aligned to the question, including justifying
+                                                       appropriate controls.
+
+
+   ENE-1          3.3 Environmental Impacts            6.E.c Predict the causes or effects of a change
+                      on Enzyme Function               in, or disruption to, one or more components in a
+                                                       biological system based on data.
+
+
+                  3.4 Cellular Energy                  6.C Provide reasoning to justify a claim by
+                                                       connecting evidence to biological theories.
+
+
+                  3.5 Photosynthesis                   6.B Support a claim with evidence from biological
+                                                       principles, concepts, processes, and/or data.
+
+
+                  3.6 Cellular Respiration             4.A   Construct a graph, plot, or chart.
+
+
+                  3.7 Fitness                          6.C Provide reasoning to justify a claim by
+   SYI-3                                               connecting evidence to biological theories.
+
+
+
+                 Go to AP Classroom to assign the Personal Progress Check for Unit 3.
+                  Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+66       |      Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                                     UNIT
+Cellular Energetics
+                                                                                                                      3
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic         Sample Activity
+
+     1            3.2         QuickWrite
+                              Perform the “toothpickase” activity, in which students use their fingers to break as many
+                              as 100 toothpicks in 10-second intervals (without looking) onto a paper towel. All broken
+                              toothpicks must remain mixed with the unbroken. Broken toothpicks should not be
+                              removed from the pile, and each toothpick can only be broken once. Continue breaking
+                              toothpicks for these total time intervals (60, 120, and 180 seconds). Students then graph
+                              the number of toothpicks broken versus time (10, 20, 30, 60, 120, and 180 seconds).
+
+     2            3.6         Graph and Switch
+                              Have students perform a yeast fermentation lab using the sucrose solutions from
+                              the Diffusion and Osmosis Lab your students may have performed in Unit 2. Students
+                              can measure the amount of carbon dioxide produced as the dependent variable. At the
+                              conclusion of the lab, collect class data. Have students graph the class data, including
+                              error bars on their graphs. To enhance this activity, have students test different kinds of
+                              fresh and processed fruit juices and then compare the rates of fermentation among the
+                              different solutions.
+
+     3            3.7         Misconception Check
+                              Using one of many available online resources, have students learn about the work
+                              of Peter and Rosemary Grant. Using data from their work, help students to build
+                              their graphing and statistical analysis skills. Additionally, this is a good opportunity
+                              to allow students to practice explaining trends in data and supporting their claims
+                              with evidence.
+
+
+
+
+            Unit Planning Notes
+    Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+    your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                  Course Framework V.1   |   67
+            UNIT
+
+             3                   Cellular Energetics
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 3.1
+1.B
+Explain biological concepts
+and/or processes.
+                                 Enzyme Structure
+
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   ENE-1
+                                   The highly complex organization of living systems requires constant input of energy
+                                   and the exchange of macromolecules.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   ENE-1.D                              ENE-1.D.1
+                                   Describe the properties             The structure of enzymes includes the active
+                                   of enzymes.                         site that specifically interacts with substrate
+                                                                       molecules.
+                                                                        ENE-1.D.2
+                                                                       For an enzyme-mediated chemical reaction to
+                                                                       occur, the shape and charge of the substrate
+                                                                       must be compatible with the active site of
+                                                                       the enzyme.
+
+
+
+
+68    |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                    UNIT
+Cellular Energetics
+                                                                                                     3
+TOPIC 3.2                                                                                  SUGGESTED SKILLS
+                                                                                                Questions and
+
+
+Enzyme Catalysis
+                                                                                                Methods
+                                                                                            3.C.b
+                                                                                           Identify experimental
+                                                                                           procedures that are aligned
+                                                                                           to the question, including
+                                                                                           identifying appropriate
+                                                                                           controls.
+                                                                                            3.C.c
+                                                                                           Identify experimental
+                                                                                           procedures that are aligned
+                                                                                           to the question, including
+                                                                                           justifying appropriate
+Required Course Content                                                                    controls.
+
+
+
+
+   ENDURING UNDERSTANDING
+    ENE-1
+   The highly complex organization of living systems requires constant input of energy
+   and the exchange of macromolecules.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.E                              ENE-1.E.1
+   Explain how enzymes                   The structure and function of enzymes
+   affect the rate of biological         contribute to the regulation of biological
+   reactions.                            processes—
+                                         a. Enzymes are biological catalysts that
+                                             facilitate chemical reactions in cells by
+                                             lowering the activation energy.
+
+
+
+
+AP Biology Course and Exam Description                                                   Course Framework V.1    |   69
+           UNIT
+
+            3                   Cellular Energetics
+
+
+SUGGESTED SKILL
+     Argumentation
+                                TOPIC 3.3
+6.E.c
+Predict the causes or effects
+of a change in, or disruption
+                                Environmental
+to, one or more components
+in a biological system based
+on data.
+                                Impacts on
+                                Enzyme Function
+AVAILABLE RESOURCES
+ §§ AP Biology Lab
+                                Required Course Content
+    Manual > Enzyme Lab
+ §§ Classroom Resources >
+    Visualizing Information
+                                  ENDURING UNDERSTANDING
+                                  ENE-1
+                                  The highly complex organization of living systems requires constant input of energy
+                                  and the exchange of macromolecules.
+
+
+
+                                  LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                  ENE-1.F                              ENE-1.F.1
+                                  Explain how changes to the          Change to the molecular structure of a
+                                  structure of an enzyme may          component in an enzymatic system may result
+                                  affect its function.                in a change of the function or efficiency of
+                                                                      the system—
+                                                                      a. Denaturation of an enzyme occurs when the
+                                                                          protein structure is disrupted, eliminating the
+                                                                          ability to catalyze reactions.
+                                                                      b. Environmental temperatures and pH outside
+                                                                          the optimal range for a given enzyme will
+                                                                          cause changes to its structure, altering the
+                                                                          efficiency with which it catalyzes reactions.
+                                                                       ENE-1.F.2
+                                                                      In some cases, enzyme denaturation is
+                                                                      reversible, allowing the enzyme to regain activity.
+
+
+                                  ENE-1.G                              ENE-1.G.1
+                                  Explain how the cellular            Environmental pH can alter the efficiency of
+                                  environment affects                 enzyme activity, including through disruption of
+                                  enzyme activity.                    hydrogen bonds that provide enzyme structure.
+
+
+                                                                                                      continued on next page
+
+
+
+
+70   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                         UNIT
+Cellular Energetics
+                                                                                                          3
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.G
+                                          RELEVANT EQUATION
+   Explain how the cellular
+   environment affects
+                                           pH = -log [H+]
+   enzyme activity.                       X EXCLUSION STATEMENT­—Students
+                                            must understand the underlying concepts and
+                                            applications of this equation, but performing
+                                            calculations using this equation are beyond the
+                                            scope of the course and the AP Exam.
+
+                                         ENE-1.G.2
+                                         The relative concentrations of substrates
+                                         and products determine how efficiently an
+                                         enzymatic reaction proceeds.
+                                         ENE-1.G.3
+                                         Higher environmental temperatures increase
+                                         the speed of movement of molecules in a
+                                         solution, increasing the frequency of collisions
+                                         between enzymes and substrates and
+                                         therefore increasing the rate of reaction.
+                                         ENE-1G.4
+                                         Competitive inhibitor molecules can bind
+                                         reversibly or irreversibly to the active site of
+                                         the enzyme. Noncompetitive inhibitors can
+                                         bind allosteric sites, changing the activity of
+                                         the enzyme.
+
+
+
+
+AP Biology Course and Exam Description                                                        Course Framework V.1   |   71
+            UNIT
+
+             3                   Cellular Energetics
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 3.4
+6.C
+Provide reasoning to justify
+a claim by connecting
+                                 Cellular Energy
+evidence to biological
+theories.
+
+
+
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   ENE-1
+                                   The highly complex organization of living systems requires constant input of energy
+                                   and the exchange of macromolecules.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   ENE-1.H                              ENE-1.H.1
+                                   Describe the role of energy in      All living systems require constant input of
+                                   living organisms.                   energy.
+                                                                        ENE-1.H.2
+                                                                       Life requires a highly ordered system and does
+                                                                       not violate the second law of thermodynamics—
+                                                                       a. Energy input must exceed energy
+                                                                           loss to maintain order and to power
+                                                                           cellular processes.
+                                                                       b. Cellular processes that release energy may
+                                                                           be coupled with cellular processes that
+                                                                           require energy.
+                                                                       c. Loss of order or energy flow results in death.
+
+                                                                         X  EXCLUSION STATEMENT­—Students will
+                                                                           need to understand the concept of energy, but the
+                                                                           equation for Gibbs free energy is beyond the scope
+                                                                           of the course and the AP Exam.
+
+                                                                        ENE-1.H.3
+                                                                       Energy-related pathways in biological systems
+                                                                       are sequential to allow for a more controlled
+                                                                       and efficient transfer of energy. A product of
+                                                                       a reaction in a metabolic pathway is generally
+                                                                       the reactant for the subsequent step in
+                                                                       the pathway.
+
+
+
+
+72    |   Course Framework V.1                                                         AP Biology Course and Exam Description
+                                                                                                              UNIT
+Cellular Energetics
+                                                                                                               3
+TOPIC 3.5                                                                                           SUGGESTED SKILL
+                                                                                                           Argumentation
+
+
+Photosynthesis                                                                                       6.B
+                                                                                                    Support a claim with
+                                                                                                    evidence from biological
+                                                                                                    principles, concepts,
+                                                                                                    processes, and/or data.
+
+
+
+
+Required Course Content                                                                             AVAILABLE RESOURCES
+                                                                                                     §§ AP Biology Lab Manual >
+                                                                                                        Photosynthesis Lab
+                                                                                                     §§ Classroom Resources >
+                                                                                                        Visualizing Information
+   ENDURING UNDERSTANDING
+    ENE-1
+   The highly complex organization of living systems requires constant input of energy
+   and the exchange of macromolecules.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.I                              ENE-1.I.1
+   Describe the photosynthetic           Organisms capture and store energy for use in
+   processes that allow                  biological processes—
+   organisms to capture and              a. Photosynthesis captures energy from the
+   store energy.                             sun and produces sugars.
+                                            i.	Photosynthesis first evolved in
+                                                prokaryotic organisms.
+                                           ii.	Scientific evidence supports the
+                                                claim that prokaryotic (cyanobacterial)
+                                                photosynthesis was responsible for the
+                                                production of an oxygenated atmosphere.
+                                           iii.	Prokaryotic photosynthetic pathways
+                                                were the foundation of eukaryotic
+                                                photosynthesis.
+                                         ENE-1.I.2
+                                         The light-dependent reactions of photosynthesis
+                                         in eukaryotes involve a series of coordinated
+                                         reaction pathways that capture energy present
+                                         in light to yield ATP and NADPH, which power the
+                                         production of organic molecules.
+
+
+    ENE-1.J                              ENE-1.J.1
+   Explain how cells capture             During photosynthesis, chlorophylls absorb
+   energy from light and transfer        energy from light, boosting electrons to a
+   it to biological molecules for        higher energy level in photosystems I and II.
+   storage and use.
+
+
+                                                                         continued on next page
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1     |   73
+           UNIT
+
+            3                   Cellular Energetics
+
+
+
+                                  LEARNING OBJECTIVE               ESSENTIAL KNOWLEDGE
+                                  ENE-1.J                          ENE-1.J.2
+                                  Explain how cells capture        Photosystems I and II are embedded in the
+                                  energy from light and transfer   internal membranes of chloroplasts and are
+                                  it to biological molecules for   connected by the transfer of higher energy
+                                  storage and use.                 electrons through an electron transport
+                                                                   chain (ETC).
+                                                                   ENE-1.J.3
+                                                                   When electrons are transferred between
+                                                                   molecules in a sequence of reactions as they
+                                                                   pass through the ETC, an electrochemical
+                                                                   gradient of protons (hydrogen ions) is
+                                                                   established across the internal membrane.
+                                                                   ENE-1.J.4
+                                                                   The formation of the proton gradient is linked
+                                                                   to the synthesis of ATP from ADP and inorganic
+                                                                   phosphate via ATP synthase.
+                                                                   ENE-1.J.5
+                                                                   The energy captured in the light reactions
+                                                                   and transferred to ATP and NADPH powers
+                                                                   the production of carbohydrates from carbon
+                                                                   dioxide in the Calvin cycle, which occurs in the
+                                                                   stroma of the chloroplast.
+                                                                    X EXCLUSION STATEMENT—Memorization of
+                                                                      the steps in the Calvin cycle, the structure of the
+                                                                      molecules, and the names of enzymes (with the
+                                                                      exception of ATP synthase) are beyond the scope of
+                                                                      the course and the AP Exam.
+
+
+
+
+74   |   Course Framework V.1                                                     AP Biology Course and Exam Description
+                                                                                                              UNIT
+Cellular Energetics
+                                                                                                              3
+TOPIC 3.6                                                                                          SUGGESTED SKILL
+                                                                                                          Representing and
+
+
+Cellular Respiration
+                                                                                                          Describing Data
+                                                                                                    4.A
+                                                                                                   Construct a graph, plot,
+                                                                                                   or chart.
+
+
+
+
+Required Course Content                                                                            AVAILABLE RESOURCES
+                                                                                                    §§ AP Biology Lab Manual >
+                                                                                                       Cellular Respiration Lab
+                                                                                                    §§ Classroom Resources >
+                                                                                                       Visualizing Information
+   ENDURING UNDERSTANDING
+    ENE-1
+   The highly complex organization of living systems requires constant input of energy
+   and the exchange of macromolecules.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.K                              ENE-1.K.1
+   Describe the processes                Fermentation and cellular respiration use
+   that allow organisms to use           energy from biological macromolecules to
+   energy stored in biological           produce ATP. Respiration and fermentation are
+   macromolecules.                       characteristic of all forms of life.
+                                         ENE-1.K.2
+                                         Cellular respiration in eukaryotes involves
+                                         a series of coordinated enzyme-catalyzed
+                                         reactions that capture energy from biological
+                                         macromolecules.
+                                         ENE-1.K.3
+                                         The electron transport chain transfers energy
+                                         from electrons in a series of coupled reactions
+                                         that establish an electrochemical gradient
+                                         across membranes—
+                                         a. Electron transport chain reactions occur in
+                                             chloroplasts, mitochondria, and prokaryotic
+                                             plasma membranes.
+                                         b. In cellular respiration, electrons delivered
+                                             by NADH and FADH2 are passed to a series
+                                            of electron acceptors as they move toward
+                                            the terminal electron acceptor, oxygen.
+                                            In photosynthesis, the terminal electron
+                                            acceptor is NADP+. Aerobic prokaryotes use
+                                            oxygen as a terminal electron acceptor, while
+                                            anaerobic prokaryotes use other molecules.
+
+
+                                                                        continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                           Course Framework V.1     |   75
+           UNIT
+
+            3                   Cellular Energetics
+
+
+
+                                  LEARNING OBJECTIVE            ESSENTIAL KNOWLEDGE
+                                  ENE-1.K                       c. The transfer of electrons is accompanied by
+                                  Describe the processes            the formation of a proton gradient across
+                                  that allow organisms to use       the inner mitochondrial membrane or the
+                                  energy stored in biological       internal membrane of chloroplasts, with
+                                  macromolecules.                   the membrane(s) separating a region of
+                                                                    high proton concentration from a region of
+                                                                    low proton concentration. In prokaryotes,
+                                                                    the passage of electrons is accompanied
+                                                                    by the movement of protons across the
+                                                                    plasma membrane.
+                                                                d. The flow of protons back through
+                                                                    membrane-bound ATP synthase by
+                                                                    chemiosmosis drives the formation
+                                                                    of ATP from ADP and inorganic
+                                                                    phosphate. This is known as oxidative
+                                                                    phosphorylation in cellular respiration, and
+                                                                    photophosphorylation in photosynthesis.
+                                                                e. In cellular respiration, decoupling oxidative
+                                                                    phosphorylation from electron transport
+                                                                    generates heat. This heat can be used
+                                                                    by endothermic organisms to regulate
+                                                                    body temperature.
+
+                                                                 X EXCLUSION STATEMENT—The names of the
+                                                                   specific electron carriers in the electron transport
+                                                                   chain are beyond the scope of the course and the
+                                                                   AP Exam.
+
+
+
+
+                                  ENE-1.L                       ENE-1.L.1
+                                  Explain how cells obtain      Glycolysis is a biochemical pathway that
+                                  energy from biological        releases energy in glucose to form ATP from
+                                  macromolecules in order to    ADP and inorganic phosphate, NADH from
+                                  power cellular functions.     NAD+, and pyruvate.
+                                                                ENE-1.L.2
+                                                                Pyruvate is transported from the cytosol to the
+                                                                mitochondrion, where further oxidation occurs.
+                                                                ENE-1.L.3
+                                                                In the Krebs cycle, carbon dioxide is released
+                                                                from organic intermediates, ATP is synthesized
+                                                                from ADP and inorganic phosphate, and
+                                                                electrons are transferred to the coenzymes
+                                                                NADH and FADH2.
+                                                                ENE-1.L.4
+                                                                Electrons extracted in glycolysis and Krebs
+                                                                cycle reactions are transferred by NADH and
+                                                                FADH2 to the electron transport chain in the
+                                                                inner mitochondrial membrane.
+
+
+                                                                                                      continued on next page
+
+
+
+
+76   |   Course Framework V.1                                                   AP Biology Course and Exam Description
+                                                                                                             UNIT
+Cellular Energetics
+                                                                                                              3
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.L                              ENE-1.L.5
+   Explain how cells obtain              When electrons are transferred between
+   energy from biological                molecules in a sequence of reactions as they
+   macromolecules in order to            pass through the ETC, an electrochemical
+   power cellular functions.             gradient of protons (hydrogen ions) across the
+                                         inner mitochondrial membrane is established.
+                                         ENE-1.L.6
+                                         Fermentation allows glycolysis to proceed in
+                                         the absence of oxygen and produces organic
+                                         molecules, including alcohol and lactic acid, as
+                                         waste products.
+                                         ENE-1.L.7
+                                         The conversion of ATP to ADP releases
+                                         energy, which is used to power many
+                                         metabolic processes.
+
+                                          X EXCLUSION STATEMENT—Specific steps,
+                                            names of enzymes, and intermediates of the
+                                            pathways for these processes are beyond the scope
+                                            of the course and the AP Exam.
+
+
+                                          X EXCLUSION STATEMENT—Memorization of
+                                            the steps in glycolysis and the Krebs cycle, and of
+                                            the structures of the molecules and the names of
+                                            the enzymes involved, are beyond the scope of the
+                                            course and the AP Exam.
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1   |   77
+            UNIT
+
+             3                   Cellular Energetics
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 3.7
+6.C
+Provide reasoning to justify
+a claim by connecting
+                                 Fitness
+evidence to biological
+theories.
+
+
+
+
+AVAILABLE RESOURCES
+ §§ Classroom Resource >
+                                 Required Course Content
+    Evolution and Change
+ §§ AP Biology Lab
+    Manual > BLAST Lab
+                                   ENDURING UNDERSTANDING
+ILLUSTRATIVE EXAMPLES
+                                   SYI-3
+ §§ Different types of
+    phospholipids in cell          Naturally occurring diversity among and between components within biological
+    membranes allow the            systems affects interactions with the environment.
+    organism flexibility
+    to adapt to different
+    environmental
+    temperatures.                  LEARNING OBJECTIVE                 ESSENTIAL KNOWLEDGE
+ §§ Different types of             SYI-3.A                             SYI-3.A.1
+    hemoglobin maximize            Explain the connection             Variation at the molecular level provides
+    oxygen absorption in
+                                   between variation in the           organisms with the ability to respond to a
+    organisms at different
+    developmental stages.
+                                   number and types of                variety of environmental stimuli.
+                                   molecules within cells to the
+ §§ Different chlorophylls                                             SYI-3.A.2
+                                   ability of the organism to
+    give the plant greater                                            Variation in the number and types of molecules
+    flexibility to exploit/
+                                   survive and/or reproduce in
+                                                                      within cells provides organisms a greater
+    absorb incoming                different environments.
+                                                                      ability to survive and/or reproduce in different
+    wavelengths of light for
+                                                                      environments.
+    photosynthesis.
+
+
+
+
+78    |   Course Framework V.1                                                     AP Biology Course and Exam Description
+

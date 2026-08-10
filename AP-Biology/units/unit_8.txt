@@ -1,0 +1,835 @@
+AP BIOLOGY
+
+
+UNIT 8
+Ecology
+
+
+
+
+     10–15%
+     AP EXAM WEIGHTING
+
+
+
+     ~18–21
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 8
+Multiple-choice: ~20 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results with
+    Graphing
+ §§ Scientific Investigation
+                                     UNIT
+
+                                         8               10–15% AP EXAM WEIGHTING ~18–21 CLASS PERIODS
+
+
+                                Ecology
+
+
+                                Developing Understanding
+  BIG IDEA 1                    As a culmination of this course, Unit 8 brings together all other units to show how a
+  Evolution    EVO              system’s interactions are directly related to the system’s available energy and its ability to
+  §§ How does diversity         evolve and respond to changes in its environment. When highly complex living systems
+     among and between          interact, communities and ecosystems will change based on those interactions. The more
+     species in a biological    biodiversity present in a system, the more likely that system is to maintain its health and
+     system affect the          success in the face of disruption. Energy flows through systems; the rate of flow determines
+     evolution of species       the success of the species within the systems. By this point in the curriculum, a student
+     within the system?         should be able to accurately determine what happens within biological systems when
+                                disruptions occur.
+  BIG IDEA 2
+  Energetics ENE                Building Science Practices                         Preparing for the AP Exam
+  §§ How does the
+     acquisition of energy
+                                 3.C.a   4.A   5.A.c   5.B   5.D.a   6.D   6.E.c
+                                                                                   Students should demonstrate understanding
+     relate to the health of    Designing research to test biological              of the relationship between organisms
+     a biological system?       systems is at the heart of this course.            and their environment by constructing
+                                Students should be able to understand              and analyzing food chains and food webs
+  §§ How do communities
+                                and evaluate experimental plans designed           and analyzing trophic diagrams. On past
+     and ecosystems
+                                and conducted by others. They should be            exams, when students have been asked to
+     change, for better
+                                able to identify the experimental methods,         construct a food web from a data table, they
+     or worse, due to
+                                measurements, and data collection methods          have struggled with inferring the correct
+     biological disruption?
+                                used and articulate the hypothesis. They           relationships between the organisms and
+                                should also be able to plan and implement          with translating how a relationship between
+  BIG IDEA 3
+                                data collection strategies that test biological    two organisms resulted in their placement
+  Information Storage
+                                systems, in order to understand and develop        on the food web. Another common error is
+  and Transmission IST
+                                solutions to problems within biological            the incorrect placement of the arrows that
+  §§ How does a disruption
+                                systems. An understanding of how to design         indicate energy flow. Students should use
+     of a biological system
+                                experiments that test biological systems           their knowledge from Unit 3 to explain how
+     affect genetic
+                                is demonstrated by the ability to interpret        energy and carbon are transferred through
+     information storage and
+                                the results of an experiment in relation to        an ecosystem so that they can predict how
+     transmission?
+                                a hypothesis. Sometimes, experimental              changes in the environment can impact an
+                                procedures will need to be modified in order       ecosystem, both positively and negatively.
+  BIG IDEA 4
+                                to collect appropriate data; students should
+  Systems                                                                          Throughout the course, students should
+                                understand how to modify a procedure to
+  Interactions     SYI                                                             practice providing support for their claims
+                                collect data and test a hypothesis.
+  §§ How do species                                                                about biological systems. Connections
+     interactions affect                                                           to ecology throughout the course are
+     the survival of an                                                            fundamental and will help students to build
+     ecosystem?                                                                    this skill.
+
+
+
+
+AP Biology Course and Exam Description                                                             Course Framework V.1   |   149
+                        UNIT
+
+                         8                      Ecology
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                                     Class Periods
+Understanding
+                      Topic                                 Suggested Skill                                          ~18–21 CLASS PERIODS
+
+                                                             3.C.a Identify experimental procedures that
+ENE-3,                8.1 Responses to the
+                                                            are aligned to the question, including identifying
+ IST-5                    Environment
+                                                            dependent and independent variables.
+
+                      8.2 Energy Flow Through               6.D Explain the relationship between experimental
+
+   ENE-1                  Ecosystems                        results and larger biological concepts, processes,
+                                                            or theories.
+
+                      8.3 Population Ecology              4.A   Construct a graph, plot, or chart.
+
+   SYI-1              8.4 Effect of Density                5.A.c Perform mathematical calculations,
+                          of Populations                    including rates.
+
+                      8.5 Community Ecology                 5.B Use confidence intervals and/or error
+
+
+   ENE-4
+                                                            bars (both determined using standard errors)
+                                                            to determine whether sample means are
+                                                            statistically different.
+
+                      8.6 Biodiversity                      6.E.c Predict the causes or effects of a change
+
+   SYI-3                                                    in, or disruption to, one or more components in a
+                                                            biological system based on data.
+
+                      8.7 Disruptions to Ecosystems         5.D.a Use data to evaluate a hypothesis (or
+                                                            prediction), including rejecting or failing to reject
+
+
+
+   EVO-1, SYI-2
+                                                            the null hypothesis.
+
+                                                             5.D.b Use data to evaluate a hypothesis (or
+                                                            prediction), including supporting or refuting the
+                                                            alternative hypothesis.
+
+
+                       Go to AP Classroom to assign the Personal Progress Check for Unit 8.
+                        Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+150               |    Course Framework V.1                                                             AP Biology Course and Exam Description
+                                                                                                                   UNIT
+Ecology
+                                                                                                                    8
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic        Sample Activity
+
+     1            8.1        Error Analysis
+                             Students can perform an animal behavior lab using pill bugs. They can use choice chambers
+                             to study the responses of pill bugs to environmental stimuli. Create different environments
+                             on either side of the choice chamber. Place the same number of pill bugs on both sides of
+                             the choice chamber. Count the number of pill bugs on both sides of the choice chamber
+                             at regular intervals for a defined period of time. Chi-square can be used to analyze the
+                             null hypothesis.
+
+     2            8.5        Graph and Switch
+                             Students can read about the moose and wolves of Isle Royale to obtain background
+                             information on the two organisms. They can download a data spreadsheet and graph
+                             data about the two populations from the Internet. They can use their graph to make and
+                             justify predictions about how the two populations can change relative to each other.
+
+     3            8.6        Index Card Summaries/Questions
+                             Students can perform the “hula hoop diversity” activity. Divide students into groups,
+                             and give each group a hula hoop and a magnifying glass. Students should place their
+                             hula hoop in a grassy/woodsy area or garden and then make observations and collect
+                             a variety of data from their sampling area about the plants, animals, and abiotic factors
+                             inside the hula hoop. At the conclusion of the activity, have students predict what will
+                             happen to organisms in an ecosystem when its biodiversity changes, discuss the
+                             relationship between biodiversity and species endangerment, and predict what changes
+                             might occur in an ecosystem when a biotic or abiotic factor changes.
+
+
+
+
+             Unit Planning Notes
+     Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+     your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                Course Framework V.1   |   151
+             UNIT
+
+              8                    Ecology
+
+
+SUGGESTED SKILL
+      Questions and
+                                   TOPIC 8.1
+                                   Responses to the
+      Methods
+3.C.a
+Identify experimental
+procedures that are aligned
+to the question, including
+identifying dependent and
+                                   Environment
+independent variables.
+
+
+
+
+AVAILABLE RESOURCES
+ §§ AP Biology Lab Manual >
+                                   Required Course Content
+    Transpiration Lab
+ §§ AP Biology Lab Manual >
+    Fruit Fly Behavior Lab
+ §§ Classroom Resources >
+                                     ENDURING UNDERSTANDING
+    Visualizing Information          ENE-3
+ §§ Classroom Resources >            Timing and coordination of biological mechanisms involved in growth, reproduction,
+    Quantitative Skills in           and homeostasis depend on organisms responding to environmental cues.
+    the AP Sciences (2018)
+
+ILLUSTRATIVE EXAMPLES
+ENE-3.D.1
+ §§ Photoperiodism and
+                                     LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+    phototropism in plants           ENE-3.D                             ENE-3.D.1
+ §§ Taxis and kinesis in             Explain how the behavioral          Organisms respond to changes in their
+    animals                          and/or physiological                environment through behavioral and
+ §§ Nocturnal and diurnal            response of an organism is          physiological mechanisms.
+    activity                         related to changes in internal
+                                                                          X  EXCLUSION STATEMENT—No specific
+                                     or external environment.
+ENE-3.D.2                                                                    behavioral or physiological mechanism is required
+ §§ Fight-or-flight response                                                 for teaching this concept.
+ §§ Predator warnings
+ §§ Plant responses to                                                   ENE-3.D.2
+    herbivory                                                            Organisms exchange information with one
+IST-5.A.2.a                                                              another in response to internal changes and
+ §§ Territorial marking in                                               external cues, which can change behavior.
+    mammals
+ §§ Coloration in flowers
+
+IST-5.A.2.b
+ §§ Bird songs
+ §§ Pack behavior in
+    animals
+ §§ Predator warnings
+ §§ Coloration
+continued on next page
+
+
+
+
+152     |   Course Framework V.1                                                        AP Biology Course and Exam Description
+                                                                                                               UNIT
+Ecology
+                                                                                                                8
+   ENDURING UNDERSTANDING
+    IST-5
+                                                                                                     ILLUSTRATIVE EXAMPLES
+   Transmission of information results in changes within and between biological systems.
+                                                                                                     IST-5.A.3.a
+                                                                                                      §§ Parent and offspring
+                                                                                                         interactions
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE                                          §§ Courtship and mating
+    IST-5.A                              IST-5.A.1
+                                                                                                         behaviors
+
+   Explain how the behavioral            Individuals can act on information and                       §§ Foraging in bees and
+                                                                                                         other animals
+   responses of organisms                communicate it to others.
+   affect their overall fitness          IST-5.A.2
+                                                                                                     IST-5.A.3.b
+   and may contribute to the                                                                          §§ Pack behavior in
+                                         Communication occurs through various
+   success of the population.                                                                            animals
+                                         mechanisms—
+                                                                                                      §§ Herd, flock, and
+                                         a. Organisms have a variety of signaling                        schooling behavior in
+                                            behaviors that produce changes in the                        animals
+                                            behavior of other organisms and can result                §§ Predator warning
+                                            in differential reproductive success.
+                                                                                                      §§ Colony and swarming
+                                         b. Animals use visual, audible, tactile, electrical,            behavior in insects
+                                            and chemical signals to indicate dominance,               §§ Kin selection
+                                            find food, establish territory, and ensure
+                                            reproductive success.
+
+                                         IST-5.A.3
+                                         Responses to information and communication
+                                         of information are vital to natural selection and
+                                         evolution—
+                                         a. Natural selection favors innate and learned
+                                            behaviors that increase survival and
+                                            reproductive fitness.
+                                         b. Cooperative behavior tends to increase the
+                                            fitness of the individual and the survival of
+                                            the population.
+                                          X  EXCLUSION STATEMENT—The details of the
+                                             various communications and community behavioral
+                                             systems are beyond the scope of the course and the
+                                             AP Exam.
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1      |   153
+            UNIT
+
+             8                   Ecology
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 8.2
+6.D
+Explain the relationship
+between experimental
+                                 Energy Flow Through
+results and larger biological
+concepts, processes,
+or theories.
+                                 Ecosystems
+
+AVAILABLE RESOURCES
+ §§ AP Biology Lab Manual >
+                                 Required Course Content
+    Energy Dynamics Lab
+ §§ Classroom Resources >
+    Visualizing Information
+                                   ENDURING UNDERSTANDING
+ILLUSTRATIVE EXAMPLES
+ §§ Seasonal reproduction          ENE-1
+    in animals and plants          The highly complex organization of living systems requires constant input of energy
+ §§ Life-history strategy          and the exchange of macromolecules.
+    (biennial plants,
+    reproductive diapause)
+
+ENE-1.N.1                          LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+ §§ Food chains/webs
+                                   ENE-1.M                              ENE-1.M.1
+ §§ Trophic pyramids/
+    diagrams
+                                   Describe the strategies             Organisms use energy to maintain
+                                   organisms use to acquire and        organization, grow, and reproduce—
+                                   use energy.                         a. Organisms use different strategies to
+                                                                          regulate body temperature and metabolism.
+                                                                           i. Endotherms use thermal energy
+                                                                              generated by metabolism to maintain
+                                                                              homeostatic body temperatures.
+                                                                          ii. Ectotherms lack efficient internal
+                                                                              mechanisms for maintaining body
+                                                                              temperature, though they may regulate
+                                                                              their temperature behaviorally by moving
+                                                                              into the sun or shade or by aggregating
+                                                                              with other individuals.
+                                                                       b. Different organisms use various reproductive
+                                                                          strategies in response to energy availability.
+                                                                       c. There is a relationship between metabolic
+                                                                          rate per unit body mass and the size of
+                                                                          multicellular organisms—generally, the
+                                                                          smaller the organism, the higher the
+                                                                          metabolic rate.
+                                                                       d. A net gain in energy results in energy
+                                                                          storage or the growth of an organism.
+                                                                       e. A net loss of energy results in loss of mass
+                                                                          and, ultimately, the death of an organism.
+
+
+                                                                                                     continued on next page
+
+
+
+
+154   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                        UNIT
+Ecology
+                                                                                                         8
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.N                              ENE-1.N.1
+   Explain how changes in                Changes in energy availability can result in
+   energy availability affect            changes in population size.
+   populations and ecosystems.
+                                         ENE.1.N.2
+                                         Changes in energy availability can result in
+                                         disruptions to an ecosystem—
+                                         a. A change in energy resources such as
+                                            sunlight can affect the number and size of
+                                            the trophic levels.
+                                         b. A change in the producer level can affect the
+                                            number and size of other trophic levels.
+
+
+    ENE-1.O                              ENE-1.O.1
+   Explain how the activities of         Autotrophs capture energy from physical or
+   autotrophs and heterotrophs           chemical sources in the environment—
+   enable the flow of energy             a. Photosynthetic organisms capture energy
+   within an ecosystem.                     present in sunlight.
+                                         b. Chemosynthetic organisms capture energy
+                                            from small inorganic molecules present in
+                                            their environment, and this process can
+                                            occur in the absence of oxygen.
+                                         ENE-1. O.2
+                                         Heterotrophs capture energy present in carbon
+                                         compounds produced by other organisms.
+                                         a. Heterotrophs may metabolize
+                                            carbohydrates, lipids, and proteins as
+                                            sources of energy by hydrolysis.
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1   |   155
+           UNIT
+
+            8                    Ecology
+
+
+                                 TOPIC 8.3
+SUGGESTED SKILL
+      Representing and
+
+
+                                 Population Ecology
+      Describing Data
+4.A
+Construct a graph, plot,
+or chart.
+
+
+
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    Quantitative Skills in
+    the AP Sciences (2018)
+
+                                   ENDURING UNDERSTANDING
+                                   SYI-1
+                                   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   SYI-1.G                                SYI-1.G.1
+                                   Describe factors that                  Populations comprise individual organisms
+                                   influence growth dynamics              that interact with one another and with the
+                                   of populations.                        environment in complex ways.
+                                                                          SYI-1.G.2
+                                                                          Many adaptations in organisms are related to
+                                                                          obtaining and using energy and matter in a
+                                                                          particular environment—
+                                                                          a. Population growth dynamics depend on a
+                                                                             number of factors.
+
+                                                                           RELEVANT EQUATION
+                                                                              Population Growth—
+                                                                              dN
+                                                                                 = B−D
+                                                                              dt
+                                                                              where:
+                                                                              dt = chage in time
+                                                                              B = birth rate
+                                                                              D = death rate
+                                                                              N = population size
+
+                                                                             i. Reproduction without constraints results
+                                                                                in the exponential growth of a population.
+
+
+                                                                                                         continued on next page
+
+
+
+
+156   |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                UNIT
+Ecology
+                                                                                                 8
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-1.G
+                                         RELEVANT EQUATION
+   Describe factors that
+                                           Exponential Growth—
+   influence growth dynamics
+   of populations.                         dN
+                                              = rmax N
+                                           dt
+                                           where:
+                                            dt = change in time
+                                             N = population size
+                                           rmax = maximum per capita growth rate
+                                                of population
+
+
+
+
+AP Biology Course and Exam Description                                              Course Framework V.1   |   157
+             UNIT
+
+              8                    Ecology
+
+
+SUGGESTED SKILL
+      Statistical Tests and
+                                   TOPIC 8.4
+                                   Effect of Density
+      Data Analysis
+5.A.c
+Perform mathematical
+calculations, including rates.
+                                   of Populations
+
+                                   Required Course Content
+
+
+                                     ENDURING UNDERSTANDING
+                                     SYI-1
+                                     Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                     LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                     SYI-1.H                                SYI-1.H.1
+                                     Explain how the density                A population can produce a density of
+                                     of a population affects                individuals that exceeds the system’s resource
+                                     and is determined by                   availability.
+                                     resource availability in               SYI-1.H.2
+                                     the environment.
+                                                                            As limits to growth due to density-dependent
+                                                                            and density-independent factors are imposed, a
+                                                                            logistic growth model generally ensues.
+
+                                                                             RELEVANT EQUATION
+
+                                                                                dN       K−N
+                                                                                   =r N
+                                                                                dt max  K 
+                                                                                where:
+                                                                                 dt = change in time
+                                                                                  N = population size
+                                                                                rmax = maximum per capita growth rate
+                                                                                        of population
+                                                                                  K = carrying capacity
+
+
+
+
+158     |   Course Framework V.1                                                           AP Biology Course and Exam Description
+                                                                                                                   UNIT
+Ecology
+                                                                                                                    8
+TOPIC 8.5                                                                                               SUGGESTED SKILL
+                                                                                                               Statistical Tests and
+
+
+Community Ecology
+                                                                                                               Data Analysis
+                                                                                                         5.B
+                                                                                                        Use confidence intervals
+                                                                                                        and/or error bars (both
+                                                                                                        determined using standard
+                                                                                                        errors) to determine
+                                                                                                        whether sample means are
+                                                                                                        statistically different.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    ENE-4
+   Communities and ecosystems change on the basis of interactions among
+   populations and disruptions to the environment.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-4.A                              ENE-4.A.1
+   Describe the structure of             The structure of a community is measured and
+   a community according to              described in terms of species composition and
+   its species composition               species diversity.
+   and diversity.
+                                          RELEVANT EQUATION
+                                            Simpson's Diversity Index—
+                                                                            2
+                                                                     n
+                                            Diversity Index = 1 − ∑  
+                                                                    N
+
+                                               n = the total number of organisms of
+                                                     a particular species
+                                               N = total number of organisms of
+                                                     all species
+
+
+
+
+    ENE-4.B                              ENE-4.B.1
+   Explain how interactions              Communities change over time depending on
+   within and among                      interactions between populations.
+   populations influence                 ENE-4.B.2
+   community structure.
+                                         Interactions among populations determine
+                                         how they access energy and matter within
+                                         a community.
+
+
+                                                                            continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                               Course Framework V.1     |   159
+           UNIT
+
+            8                    Ecology
+
+
+
+                                  LEARNING OBJECTIVE         ESSENTIAL KNOWLEDGE
+                                   ENE-4.B                   ENE-4.B.3
+                                  Explain how interactions   Relationships among interacting populations
+                                  within and among           can be characterized by positive and negative
+                                  populations influence      effects and can be modeled. Examples include
+                                  community structure.       predator/prey interactions, trophic cascades,
+                                                             and niche partitioning.
+                                                             ENE-4.B.4
+                                                             Competition, predation, and symbioses,
+                                                             including parasitism, mutualism, and
+                                                             commensalism, can drive population dynamics.
+
+
+                                   ENE-4.C                   ENE-4.C.1
+                                  Explain how community      Cooperation or coordination between
+                                  structure is related to    organisms, populations, and species can result
+                                  energy availability in     in enhanced movement of, or access to, matter
+                                  the environment.           and energy.
+
+
+
+
+160   |   Course Framework V.1                                            AP Biology Course and Exam Description
+                                                                                                    UNIT
+Ecology
+                                                                                                     8
+TOPIC 8.6                                                                                  SUGGESTED SKILL
+                                                                                                Argumentation
+
+
+Biodiversity                                                                                6.E.c
+                                                                                           Predict the causes or
+                                                                                           effects of a change in, or
+                                                                                           disruption to, one or more
+                                                                                           components in a biological
+                                                                                           system based on data.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    SYI-3
+   Naturally occurring diversity among and between components within biological
+   systems affects interactions with the environment.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-3.F                              SYI-3.F.1
+   Describe the relationship             Natural and artificial ecosystems with fewer
+   between ecosystem diversity           component parts and with little diversity
+   and its resilience to changes         among the parts are often less resilient to
+   in the environment.                   changes in the environment.
+                                         SYI-3.F.2
+                                         Keystone species, producers, and essential
+                                         abiotic and biotic factors contribute to
+                                         maintaining the diversity of an ecosystem.
+
+
+    SYI-3.G                              SYI-3.G.1
+   Explain how the addition or           The diversity of species within an ecosystem
+   removal of any component of           may influence the organization of the
+   an ecosystem will affect its          ecosystem.
+   overall short-term and long-          SYI-3.G.2
+   term structure.
+                                         The effects of keystone species on the
+                                         ecosystem are disproportionate relative to
+                                         their abundance in the ecosystem, and when
+                                         they are removed from the ecosystem, the
+                                         ecosystem often collapses.
+
+
+
+
+AP Biology Course and Exam Description                                                  Course Framework V.1   |   161
+              UNIT
+
+              8                    Ecology
+
+
+SUGGESTED SKILLS
+      Statistical Tests and
+                                   TOPIC 8.7
+                                   Disruptions
+      Data Analysis
+5.D.a
+Use data to evaluate a
+hypothesis (or prediction),
+including rejecting or failing
+to reject the null hypothesis.
+                                   to Ecosystems
+5.D.b
+Use data to evaluate a
+hypothesis (or prediction),
+including supporting or
+refuting the alternative
+hypothesis.
+                                   Required Course Content
+
+
+ILLUSTRATIVE EXAMPLES                ENDURING UNDERSTANDING
+SYI-2.A.2                            EVO-1
+ §§ Kudzu                            Evolution is characterized by change in the genetic make-up of a population over
+ §§ Zebra mussels                    time and is supported by multiple lines of evidence.
+SYI-2.B.2.a
+ §§ Dutch elm disease
+ §§ Potato blight                    LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+SYI-2.B.2.b                          EVO-1.O                              EVO-1.O.1
+ §§ Global climate change            Explain the interaction             An adaptation is a genetic variation that is
+ §§ Logging                          between the environment             favored by selection and is manifested as a trait
+                                     and random or preexisting           that provides an advantage to an organism in a
+ §§ Urbanization
+                                     variations in populations.          particular environment.
+ §§ Mono-cropping
+                                                                          EVO-1.O.2
+SYI-2.C.1
+                                                                         Mutations are random and are not directed by
+ §§ El Niño
+                                                                         specific environmental pressures.
+ §§ Continental drift
+ §§ Meteor impact on
+    dinosaurs
+
+
+
+                                     ENDURING UNDERSTANDING
+                                     SYI-2
+                                     Competition and cooperation are important aspects of biological systems.
+
+
+
+                                     LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                     SYI-2.A                              SYI-2.A.1
+                                     Explain how invasive species        The intentional or unintentional introduction
+                                     affect ecosystem dynamics.          of an invasive species can allow the species
+                                                                         to exploit a new niche free of predators or
+                                                                         competitors or to outcompete other organisms
+                                                                         for resources.
+
+
+                                                                                                       continued on next page
+
+
+
+
+162     |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                        UNIT
+Ecology
+                                                                                                         8
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-2.A                              SYI-2.A.2
+   Explain how invasive species          The availability of resources can result
+   affect ecosystem dynamics.            in uncontrolled population growth and
+                                         ecological changes.
+
+
+    SYI-2.B                              SYI-2.B.1
+   Describe human activities             The distribution of local and global ecosystems
+   that lead to changes in               changes over time.
+   ecosystem structure and/              SYI-2.B.2
+   or dynamics.
+                                         Human impact accelerates change at local and
+                                         global levels—
+                                         a. The introduction of new diseases can
+                                            devastate native species.
+                                         b. Habitat change can occur because of
+                                            human activity.
+
+
+    SYI-2.C                              SYI-2.C.1
+   Explain how geological and            Geological and meteorological events
+   meteorological activity leads         affect habitat change and ecosystem
+   to changes in ecosystem               distribution. Biogeographical studies illustrate
+   structure and/or dynamics.            these changes.
+
+
+
+
+AP Biology Course and Exam Description                                                      Course Framework V.1   |   163
+

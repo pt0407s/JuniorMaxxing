@@ -1,0 +1,561 @@
+AP BIOLOGY
+
+
+UNIT 1
+Chemistry
+of Life
+
+
+
+
+     8–11%
+     AP EXAM WEIGHTING
+
+
+
+     ~5–7
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 1
+Multiple-choice: ~20 questions
+Free-response: 2 questions
+ §§ Conceptual Analysis (partial)
+ §§ Analyze Model or Visual
+    Representation (partial)
+                                      UNIT
+
+                                      1             8–11% AP EXAM WEIGHTING                  ~5–7 CLASS PERIODS
+
+
+                                Chemistry
+                                of Life
+
+                                Developing Understanding
+  BIG IDEA 2                    This first unit sets the foundation for students to understand the chemical basis of life, which
+  Energetics ENE                is needed for mastery of future areas of focus and provides students with a survey of the
+  §§ What is the role           elements necessary for carbon-based systems to function. Students learn that water and
+     of energy in the           the properties of water play a vital role in the survival of individuals and biological systems.
+     making and breaking        They also learn that living systems exist in a highly complex organization that requires input of
+     of polymers?               energy and the exchange of macromolecules. This unit also addresses in detail how and in what
+                                conformations molecules called monomers bond together to form polymers. The structure of
+  BIG IDEA 3                    monomers and polymers determines their function. In the units that follow, students will need to
+  Information Storage           understand and explain the interaction and bonding of atoms to form molecules.
+  and Transmission IST
+  §§ How do living              Building Science Practices                          Preparing for the AP Exam
+     systems transmit
+     information in order to
+                                1.A   2.A   6.E.b
+                                                                                    The AP Biology Exam requires students to
+     ensure their survival?     The ability to describe biological                  make predictions and justify their reasoning in
+                                processes, principles, and concepts is              real-world scenarios. Students are expected
+  BIG IDEA 4                    central to the study of biology. Visual             to interpret and evaluate experimental results,
+  Systems                       representations and models are important            analyze biological concepts and scientific
+  Interactions     SYI          tools to help students understand                   investigations, and perform data analysis
+  §§ How would living           relationships within biological systems.            and statistical testing.
+     systems function           In this unit the successful student should
+                                                                                    A foundational concept for students to
+     without the polarity of    use visual representations to demonstrate
+                                                                                    understand is that biological systems
+     the water molecule?        understanding of how the properties of
+                                                                                    depend on relationships that, when
+                                water allow it to play a major role in biological
+                                                                                    compromised, can have far-reaching
+                                systems and to show the properties and
+                                                                                    consequences within the system. These
+                                structure of biological macromolecules.
+                                                                                    consequences can sometimes be
+                                In biology, an argument involves making             deleterious for cells, organisms, and even
+                                a claim, supporting it with evidence, and           ecosystems. This understanding will help
+                                providing reasoning to support the claim.           students make and justify predictions about
+                                Beginning in this unit and throughout the           how the changes in a biological system
+                                course, students should become proficient           affect its function.
+                                in argumentation by predicting the causes
+                                                                                    On the exam, students tend to struggle with
+                                or effects of a change in, or disruption to,
+                                                                                    the use of language and similar terms, for
+                                one or more components in a biological
+                                                                                    example, protein versus proton. This confusion
+                                system. The instructional focus of this unit
+                                                                                    often results in a failure to earn points on free-
+                                should be on describing the structure and
+                                                                                    response questions. Teachers should hold
+                                function of biological macromolecules and
+                                                                                    students accountable for the proper use of
+                                describing the relationship between structure
+                                                                                    appropriate terms throughout the course.
+                                and function.
+
+
+
+AP Biology Course and Exam Description                                                                 Course Framework V.1     |   31
+                  UNIT
+
+                   1                     Chemistry of Life
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                            Class Periods
+Understanding
+                 Topic                                 Suggested Skill                                      ~5–7 CLASS PERIODS
+
+                 1.1 Structure of Water and           2.A Describe characteristics of a biological
+   SYI-1             Hydrogen Bonding                  concept, process, or model represented visually.
+
+
+
+   ENE-1
+                 1.2 Elements of Life                 2.A Describe characteristics of a biological
+                                                       concept, process, or model represented visually.
+
+
+                 1.3 Introduction to Biological      2.A Describe characteristics of a biological
+                     Macromolecules                    concept, process, or model represented visually.
+
+
+                 1.4 Properties of Biological        1.A Describe biological concepts and/
+                                                       or processes.
+   SYI-1
+                     Macromolecules
+
+                 1.5 Structure and Function of        6.E.b Predict the causes or effects of a change
+                     Biological Macromolecules         in, or disruption to, one or more components in a
+                                                       biological system based on a visual representation
+                                                       of a biological concept, process, or model.
+
+
+                 1.6  Nucleic Acids                   2.A Describe characteristics of a biological
+   IST-1                                               concept, process, or model represented visually.
+
+
+                 Go to AP Classroom to assign the Personal Progress Check for Unit 1.
+                  Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+32        |     Course Framework V.1                                                           AP Biology Course and Exam Description
+                                                                                                                         UNIT
+Chemistry of Life
+                                                                                                                          1
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or instructional approaches and are free to alter or edit them in any way you
+choose. The following examples were developed in partnership with teachers from the AP
+community to share ways that they approach teaching some of the topics in this unit. Please
+refer to the Instructional Approaches section beginning on p. 171 for more examples of
+activities and strategies.
+
+
+
+
+ Activity       Topic         Sample Activity
+
+     1             1.1        Graph and Switch
+                              Students determine how many drops of water can fit onto a penny. Various substances (e.g.,
+                              salt, sugar, vinegar) can be added to the water to determine how the surface tension of the
+                              water is affected. Students then graph their data and calculate descriptive statistics.
+
+     2             1.3        Index Card Summaries/Questions
+                              Students use diagrams (found online) of water drops, glucose, amino acids, nucleotides,
+                              glycerol, and fatty acids to learn how dehydration synthesis builds molecules. The
+                              templates can be printed on colored paper so that students can easily differentiate water
+                              from the various monomers in order to visualize the formation of the covalent bonds.
+
+     3             1.4        Think-Pair-Share
+                              Students use cards containing pictures of biological molecules to find patterns in the
+                              molecules. Functional groups are identified and marked on each card, and then the cards are
+                              organized based on similarities in their structure. Students then learn about the properties of
+                              the molecules, and the students identify each of the molecules on the cards.
+
+
+
+
+             Unit Planning Notes
+     Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+     your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                      Course Framework V.1   |   33
+            UNIT
+
+             1                   Chemistry of Life
+
+
+SUGGESTED SKILL
+      Visual
+                                 TOPIC 1.1
+                                 Structure of Water and
+      Representations
+2.A
+Describe characteristics
+of a biological concept,
+process, or model
+represented visually.
+                                 Hydrogen Bonding
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   SYI-1
+                                   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   SYI-1.A                                SYI-1.A.1
+                                   Explain how the properties             The subcomponents of biological molecules
+                                   of water that result from              and their sequence determine the properties of
+                                   its polarity and hydrogen              that molecule.
+                                   bonding affect its biological
+                                                                          SYI-1.A.2
+                                   function.
+                                                                          Living systems depend on properties of water
+                                                                          that result from its polarity and hydrogen
+                                                                          bonding.
+                                                                          SYI-1.A.3
+                                                                          The hydrogen bonds between water
+                                                                          molecules result in cohesion, adhesion,
+                                                                          and surface tension.
+
+
+
+
+34    |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                          UNIT
+Chemistry of Life
+                                                                                                           1
+TOPIC 1.2                                                                                      SUGGESTED SKILL
+                                                                                                      Visual
+
+
+Elements of Life
+                                                                                                      Representations
+                                                                                                2.A
+                                                                                               Describe characteristics
+                                                                                               of a biological concept,
+                                                                                               process, or model
+                                                                                               represented visually.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    ENE-1
+   The highly complex organization of living systems requires constant input of energy
+   and the exchange of macromolecules.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.A                              ENE-1.A.1
+   Describe the composition of           Organisms must exchange matter with the
+   macromolecules required by            environment to grow, reproduce, and maintain
+   living organisms.                     organization.
+                                         ENE-1.A.2
+                                         Atoms and molecules from the environment
+                                         are necessary to build new molecules—
+                                         a. Carbon is used to build biological
+                                            molecules such as carbohydrates, proteins,
+                                            lipids, and nucleic acids. Carbon is used in
+                                            storage compounds and cell formation in
+                                            all organisms.
+                                         b. Nitrogen is used to build proteins and nucleic
+                                            acids. Phosphorus is used to build nucleic
+                                            acids and certain lipids.
+
+
+
+
+AP Biology Course and Exam Description                                                       Course Framework V.1    |    35
+            UNIT
+
+             1                   Chemistry of Life
+
+
+SUGGESTED SKILL
+      Visual
+                                 TOPIC 1.3
+                                 Introduction
+      Representations
+2.A
+Describe characteristics
+of a biological concept,
+process, or model
+represented visually.
+                                 to Biological
+                                 Macromolecules
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    Visualizing Information
+
+
+                                   ENDURING UNDERSTANDING
+                                   SYI-1
+                                   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   SYI-1.B                                SYI-1.B.1
+                                   Describe the properties                Hydrolysis and dehydration synthesis are used
+                                   of the monomers and the                to cleave and form covalent bonds between
+                                   type of bonds that connect             monomers.
+                                   the monomers in biological
+                                                                           X EXCLUSION STATEMENT—The molecular
+                                   macromolecules.
+                                                                             structure of specific nucleotides and amino acids is
+                                                                             beyond the scope of the AP Exam.
+                                                                           X EXCLUSION STATEMENT—The molecular
+                                                                             structure of specific carbohydrate polymers is
+                                                                             beyond the scope of the AP Exam.
+
+
+
+
+36    |   Course Framework V.1                                                           AP Biology Course and Exam Description
+                                                                                                               UNIT
+Chemistry of Life
+                                                                                                               1
+TOPIC 1.4                                                                                           SUGGESTED SKILL
+                                                                                                           Concept Explanation
+
+Properties                                                                                           1.A
+                                                                                                    Describe biological
+                                                                                                    concepts and/or processes.
+
+of Biological
+Macromolecules
+Required Course Content                                                                             AVAILABLE RESOURCES
+                                                                                                     §§ Classroom Resources >
+                                                                                                        Visualizing Information
+
+
+   ENDURING UNDERSTANDING
+    SYI-1
+   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    SYI-1.B                               SYI-1.B.2
+   Describe the properties                Structure and function of polymers are derived
+   of the monomers and the                from the way their monomers are assembled—
+   type of bonds that connect             a. In nucleic acids, biological information
+   the monomers in biological                is encoded in sequences of nucleotide
+   macromolecules.                           monomers. Each nucleotide has structural
+                                             components: a five-carbon sugar
+                                             (deoxyribose or ribose), a phosphate, and a
+                                             nitrogen base (adenine, thymine, guanine,
+                                             cytosine, or uracil). DNA and RNA differ in
+                                             structure and function.
+                                          b. In proteins, the specific order of amino
+                                             acids in a polypeptide (primary structure)
+                                             determines the overall shape of the protein.
+                                             Amino acids have directionality, with
+                                             an amino (NH2) terminus and a carboxyl
+                                             (COOH) terminus. The R group of an amino
+                                             acid can be categorized by chemical
+                                             properties (hydrophobic, hydrophilic, or
+                                             ionic), and the interactions of these R groups
+                                             determine structure and function of that
+                                             region of the protein.
+                                          c. Complex carbohydrates comprise sugar
+                                             monomers whose structures determine the
+                                             properties and functions of the molecules.
+
+
+                                                                         continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1   |   37
+           UNIT
+
+            1                   Chemistry of Life
+
+
+
+                                  LEARNING OBJECTIVE           ESSENTIAL KNOWLEDGE
+                                  SYI-1.B                      d. Lipids are nonpolar macromolecules—
+                                  Describe the properties        i. Differences in saturation determine the
+                                  of the monomers and the           structure and function of lipids.
+                                  type of bonds that connect     ii. Phospholipids contain polar regions that
+                                  the monomers in biological         interact with other polar molecules, such
+                                  macromolecules.
+                                                                     as water, and with nonpolar regions that
+                                                                     are often hydrophobic.
+                                                                X EXCLUSION STATEMENT—The molecular
+                                                                 structure of specific lipids is beyond the scope
+                                                                 of the AP Exam.
+
+
+
+
+38   |   Course Framework V.1                                                 AP Biology Course and Exam Description
+                                                                                                              UNIT
+Chemistry of Life
+                                                                                                               1
+TOPIC 1.5
+                                                                                                    SUGGESTED SKILL
+                                                                                                         Argumentation
+
+
+Structure and                                                                                        6.E.b
+                                                                                                    Predict the causes or effects
+                                                                                                    of a change in, or disruption
+
+Function of Biological                                                                              to, one or more components
+                                                                                                    in a biological system based
+                                                                                                    on a visual representation
+
+
+Macromolecules                                                                                      of a biological concept,
+                                                                                                    process, or model.
+
+
+
+
+Required Course Content                                                                             ILLUSTRATIVE EXAMPLE
+                                                                                                     §§ Cellulose versus starch
+                                                                                                        versus glycogen
+
+   ENDURING UNDERSTANDING
+    SYI-1
+   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    SYI-1.C                               SYI-1.C.1
+   Explain how a change in                Directionality of the subcomponents influences
+   the subunits of a polymer              structure and function of the polymer—
+   may lead to changes in                 a. Nucleic acids have a linear sequence of
+   structure or function of                  nucleotides that have ends, defined by the 3’
+   the macromolecule.                        hydroxyl and 5’ phosphates of the sugar in the
+                                             nucleotide. During DNA and RNA synthesis,
+                                             nucleotides are added to the 3’ end of the
+                                             growing strand, resulting in the formation of a
+                                             covalent bond between nucleotides.
+                                          b. DNA is structured as an antiparallel double
+                                             helix, with each strand running in opposite
+                                             5’ to 3’ orientation. Adenine nucleotides
+                                             pair with thymine nucleotides via two
+                                             hydrogen bonds. Cytosine nucleotides
+                                             pair with guanine nucleotides by three
+                                             hydrogen bonds.
+                                          c. Proteins comprise linear chains of amino
+                                             acids, connected by the formation of
+                                             covalent bonds at the carboxyl terminus of
+                                             the growing peptide chain.
+
+
+                                                                         continued on next page
+
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1     |   39
+           UNIT
+
+            1                   Chemistry of Life
+
+
+
+                                  LEARNING OBJECTIVE          ESSENTIAL KNOWLEDGE
+                                  SYI-1.C                     d. Proteins have primary structure determined
+                                  Explain how a change in        by the sequence order of their constituent
+                                  the subunits of a polymer      amino acids, secondary structure that arises
+                                  may lead to changes in         through local folding of the amino acid
+                                  structure or function of       chain into elements such as alpha-helices
+                                  the macromolecule.             and beta-sheets, tertiary structure that is
+                                                                 the overall three-dimensional shape of the
+                                                                 protein and often minimizes free energy,
+                                                                 and quaternary structure that arises from
+                                                                 interactions between multiple polypeptide
+                                                                 units. The four elements of protein structure
+                                                                 determine the function of a protein.
+                                                              e. Carbohydrates comprise linear chains of
+                                                                 sugar monomers connected by covalent
+                                                                 bonds. Carbohydrate polymers may be linear
+                                                                 or branched.
+
+
+
+
+40   |   Course Framework V.1                                              AP Biology Course and Exam Description
+                                                                                                        UNIT
+Chemistry of Life
+                                                                                                         1
+TOPIC 1.6                                                                                    SUGGESTED SKILL
+                                                                                                    Visual
+
+
+Nucleic Acids
+                                                                                                    Representations
+                                                                                              2.A
+                                                                                             Describe characteristics
+                                                                                             of a biological concept,
+                                                                                             process, or model
+                                                                                             represented visually.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    IST-1
+   Heritable information provides for continuity of life.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    IST-1.A                                IST-1.A.1
+   Describe the structural                DNA and RNA molecules have structural
+   similarities and differences           similarities and differences related to their
+   between DNA and RNA.                   function—
+                                          a. Both DNA and RNA have three
+                                             components—sugar, a phosphate group,
+                                             and a nitrogenous base—that form
+                                             nucleotide units that are connected by
+                                             covalent bonds to form a linear molecule
+                                             with 5’ and 3’ ends, with the nitrogenous
+                                             bases perpendicular to the sugar-phosphate
+                                             backbone.
+                                          b. The basic structural differences between
+                                             DNA and RNA include the following:
+                                              i. DNA contains deoxyribose and RNA
+                                                 contains ribose.
+                                              ii. RNA contains uracil and DNA
+                                                  contains thymine.
+                                             iii. DNA is usually double stranded; RNA is
+                                                  usually single stranded.
+                                             iv. The two DNA strands in double-stranded
+                                                 DNA are antiparallel in directionality.
+
+
+
+
+AP Biology Course and Exam Description                                                     Course Framework V.1    |    41
+

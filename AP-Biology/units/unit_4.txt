@@ -1,0 +1,626 @@
+AP BIOLOGY
+
+
+UNIT 4
+Cell
+Communication
+and Cell Cycle
+
+
+
+     10–15%
+     AP EXAM WEIGHTING
+
+
+
+     ~9–11
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 4
+Multiple-choice: ~25 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results (partial)
+ §§ Analyze Data
+                                       UNIT
+
+                                       4                  10–15% AP EXAM WEIGHTING           ~9–11 CLASS PERIODS
+
+
+                                Cell Communication
+                                and Cell Cycle
+
+                                Developing Understanding
+  BIG IDEA 2                    In Unit 4, students continue to learn about the role of cells, focusing on how cells use energy
+  Energetics ENE                and information transmission to communicate and replicate. Through systems of complex
+  §§ In what ways do            transduction pathways, cells can communicate with one another. Cells can also generate
+     cells use energy to        and receive signals, coordinate mechanisms for growth, and respond to environmental
+     communicate with           cues. To maintain homeostasis, cells respond to their environment. They can also replicate
+     one another?               and regulate replication as part of the cell cycle that provides for the continuity of life.
+                                In Unit 5, students will move on to learn about heredity.
+  BIG IDEA 3
+  Information Storage           Building Science Practices                       Preparing for the AP Exam
+  and Transmission IST
+  §§ How does the cell cycle
+                                 1.A    1.B   3.D   4.A    6.A   6.B   6.E.b
+                                                                                 For the AP Exam, students must have a deep
+     aid in the conservation    Students build on their abilities to describe    understanding of the significance of the
+     of genetic information?    and explain biological concepts and              steps in cell signaling, the amplification of
+                                processes by describing the cell cycle           the signal, the recycling of relay molecules
+  §§ Why and in what ways
+                                regulation. Students should now be able to       between activated and inactivated forms
+     do cells communicate
+                                explain the relationships between structure      to regulate the cellular response, and the
+     with one another?
+                                and function for all organelles and cellular     multiple roles of the same molecules in
+                                components on both the subcellular and the       providing specificity. Using the principles
+                                cellular level.                                  of cell signaling, students should be able
+                                                                                 to explain—using claim, evidence, and
+                                By performing laboratory investigations
+                                                                                 reasoning—how a drug works or how
+                                focused on the concepts of cell cycle,
+                                                                                 the symptoms of a chronic disease arise.
+                                students should develop an understanding
+                                                                                 Students should understand that signal
+                                of how to formulate and devise a plan
+                                                                                 molecules bind to receptors and that
+                                to investigate the answer to a scientific
+                                                                                 gene expression can be stimulated by
+                                question—critical skills for scientific
+                                                                                 signal transduction.
+                                inquiry. Students continue to build skills
+                                in communicating the results of scientific       Students may be expected to predict the
+                                inquiry. This is a unit where students can       effect on a cell if there is a disruption in the
+                                be given opportunities to practice their         cell cycle. A common error on the exam is
+                                graphing skills.                                 failure to explain the purpose and timing of
+                                                                                 the cell cycle checkpoints. Students should
+                                                                                 also be prepared to answer a comparative
+                                                                                 question about mitosis and meiosis.
+
+
+
+
+AP Biology Course and Exam Description                                                              Course Framework V.1     |   81
+                  UNIT
+
+                   4                   Cell Communication and Cell Cycle
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                             Class Periods
+Understanding
+                  Topic                              Suggested Skill                                         ~9–11 CLASS PERIODS
+
+                  4.1 Cell Communication            1.B   Explain biological concepts and/or processes.
+
+
+                  4.2 Introduction to Signal        1.A Describe biological concepts
+                      Transduction                   and/or processes.
+
+
+   IST-3
+                  4.3 Signal Transduction           6.C Provide reasoning to justify a claim by
+                                                     connecting evidence to biological theories.
+
+
+                  4.4 Changes in Signal              6.E.b Predict the causes or effects of a change
+                      Transduction Pathways          in, or disruption to, one or more components in a
+                                                     biological system based on a visual representation of
+                                                     a biological concept, process, or model.
+
+                  4.5 Feedback                       6.E.b Predict the causes or effects of a change
+
+
+   ENE-3
+                                                     in, or disruption to, one or more components in a
+                                                     biological system based on a visual representation of
+                                                     a biological concept, process, or model.
+
+                  4.6 Cell Cycle                    4.B.b Describe data from a table or graph, including
+                                                     describing trends and/or patterns in the data.
+
+                                                      5.A.e Perform mathematical calculations,
+                                                     including percentages.
+   IST-1
+                  4.7 Regulation of Cell Cycle      6.E.a Predict the causes or effects of a change
+                                                     in, or disruption to, one or more components in a
+                                                     biological system based on biological concepts
+                                                     or processes.
+
+
+                 Go to AP Classroom to assign the Personal Progress Check for Unit 4.
+                  Review the results in class to identify and address any student misunderstandings.
+
+
+
+
+82       |      Course Framework V.1                                                           AP Biology Course and Exam Description
+                                                                                                                       UNIT
+Cell Communication and Cell Cycle
+                                                                                                                       4
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic         Sample Activity
+
+     1            4.1         One-Minute Essay
+                              Have students do research online (provide reputable websites for them to use) to learn
+                              about diseases that result from a breakdown in cell communication. Assign students a
+                              one-minute essay with a prompt that allows the formative assessment of their
+                              understanding, such as, “Describe an example of communication between two cells.”
+
+     2            4.2         Ask the Expert
+                              Students can be divided into three groups. Each group will complete one of the three
+                              sections of the Signal Transduction POGIL. The teacher can debrief with each group
+                              to clarify misconceptions. Students will then rotate between groups so that they
+                              share their understandings of the model they studied and learn from one another. The
+                              teacher can follow up with a debrief to clarify any outstanding misconceptions.
+
+     3            4.4         Fishbowl
+                              Students can read a case study about cell signaling and then answer any questions that
+                              may accompany the case study. Alternately, teachers can provide appropriate questions
+                              and/or assignments to ensure that students understand the concepts addressed in the
+                              case study. Students can then do a fishbowl to discuss their learnings from the case
+                              study and applications to real life.
+
+
+
+
+            Unit Planning Notes
+    Use the space below to plan your approach to the unit. Consider how you want to pace your course and
+    your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                  Course Framework V.1   |   83
+              UNIT
+
+              4                  Cell Communication and Cell Cycle
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 4.1
+1.B
+Explain biological concepts
+and/or processes.
+                                 Cell Communication
+
+
+AVAILABLE RESOURCES
+ §§ Classroom Resource >
+                                 Required Course Content
+    Cell-to-Cell
+    Communication—Cell
+    Signaling
+                                   ENDURING UNDERSTANDING
+ILLUSTRATIVE EXAMPLES              IST-3
+Cell-to-Cell Contact               Cells communicate by generating, transmitting, receiving, and responding to
+IST.3.A.1                          chemical signals.
+ §§ Immune cells interact
+    by cell-to-cell contact,
+    antigen-presenting cells
+    (APCs), helper T-cells,        LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+    and killer T-cells.
+                                   IST-3.A                              IST-3.A.1
+ §§ Plasmodesmata
+                                   Describe the ways that              Cells communicate with one another through
+    between plant cells
+    allow material to be           cells can communicate with          direct contact with other cells or from a
+    transported from cell          one another.                        distance via chemical signaling—
+    to cell.                                                           a. Cells communicate by cell-to-cell contact.
+Cell Communication Using
+Local Regulators IST-3.B.1
+ §§ Neurotransmitters              IST-3.B                              IST-3.B.1
+ §§ Plant immune response          Explain how cells                   Cells communicate over short distances by
+ §§ Quorum sensing in              communicate with one                using local regulators that target cells in the
+    bacteria                       another over short and              vicinity of the signal-emitting cell­—
+ §§ Morphogens in                  long distances.
+                                                                       a. Signals released by one cell type can travel
+    embryonic development
+                                                                           long distances to target cells of another
+IST-3.B.1.a                                                                cell type.
+ §§ Insulin
+ §§ Human growth hormone
+ §§ Thyroid hormones
+ §§ Testosterone
+ §§ Estrogen
+
+
+
+
+84    |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                               UNIT
+Cell Communication and Cell Cycle
+                                                                                                                4
+TOPIC 4.2                                                                                           SUGGESTED SKILL
+                                                                                                           Concept Application
+
+
+Introduction to                                                                                      1.A
+                                                                                                    Describe biological
+                                                                                                    concepts and/or processes.
+
+Signal Transduction
+
+Required Course Content                                                                             AVAILABLE RESOURCES
+                                                                                                     §§ Classroom Resource >
+                                                                                                        Cell-to-Cell
+                                                                                                        Communication—Cell
+                                                                                                        Signaling
+   ENDURING UNDERSTANDING
+    IST-3
+   Cells communicate by generating, transmitting, receiving, and responding to
+   chemical signals.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    IST-3.C                              IST-3.C.1
+   Describe the components               Signal transduction pathways link signal
+   of a signal transduction              reception with cellular responses.
+   pathway.                              IST-3.C.2
+                                         Many signal transduction pathways include
+                                         protein modification and phosphorylation
+                                         cascades.
+
+
+    IST-3.D                              IST-3.D.1
+   Describe the role of                  Signaling begins with the recognition of a
+   components of a signal                chemical messenger—a ligand—by a receptor
+   transduction pathway                  protein in a target cell—
+   in producing a cellular               a. The ligand-binding domain of a receptor
+   response.                                 recognizes a specific chemical messenger,
+                                             which can be a peptide, a small chemical, or
+                                             protein, in a specific one-to-one relationship.
+                                         b. G protein-coupled receptors are an example
+                                             of a receptor protein in eukaryotes.
+                                         IST-3.D.2
+                                         Signaling cascades relay signals from
+                                         receptors to cell targets, often amplifying
+                                         the incoming signals, resulting in the
+                                         appropriate responses by the cell, which
+                                         could include cell growth, secretion of
+                                         molecules, or gene expression—
+
+
+                                                                         continued on next page
+
+
+
+AP Biology Course and Exam Description                                                            Course Framework V.1   |   85
+           UNIT
+
+            4                   Cell Communication and Cell Cycle
+
+
+
+                                 LEARNING OBJECTIVE        ESSENTIAL KNOWLEDGE
+                                  IST-3.D                  a. After the ligand binds, the intracellular
+                                 Describe the role of          domain of a receptor protein changes shape,
+                                 components of a signal        initiating transduction of the signal.
+                                 transduction pathway      b. Second messengers (such as cyclic AMP)
+                                 in producing a cellular       are molecules that relay and amplify the
+                                 response.                     intracellular signal.
+                                                           c. Binding of ligand-to-ligand-gated channels
+                                                               can cause the channel to open or close.
+
+
+
+
+86   |   Course Framework V.1                                           AP Biology Course and Exam Description
+                                                                                                      UNIT
+Cell Communication and Cell Cycle
+                                                                                                      4
+TOPIC 4.3                                                                                 SUGGESTED SKILL
+                                                                                                 Argumentation
+
+
+Signal Transduction                                                                        6.C
+                                                                                          Provide reasoning to
+                                                                                          justify a claim by connecting
+                                                                                          evidence to biological
+                                                                                          theories.
+
+
+
+
+Required Course Content                                                                   AVAILABLE RESOURCES
+                                                                                           §§ Classroom Resource >
+                                                                                              Cell-to-Cell
+                                                                                              Communication—Cell
+                                                                                              Signaling
+   ENDURING UNDERSTANDING
+                                                                                          ILLUSTRATIVE EXAMPLES
+    IST-3                                                                                 Using Signal Transduction
+                                                                                          to Respond to the
+   Cells communicate by generating, transmitting, receiving, and responding to
+                                                                                          Environment
+   chemical signals.
+                                                                                           §§ Use of chemical
+                                                                                              messengers by microbes
+                                                                                              to communicate with
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE                                  other nearby cells and
+                                                                                              to regulate specific
+    IST-3.E                              IST-3.E.1                                            pathways in response
+   Describe the role of the              Signal transduction pathways influence how           to population density
+   environment in eliciting a            the cell responds to its environment.                (quorum sensing)
+   cellular response.                                                                      §§ Epinephrine stimulation
+                                                                                              of glycogen breakdown
+                                                                                              in mammals
+    IST-3.F                              IST-3.F.1                                        IST-3.F.1
+   Describe the different types          Signal transduction may result in changes in      §§ Cytokines regulate
+   of cellular responses elicited        gene expression and cell function, which may         gene expression to
+   by a signal transduction              alter phenotype or result in programmed cell         allow for cell replication
+                                                                                              and division.
+   pathway.                              death (apoptosis).
+                                                                                           §§ Mating pheromones
+                                                                                              in yeast trigger mating
+                                                                                              gene expression.
+                                                                                           §§ Expression of the SRY
+                                                                                              gene triggers the male
+                                                                                              sexual development
+                                                                                              pathway in animals.
+                                                                                           §§ Ethylene levels
+                                                                                              cause changes in the
+                                                                                              production, of different
+                                                                                              enzymes allowing fruits
+                                                                                              to ripen.
+                                                                                           §§ HOX genes and their
+                                                                                              role in development.
+
+
+
+
+AP Biology Course and Exam Description                                                  Course Framework V.1       |   87
+           UNIT
+
+            4                   Cell Communication and Cell Cycle
+
+
+SUGGESTED SKILL
+     Argumentation
+                                TOPIC 4.4
+6.E.b
+Predict the causes or effects
+of a change in, or disruption
+                                Changes in Signal
+to, one or more components
+in a biological system based
+on a visual representation
+                                Transduction
+of a biological concept,
+process, or model.
+                                Pathways
+                                Required Course Content
+AVAILABLE RESOURCES
+ §§ Classroom Resource >
+    Cell-to-Cell
+    Communication—Cell
+    Signaling                     ENDURING UNDERSTANDING
+                                  IST-3
+                                  Cells communicate by generating, transmitting, receiving, and responding to
+                                  chemical signals.
+
+
+
+                                  LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                  IST-3.G                              IST-3.G.1
+                                  Explain how a change in the         Changes in signal transduction pathways can
+                                  structure of any signaling          alter cellular response—
+                                  molecule affects the activity       a. Mutations in any domain of the receptor
+                                  of the signaling pathway.               protein or in any component of the signaling
+                                                                          pathway may affect the downstream
+                                                                          components by altering the subsequent
+                                                                          transduction of the signal.
+                                                                       IST-3.G.2
+                                                                      Chemicals that interfere with any component
+                                                                      of the signaling pathway may activate or inhibit
+                                                                      the pathway.
+
+
+
+
+88   |   Course Framework V.1                                                      AP Biology Course and Exam Description
+                                                                                                          UNIT
+Cell Communication and Cell Cycle
+                                                                                                            4
+TOPIC 4.5                                                                                       SUGGESTED SKILL
+                                                                                                     Argumentation
+
+
+Feedback                                                                                         6.E.b
+                                                                                                Predict the causes or effects
+                                                                                                of a change in, or disruption
+                                                                                                to, one or more components
+                                                                                                in a biological system based
+                                                                                                on a visual representation
+                                                                                                of a biological concept,
+                                                                                                process, or model.
+
+
+
+
+Required Course Content
+                                                                                                AVAILABLE RESOURCES
+                                                                                                 §§ Classroom Resource >
+                                                                                                    Cell-to-Cell
+                                                                                                    Communication—Cell
+   ENDURING UNDERSTANDING                                                                           Signaling
+    ENE-3
+                                                                                                ILLUSTRATIVE EXAMPLE
+   Timing and coordination of biological mechanisms involved in growth, reproduction,           ENE-3.B.1
+   and homeostasis depend on organisms responding to environmental cues.                         §§ Blood sugar regulation
+                                                                                                    by insulin/glucagon
+                                                                                                ENE-3.C.1
+                                                                                                 §§ Lactation in mammals
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+                                                                                                 §§ Onset of labor in
+    ENE-3.A                              ENE-3.A.1                                                  childbirth
+   Describe positive and/                Organisms use feedback mechanisms to                    §§ Ripening of fruit
+   or negative feedback                  maintain their internal environments and respond
+   mechanisms.                           to internal and external environmental changes.
+
+
+    ENE-3.B                              ENE-3.B.1
+   Explain how negative                  Negative feedback mechanisms maintain
+   feedback helps to maintain            homeostasis for a particular condition by
+   homeostasis.                          regulating physiological processes. If a system
+                                         is perturbed, negative feedback mechanisms
+                                         return the system back to its target set point.
+                                         These processes operate at the molecular and
+                                         cellular levels.
+
+
+    ENE-3.C                              ENE-3.C.1
+   Explain how positive                  Positive feedback mechanisms amplify
+   feedback affects                      responses and processes in biological
+   homeostasis.                          organisms. The variable initiating the response
+                                         is moved farther away from the initial set point.
+                                         Amplification occurs when the stimulus is further
+                                         activated, which, in turn, initiates an additional
+                                         response that produces system change.
+
+
+
+
+AP Biology Course and Exam Description                                                        Course Framework V.1      |   89
+           UNIT
+
+            4                   Cell Communication and Cell Cycle
+
+
+SUGGESTED SKILLS
+     Representing and
+                                TOPIC 4.6
+                                Cell Cycle
+     Describing Data
+4.B.b
+Describe data from a
+table or graph, including
+describing trends and/or
+patterns in the data.
+
+     Statistical Tests and
+     Data Analysis
+5.A.e
+Perform mathematical
+calculations, including
+percentages.                    Required Course Content
+
+
+                                  ENDURING UNDERSTANDING
+AVAILABLE RESOURCES
+                                  IST-1
+ §§ AP Biology Lab Manual >
+    Mitosis Lab                   Heritable information provides for continuity of life.
+
+
+
+                                  LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                  IST-1.B                                 IST-1.B.1
+                                  Describe the events that               In eukaryotes, cells divide and transmit genetic
+                                  occur in the cell cycle.               information via two highly regulated processes.
+                                                                          IST-1.B.2
+                                                                         The cell cycle is a highly regulated series of
+                                                                         events for the growth and reproduction of cells—
+                                                                         a. The cell cycle consists of sequential stages
+                                                                             of interphase (G1, S, G2), mitosis, and
+                                                                             cytokinesis.
+                                                                         b. A cell can enter a stage (G0) where it no
+                                                                             longer divides, but it can reenter the cell
+                                                                             cycle in response to appropriate cues.
+                                                                             Nondividing cells may exit the cell cycle or be
+                                                                             held at a particular stage in the cell cycle.
+
+
+                                  IST-1.C                                 IST-1.C.1
+                                  Explain how mitosis results            Mitosis is a process that ensures the transfer
+                                  in the transmission of                 of a complete genome from a parent cell to two
+                                  chromosomes from one                   genetically identical daughter cells—
+                                  generation to the next.                a. Mitosis plays a role in growth, tissue repair,
+                                                                             and asexual reproduction.
+                                                                         b. Mitosis alternates with interphase in the
+                                                                             cell cycle.
+                                                                         c. Mitosis occurs in a sequential series of steps
+                                                                             (prophase, metaphase, anaphase, telophase).
+
+
+
+
+90   |   Course Framework V.1                                                              AP Biology Course and Exam Description
+                                                                                                              UNIT
+Cell Communication and Cell Cycle
+                                                                                                               4
+TOPIC 4.7                                                                                            SUGGESTED SKILL
+                                                                                                          Argumentation
+
+
+Regulation of                                                                                         6.E.a
+                                                                                                     Predict the causes or
+                                                                                                     effects of a change in, or
+
+Cell Cycle                                                                                           disruption to, one or more
+                                                                                                     components in a biological
+                                                                                                     system based on biological
+                                                                                                     concepts or processes.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    IST-1
+   Heritable information provides for continuity of life.
+
+
+
+   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+    IST-1.D                                IST-1.D.1
+   Describe the role of                   A number of internal controls or checkpoints
+   checkpoints in regulating the          regulate progression through the cycle.
+   cell cycle.
+                                           IST-1.D.2
+                                          Interactions between cyclins and cyclin-
+                                          dependent kinases control the cell cycle.
+
+                                            X EXCLUSION STATEMENT—Knowledge
+                                              of specific cyclin-CdK pairs or growth factors
+                                              is beyond the scope of the course and the AP Exam.
+
+
+
+
+    IST-1.E                                IST-1.E.1
+   Describe the effects of                Disruptions to the cell cycle may result
+   disruptions to the cell cycle          in cancer and/or programmed cell
+   on the cell or organism.               death (apoptosis).
+
+
+
+
+AP Biology Course and Exam Description                                                             Course Framework V.1   |   91
+

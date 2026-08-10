@@ -1,0 +1,969 @@
+AP BIOLOGY
+
+
+UNIT 2
+Cell Structure
+and Function
+
+
+
+
+     10–13%
+     AP EXAM WEIGHTING
+
+
+
+     ~11–13
+     CLASS PERIODS
+Remember to go to AP Classroom
+to assign students the online
+Personal Progress Check for
+this unit.
+Whether assigned as homework or
+completed in class, the Personal
+Progress Check provides each
+student with immediate feedback
+related to this unit’s topic and skills.
+
+Personal Progress Check 2
+Multiple-choice: ~30 questions
+Free-response: 2 questions
+ §§ Interpreting and Evaluating
+    Experimental Results (partial)
+ §§ Analyze Model or Visual
+    Representation (partial)
+                                      UNIT
+
+                                      2                  10–13% AP EXAM WEIGHTING ~11–13 CLASS PERIODS
+
+
+                                Cell Structure
+                                and Function
+
+                                Developing Understanding
+  BIG IDEA 1                    The cell is the basic unit of life. Cells contribute to the organization of life and provide the
+  Evolution EVO                 environment in which organelles function. Organelles in turn provide compartmentalization and
+  §§ Defend the origin of       organize cellular products for dispersal and waste for disposal. Cells have membranes that allow
+     eukaryotic cells.          them to establish and maintain an internal environment. These membranes also control the
+                                exchange of material with the cell’s external environment—an important, foundational concept.
+  BIG IDEA 2                    The maintenance of the internal and external conditions of a cell is called homeostasis. Student
+  Energetics ENE                understanding of these concepts will be necessary in later units when the focus of instruction
+  §§ How do the mechanisms      shifts to cellular products and by-products and when students learn why cellular exchange of
+     for transport across       energy and materials matters.
+     membranes support
+     energy conservation?       Building Science Practices                        Preparing for the AP Exam
+  §§ What are the               1.A   1.B   6.B   4.A   6.E.b   6.E.a   5.A.d
+                                                                                  On the exam, students frequently can
+     advantages and
+                                A solid understanding of the origin and           correctly identify an organelle but fail to
+     disadvantages
+                                function of organelles is the foundation for      accurately describe its function. Students
+     of cellular
+                                understanding cell biology. Students should       should be able to explain the relationships
+     compartmentalization?
+                                explain the relationships between structure       between structure and function on both
+                                and function of organelles and cellular           the subcellular and cellular level. Avoid
+  BIG IDEA 4
+                                components on the subcellular and cellular        using catchy analogies (e.g., cell city) and
+  Systems
+                                levels.                                           food-based models because on the exam
+  Interactions SYI
+                                                                                  students tend to write about the analogy
+  §§ How are living             Understanding biological systems frequently
+                                                                                  without demonstrating an understanding
+     systems affected           requires students to select the data
+                                                                                  of its underlying concept using appropriate
+     by the presence or         necessary to solve a problem and use them
+                                                                                  terminology.
+     absence of subcellular     to perform the appropriate calculations
+     components?                with correct units while showing their            The graphing skills learned in this unit are
+                                work and linking the results to a biological      important. Students should be able to label
+                                process. Students should gain proficiency in      the independent and dependent variables
+                                describing the characteristics of data given      with units, correctly plot data points with
+                                in a diagram, graph, or data table and identify   appropriate scaling, and correctly represent
+                                patterns or trends in the data.                   the data in question. For instance, a line
+                                                                                  graph should be used for continuous
+                                Selecting and creating the appropriate
+                                                                                  data and a bar graph for categorical data.
+                                type of graph for a set of data are critical
+                                                                                  Students often fail to earn points because
+                                skills for communicating data that students
+                                                                                  they draw error bars incorrectly and fail to
+                                should begin to master in this unit. Students
+                                                                                  use them to draw conclusions about the
+                                should routinely practice analyzing different
+                                                                                  significance of the data.
+                                types of data, both hypothetical and those
+                                they collect, to identify patterns, connect
+                                variables, and perform statistical analysis.
+
+
+
+AP Biology Course and Exam Description                                                             Course Framework V.1    |   45
+                  UNIT
+
+                   2                      Cell Structure and Function
+
+
+UNIT AT A GLANCE
+
+Enduring
+                                                                                                               Class Periods
+Understanding
+                 Topic                               Suggested Skill                                           ~11–13 CLASS PERIODS
+
+                  2.1 Cell Structure:               1.A   Describe biological concepts and/or processes.
+                       Subcellular Components
+   SYI-1
+                  2.2 Cell Structure and            6.A   Make a scientific claim.
+                       Function
+
+                  2.3 Cell Size                     2.D.a Represent relationships within biological
+                                                     models, including mathematical models.
+   ENE-1                                              5.A.d Perform mathematical calculations,
+                                                     including ratios.
+
+
+                  2.4 Plasma Membranes             2.A Describe characteristics of a biological concept,
+                                                     process, or model represented visually.
+
+                  2.5 Membrane Permeability         3.D Make observations or collect data from
+                                                     representations of laboratory setups or results.
+
+                                                     5.D.b Use data to evaluate a hypothesis (or
+                                                     prediction), including supporting or refuting the
+                                                     alternative hypothesis.
+
+                  2.6 Membrane Transport            3.E.b Propose a new/next investigation based on an
+                                                     evaluation of the design/methods.
+
+
+   ENE-2          2.7 Facilitated Diffusion         6.E.b Predict the causes or effects of a change
+                                                     in, or disruption to, one or more components in a
+                                                     biological system based on a visual representation of
+                                                     a biological concept, process, or model.
+
+
+                  2.8 Tonicity and                 4.A   Construct a graph, plot, or chart.
+                       Osmoregulation
+
+                  2.9 Mechanisms of Transport      1.B   Explain biological concepts and/or processes.
+
+
+                 2.10 Cell                          6.E.a Predict the causes or effects of a change in, or
+                      Compartmentalization           disruption to, one or more components in a biological
+                                                     system based on a biological concepts or processes.
+
+
+                 2.11 Origins of Cell              6.B Support a claim with evidence from biological
+
+   EVO-1              Compartmentalization           principles, concepts, processes, and/or data.
+
+
+
+                 Go to AP Classroom to assign the Personal Progress Check for Unit 2.
+                  Review the results in class to identify and address any student misunderstandings.
+
+
+
+46       |      Course Framework V.1                                                             AP Biology Course and Exam Description
+                                                                                                                         UNIT
+Cell Structure and Function
+                                                                                                                         2
+SAMPLE INSTRUCTIONAL ACTIVITIES
+The sample activities on this page are intended to give you ideas of ways to incorporate
+varied instructional approaches in the teaching of this course. You do not need to use
+these activities or approaches and are free to alter or edit them in any way you choose. The
+following examples were developed in partnership with teachers from the AP community
+to share ways that they approach teaching some of the topics in this unit. Please refer to
+the Instructional Approaches section beginning on p. 171 for more examples of activities
+and strategies.
+
+
+
+
+ Activity       Topic        Sample Activity
+
+     1            2.1        Ask the Expert
+                             Students can be divided into groups and each group assigned a subcellular component
+                             to study. Students then rotate through the expert stations to learn about the subcellular
+                             components required for this topic.
+
+     2            2.3        Misconception Check
+                             Students can take agar cubes of different sizes that are soaked in phenolphthalein
+                             and soak them in vinegar. The students can measure how long it takes for the cubes
+                             to become clear as the vinegar diffuses into the cubes. Students will find that the
+                             smaller cubes become clear before the larger cubes and can use their observations to
+                             determine how cell size affects cell function.
+
+     3            2.4        One-Minute Essay
+                             Before teaching the topic, have students read a case study about osmosis and
+                             answer questions (either those given with the case study or those you create) about
+                             the scenario. Ask students to draw what they they think is occurring on the cellular
+                             level. Then, teach the topic in the way that best fits your classroom. Once students
+                             have demonstrated an understanding of the topic, have them revisit their answers to
+                             the questions in the case study as well as their drawings.
+
+
+
+
+             Unit Planning Notes
+     Use the following space to plan your approach to the unit. Consider how you want to pace your course and
+     your methods of instruction and assessment.
+
+
+
+
+AP Biology Course and Exam Description                                                                   Course Framework V.1   |   47
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 2.1
+1.A
+Describe biological
+concepts and/or processes.
+                                 Cell Structure:
+                                 Subcellular
+                                 Components
+ILLUSTRATIVE EXAMPLE
+ §§ Glycosylation and other
+                                 Required Course Content
+    chemical modifications
+    of proteins that take
+    place within the Golgi
+    and determine protein          ENDURING UNDERSTANDING
+    function or targeting
+                                   SYI-1
+                                   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   SYI-1.D                                SYI-1.D.1
+                                   Describe the structure and/            Ribosomes comprise ribosomal RNA (rRNA)
+                                   or function of subcellular             and protein. Ribosomes synthesize protein
+                                   components and organelles.             according to mRNA sequence.
+                                                                          SYI-1.D.2
+                                                                          Ribosomes are found in all forms of life, reflecting
+                                                                          the common ancestry of all known life.
+                                                                          SYI-1.D.3
+                                                                          Endoplasmic reticulum (ER) occurs in two
+                                                                          forms—smooth and rough. Rough ER is
+                                                                          associated with membrane-bound ribosomes—
+                                                                          a. Rough ER compartmentalizes the cell.
+                                                                          b. Smooth ER functions include detoxification
+                                                                             and lipid synthesis.
+                                                                           X EXCLUSION STATEMENT—Specific functions
+                                                                             of smooth ER in specialized cells are beyond the
+                                                                             scope of the course and the AP Exam.
+
+                                                                          SYI-1.D.4
+                                                                          The Golgi complex is a membrane-bound
+                                                                          structure that consists of a series of flattened
+                                                                          membrane sacs—
+                                                                          a. Functions of the Golgi include the correct
+                                                                             folding and chemical modification of newly
+                                                                             synthesized proteins and packaging for
+                                                                             protein trafficking.
+
+
+                                                                                                             continued on next page
+
+
+
+
+48    |   Course Framework V.1                                                           AP Biology Course and Exam Description
+                                                                                                              UNIT
+Cell Structure and Function
+                                                                                                               2
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-1.D                               X EXCLUSION STATEMENT—The role of the
+   Describe the structure and/              Golgi in the synthesis of specific phospholipids and
+   or function of subcellular               the packaging of specific enzymes for lysosomes,
+   components and organelles.               peroxisomes, and secretory vesicles are beyond the
+                                            scope of the course and the AP Exam.
+
+                                         SYI-1.D.5
+                                         Mitochondria have a double membrane.
+                                         The outer membrane is smooth, but the
+                                         inner membrane is highly convoluted, forming
+                                         folds.
+                                         SYI-1.D.6
+                                         Lysosomes are membrane-enclosed sacs that
+                                         contain hydrolytic enzymes.
+
+                                         SYI-1.D.7
+                                         A vacuole is a membrane-bound sac that plays
+                                         many and differing roles. In plants, a specialized
+                                         large vacuole serves multiple functions.
+                                         SYI-1.D.8
+                                         Chloroplasts are specialized organelles that
+                                         are found in photosynthetic algae and plants.
+                                         Chloroplasts have a double outer membrane.
+
+
+
+
+AP Biology Course and Exam Description                                                             Course Framework V.1   |   49
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 2.2
+6.A
+Make a scientific claim.         Cell Structure
+                                 and Function
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   SYI-1
+                                   Living systems are organized in a hierarchy of structural levels that interact.
+
+
+
+                                   LEARNING OBJECTIVE                     ESSENTIAL KNOWLEDGE
+                                   SYI-1.E                                SYI-1.E.1
+                                   Explain how subcellular                Organelles and subcellular structures, and
+                                   components and organelles              the interactions among them, support cellular
+                                   contribute to the function of          function—
+                                   the cell.                              a. Endoplasmic reticulum provides mechanical
+                                                                             support, carries out protein synthesis on
+                                                                             membrane-bound ribosomes, and plays a
+                                                                             role in intracellular transport.
+                                                                          b. Mitochondrial double membrane provides
+                                                                             compartments for different metabolic reactions.
+                                                                          c. Lysosomes contain hydrolytic enzymes,
+                                                                             which are important in intracellular digestion,
+                                                                             the recycling of a cell’s organic materials, and
+                                                                             programmed cell death (apoptosis).
+                                                                          d. Vacuoles have many roles, including storage
+                                                                             and release of macromolecules and cellular
+                                                                             waste products. In plants, it aids in retention
+                                                                             of water for turgor pressure.
+
+
+                                   SYI-1.F                                SYI-1.F.1
+                                   Describe the structural                The folding of the inner membrane increases
+                                   features of a cell that allow          the surface area, which allows for more ATP to
+                                   organisms to capture, store,           be synthesized.
+                                   and use energy.                        SYI-1.F.2
+                                                                          Within the chloroplast are thylakoids and the stroma.
+
+
+                                                                                                          continued on next page
+
+
+
+
+50    |   Course Framework V.1                                                          AP Biology Course and Exam Description
+                                                                                                    UNIT
+Cell Structure and Function
+                                                                                                     2
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    SYI-1.F                              SYI-1.F.3
+   Describe the structural               The thylakoids are organized in stacks,
+   features of a cell that allow         called grana.
+   organisms to capture, store,          SYI-1.F.4
+   and use energy.
+                                         Membranes contain chlorophyll pigments and
+                                         electron transport proteins that comprise the
+                                         photosystems.
+                                         SYI-1.F.5
+                                         The light-dependent reactions of
+                                         photosynthesis occur in the grana.
+                                         SYI-1.F.6
+                                         The stroma is the fluid within the inner
+                                         chloroplast membrane and outside of
+                                         the thylakoid.
+                                         SYI-1.F.7
+                                         The carbon fixation (Calvin-Benson cycle)
+                                         reactions of photosynthesis occur in
+                                         the stroma.
+                                         SYI-1.F.8
+                                         The Krebs cycle (citric acid cycle) reactions
+                                         occur in the matrix of the mitochondria.
+                                         SYI-1.F.9
+                                         Electron transport and ATP synthesis occur on
+                                         the inner mitochondrial membrane.
+
+
+
+
+AP Biology Course and Exam Description                                                   Course Framework V.1   |   51
+              UNIT
+
+               2                   Cell Structure and Function
+
+
+SUGGESTED SKILLS
+     Statistical Tests and
+                                   TOPIC 2.3
+                                   Cell Size
+     Data Analysis
+5.A.d
+Perform mathematical
+calculations, including ratios.
+
+     Visual
+     Representations
+2.D.a
+Represent relationships
+within biological models,
+including mathematical
+models.
+                                   Required Course Content
+
+
+                                     ENDURING UNDERSTANDING
+ILLUSTRATIVE EXAMPLES
+SA/V Ratios and Exchange             ENE-1
+ §§ Root hair cells                  The highly complex organization of living systems requires constant input of energy
+ §§ Guard cells                      and the exchange of macromolecules.
+ §§ Gut epithelial cells
+
+ILLUSTRATIVE EXAMPLES
+ §§ Vacuoles                         LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+ §§ Cilia                            ENE-1.B                              ENE-1.B.1
+
+ §§ Stomata                          Explain the effect of surface       Surface area-to-volume ratios affect the ability
+                                     area-to-volume ratios on            of a biological system to obtain necessary
+                                     the exchange of materials           resources, eliminate waste products, acquire or
+                                     between cells or organisms          dissipate thermal energy, and otherwise exchange
+                                     and the environment.                chemicals and energy with the environment.
+
+                                                                           RELEVANT EQUATIONS
+                                                                                                      4 3
+                                                                           Volume of a Sphere: V =      πr
+                                                                                                      3
+                                                                           Volume of a Cube: V = s3
+
+                                                                           Volume of a Rectangular Solid: V = lwh
+
+                                                                           Volume of a Cylinder: V = π r 2h
+
+
+                                                                           Surface Area of a Sphere: SA = 4pr 2
+                                                                                                              2
+                                                                           Surface Area of a Cube: SA = 6s
+                                                                           Surface Area of a Rectangular Solid:
+                                                                           SA = 2lh + 2lw + 2wh
+                                                                           Surface Area of a Cylinder: SA = 2πrh + 2πr2
+                                                                           r = radius
+                                                                           l = length
+                                                                           h = height
+                                                                           w = width
+                                                                           s = length of one side of a cube
+
+                                                                                                        continued on next page
+
+52   |      Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                      UNIT
+Cell Structure and Function
+                                                                                                       2
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-1.B                              ENE-1.B.2
+   Explain the effect of surface         The surface area of the plasma membrane
+   area-to-volume ratios on              must be large enough to adequately
+   the exchange of materials             exchange materials—
+   between cells or organisms            a. These limitations can restrict cell size
+   and the environment.                     and shape. Smaller cells typically have a
+                                            higher surface area-to-volume ratio and
+                                            more efficient exchange of materials with
+                                            the environment.
+                                         b. As cells increase in volume, the relative
+                                            surface area decreases and the demand for
+                                            internal resources increases.
+                                         c. More complex cellular structures
+                                            (e.g., membrane folds) are necessary
+                                            to adequately exchange materials with
+                                            the environment.
+                                         d. As organisms increase in size, their surface
+                                            area-to-volume ratio decreases, affecting
+                                            properties like rate of heat exchange with
+                                            the environment.
+
+
+    ENE-1.C                              ENE-1.C.1
+   Explain how specialized               Organisms have evolved highly efficient
+   structures and strategies             strategies to obtain nutrients and
+   are used for the efficient            eliminate wastes. Cells and organisms use
+   exchange of molecules to              specialized exchange surfaces to obtain
+   the environment.                      and release molecules from or into the
+                                         surrounding environment.
+
+
+
+
+AP Biology Course and Exam Description                                                     Course Framework V.1   |   53
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Visual
+                                 TOPIC 2.4
+                                 Plasma Membranes
+      Representations
+2.A
+Describe characteristics
+of a biological concept,
+process, or model
+represented visually.
+
+
+
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   ENE-2
+                                   Cells have membranes that allow them to establish and maintain internal
+                                   environments that are different from their external environments.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   ENE-2.A                              ENE-2.A.1
+                                   Describe the roles of each          Phospholipids have both hydrophilic and
+                                   of the components of the            hydrophobic regions. The hydrophilic
+                                   cell membrane in maintaining        phosphate regions of the phospholipids are
+                                   the internal environment of         oriented toward the aqueous external or
+                                   the cell.                           internal environments, while the hydrophobic
+                                                                       fatty acid regions face each other within the
+                                                                       interior of the membrane.
+                                                                        ENE-2.A.2
+                                                                       Embedded proteins can be hydrophilic, with
+                                                                       charged and polar side groups, or hydrophobic,
+                                                                       with nonpolar side groups.
+
+
+                                   ENE-2.B                              ENE-2.B.1
+                                   Describe the Fluid Mosaic           Cell membranes consist of a structural
+                                   Model of cell membranes.            framework of phospholipid molecules that is
+                                                                       embedded with proteins, steroids (such as
+                                                                       cholesterol in eukaryotes), glycoproteins, and
+                                                                       glycolipids that can flow around the surface of
+                                                                       the cell within the membrane.
+
+
+
+
+54    |   Course Framework V.1                                                      AP Biology Course and Exam Description
+                                                                                                            UNIT
+Cell Structure and Function
+                                                                                                             2
+TOPIC 2.5                                                                                        SUGGESTED SKILL
+                                                                                                        Questions and
+
+
+Membrane Permeability
+                                                                                                        Methods
+                                                                                                  3.D
+                                                                                                 Make observations
+                                                                                                 or collect data from
+                                                                                                 representations of
+                                                                                                 laboratory setups or results.
+
+                                                                                                        Statistical Tests and
+                                                                                                        Data Analysis
+                                                                                                  5.D.b
+                                                                                                 Use data to evaluate a
+                                                                                                 hypothesis (or prediction),
+Required Course Content                                                                          including supporting or
+                                                                                                 refuting the alternative
+                                                                                                 hypothesis.
+
+
+   ENDURING UNDERSTANDING
+    ENE-2
+   Cells have membranes that allow them to establish and maintain internal
+   environments that are different from their external environments.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-2.C                              ENE-2.C.1
+   Explain how the structure             The structure of cell membranes results in
+   of biological membranes               selective permeability.
+   influences selective                  ENE-2.C.2
+   permeability.
+                                         Cell membranes separate the internal environment
+                                         of the cell from the external environment.
+                                         ENE-2.C.3
+                                         Selective permeability is a direct consequence
+                                         of membrane structure, as described by the
+                                         fluid mosaic model.
+                                         ENE-2.C.4
+                                         Small nonpolar molecules, including N2, O2, and
+                                         CO2, freely pass across the membrane. Hydrophilic
+                                         substances, such as large polar molecules and ions,
+                                         move across the membrane through embedded
+                                         channel and transport proteins.
+                                         ENE-2.C.5
+                                         Polar uncharged molecules, including H2O,
+                                         pass through the membrane in small amounts.
+
+
+    ENE-2.D                              ENE-2.D.1
+   Describe the role of the              Cell walls provide a structural boundary, as well
+   cell wall in maintaining cell         as a permeability barrier for some substances
+   structure and function.               to the internal environments.
+                                         ENE-2.D.2
+                                         Cell walls of plants, prokaryotes, and fungi are
+                                         composed of complex carbohydrates.
+
+
+
+AP Biology Course and Exam Description                                                         Course Framework V.1     |   55
+           UNIT
+
+            2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+     Questions and
+                                TOPIC 2.6
+                                Membrane Transport
+     Methods
+3.E.b
+Propose a new/next
+investigation based on
+an evaluation of the
+design/methods.
+
+
+
+
+                                Required Course Content
+
+
+                                  ENDURING UNDERSTANDING
+                                  ENE-2
+                                  Cells have membranes that allow them to establish and maintain internal
+                                  environments that are different from their external environments.
+
+
+                                  LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                  ENE-2.E                              ENE-2.E.1
+                                  Describe the mechanisms             Passive transport is the net movement of
+                                  that organisms use to               molecules from high concentration to low
+                                  maintain solute and                 concentration without the direct input of
+                                  water balance.                      metabolic energy.
+                                                                       ENE-2.E.2
+                                                                      Passive transport plays a primary role in the
+                                                                      import of materials and the export of wastes.
+                                                                       ENE-2.E.3
+                                                                      Active transport requires the direct input of
+                                                                      energy to move molecules from regions of low
+                                                                      concentration to regions of high concentration.
+
+
+                                  ENE-2.F                              ENE-2.F.1
+                                  Describe the mechanisms             The selective permeability of membranes
+                                  that organisms use to               allows for the formation of concentration
+                                  transport large molecules           gradients of solutes across the membrane.
+                                  across the plasma                    ENE-2.F.2
+                                  membrane.
+                                                                      The processes of endocytosis and exocytosis
+                                                                      require energy to move large molecules into
+                                                                      and out of cells—
+                                                                      a. In exocytosis, internal vesicles fuse with
+                                                                         the plasma membrane and secrete large
+                                                                         macromolecules out of the cell.
+                                                                      b. In endocytosis, the cell takes in
+                                                                         macromolecules and particulate matter
+                                                                         by forming new vesicles derived from the
+                                                                         plasma membrane.
+
+
+56   |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                       UNIT
+Cell Structure and Function
+                                                                                                        2
+TOPIC 2.7                                                                                    SUGGESTED SKILL
+                                                                                                  Argumentation
+
+
+Facilitated Diffusion                                                                         6.E.b
+                                                                                             Predict the causes or
+                                                                                             effects of a change in,
+                                                                                             or disruption to, one or
+                                                                                             more components in a
+                                                                                             biological system based
+                                                                                             on a visual representation
+                                                                                             of a biological concept,
+                                                                                             process, or model.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    ENE-2
+   Cells have membranes that allow them to establish and maintain internal
+   environments that are different from their external environments.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-2.G                              ENE-2.G.1
+   Explain how the structure of          Membrane proteins are required for facilitated
+   a molecule affects its ability        diffusion of charged and large polar molecules
+   to pass through the plasma            through a membrane—
+   membrane.                             a. Large quantities of water pass through
+                                            aquaporins.
+                                         b. Charged ions, including Na+ and K+,
+                                            require channel proteins to move through
+                                            the membrane.
+                                         c. Membranes may become polarized by
+                                            movement of ions across the membrane.
+                                         ENE-2.G.2
+                                         Membrane proteins are necessary for
+                                         active transport.
+                                         ENE-2.G.3
+                                         Metabolic energy (such as from ATP) is
+                                         required for active transport of molecules and/
+                                         or ions across the membrane and to establish
+                                         and maintain concentration gradients.
+                                         ENE-2.G.4
+                                         The Na+/K+ ATPase contributes to the
+                                         maintenance of the membrane potential.
+
+
+
+
+AP Biology Course and Exam Description                                                     Course Framework V.1    |   57
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Representing and
+                                 TOPIC 2.8
+                                 Tonicity and
+      Describing Data
+4.A
+Construct a graph, plot,
+or chart.
+                                 Osmoregulation
+
+AVAILABLE RESOURCES
+ §§ Classroom Resources >
+                                 Required Course Content
+    Investigation 4:
+    Diffusion and Osmosis
+ §§ Classroom Resources >
+    Visualizing Information        ENDURING UNDERSTANDING
+ILLUSTRATIVE EXAMPLES              ENE-2
+ §§ Contractile vacuole in         Cells have membranes that allow them to establish and maintain internal
+    protists                       environments that are different from their external environments.
+ §§ Central vacuoles in
+    plant cells
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   ENE-2.H                              ENE-2.H.1
+                                   Explain how concentration           External environments can be hypotonic,
+                                   gradients affect the                hypertonic or isotonic to internal environments
+                                   movement of molecules               of cells—
+                                   across membranes.                   a. Water moves by osmosis from areas
+                                                                          of high water potential/low osmolarity/
+                                                                          low solute concentration to areas of low
+                                                                          water potential/high osmolarity/high
+                                                                          solute concentration.
+
+                                                                         RELEVANT EQUATION
+
+                                                                        Water Potential:
+                                                                         Ψ = Ψ p + Ψs
+                                                                         Ψ p = pressure potential
+                                                                         Ψ s = solute potential
+
+
+                                   ENE-2.I                              ENE-2.I.1
+                                   Explain how osmoregulatory          Growth and homeostasis are maintained
+                                   mechanisms contribute               by the constant movement of molecules
+                                   to the health and survival          across membranes.
+                                   of organisms.
+
+
+                                                                                                      continued on next page
+
+
+
+
+58    |   Course Framework V.1                                                       AP Biology Course and Exam Description
+                                                                                                        UNIT
+Cell Structure and Function
+                                                                                                         2
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-2.I                              ENE-2.I.2
+   Explain how osmoregulatory            Osmoregulation maintains water balance and
+   mechanisms contribute                 allows organisms to control their internal solute
+   to the health and survival            composition/water potential.
+   of organisms.
+                                          SOLUTE POTENTIAL OF A SOLUTION
+
+                                          Ψ s = −iCRT
+                                          where:
+
+                                          i = ionization constant
+                                          C = molar concentration
+                                          R = pressure constant
+                                          ⎛            L  bars ⎞
+                                          ⎜ R = 0.0831          ⎟
+                                          ⎝            mol  K ⎠
+
+                                          T = temperature in Kelvin (°C + 273)
+
+
+
+
+AP Biology Course and Exam Description                                                       Course Framework V.1   |   59
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Concept Explanation
+                                 TOPIC 2.9
+1.B
+Explain biological concepts
+and/or processes.
+                                 Mechanisms
+                                 of Transport
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   ENE-2
+                                   Cells have membranes that allow them to establish and maintain internal
+                                   environments that are different from their external environments.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   ENE-2.J                              ENE-2.J.1
+                                   Describe the processes              A variety of processes allow for the movement
+                                   that allow ions and other           of ions and other molecules across
+                                   molecules to move                   membranes, including passive and active
+                                   across membranes.                   transport, endocytosis and exocytosis.
+
+
+
+
+60    |   Course Framework V.1                                                      AP Biology Course and Exam Description
+                                                                                                     UNIT
+Cell Structure and Function
+                                                                                                      2
+TOPIC 2.10                                                                                  SUGGESTED SKILL
+                                                                                                 Argumentation
+
+
+Compartmentalization                                                                         6.E.a
+                                                                                            Predict the causes or
+                                                                                            effects of a change in, or
+                                                                                            disruption to, one or more
+                                                                                            components in a biological
+                                                                                            system based on biological
+                                                                                            concepts or processes.
+
+
+
+
+Required Course Content
+
+
+   ENDURING UNDERSTANDING
+    ENE-2
+   Cells have membranes that allow them to establish and maintain internal
+   environments that are different from their external environments.
+
+
+
+   LEARNING OBJECTIVE                    ESSENTIAL KNOWLEDGE
+    ENE-2.K                              ENE-2.K.1
+   Describe the membrane-                Membranes and membrane-bound organelles
+   bound structures of the               in eukaryotic cells compartmentalize
+   eukaryotic cell.                      intracellular metabolic processes and specific
+                                         enzymatic reactions.
+
+
+    ENE-2.L                              ENE-2.L.1
+   Explain how internal                  Internal membranes facilitate cellular
+   membranes and membrane-               processes by minimizing competing
+   bound organelles contribute           interactions and by increasing surface areas
+   to compartmentalization of            where reactions can occur.
+   eukaryotic cell functions.
+
+
+
+
+AP Biology Course and Exam Description                                                    Course Framework V.1   |   61
+            UNIT
+
+             2                   Cell Structure and Function
+
+
+SUGGESTED SKILL
+      Argumentation
+                                 TOPIC 2.11
+6.B
+Support a claim with
+evidence from biological
+                                 Origins of Cell
+principles, concepts,
+processes, and/or data.          Compartmentalization
+
+                                 Required Course Content
+
+
+                                   ENDURING UNDERSTANDING
+                                   EVO-1
+                                   Evolution is characterized by a change in the genetic makeup of a population over
+                                   time and is supported by multiple lines of evidence.
+
+
+
+                                   LEARNING OBJECTIVE                  ESSENTIAL KNOWLEDGE
+                                   EVO-1.A                              EVO-1.A.1
+                                   Describe similarities               Membrane-bound organelles evolved
+                                   and/or differences in               from once free-living prokaryotic cells via
+                                   compartmentalization                endosymbiosis.
+                                   between prokaryotic and              EVO-1.A.2
+                                   eukaryotic cells.
+                                                                       Prokaryotes generally lack internal membrane-
+                                                                       bound organelles but have internal regions with
+                                                                       specialized structures and functions.
+                                                                        EVO-1.A.3
+                                                                       Eukaryotic cells maintain internal membranes
+                                                                       that partition the cell into specialized regions.
+
+
+                                   EVO-1.B                              EVO-1.B.1
+                                   Describe the relationship           Membrane-bound organelles evolved from
+                                   between the functions of            previously free-living prokaryotic cells
+                                   endosymbiotic organelles            via endosymbiosis.
+                                   and their free-living ancestral
+                                   counterparts.
+
+
+
+
+62    |   Course Framework V.1                                                       AP Biology Course and Exam Description
+
