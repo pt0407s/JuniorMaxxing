@@ -4,7 +4,7 @@
 Project-based elective — likely involves developing a business idea, pitch, product/market research. May have real presentations or competitions.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (projects, pitch, presentations) / Minor 40% (daily work, milestones)
 
 ## Strategy
 - Project-based classes reward **consistent effort and presentation quality** over cramming

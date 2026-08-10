@@ -89,18 +89,27 @@ Since you can't deep-study all 8 every night, rotate deeper focus:
 
 ## Grade tracker (all 8 classes)
 
+Every class uses the same split: **Major 60% / Minor 40%**
+
 Track every grade the day you get it back. Calculate running grade for each:
 
-| Class | Major % | Minor % | Overall | Target |
-|-------|---------|---------|---------|--------|
-| Mobile App DEV | TBD | TBD | | 100 |
-| APUSH | TBD | TBD | | 97+ |
-| AP Precalc | TBD | TBD | | 97+ |
-| AP Lang | TBD | TBD | | 97+ |
-| AP Chem | TBD | TBD | | 97+ |
-| AP Bio | 60% | 40% | | 97+ |
-| Entrepreneurship | TBD | TBD | | 100 |
-| AP Physics 1 | TBD | TBD | | 97+ |
+| Class | Major avg | Minor avg | Overall | Target |
+|-------|-----------|-----------|---------|--------|
+| Mobile App DEV | | | | 100 |
+| APUSH | | | | 97+ |
+| AP Precalc | | | | 97+ |
+| AP Lang | | | | 97+ |
+| AP Chem | | | | 97+ |
+| AP Bio | | | | 97+ |
+| Entrepreneurship | | | | 100 |
+| AP Physics 1 | | | | 97+ |
+
+**Formula for every class:** `Overall = 0.6 × Major avg + 0.4 × Minor avg`
+
+**To hit 97:** Major ≥ 95 + Minor = 100
+**To hit 100:** Major = 100 + Minor = 100
+
+The Minor category is the same across all 8 classes — never lose a free point in any of them. That's 40% of every grade that's fully in your control.
 
 ## Anki across all subjects
 

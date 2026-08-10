@@ -4,7 +4,7 @@
 Kinematics, forces/Nature's laws, energy, momentum, rotation, SHM, waves/sound, electricity/circuits. Most concept-heavy science AP — math is easy, reasoning is hard.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (tests, labs, projects) / Minor 40% (HW, classwork, quizzes)
 
 ## Class strategy
 - **Most concept-heavy science AP** — math is easy, *reasoning* is hard

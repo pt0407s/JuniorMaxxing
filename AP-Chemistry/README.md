@@ -4,7 +4,7 @@
 Units: atomic structure, bonding, reactions/stoichiometry, thermodynamics, kinetics, equilibrium, acids/bases, electrochemistry. Hardest to cram — start earliest.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (tests, labs, projects) / Minor 40% (HW, classwork, quizzes)
 
 ## Class strategy
 - **Do problem sets the day they're assigned** while the lesson is fresh

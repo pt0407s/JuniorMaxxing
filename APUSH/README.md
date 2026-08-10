@@ -4,7 +4,7 @@
 AP US History from 1491 to present. Heavy on reading, writing (SAQ/DBQ/LEQ), and thematic analysis.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (tests, DBQs/LEQs, projects) / Minor 40% (HW, classwork, reading quizzes, SAQs)
 
 ## Class strategy
 - **Pre-read the textbook section before class** — APUSH is reading-heavy; if you fall behind on reading, you can't catch up

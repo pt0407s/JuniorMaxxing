@@ -4,7 +4,7 @@
 AP Precalc covers: polynomial/rational functions, exponential/logarithmic functions, trigonometric functions, polar/parametric/vector functions. Newer AP course (first offered 2023-24).
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (tests, exams) / Minor 40% (HW, classwork, quizzes)
 
 ## Class strategy
 - **Math is reps** — do every assigned problem + 5 more from each section

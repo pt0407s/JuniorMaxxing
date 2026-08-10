@@ -4,7 +4,7 @@
 Elective — app development course. Likely project-based.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (projects, presentations) / Minor 40% (daily work, milestones)
 
 ## Strategy
 - Project-based classes usually reward consistent effort over cramming

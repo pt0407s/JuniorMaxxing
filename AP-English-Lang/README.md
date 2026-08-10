@@ -4,7 +4,7 @@
 Skills-based course, not content-based. No memorization. Tests rhetorical analysis, argumentation, and synthesis writing.
 
 ## Grading
-TBD — get syllabus on day 1
+Major 60% (essays, tests, projects) / Minor 40% (HW, classwork, quizzes, participation)
 
 ## Class strategy
 - **No content to memorize** — it's all skills. Practice > studying.
