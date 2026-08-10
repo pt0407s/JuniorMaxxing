@@ -1,6 +1,7 @@
 # AP Precalculus
 
 ## Overview
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
 AP Precalc covers: polynomial/rational functions, exponential/logarithmic functions, trigonometric functions, polar/parametric/vector functions. Newer AP course (first offered 2023-24).
 
 ## Grading

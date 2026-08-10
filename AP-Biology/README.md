@@ -1,6 +1,8 @@
 # AP Biology
 
-Target: 97+ in class. School starts Aug 12.
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Syllabus:** [syllabus.md](syllabus.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
+
+Target: 100 in class. School starts Aug 12.
 
 ## Folder structure
 

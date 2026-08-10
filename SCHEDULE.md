@@ -18,5 +18,5 @@
 - Classes 1-4 = A day, classes 5-8 = B day
 - Each class meets every other day on alternating block
 - 6 APs + 2 electives (Mobile App DEV, Entrepreneurship)
-- Bio syllabus: Major 60% / Minor 40%
-- Other syllabi: TBD (get on day 1)
+- **All classes:** Major 60% / Minor 40% (confirmed universal — see GRADING.md)
+- Get each syllabus on day 1 to confirm test formats, textbook/platform, and unit schedule

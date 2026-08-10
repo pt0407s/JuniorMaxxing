@@ -1,3 +1,7 @@
+# Raw LHISD 2026-27 calendar — original source data
+# Formatted version with analysis: see CALENDAR.md
+# This file is the raw text export from the district calendar for reference.
+
                                                          Liberty Hill ISD Calendar
                                                        2026-2027 Academic Calendar
                    July 2026                                              August 2026                                              September 2026

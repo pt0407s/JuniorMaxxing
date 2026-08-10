@@ -1,6 +1,7 @@
 # AP English Language & Composition (AP Lang)
 
 ## Overview
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
 Skills-based course, not content-based. No memorization. Tests rhetorical analysis, argumentation, and synthesis writing.
 
 ## Grading

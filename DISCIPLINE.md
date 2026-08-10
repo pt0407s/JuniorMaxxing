@@ -1,5 +1,7 @@
 # How to Actually Build Discipline (When You're Lazy and Don't Care)
 
+> **Related:** [STRATEGY.md](STRATEGY.md) (study techniques) | [MENTOR.md](MENTOR.md) (emotional support + college admissions) | [weekly-checklist.md](weekly-checklist.md) (weekly planning)
+
 Let's be real. You're reading this because you know you should care about school, but you don't. Not really. You want the 100, but you also want to scroll your phone, play games, and do nothing. And right now, the nothing is winning.
 
 This isn't a motivational speech. Motivation is garbage. It shows up when you don't need it and disappears when you do. This is the actual research on how people who are lazy, undisciplined, and unmotivated change — based on behavioral psychology, neuroscience, and the real stories of students who turned it around.

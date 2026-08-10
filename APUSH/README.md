@@ -1,6 +1,7 @@
 # APUSH — AP United States History
 
 ## Overview
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
 AP US History from 1491 to present. Heavy on reading, writing (SAQ/DBQ/LEQ), and thematic analysis.
 
 ## Grading

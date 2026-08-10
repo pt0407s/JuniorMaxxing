@@ -1,6 +1,8 @@
 # JuniorMaxxing — Research-Backed Strategy
 
-Target: 97+ across 6 APs + 2 other classes + clubs + actual free time.
+> **Related:** [ALL-CLASSES-STRATEGY.md](ALL-CLASSES-STRATEGY.md) (how this applies to your 8 classes) | [DISCIPLINE.md](DISCIPLINE.md) (how to actually do it) | [RESOURCES.md](RESOURCES.md) (free resources for every AP)
+
+Target: 100 across 6 APs + 2 electives + clubs + actual free time.
 Constraint: You cannot out-work this load. You must out-technique it.
 
 ---
@@ -104,13 +106,14 @@ This front-loads the work. By test time, you're reviewing, not learning.
 - **Day -1:** Light Anki review + skim recall sheet. Sleep 7+ hrs.
 - **Day 0:** Skim recall sheet morning of. Done.
 
-### The 97+ math (for Bio's 60/40 split, applies to similar classes)
+### The 100 math (for all classes — 60/40 split)
 
-- Major (60%): Need ~95-97 avg. With good technique, very achievable.
-- Minor (40%): Need ~100. Never miss HW, never skip a quiz prep, always show notes proof.
-- Overall: 0.6(96) + 0.4(100) = 97.6. That's your floor if you nail minors and hold majors.
+- Major (60%): Need 100 avg. Zero margin for error. Every test, every lab, every project = 100.
+- Minor (40%): Need 100. Never miss HW, never skip a quiz prep, always show notes proof.
+- Overall: 0.6(100) + 0.4(100) = 100. This is the only formula that works.
+- A single 98 on a test: 0.6(98) + 0.4(100) = 98.8 — 100 is gone for that period.
 
-The minor category is your insurance. Never lose a free point there.
+The minor category is fully in your control. Never lose a free point there. See [GRADING.md](GRADING.md) for the full breakdown.
 
 ---
 

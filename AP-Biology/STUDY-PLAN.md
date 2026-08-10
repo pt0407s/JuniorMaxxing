@@ -183,7 +183,7 @@ Keep a running log of every grade. The day you get something back, enter it.
 - Major avg = sum of major grades / count
 - Overall = (Major avg × 0.6) + (Minor avg × 0.4)
 
-If you drop below 97 at any point, you know immediately and can act — not after the period closes.
+If you drop below 100 at any point, you know immediately and can act — not after the period closes.
 
 ---
 

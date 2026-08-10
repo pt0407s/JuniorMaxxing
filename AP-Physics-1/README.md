@@ -1,6 +1,7 @@
 # AP Physics 1 (Algebra-Based)
 
 ## Overview
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
 Kinematics, forces/Nature's laws, energy, momentum, rotation, SHM, waves/sound, electricity/circuits. Most concept-heavy science AP — math is easy, reasoning is hard.
 
 ## Grading

@@ -7,9 +7,9 @@
 | Major Assignments | 60% | Tests, Exams, Projects, Labs |
 | Minor Assignments | 40% | Daily classwork, homework, quizzes |
 
-## Implications for 97+
+## Implications for 100
 
-- **Major = 60%** → Tests and labs are everything. One bad test (85) drops you ~1.2 points overall. Can't afford more than 1-2 slips.
-- **Minor = 40%** → This is your cushion. Never miss homework/classwork, prep for every quiz. Aim for 100 in this category — it's achievable and offsets any major slip.
+- **Major = 60%** → Tests and labs are everything. One bad test drops you below 100 immediately. Zero margin.
+- **Minor = 40%** → Never miss homework/classwork, prep for every quiz. 100 in this category is non-negotiable and fully in your control.
 - **Labs are in Major** → Lab reports must be flawless: format, data tables, sig figs, error analysis, conclusion tied to concept. Don't treat labs as throwaway.
-- **Target math:** to hit 97 overall, you need roughly Major ≥ 95 and Minor ≥ 100, or Major ≥ 97 and Minor ≥ 96.
+- **Target math:** to hit 100 overall, you need Major = 100 AND Minor = 100. No exceptions. See [../GRADING.md](../GRADING.md) for the full breakdown.

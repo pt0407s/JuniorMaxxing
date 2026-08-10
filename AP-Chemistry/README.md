@@ -1,6 +1,7 @@
 # AP Chemistry
 
 ## Overview
+> **Study plan:** [STUDY-PLAN.md](STUDY-PLAN.md) | **Resources:** [../RESOURCES.md](../RESOURCES.md) | **Grading:** [../GRADING.md](../GRADING.md)
 Units: atomic structure, bonding, reactions/stoichiometry, thermodynamics, kinetics, equilibrium, acids/bases, electrochemistry. Hardest to cram — start earliest.
 
 ## Grading

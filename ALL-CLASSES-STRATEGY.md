@@ -1,5 +1,7 @@
 # All-Classes Strategy — 8 Classes, Block Schedule
 
+> **Related:** [STRATEGY.md](STRATEGY.md) (the research) | [GRADING.md](GRADING.md) (the 100 math) | [CALENDAR.md](CALENDAR.md) (6-week periods) | [weekly-checklist.md](weekly-checklist.md) | [test-prep-checklist.md](test-prep-checklist.md)
+
 ## Your schedule
 
 ### A Day
@@ -84,7 +86,7 @@ Since you can't deep-study all 8 every night, rotate deeper focus:
 ### Week 5-6: Second tests + grade check
 - More tests + labs
 - **Check your grade in ALL 8 classes** — know where you stand before the period closes
-- If any class is below 97, find out if there's extra credit or makeup BEFORE it's too late
+- If any class is below 100, find out if there's extra credit or makeup BEFORE it's too late
 - Bank your Minor category 100s — never lose a free point
 
 ## Grade tracker (all 8 classes)

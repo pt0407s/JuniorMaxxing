@@ -21,8 +21,8 @@ Legacy Ranch opened in August 2024. You are in the **first cohort of juniors** a
 4. **This is actually an advantage** — new AP teachers often follow the CED closely (less likely to go rogue), use AP Classroom resources heavily, and may be more generous with grading as they establish the program
 
 ## Biology teacher at LRHS
-- **TBD** — the 2024 staffing info from the local paper is outdated/wrong for current AP Bio
-- Will be confirmed on day 1
+- **TBD** — confirm on day 1. The 2024 staffing info from the local paper is outdated.
+- Previous names (Cannon, Maddox) are unconfirmed — do NOT assume. Verify in person.
 
 ## Academic performance context
 - STAAR Biology (2025): 92% at "Approaches Grade Level" but only 21% at "Masters Grade Level"
@@ -37,8 +37,8 @@ Legacy Ranch opened in August 2024. You are in the **first cohort of juniors** a
 Since there's no prior cohort, you need to gather intel FAST in the first 2 weeks:
 
 ### Week 1: Observe and document
-- **Which bio teacher do you have?** Cannon or Maddox? Their style matters.
-- **What textbook/platform?** You already know it's Pearson (from your study guide)
+- **Which bio teacher do you have?** Confirm name and background — their style matters
+- **What textbook/platform?** Confirm on day 1 (Pearson was referenced in old study materials but unverified)
 - **Test format:** First quiz or test will reveal everything — note the format, question style, source of questions
 - **Does the teacher use AP Classroom?** If yes, Progress Checks are likely part of your grade
 - **Lab frequency:** How often? What format do they want?
@@ -61,7 +61,7 @@ Being at a brand-new school with a new AP program has some benefits:
 3. **AP Classroom is likely heavily used** — new AP teachers lean on College Board resources
 4. **You can help set the culture** — being a top student in a new program gets you noticed
 
-But do NOT underestimate the competition. The AP cohort at a growing school in a competitive DFW/Austin-area district is serious. Many of your classmates are gunning for the same 100 you are. The strategy in STRATEGY.md — active recall, spaced repetition, interleaving, processing during class — is what will separate you, not coasting.
+But do NOT underestimate the competition. The AP cohort at a growing school in a competitive Austin-area district is serious. Many of your classmates are gunning for the same 100 you are. The strategy in STRATEGY.md — active recall, spaced repetition, interleaving, processing during class — is what will separate you, not coasting.
 
 ## Sources
 - Wikipedia: Legacy Ranch High School
