@@ -405,6 +405,9 @@ const Quiz = {
       studyBtn.style.display = 'none';
     }
 
+    // Struggle analysis
+    this.renderStruggleAnalysis(topicStats);
+
     // Save quiz history
     App.saveQuizHistory({
       date: Date.now(),
@@ -413,12 +416,168 @@ const Quiz = {
       pct,
       topicBreakdown: topicStats,
       calibration: this.confidenceMode ? this.computeCalibration() : null,
+      struggleAreas: this.computeStruggleAreas(),
     });
 
     // Update mastery
     this.results.forEach(r => {
       App.updateMastery(r.topic, r.correct);
     });
+  },
+
+  computeStruggleAreas() {
+    const wrong = this.results.filter(r => !r.correct);
+    const slow = this.timedMode ? this.results.filter(r => r.timeMs > 20000) : [];
+    const overconfident = this.confidenceMode
+      ? this.results.filter(r => r.confidence >= 3 && !r.correct)
+      : [];
+    const underconfident = this.confidenceMode
+      ? this.results.filter(r => r.confidence <= 2 && r.correct)
+      : [];
+
+    // Per-topic struggle score: wrong answers weighted by slowness and overconfidence
+    const topicStruggle = {};
+    this.results.forEach(r => {
+      if (!topicStruggle[r.topic]) topicStruggle[r.topic] = { wrong: 0, slow: 0, overconfident: 0, total: 0 };
+      topicStruggle[r.topic].total++;
+      if (!r.correct) topicStruggle[r.topic].wrong++;
+      if (r.timeMs > 20000) topicStruggle[r.topic].slow++;
+      if (r.confidence >= 3 && !r.correct) topicStruggle[r.topic].overconfident++;
+    });
+
+    // Specific questions that were wrong
+    const wrongQuestions = wrong.map(r => {
+      const q = QUESTIONS.find(q => q.id === r.questionId);
+      return q ? { id: q.id, q: q.q, topic: q.topic, correctAnswer: q.options[q.correct], timeMs: r.timeMs, confidence: r.confidence } : null;
+    }).filter(Boolean);
+
+    return {
+      wrongCount: wrong.length,
+      slowCount: slow.length,
+      overconfidentCount: overconfident.length,
+      underconfidentCount: underconfident.length,
+      topicStruggle,
+      wrongQuestions,
+    };
+  },
+
+  renderStruggleAnalysis(topicStats) {
+    const div = document.getElementById('resultsStruggle');
+    const s = this.computeStruggleAreas();
+
+    if (s.wrongCount === 0 && s.slowCount === 0 && s.overconfidentCount === 0) {
+      div.innerHTML = `<div class="struggle-section">
+        <strong>✅ No struggle areas detected</strong>
+        <p class="struggle-empty">You answered everything correctly and efficiently. Try a harder topic or pretest mode for more challenge.</p>
+      </div>`;
+      return;
+    }
+
+    // Compute per-topic struggle scores (0-100, higher = more struggle)
+    const topicStruggleList = Object.entries(s.topicStruggle)
+      .map(([topic, data]) => {
+        const wrongScore = (data.wrong / data.total) * 50;
+        const slowScore = (data.slow / data.total) * 25;
+        const overconfScore = (data.overconfident / data.total) * 25;
+        return { topic, score: wrongScore + slowScore + overconfScore, ...data };
+      })
+      .sort((a, b) => b.score - a.score);
+
+    let html = '<div class="struggle-section">';
+    html += '<strong>🎯 Struggle Areas</strong>';
+
+    // Summary metrics row
+    html += '<div class="struggle-metrics">';
+    if (s.wrongCount > 0) {
+      html += `<div class="struggle-metric struggle-metric-wrong">
+        <span class="struggle-metric-icon">✗</span>
+        <span class="struggle-metric-value">${s.wrongCount}</span>
+        <span class="struggle-metric-label">Wrong</span>
+      </div>`;
+    }
+    if (s.slowCount > 0) {
+      html += `<div class="struggle-metric struggle-metric-slow">
+        <span class="struggle-metric-icon">⏱</span>
+        <span class="struggle-metric-value">${s.slowCount}</span>
+        <span class="struggle-metric-label">Slow (&gt;20s)</span>
+      </div>`;
+    }
+    if (s.overconfidentCount > 0) {
+      html += `<div class="struggle-metric struggle-metric-overconf">
+        <span class="struggle-metric-icon">⚠️</span>
+        <span class="struggle-metric-value">${s.overconfidentCount}</span>
+        <span class="struggle-metric-label">Overconfident</span>
+      </div>`;
+    }
+    if (s.underconfidentCount > 0) {
+      html += `<div class="struggle-metric struggle-metric-underconf">
+        <span class="struggle-metric-icon">🤔</span>
+        <span class="struggle-metric-value">${s.underconfidentCount}</span>
+        <span class="struggle-metric-label">Underconfident (got right but unsure)</span>
+      </div>`;
+    }
+    html += '</div>';
+
+    // Per-topic struggle bars
+    const hasTopicStruggle = topicStruggleList.some(t => t.score > 0);
+    if (hasTopicStruggle) {
+      html += '<div class="struggle-topics"><strong style="font-size:0.82rem">Where to focus:</strong>';
+      topicStruggleList.forEach(t => {
+        if (t.score === 0) return;
+        const topicLabel = TOPICS.find(tp => tp.id === t.topic)?.label.split('— ')[1] || t.topic;
+        const score = Math.round(t.score);
+        const color = score >= 50 ? 'var(--red)' : score >= 25 ? 'var(--yellow)' : 'var(--accent-light)';
+        const tags = [];
+        if (t.wrong > 0) tags.push(`${t.wrong} wrong`);
+        if (t.slow > 0) tags.push(`${t.slow} slow`);
+        if (t.overconfident > 0) tags.push(`${t.overconfident} overconfident`);
+        html += `<div class="struggle-topic-item">
+          <div class="struggle-topic-header">
+            <span>${topicLabel}</span>
+            <span class="struggle-topic-tags">${tags.join(' · ')}</span>
+          </div>
+          <div class="struggle-bar-container">
+            <div class="struggle-bar" style="width:${score}%;background:${color};box-shadow:0 0 8px ${color}"></div>
+          </div>
+        </div>`;
+      });
+      html += '</div>';
+    }
+
+    // Specific wrong questions list
+    if (s.wrongQuestions.length > 0) {
+      html += '<div class="struggle-questions"><strong style="font-size:0.82rem">Questions you missed:</strong>';
+      s.wrongQuestions.forEach((q, i) => {
+        const topicLabel = TOPICS.find(t => t.id === q.topic)?.label.split('— ')[1] || q.topic;
+        const timeStr = this.timedMode ? ` · ${(q.timeMs/1000).toFixed(1)}s` : '';
+        const confStr = this.confidenceMode && q.confidence ? ` · conf: ${q.confidence}/4` : '';
+        html += `<div class="struggle-question-item">
+          <div class="struggle-question-q">${i+1}. ${q.q}</div>
+          <div class="struggle-question-meta">${topicLabel}${timeStr}${confStr}</div>
+          <div class="struggle-question-answer">Correct answer: <strong>${q.correctAnswer}</strong></div>
+        </div>`;
+      });
+      html += '</div>';
+    }
+
+    // Actionable recommendation
+    html += '<div class="struggle-recommendation">';
+    if (s.overconfidentCount > 0) {
+      html += '<p>⚠️ <strong>Overconfidence detected:</strong> You marked answers as "fairly sure" or "certain" but got them wrong. Review these topics carefully — you have blind spots you don\'t know about.</p>';
+    }
+    if (s.slowCount > 0 && s.wrongCount === 0) {
+      html += '<p>⏱ <strong>Speed is your bottleneck:</strong> You\'re getting answers right but taking too long. Use flashcards to build automaticity so recall is instant.</p>';
+    }
+    if (s.wrongCount > 0 && this.studyQueue.length > 0) {
+      html += '<p>📚 <strong>Next step:</strong> Click "Study Wrong Answers" to see step-by-step worked examples, then retry the quiz.</p>';
+    }
+    if (s.underconfidentCount > 2) {
+      html += '<p>🤔 <strong>Underconfidence pattern:</strong> You\'re getting answers right but doubting yourself. Trust your knowledge more — you know more than you think.</p>';
+    }
+    html += '</div>';
+
+    html += '</div>';
+    div.innerHTML = html;
   },
 
   computeCalibration() {

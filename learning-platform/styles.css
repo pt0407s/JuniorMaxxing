@@ -397,6 +397,64 @@ body.focus-mode .main {
   100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
 }
 
+/* ===== STRUGGLE AREAS ===== */
+.results-struggle { margin: 20px 0; text-align: left; }
+.struggle-section {
+  background: var(--bg-elevated); border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm); padding: 18px;
+}
+.struggle-section > strong { color: var(--text-bright); font-size: 0.9rem; display: block; margin-bottom: 14px; }
+.struggle-empty { color: var(--text-dim); font-size: 0.82rem; margin-top: 8px; }
+
+.struggle-metrics {
+  display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;
+}
+.struggle-metric {
+  display: flex; align-items: center; gap: 6px;
+  padding: 8px 14px; border-radius: var(--radius-sm);
+  font-size: 0.8rem; border: 1px solid transparent;
+}
+.struggle-metric-icon { font-size: 0.9rem; }
+.struggle-metric-value { font-weight: 800; font-size: 1.1rem; font-variant-numeric: tabular-nums; }
+.struggle-metric-label { color: var(--text-dim); font-size: 0.72rem; }
+.struggle-metric-wrong { background: var(--red-dim); border-color: var(--red); color: var(--red); }
+.struggle-metric-slow { background: var(--yellow-dim); border-color: var(--yellow); color: var(--yellow); }
+.struggle-metric-overconf { background: #2d1a3d; border-color: var(--purple); color: var(--purple); }
+.struggle-metric-underconf { background: var(--accent-dim); border-color: var(--accent); color: var(--accent-light); }
+
+.struggle-topics { margin-bottom: 18px; }
+.struggle-topic-item { margin-bottom: 10px; }
+.struggle-topic-header {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.8rem; margin-bottom: 4px;
+}
+.struggle-topic-tags { color: var(--text-dim); font-size: 0.72rem; }
+.struggle-bar-container {
+  height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden;
+}
+.struggle-bar { height: 100%; border-radius: 3px; transition: width 0.6s var(--ease-out); }
+
+.struggle-questions { margin-bottom: 18px; }
+.struggle-question-item {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 8px;
+  border-left: 3px solid var(--red);
+}
+.struggle-question-q { font-size: 0.85rem; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.struggle-question-meta { font-size: 0.72rem; color: var(--text-dim); margin-bottom: 6px; }
+.struggle-question-answer { font-size: 0.8rem; color: var(--green); }
+.struggle-question-answer strong { color: var(--text-bright); }
+
+.struggle-recommendation {
+  background: var(--bg); border-radius: var(--radius-sm); padding: 12px 14px;
+  border: 1px solid var(--border-light);
+}
+.struggle-recommendation p {
+  font-size: 0.82rem; color: var(--text); margin-bottom: 8px; line-height: 1.55;
+}
+.struggle-recommendation p:last-child { margin-bottom: 0; }
+.struggle-recommendation strong { color: var(--text-bright); }
+
 /* ===== MASTERY ===== */
 .mastery-list { display: flex; flex-direction: column; gap: 11px; }
 .mastery-item { font-size: 0.8rem; }
