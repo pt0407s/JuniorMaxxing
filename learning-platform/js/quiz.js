@@ -321,7 +321,14 @@ const Quiz = {
     document.getElementById('resultsTitle').textContent = title;
     document.getElementById('resultsTitle').style.color = color;
 
-    document.getElementById('resultsScore').textContent = `${this.score}/${this.currentQuestions.length} (${pct}%)`;
+    const scoreEl = document.getElementById('resultsScore');
+    scoreEl.textContent = `${this.score}/${this.currentQuestions.length} (${pct}%)`;
+    if (pct === 100) {
+      scoreEl.classList.add('perfect');
+      this.fireConfetti();
+    } else {
+      scoreEl.classList.remove('perfect');
+    }
 
     // Timing stats
     const timingDiv = document.getElementById('resultsTiming');
@@ -526,6 +533,23 @@ const Quiz = {
     document.getElementById('quizSetup').style.display = 'block';
     document.getElementById('quizActive').style.display = 'none';
     document.getElementById('quizResults').style.display = 'none';
+    document.body.classList.remove('focus-mode');
+  },
+
+  fireConfetti() {
+    const colors = ['#3b82f6', '#00d68f', '#ffc107', '#a78bfa', '#60a5fa', '#ff8a65'];
+    for (let i = 0; i < 60; i++) {
+      const c = document.createElement('div');
+      c.className = 'confetti';
+      c.style.left = Math.random() * 100 + 'vw';
+      c.style.background = colors[Math.floor(Math.random() * colors.length)];
+      c.style.animationDelay = Math.random() * 0.5 + 's';
+      c.style.animationDuration = (2 + Math.random() * 2) + 's';
+      c.style.width = (6 + Math.random() * 6) + 'px';
+      c.style.height = (10 + Math.random() * 10) + 'px';
+      document.body.appendChild(c);
+      setTimeout(() => c.remove(), 4000);
+    }
   },
 };
 

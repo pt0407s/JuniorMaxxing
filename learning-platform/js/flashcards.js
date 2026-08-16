@@ -58,6 +58,9 @@ const Flashcards = {
     document.getElementById('flashcardProgress').textContent =
       `Card ${this.index + 1} of ${this.deck.length}`;
 
+    const card = document.getElementById('flashcardCard');
+    card.classList.remove('flipped');
+
     document.getElementById('flashcardFront').textContent = question.q;
     document.getElementById('flashcardFront').style.display = 'block';
     document.getElementById('flashcardBack').style.display = 'none';
@@ -69,10 +72,17 @@ const Flashcards = {
 
   flip() {
     this.isFlipped = true;
-    document.getElementById('flashcardFront').style.display = 'none';
-    document.getElementById('flashcardBack').style.display = 'block';
+    const card = document.getElementById('flashcardCard');
+    card.classList.add('flipped');
+    // Swap content at the midpoint of the flip animation
+    setTimeout(() => {
+      document.getElementById('flashcardFront').style.display = 'none';
+      document.getElementById('flashcardBack').style.display = 'block';
+    }, 200);
     document.getElementById('flipCardBtn').style.display = 'none';
-    document.getElementById('flashcardRating').style.display = 'block';
+    setTimeout(() => {
+      document.getElementById('flashcardRating').style.display = 'block';
+    }, 300);
   },
 
   rate(rating) {

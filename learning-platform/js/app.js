@@ -137,6 +137,12 @@ const App = {
     document.querySelector(`[data-view="${view}"]`).classList.add('active');
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
     document.getElementById(`view-${view}`).classList.add('active');
+    // Focus mode only during quiz and flashcards
+    if (view === 'quiz' || view === 'flashcards') {
+      document.body.classList.add('focus-mode');
+    } else {
+      document.body.classList.remove('focus-mode');
+    }
     if (view === 'dashboard') Dashboard.render();
     if (view === 'grades') Grades.render();
     if (view === 'stats') Stats.render();
@@ -145,11 +151,45 @@ const App = {
   addXP(amount) {
     this.xp += amount;
     const newLevel = Math.floor(this.xp / 100) + 1;
-    if (newLevel > this.level) {
+    const leveledUp = newLevel > this.level;
+    if (leveledUp) {
       this.level = newLevel;
     }
     this.saveState();
     this.updateHeader();
+    // Pulse the XP display
+    const xpDisp = document.getElementById('xpDisplay');
+    if (xpDisp) {
+      xpDisp.classList.remove('pulse');
+      void xpDisp.offsetWidth; // reflow to restart animation
+      xpDisp.classList.add('pulse');
+    }
+    if (leveledUp) this.showLevelUp();
+  },
+
+  showLevelUp() {
+    const banner = document.createElement('div');
+    banner.style.cssText = `
+      position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+      background: linear-gradient(135deg, var(--accent) 0%, #2563eb 100%);
+      color: #fff; padding: 14px 28px; border-radius: 12px;
+      font-weight: 800; font-size: 1.1rem; z-index: 10000;
+      box-shadow: 0 8px 32px var(--accent-glow);
+      animation: levelUpSlide 3s var(--ease) forwards;
+    `;
+    banner.innerHTML = `🎉 Level Up! You're now Level ${this.level}`;
+    document.body.appendChild(banner);
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes levelUpSlide {
+        0% { opacity: 0; transform: translateX(-50%) translateY(-20px); }
+        15% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        85% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        100% { opacity: 0; transform: translateX(-50%) translateY(-20px); }
+      }
+    `;
+    document.head.appendChild(style);
+    setTimeout(() => { banner.remove(); style.remove(); }, 3000);
   },
 
   updateStreak() {
@@ -173,6 +213,12 @@ const App = {
     document.getElementById('xpValue').textContent = this.xp;
     document.getElementById('levelBadge').textContent = `Lvl ${this.level}`;
     document.getElementById('streakValue').textContent = this.streak;
+    // Animate streak flame if streak > 0
+    const streakDisp = document.getElementById('streakDisplay');
+    if (streakDisp) {
+      if (this.streak > 0) streakDisp.classList.add('active');
+      else streakDisp.classList.remove('active');
+    }
   },
 
   saveQuizHistory(result) {
