@@ -10,22 +10,50 @@ See [GRADING.md](../GRADING.md) for the 100 math and what counts in each categor
 
 ---
 
-## Unit breakdown (CED)
+## Unit breakdown (CED) — confirmed from Day 1 intro slides
 
-| Unit | Topic | Weight | Priority |
-|------|-------|--------|----------|
+| Unit | Topic | Exam Weight | Priority |
+|------|-------|------------|----------|
 | 1 | Atomic Structure & Properties | 7-9% | Medium |
-| 2 | Molecular & Ionic Compound Structure | 7-9% | Medium |
-| 3 | Intermolecular Forces & Properties | 18-22% | **HIGHEST** |
+| 2 | Molecular & Ionic Compound Structure & Properties | 7-9% | Medium |
+| 3 | Intermolecular Forces & Properties | **18-22%** | **HIGHEST** |
 | 4 | Chemical Reactions | 7-9% | Medium |
 | 5 | Kinetics | 7-9% | Medium |
 | 6 | Thermodynamics | 7-9% | Medium |
 | 7 | Equilibrium | 7-9% | High |
-| 8 | Acids & Bases | 11-15% | **HIGH** |
+| 8 | Acids & Bases | **11-15%** | **HIGH** |
 | 9 | Applications of Thermodynamics | 7-9% | Medium |
 
-**Focus:** Unit 3 is by far the heaviest. Unit 8 second. ~Half of FRQs touch equilibrium or acid-base.
+**Focus:** Unit 3 is by far the heaviest (18-22%). Unit 8 second (11-15%). Together = ~30-37% of the exam.
 
+### Exam format (confirmed from Day 1 slides)
+- **Section I:** Multiple Choice — 60 questions, 90 minutes
+- **Section II:** Free Response — 7 questions (long + short), 105 minutes
+
+### Class structure (from Day 1)
+- Reading/Notes checks
+- HW checks
+- Khan Academy (supplemental)
+- **MCM Quizzes** — 10 questions, 10 minutes (these are Minor grades)
+- **Tests** — ½ points back for corrections (can recover half the lost points)
+
+### VANG method (how to relate concepts)
+- **V**erbal — explain in words
+- **A**nalytical — break down logically
+- **N**umerical — math/calculations
+- **G**raphical — visual/diagram representation
+
+### Notes format
+- One Pager summaries
+- Multiple Representations
+- VSEPR models
+- AP Chem equations
+- Big Ideas on left side, details on right
+- Highlight vocab words
+- Answer all questions in notes
+
+See [notes-1.0-1.1.md](notes-1.0-1.1.md) for Day 1 notes (particulate diagrams + moles).
+See [CHEM-101-PREREQ-STUDY-GUIDE.md](CHEM-101-PREREQ-STUDY-GUIDE.md) for prerequisite knowledge.
 See [RESOURCES.md](../RESOURCES.md) for full resource list, exam format, and Chief Reader insights.
 
 ---
