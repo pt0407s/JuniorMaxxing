@@ -227,11 +227,11 @@ function generateConversion(difficulty) {
         id: 'conv-g2mol-' + Date.now(),
         prompt: `How many moles are in ${grams} g of ${c.sym} (${c.name})? (Molar mass = ${c.mm} g/mol)`,
         answer: roundTo(mol, 3) + ' mol',
-        hint: 'Use: moles = grams ÷ molar mass',
+        hint: 'Use: moles = grams ÷ molar mass. Set up as: g × (1 mol / molar mass) = moles',
         steps: [
           `Step 1: Identify what you know.\n  Given: ${grams} g ${c.sym}\n  Find: moles\n  Molar mass: ${c.mm} g/mol`,
-          `Step 2: Choose the conversion.\n  moles = grams ÷ molar mass`,
-          `Step 3: Calculate.\n  moles = ${grams} g ÷ ${c.mm} g/mol = ${mol.toFixed(4)}`,
+          `Step 2: Set up conversion factor.\n  ${grams} g ${c.sym} × (1 mol ${c.sym} / ${c.mm} g ${c.sym})`,
+          `Step 3: Calculate.\n  = ${grams} ÷ ${c.mm} = ${mol.toFixed(4)}`,
           `Step 4: Round to 3 significant figures.\n  Answer: ${roundTo(mol, 3)} mol ${c.sym}`,
         ],
       };
@@ -242,13 +242,13 @@ function generateConversion(difficulty) {
       const grams = mol * c.mm;
       return {
         id: 'conv-mol2g-' + Date.now(),
-        prompt: `How many grams are in ${mol} mol of ${c.sym} (${c.name})? (Molar mass = ${c.mm} g/mol)`,
+        prompt: `Calculate the mass of ${mol} mol ${c.sym} (${c.name}). (Molar mass = ${c.mm} g/mol)`,
         answer: roundTo(grams, 3) + ' g',
-        hint: 'Use: grams = moles × molar mass',
+        hint: 'Use: grams = moles × molar mass. Set up as: mol × (molar mass / 1 mol) = grams',
         steps: [
           `Step 1: Identify.\n  Given: ${mol} mol ${c.sym}\n  Find: grams\n  Molar mass: ${c.mm} g/mol`,
-          `Step 2: Choose conversion.\n  grams = moles × molar mass`,
-          `Step 3: Calculate.\n  grams = ${mol} mol × ${c.mm} g/mol = ${grams.toFixed(2)}`,
+          `Step 2: Set up conversion factor.\n  ${mol} mol ${c.sym} × (${c.mm} g ${c.sym} / 1 mol ${c.sym})`,
+          `Step 3: Calculate.\n  = ${mol} × ${c.mm} = ${grams.toFixed(2)} g ${c.sym}`,
           `Step 4: Round to 3 significant figures.\n  Answer: ${roundTo(grams, 3)} g ${c.sym}`,
         ],
       };
@@ -277,13 +277,13 @@ function generateConversion(difficulty) {
       const liters = mol * MOLAR_VOLUME;
       return {
         id: 'conv-mol2L-' + Date.now(),
-        prompt: `What volume does ${mol} mol of ${c.sym} occupy at STP?`,
+        prompt: `Calculate the volume of ${mol} mol ${c.sym} at STP.`,
         answer: roundTo(liters, 3) + ' L',
-        hint: 'At STP, 1 mol of any gas = 22.4 L. Use: volume = moles × 22.4 L/mol',
+        hint: 'At STP, 1 mol of any gas = 22.4 L. Set up as: mol × (22.4 L / 1 mol) = liters',
         steps: [
-          `Step 1: Identify.\n  Given: ${mol} mol ${c.sym} at STP\n  Find: volume (liters)\n  Molar volume at STP: 22.4 L/mol`,
-          `Step 2: Choose conversion.\n  volume = moles × 22.4 L/mol`,
-          `Step 3: Calculate.\n  volume = ${mol} mol × 22.4 L/mol = ${liters.toFixed(2)}`,
+          `Step 1: Identify.\n  Given: ${mol} mol ${c.sym} at STP\n  Find: volume (liters)\n  At STP: 1 mol = 22.4 L`,
+          `Step 2: Set up conversion factor.\n  ${mol} mol ${c.sym} × (22.4 L ${c.sym} / 1 mol ${c.sym})`,
+          `Step 3: Calculate.\n  = ${mol} × 22.4 = ${liters.toFixed(2)} L ${c.sym}`,
           `Step 4: Answer: ${roundTo(liters, 3)} L ${c.sym} at STP`,
         ],
       };
@@ -315,12 +315,13 @@ function generateConversion(difficulty) {
         id: 'conv-g2L-' + Date.now(),
         prompt: `What volume does ${grams} g of ${c.sym} occupy at STP? (Molar mass = ${c.mm} g/mol)`,
         answer: roundTo(liters, 3) + ' L',
-        hint: 'Two-step: grams → moles (÷ molar mass), then moles → liters (× 22.4 L/mol)',
+        hint: 'Two-step: grams → moles (÷ molar mass), then moles → liters (× 22.4). Chain the conversion factors.',
         steps: [
-          `Step 1: Identify.\n  Given: ${grams} g ${c.sym} at STP\n  Find: volume (liters)\n  Molar mass: ${c.mm} g/mol\n  Molar volume: 22.4 L/mol`,
-          `Step 2: Convert grams → moles.\n  moles = ${grams} g ÷ ${c.mm} g/mol = ${mol.toFixed(4)}`,
-          `Step 3: Convert moles → liters at STP.\n  volume = ${mol.toFixed(4)} × 22.4 L/mol = ${liters.toFixed(2)}`,
-          `Step 4: Round to 3 significant figures.\n  Answer: ${roundTo(liters, 3)} L ${c.sym} at STP`,
+          `Step 1: Identify.\n  Given: ${grams} g ${c.sym} at STP\n  Find: volume (liters)\n  Molar mass: ${c.mm} g/mol\n  At STP: 1 mol = 22.4 L`,
+          `Step 2: Set up the chain.\n  ${grams} g ${c.sym} × (1 mol / ${c.mm} g) × (22.4 L / 1 mol)`,
+          `Step 3: Convert grams → moles.\n  = ${grams} ÷ ${c.mm} = ${mol.toFixed(4)} mol ${c.sym}`,
+          `Step 4: Convert moles → liters.\n  = ${mol.toFixed(4)} × 22.4 = ${liters.toFixed(2)} L ${c.sym}`,
+          `Step 5: Round to 3 significant figures.\n  Answer: ${roundTo(liters, 3)} L ${c.sym} at STP`,
         ],
       };
     }
