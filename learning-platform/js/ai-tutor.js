@@ -124,13 +124,6 @@ RULES:
 // Wire up from Skills.js
 if (typeof window !== 'undefined') {
   window.AITutor = AITutor;
-
-  // Attach send handler (called from Skills.js)
-  Skills.sendAIMessage = function() {
-    const input = document.getElementById('aiTutorInput');
-    const text = input.value.trim();
-    if (!text) return;
-    input.value = '';
-    AITutor.send(text);
-  };
 }
+
+// sendAIMessage is defined in skills.js init() to avoid load-order issues

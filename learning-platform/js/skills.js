@@ -46,6 +46,14 @@ const Skills = {
     this.renderSkillStats();
   },
 
+  sendAIMessage() {
+    const input = document.getElementById('aiTutorInput');
+    const text = input.value.trim();
+    if (!text) return;
+    input.value = '';
+    AITutor.send(text);
+  },
+
   renderSkillStats() {
     const skills = ['balancing', 'conversions', 'particulate', 'sohcahtoa', 'algebra'];
     skills.forEach(id => {
