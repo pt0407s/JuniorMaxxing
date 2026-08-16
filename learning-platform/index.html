@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuniorMaxxing — Learning Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-left">
+    <h1 class="logo">JuniorMaxxing</h1>
+    <span class="tagline">Evidence-based learning platform</span>
+  </div>
+  <div class="header-right">
+    <div class="xp-display" id="xpDisplay">
+      <span class="xp-icon">⚡</span>
+      <span class="xp-value" id="xpValue">0</span>
+      <span class="xp-label">XP</span>
+    </div>
+    <div class="level-badge" id="levelBadge">Lvl 1</div>
+    <div class="streak-display" id="streakDisplay">
+      <span class="streak-icon">🔥</span>
+      <span class="streak-value" id="streakValue">0</span>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+  <button class="nav-btn" data-view="quiz">Quiz</button>
+  <button class="nav-btn" data-view="flashcards">Flashcards</button>
+  <button class="nav-btn" data-view="grades">Grades</button>
+  <button class="nav-btn" data-view="stats">Stats</button>
+</nav>
+
+<!-- VIEWS -->
+<main class="main">
+
+  <!-- DASHBOARD VIEW -->
+  <section class="view active" id="view-dashboard">
+    <div class="card-grid">
+      <div class="card" id="cardToday">
+        <h3>Today's Review</h3>
+        <p class="card-big-number" id="dueCount">0</p>
+        <p class="card-subtitle">cards due for review</p>
+        <button class="btn btn-primary" id="startReviewBtn">Start Review →</button>
+      </div>
+      <div class="card" id="cardMastery">
+        <h3>Topic Mastery</h3>
+        <div id="masteryList" class="mastery-list"></div>
+      </div>
+      <div class="card" id="cardCountdown">
+        <h3>AP Exam Countdown</h3>
+        <div id="countdownList"></div>
+      </div>
+      <div class="card" id="cardCheckin">
+        <h3>Daily Check-In</h3>
+        <div id="checkinList" class="checkin-list"></div>
+      </div>
+      <div class="card" id="cardBadges">
+        <h3>Badges</h3>
+        <div id="badgeList" class="badge-list"></div>
+      </div>
+      <div class="card" id="cardSchedule">
+        <h3>Today's Schedule</h3>
+        <div id="scheduleDisplay"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ VIEW -->
+  <section class="view" id="view-quiz">
+    <div class="quiz-setup" id="quizSetup">
+      <h2>Quiz Mode</h2>
+      <p class="quiz-desc">Active recall with interleaved questions, scrambled answers, and immediate feedback.</p>
+      <div class="quiz-controls">
+        <label>Subject & Section:</label>
+        <select id="quizTopicSelect" class="select"></select>
+      </div>
+      <div class="quiz-controls">
+        <label>Number of questions:</label>
+        <select id="quizCountSelect" class="select">
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+      <div class="quiz-controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="quizScrambleAns" checked>
+          <span>Scramble answer order</span>
+        </label>
+      </div>
+      <button class="btn btn-primary btn-large" id="startQuizBtn">Start Quiz →</button>
+    </div>
+
+    <div class="quiz-active" id="quizActive" style="display:none">
+      <div class="quiz-header">
+        <div class="quiz-progress-info">
+          <span id="quizQuestionNum">Q1</span>
+          <span id="quizScoreDisplay">Score: 0/0</span>
+        </div>
+        <div class="quiz-progress-bar-container">
+          <div class="quiz-progress-bar" id="quizProgressBar"></div>
+        </div>
+      </div>
+      <div class="quiz-question-container" id="quizQuestionContainer"></div>
+    </div>
+
+    <div class="quiz-results" id="quizResults" style="display:none">
+      <h2 id="resultsTitle">Quiz Complete</h2>
+      <div class="results-score" id="resultsScore"></div>
+      <div class="results-breakdown" id="resultsBreakdown"></div>
+      <div class="results-actions">
+        <button class="btn btn-primary" id="retryQuizBtn">Retry</button>
+        <button class="btn btn-secondary" id="newQuizBtn">New Quiz</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLASHCARDS VIEW -->
+  <section class="view" id="view-flashcards">
+    <div class="flashcard-setup" id="flashcardSetup">
+      <h2>Flashcards — Spaced Repetition</h2>
+      <p class="quiz-desc">SM-2 algorithm schedules reviews based on your performance. Cards you struggle with appear more often.</p>
+      <div class="quiz-controls">
+        <label>Deck:</label>
+        <select id="flashcardDeckSelect" class="select"></select>
+      </div>
+      <div class="flashcard-stats" id="flashcardStats"></div>
+      <button class="btn btn-primary btn-large" id="startFlashBtn">Start Review →</button>
+    </div>
+    <div class="flashcard-active" id="flashcardActive" style="display:none">
+      <div class="flashcard-progress" id="flashcardProgress"></div>
+      <div class="flashcard-card" id="flashcardCard">
+        <div class="flashcard-front" id="flashcardFront"></div>
+        <div class="flashcard-back" id="flashcardBack" style="display:none"></div>
+      </div>
+      <div class="flashcard-controls" id="flashcardControls">
+        <button class="btn btn-secondary" id="flipCardBtn">Show Answer</button>
+      </div>
+      <div class="flashcard-rating" id="flashcardRating" style="display:none">
+        <p class="rating-prompt">How well did you know this?</p>
+        <div class="rating-buttons">
+          <button class="btn btn-rate btn-rate-again" data-rating="1">Again</button>
+          <button class="btn btn-rate btn-rate-hard" data-rating="2">Hard</button>
+          <button class="btn btn-rate btn-rate-good" data-rating="3">Good</button>
+          <button class="btn btn-rate btn-rate-easy" data-rating="4">Easy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRADES VIEW -->
+  <section class="view" id="view-grades">
+    <h2>Grade Tracker</h2>
+    <p class="quiz-desc">60% Major / 40% Minor weighting. Log every grade the day you get it.</p>
+    <div class="grades-grid">
+      <div class="card">
+        <h3>Add Grade</h3>
+        <div class="grade-form">
+          <select id="gradeClassSelect" class="select"></select>
+          <input type="text" id="gradeAssignmentInput" placeholder="Assignment name" class="input">
+          <select id="gradeCategorySelect" class="select">
+            <option>Major</option><option>Minor</option>
+          </select>
+          <input type="number" id="gradeScoreInput" placeholder="0-100" min="0" max="100" class="input input-small">
+          <button class="btn btn-primary" id="addGradeBtn">Add</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Current Standing</h3>
+        <div id="gradeStandings"></div>
+        <button class="btn btn-secondary btn-sm" id="exportGradesBtn" style="margin-top:12px">Export CSV</button>
+      </div>
+      <div class="card">
+        <h3>All Grades</h3>
+        <div id="allGradesList" class="all-grades-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS VIEW -->
+  <section class="view" id="view-stats">
+    <h2>Learning Statistics</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Overview</h3>
+        <div id="statsOverview" class="stats-grid"></div>
+      </div>
+      <div class="card">
+        <h3>Quiz History</h3>
+        <div id="statsQuizHistory" class="quiz-history-list"></div>
+      </div>
+      <div class="card">
+        <h3>Per-Topic Performance</h3>
+        <div id="statsTopicPerf" class="topic-perf-list"></div>
+      </div>
+      <div class="card">
+        <h3>Study Calendar</h3>
+        <div id="statsCalendar" class="study-calendar"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+</div>
+
+<!-- Scripts -->
+<script src="data/questions.js"></script>
+<script src="js/spaced-repetition.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/flashcards.js"></script>
+<script src="js/grades.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/stats.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
