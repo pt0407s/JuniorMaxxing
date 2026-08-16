@@ -136,7 +136,7 @@ const Skills = {
     const userAns = input.value.trim();
     if (!userAns) return;
 
-    const correct = this.normalizeAnswer(userAns) === this.normalizeAnswer(this.currentProblem.answer);
+    const correct = this.checkAnswerFlexible(userAns, this.currentProblem.answer);
     const feedback = document.getElementById('skillFeedback');
     const timeMs = Date.now() - this.questionStartTime;
 
@@ -158,6 +158,61 @@ const Skills = {
       input.select();
     }
     this.updateScoreDisplay();
+  },
+
+  // Flexible answer checker — handles both equations and numeric answers
+  checkAnswerFlexible(userAns, correctAns) {
+    // For balancing equations (contains → arrow or chemical formulas with +)
+    if (correctAns.includes('→') || (correctAns.includes('+') && /[a-zA-Z]{2}/.test(correctAns))) {
+      return this.normalizeAnswer(userAns) === this.normalizeAnswer(correctAns);
+    }
+
+    // For numeric answers (conversions, algebra, sohcahtoa)
+    const userNum = this.extractNumber(userAns);
+    const correctNum = this.extractNumber(correctAns);
+
+    if (userNum !== null && correctNum !== null) {
+      // Allow 2% tolerance for rounding differences
+      const tolerance = Math.abs(correctNum) * 0.02 + 0.01;
+      return Math.abs(userNum - correctNum) <= tolerance;
+    }
+
+    // Fallback: string comparison
+    return this.normalizeAnswer(userAns) === this.normalizeAnswer(correctAns);
+  },
+
+  // Extract a number from a string, handling scientific notation
+  extractNumber(s) {
+    const SUP = { '⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9','⁻':'-' };
+    // Normalize: remove spaces, handle × and x and * for scientific notation
+    let cleaned = s.trim()
+      // Convert superscript digits that follow "10" into "^" + digits
+      // e.g. "10²³" → "10^23", "10⁻²" → "10^-2"
+      .replace(/10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+)/g, (m, sups) => '10^' + sups.split('').map(c => SUP[c] || c).join(''))
+      // Convert any remaining standalone superscripts
+      .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻]/g, c => SUP[c] || c)
+      .replace(/×/g, '*')
+      .replace(/[xX]\s*10\s*\^/g, '*10^')   // "x 10^" or "X 10^"
+      .replace(/[xX]\s*10\s*\*/g, '*10*')   // "x 10*"
+      .replace(/\s*\*\s*10\s*\^/g, '*10^')  // "* 10^"
+      .replace(/\s*10\s*\^/g, '*10^')       // "10^" without * (e.g. "1.51 10^23")
+      .replace(/\s+/g, '');
+
+    // Try to match: number, optionally with *10^exp or e±exp
+    const match = cleaned.match(/(-?\d+\.?\d*)/);
+    if (!match) return null;
+
+    let num = parseFloat(match[1]);
+    if (isNaN(num)) return null;
+
+    // Check for exponent part: *10^XX, eXX, E±XX
+    const after = cleaned.substring(match.index + match[1].length);
+    const expMatch = after.match(/(?:\*10\^|e|E)([+-]?\d+)/);
+    if (expMatch) {
+      num = num * Math.pow(10, parseInt(expMatch[1]));
+    }
+
+    return num;
   },
 
   normalizeAnswer(s) {
