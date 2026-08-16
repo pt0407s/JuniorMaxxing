@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuniorMaxxing Dashboard</title>
+<style>
+:root {
+  --bg: #0a0a0a;
+  --card: #141414;
+  --border: #222;
+  --text: #e0e0e0;
+  --dim: #666;
+  --green: #00ff88;
+  --yellow: #ffcc00;
+  --red: #ff4444;
+  --blue: #4488ff;
+  --accent: #00ff88;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 { font-size: 1.8rem; margin-bottom: 5px; }
+h2 { font-size: 1.1rem; margin-bottom: 12px; color: var(--accent); }
+.subtitle { color: var(--dim); font-size: 0.85rem; margin-bottom: 20px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+}
+.card h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--dim);
+  margin-bottom: 14px;
+}
+
+/* GRADES */
+.grade-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+.grade-row .name { width: 110px; font-weight: 600; }
+.grade-bar-container {
+  flex: 1;
+  height: 18px;
+  background: #1a1a1a;
+  border-radius: 4px;
+  margin: 0 10px;
+  overflow: hidden;
+  position: relative;
+}
+.grade-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #000;
+}
+.grade-score { width: 55px; text-align: right; font-weight: 700; }
+.grade-input {
+  background: #1a1a1a;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  width: 60px;
+}
+.grade-input:focus { outline: 1px solid var(--accent); }
+.add-grade-row { display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+.add-grade-row select, .add-grade-row input {
+  background: #1a1a1a;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.add-grade-row select { flex: 0 0 110px; }
+.add-grade-row input { flex: 1; min-width: 80px; }
+.btn {
+  background: var(--accent);
+  color: #000;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.btn:hover { opacity: 0.85; }
+.btn-sm { padding: 4px 10px; font-size: 0.75rem; }
+
+/* COUNTDOWN */
+.countdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.countdown-item:last-child { border-bottom: none; }
+.countdown-item .exam-name { font-weight: 600; }
+.countdown-item .exam-date { color: var(--dim); font-size: 0.75rem; }
+.countdown-item .days {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent);
+  width: 60px;
+  text-align: right;
+}
+.countdown-item.urgent .days { color: var(--red); }
+
+/* CHECK-IN */
+.checkin-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 0.85rem;
+  cursor: pointer;
+  user-select: none;
+}
+.checkin-item:hover { color: var(--accent); }
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+.checkin-item.done .checkbox {
+  background: var(--green);
+  border-color: var(--green);
+}
+.checkin-item.done .checkbox::after {
+  content: '✓';
+  color: #000;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+.checkin-item.done span { text-decoration: line-through; color: var(--dim); }
+
+/* ANKI STREAK */
+.streak-display {
+  text-align: center;
+  padding: 15px 0;
+}
+.streak-number {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+.streak-label { color: var(--dim); font-size: 0.8rem; margin-top: 5px; }
+.streak-controls { display: flex; gap: 8px; justify-content: center; margin-top: 12px; }
+
+/* QUIZ */
+.quiz-container { min-height: 300px; }
+.quiz-question {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.quiz-options { display: flex; flex-direction: column; gap: 8px; }
+.quiz-option {
+  background: #1a1a1a;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: left;
+  transition: all 0.15s;
+}
+.quiz-option:hover { border-color: var(--accent); background: #1c1c1c; }
+.quiz-option.correct {
+  background: rgba(0,255,136,0.15);
+  border-color: var(--green);
+  color: var(--green);
+}
+.quiz-option.wrong {
+  background: rgba(255,68,68,0.15);
+  border-color: var(--red);
+  color: var(--red);
+}
+.quiz-option.disabled { pointer-events: none; opacity: 0.6; }
+.quiz-feedback {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  display: none;
+}
+.quiz-feedback.show { display: block; }
+.quiz-feedback.correct { background: rgba(0,255,136,0.1); color: var(--green); }
+.quiz-feedback.wrong { background: rgba(255,68,68,0.1); color: var(--red); }
+.quiz-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 0.8rem;
+  color: var(--dim);
+}
+.quiz-progress {
+  height: 4px;
+  background: #1a1a1a;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.quiz-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s;
+  width: 0%;
+}
+.quiz-topic-select {
+  background: #1a1a1a;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+/* SCHEDULE */
+.schedule-day {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.schedule-day-label {
+  width: 30px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--dim);
+  padding-top: 4px;
+}
+.schedule-blocks { display: flex; gap: 3px; flex: 1; }
+.schedule-block {
+  flex: 1;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 2px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.tab {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--dim);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.tab.active { background: var(--accent); color: #000; border-color: var(--accent); }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+  body { padding: 12px; }
+  h1 { font-size: 1.4rem; }
+}
+</style>
+</head>
+<body>
+
+<h1>JuniorMaxxing</h1>
+<p class="subtitle">6 APs + 2 electives. Target: 100. <span id="todayDate"></span></p>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('overview')">Overview</div>
+  <div class="tab" onclick="switchTab('quiz')">Quiz Mode</div>
+  <div class="tab" onclick="switchTab('schedule')">Schedule</div>
+</div>
+
+<!-- TAB: OVERVIEW -->
+<div id="tab-overview" class="tab-content active">
+<div class="grid">
+
+  <!-- GRADES -->
+  <div class="card">
+    <h3>Grade Tracker — 60/40 Weighted</h3>
+    <div id="gradeList"></div>
+    <div class="add-grade-row">
+      <select id="gradeClass">
+        <option>AP Bio</option><option>AP Chem</option><option>AP Physics 1</option>
+        <option>AP Precalc</option><option>APUSH</option><option>AP Lang</option>
+        <option>Mobile App DEV</option><option>Entrepreneurship</option>
+      </select>
+      <input type="text" id="gradeAssignment" placeholder="Assignment">
+      <select id="gradeCategory"><option>Major</option><option>Minor</option></select>
+      <input type="number" id="gradeScore" placeholder="0-100" min="0" max="100">
+      <button class="btn btn-sm" onclick="addGrade()">Add</button>
+    </div>
+    <p style="margin-top:10px;font-size:0.75rem;color:var(--dim)">Data saves to this browser. Export with the button below.</p>
+    <button class="btn btn-sm" style="margin-top:8px" onclick="exportGrades()">Export CSV</button>
+  </div>
+
+  <!-- AP EXAM COUNTDOWN -->
+  <div class="card">
+    <h3>AP Exam Countdown — May 2027</h3>
+    <div id="countdownList"></div>
+  </div>
+
+  <!-- ANKI STREAK -->
+  <div class="card">
+    <h3>Anki Streak</h3>
+    <div class="streak-display">
+      <div class="streak-number" id="streakNumber">0</div>
+      <div class="streak-label">days</div>
+    </div>
+    <div class="streak-controls">
+      <button class="btn btn-sm" onclick="ankiDidIt()">Did Anki today</button>
+      <button class="btn btn-sm" style="background:var(--border);color:var(--text)" onclick="ankiReset()">Reset</button>
+    </div>
+    <p id="ankiLastDone" style="text-align:center;margin-top:10px;font-size:0.75rem;color:var(--dim)"></p>
+  </div>
+
+  <!-- DAILY CHECK-IN -->
+  <div class="card">
+    <h3>Daily Check-In — <span id="checkinDate"></span></h3>
+    <div id="checkinList"></div>
+    <p style="margin-top:10px;font-size:0.75rem;color:var(--dim)">Resets each day. Do this every night after dinner.</p>
+  </div>
+
+</div>
+</div>
+
+<!-- TAB: QUIZ -->
+<div id="tab-quiz" class="tab-content">
+<div class="card">
+  <h3>Quiz Mode — Active Recall</h3>
+  <select class="quiz-topic-select" id="quizTopic" onchange="loadQuiz()">
+    <option value="all">All Topics</option>
+    <option value="periodic">Periodic Table</option>
+    <option value="electrons">Electrons & Ions</option>
+    <option value="redox">Redox Reactions</option>
+    <option value="bonds">Chemical Bonds</option>
+    <option value="polarity">Polar vs Nonpolar</option>
+    <option value="water">Water Properties</option>
+  </select>
+  <div class="quiz-stats">
+    <span id="quizScore">Score: 0/0</span>
+    <span id="quizCount">Question 1</span>
+  </div>
+  <div class="quiz-progress"><div class="quiz-progress-bar" id="quizProgressBar"></div></div>
+  <div class="quiz-container" id="quizContainer"></div>
+</div>
+</div>
+
+<!-- TAB: SCHEDULE -->
+<div id="tab-schedule" class="tab-content">
+<div class="card">
+  <h3>A/B Block Schedule</h3>
+  <p style="margin-bottom:14px;font-size:0.85rem;color:var(--dim)">Today is <span id="scheduleToday"></span></p>
+  <div id="scheduleGrid"></div>
+</div>
+<div class="card" style="margin-top:16px">
+  <h3>SAT / ACT Timeline</h3>
+  <div id="satActTimeline"></div>
+</div>
+</div>
+
+<script>
+// ===== DATA =====
+const AP_EXAMS = [
+  { name: 'AP Biology', date: '2027-05-03', session: 'Afternoon' },
+  { name: 'AP Physics 1', date: '2027-05-05', session: 'Afternoon' },
+  { name: 'AP Chemistry', date: '2027-05-06', session: 'Afternoon' },
+  { name: 'APUSH', date: '2027-05-07', session: 'Afternoon' },
+  { name: 'AP Precalculus', date: '2027-05-11', session: 'Morning' },
+  { name: 'AP English Lang', date: '2027-05-12', session: 'Morning' },
+];
+
+const CLASSES = ['AP Bio','AP Chem','AP Physics 1','AP Precalc','APUSH','AP Lang','Mobile App DEV','Entrepreneurship'];
+
+const CHECKIN_ITEMS = [
+  'Did at least 1 Anki card per AP class (6 cards)',
+  'Checked every class for tomorrow\'s assignments',
+  'Logged every grade received today',
+  'Identified the ONE most important thing for tomorrow',
+  'Phone charging in another room',
+  'Backpack ready by the door',
+  'Study materials set up for tomorrow',
+];
+
+const SCHEDULE = {
+  A: ['Mobile App DEV','APUSH','AP Precalc','AP Lang'],
+  B: ['AP Bio','AP Chem','Entrepreneurship','AP Physics 1'],
+};
+
+const SAT_ACT = [
+  { test: 'SAT', date: '2026-11-07', deadline: '2026-10-23', note: '1st attempt (baseline)' },
+  { test: 'SAT', date: '2027-03-06', deadline: '2027-02-19', note: '2nd attempt (the one that counts)' },
+  { test: 'SAT', date: '2027-06-05', deadline: '2027-05-21', note: '3rd attempt (only if needed, after APs)' },
+  { test: 'ACT', date: '2026-12-12', deadline: '2026-11-06', note: '1st attempt (baseline)' },
+  { test: 'ACT', date: '2027-02-27', deadline: '2027-01-22', note: '2nd attempt (the one that counts)' },
+];
+
+// ===== QUIZ QUESTIONS =====
+const QUIZ_QUESTIONS = [
+  // Periodic Table
+  { topic:'periodic', q:'Which 6 elements are the essential biological elements that form the backbone of macromolecules?',
+    options:['C, H, O, N, P, S','C, H, O, N, Na, Cl','C, H, O, N, Fe, Mg','C, H, O, N, Ca, K'],
+    correct:0, explain:'C, H, O, N, P, S — Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus, Sulfur. P is in DNA/ATP, S is in proteins.' },
+  { topic:'periodic', q:'What is electronegativity?',
+    options:['An atom\'s ability to attract electrons in a bond','The number of protons in an atom','The energy released when a bond forms','The mass of an atom\'s nucleus'],
+    correct:0, explain:'Electronegativity = an atom\'s ability to attract electrons in a chemical bond. It determines bond polarity.' },
+  { topic:'periodic', q:'Which direction does electronegativity increase on the periodic table?',
+    options:['Left and down','Right and up','Right and down','Left and up'],
+    correct:1, explain:'Electronegativity increases going RIGHT across a period and UP a group. Fluorine is the most electronegative.' },
+  { topic:'periodic', q:'What is the most electronegative element?',
+    options:['Oxygen','Nitrogen','Fluorine','Chlorine'],
+    correct:2, explain:'Fluorine (F) is the most electronegative element on the periodic table.' },
+
+  // Electrons
+  { topic:'electrons', q:'What are valence electrons?',
+    options:['Electrons in the innermost shell','Electrons in the outermost shell that participate in bonding','Electrons that have been lost','Electrons shared between two atoms'],
+    correct:1, explain:'Valence electrons are in the outermost shell. They determine how atoms interact and bond.' },
+  { topic:'electrons', q:'How does sodium (Na) become Na⁺?',
+    options:['Gains 1 electron','Loses 1 electron','Gains 1 proton','Shares 1 electron'],
+    correct:1, explain:'Na has 1 valence electron. It loses that electron to achieve a full outer shell, becoming Na⁺ (a cation).' },
+  { topic:'electrons', q:'What is a cation?',
+    options:['A positive ion (lost electrons)','A negative ion (gained electrons)','A neutral atom','A molecule with covalent bonds'],
+    correct:0, explain:'A cation is a positive ion — it lost electrons. An anion is a negative ion — it gained electrons.' },
+  { topic:'electrons', q:'How many valence electrons does oxygen (O, group 16) have?',
+    options:['4','6','8','2'],
+    correct:1, explain:'Group 16 elements have 6 valence electrons. Oxygen needs 2 more to complete its octet.' },
+  { topic:'electrons', q:'Why are ions important in biological systems?',
+    options:['They form covalent bonds in DNA','They are electrolytes that regulate nerve function and osmotic balance','They store genetic information','They catalyze enzyme reactions'],
+    correct:1, explain:'Ions like Na⁺, K⁺, Cl⁻ are electrolytes — they regulate nerve function, muscle contraction, and osmotic balance.' },
+
+  // Redox
+  { topic:'redox', q:'What does OIL RIG stand for?',
+    options:['Oil In Liquids, Rigs In Ground','Oxidation Is Loss, Reduction Is Gain (of electrons)','Oxygen Inside Living, Respiration In Growth','Only Ionic Reactions Include Gases'],
+    correct:1, explain:'OIL RIG: Oxidation Is Loss, Reduction Is Gain — of electrons. The most important redox mnemonic.' },
+  { topic:'redox', q:'In cellular respiration, is glucose oxidized or reduced?',
+    options:['Oxidized','Reduced','Neither','Both'],
+    correct:0, explain:'Glucose is oxidized — it loses electrons/hydrogen atoms. Oxygen is reduced (gains them → water).' },
+  { topic:'redox', q:'When NAD⁺ becomes NADH, is that oxidation or reduction?',
+    options:['Oxidation','Reduction','Neither','Both'],
+    correct:1, explain:'NAD⁺ gains electrons to become NADH — that\'s reduction. NADH → NAD⁺ would be oxidation.' },
+  { topic:'redox', q:'If a molecule gains oxygen atoms, is it oxidized or reduced?',
+    options:['Oxidized','Reduced','Neither','It depends on the molecule'],
+    correct:0, explain:'Gaining oxygen = oxidation. Losing oxygen = reduction. (Opposite for hydrogen: gaining H = reduction.)' },
+  { topic:'redox', q:'If a molecule loses hydrogen atoms, is it oxidized or reduced?',
+    options:['Oxidized','Reduced','Neither','It depends on the molecule'],
+    correct:0, explain:'Losing hydrogen = oxidation. Gaining hydrogen = reduction. (Opposite for oxygen: gaining O = oxidation.)' },
+
+  // Bonds
+  { topic:'bonds', q:'What are the 3 main types of chemical bonds (biologically relevant)?',
+    options:['Ionic, covalent, hydrogen','Ionic, metallic, nuclear','Covalent, magnetic, gravitational','Hydrogen, metallic, ionic'],
+    correct:0, explain:'Ionic (electron transfer), covalent (electron sharing), hydrogen (attraction between H and O/N/F). Metallic exists but isn\'t biologically relevant.' },
+  { topic:'bonds', q:'How does an ionic bond form?',
+    options:['By sharing electrons equally','By transferring electrons from metal to nonmetal','By attraction between two nonmetals','By sharing protons'],
+    correct:1, explain:'Ionic bonds form by electron transfer — a metal loses electrons (cation) and a nonmetal gains them (anion). Example: NaCl.' },
+  { topic:'bonds', q:'Which bond type holds DNA base pairs together?',
+    options:['Covalent','Ionic','Hydrogen bonds','Metallic'],
+    correct:2, explain:'Hydrogen bonds hold base pairs together (A-T, G-C). They\'re weak individually but strong collectively. The backbone is covalent.' },
+  { topic:'bonds', q:'What is bond energy and why does it matter for ATP?',
+    options:['The energy stored in bonds; breaking ATP releases energy the cell uses','The strength of ionic bonds; ATP uses ionic bonds','The number of bonds in a molecule; ATP has the most','The energy to form bonds; ATP absorbs energy when broken'],
+    correct:0, explain:'Bond energy = energy in chemical bonds. ATP → ADP + Pᵢ releases energy that powers cellular work.' },
+  { topic:'bonds', q:'Are hydrogen bonds strong or weak? Why do they matter?',
+    options:['Strong individually, like covalent bonds','Weak individually, but many together create strong collective effects','They are the strongest bond type','They only exist in metals'],
+    correct:1, explain:'Hydrogen bonds are weak individually but collectively strong — DNA double helix, protein folding, water properties all depend on many H-bonds.' },
+
+  // Polarity
+  { topic:'polarity', q:'What makes a molecule polar vs nonpolar?',
+    options:['Polar has equal electron sharing; nonpolar has unequal sharing','Polar has unequal electron sharing (different electronegativities); nonpolar has equal sharing','Polar molecules always contain oxygen; nonpolar never do','Polar molecules are larger than nonpolar ones'],
+    correct:1, explain:'Polar = unequal electron sharing due to different electronegativities → partial charges. Nonpolar = equal sharing → no partial charges.' },
+  { topic:'polarity', q:'What does "like dissolves like" mean?',
+    options:['Similar-sized molecules dissolve each other','Polar dissolves polar; nonpolar dissolves nonpolar','Only liquids can dissolve other liquids','Molecules with the same number of atoms dissolve each other'],
+    correct:1, explain:'Polar substances dissolve polar substances; nonpolar dissolves nonpolar. That\'s why salt (polar) dissolves in water (polar) but oil (nonpolar) doesn\'t.' },
+  { topic:'polarity', q:'Why does salt dissolve in water but oil doesn\'t?',
+    options:['Salt is heavier than oil','Salt is polar/ionic and water is polar (like dissolves like); oil is nonpolar','Oil evaporates faster than water','Salt molecules are smaller than oil molecules'],
+    correct:1, explain:'Salt is ionic/polar → dissolves in polar water. Oil is nonpolar → doesn\'t dissolve in polar water. "Like dissolves like."' },
+  { topic:'polarity', q:'What part of a phospholipid is hydrophilic? Hydrophobic?',
+    options:['Tails are hydrophilic; heads are hydrophobic','Heads (phosphate) are hydrophilic; tails (fatty acids) are hydrophobic','Both parts are hydrophilic','Both parts are hydrophobic'],
+    correct:1, explain:'Phosphate heads = hydrophilic (polar, face water). Fatty acid tails = hydrophobic (nonpolar, face inward). This forms the bilayer.' },
+  { topic:'polarity', q:'Why can\'t polar molecules easily cross the cell membrane?',
+    options:['The membrane is made of metal','The membrane interior is nonpolar (hydrophobic tails), so polar molecules need transport proteins','Polar molecules are too large','The membrane has no pores at all'],
+    correct:1, explain:'The membrane interior is hydrophobic (nonpolar tails). Polar molecules can\'t pass through without a transport protein. This = selective permeability.' },
+
+  // Water
+  { topic:'water', q:'Why is water polar?',
+    options:['Because it has 3 atoms','Because oxygen is more electronegative than hydrogen, pulling electrons toward itself (bent shape, dipoles don\'t cancel)','Because it is a liquid at room temperature','Because it contains ionic bonds'],
+    correct:1, explain:'O is more electronegative → pulls electrons → O is δ−, H is δ+. The bent shape means dipoles don\'t cancel → polar molecule.' },
+  { topic:'water', q:'What property of water makes it the "universal solvent"?',
+    options:['Its polarity — it dissolves other polar substances ("like dissolves like")','Its high specific heat','Its cohesion','Its low density as ice'],
+    correct:0, explain:'Water is polar, so it dissolves other polar/ionic substances. This is why it\'s called the universal solvent.' },
+  { topic:'water', q:'Why does ice float?',
+    options:['Ice is heavier than water','Hydrogen bonds form a lattice in ice that spreads molecules apart, making it less dense','Ice contains air bubbles','Water contracts when it freezes'],
+    correct:1, explain:'In ice, H-bonds form a rigid lattice that spaces molecules farther apart → less dense than liquid water → ice floats.' },
+  { topic:'water', q:'What is cohesion? What is adhesion?',
+    options:['Cohesion = water sticks to other surfaces; Adhesion = water sticks to itself','Cohesion = water sticks to itself (H-bonds); Adhesion = water sticks to other surfaces','Both mean the same thing','Cohesion = dissolving; Adhesion = evaporating'],
+    correct:1, explain:'Cohesion = water molecules stick to each other (H-bonds) → surface tension. Adhesion = water sticks to other surfaces → capillary action.' },
+  { topic:'water', q:'Why does sweating cool you down?',
+    options:['Water is cold','High specific heat — water absorbs lots of heat energy to evaporate, pulling heat from your skin','Sweat reflects sunlight','Sweat is below body temperature'],
+    correct:1, explain:'Water\'s high specific heat means it absorbs a lot of heat to evaporate. Evaporation pulls heat from your skin, cooling you.' },
+  { topic:'water', q:'How does water move up a tree trunk against gravity?',
+    options:['Water is pushed up by roots','Cohesion + adhesion = capillary action. Water sticks to itself (cohesion) and to xylem walls (adhesion), pulling it upward','Water is pumped by the tree\'s heart','Evaporation at the top creates a vacuum'],
+    correct:1, explain:'Cohesion (water sticks to water) + adhesion (water sticks to xylem walls) = capillary action. This pulls water up against gravity.' },
+];
+
+// ===== STATE =====
+let grades = JSON.parse(localStorage.getItem('jm_grades') || '[]');
+let ankiStreak = parseInt(localStorage.getItem('jm_anki_streak') || '0');
+let ankiLastDone = localStorage.getItem('jm_anki_last') || '';
+let checkinState = JSON.parse(localStorage.getItem('jm_checkin') || '{}');
+let quizIndex = 0;
+let quizScore = 0;
+let quizAnswered = 0;
+let quizQuestions = [];
+
+// ===== TABS =====
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-' + tab).classList.add('active');
+  if (tab === 'quiz') loadQuiz();
+}
+
+// ===== DATES =====
+function todayStr() { return new Date().toISOString().split('T')[0]; }
+function daysUntil(dateStr) {
+  const now = new Date();
+  const target = new Date(dateStr);
+  return Math.ceil((target - now) / (1000 * 60 * 60 * 24));
+}
+function formatDate(dateStr) {
+  return new Date(dateStr).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+}
+
+// ===== GRADES =====
+function saveGrades() { localStorage.setItem('jm_grades', JSON.stringify(grades)); }
+
+function addGrade() {
+  const cls = document.getElementById('gradeClass').value;
+  const assignment = document.getElementById('gradeAssignment').value.trim();
+  const category = document.getElementById('gradeCategory').value;
+  const score = parseFloat(document.getElementById('gradeScore').value);
+  if (!assignment || isNaN(score)) return alert('Fill in assignment name and grade');
+  grades.push({ class: cls, assignment, category, score, date: todayStr() });
+  saveGrades();
+  document.getElementById('gradeAssignment').value = '';
+  document.getElementById('gradeScore').value = '';
+  renderGrades();
+}
+
+function deleteGrade(idx) {
+  grades.splice(idx, 1);
+  saveGrades();
+  renderGrades();
+}
+
+function computeAvg(cls) {
+  const major = grades.filter(g => g.class === cls && g.category === 'Major');
+  const minor = grades.filter(g => g.class === cls && g.category === 'Minor');
+  const majorAvg = major.length ? major.reduce((s,g) => s + g.score, 0) / major.length : null;
+  const minorAvg = minor.length ? minor.reduce((s,g) => s + g.score, 0) / minor.length : null;
+  if (majorAvg !== null && minorAvg !== null) return majorAvg * 0.6 + minorAvg * 0.4;
+  if (majorAvg !== null) return majorAvg;
+  if (minorAvg !== null) return minorAvg;
+  return null;
+}
+
+function renderGrades() {
+  const container = document.getElementById('gradeList');
+  let html = '';
+  CLASSES.forEach(cls => {
+    const avg = computeAvg(cls);
+    const pct = avg !== null ? Math.min(avg, 100) : 0;
+    const color = avg === null ? '#333' : avg >= 97 ? 'var(--green)' : avg >= 90 ? 'var(--yellow)' : 'var(--red)';
+    const display = avg !== null ? avg.toFixed(1) : '—';
+    html += `<div class="grade-row">
+      <span class="name">${cls}</span>
+      <div class="grade-bar-container"><div class="grade-bar" style="width:${pct}%;background:${color}">${avg !== null ? avg.toFixed(0)+'%' : ''}</div></div>
+      <span class="grade-score">${display}</span>
+    </div>`;
+    // Show individual grades
+    const classGrades = grades.filter(g => g.class === cls);
+    classGrades.forEach((g, i) => {
+      const realIdx = grades.indexOf(g);
+      html += `<div class="grade-row" style="opacity:0.6;font-size:0.75rem;padding-left:15px">
+        <span class="name" style="font-weight:400">↳ ${g.assignment}</span>
+        <span style="flex:1;color:var(--dim);font-size:0.7rem">${g.category}</span>
+        <span class="grade-score" style="font-weight:400">${g.score}</span>
+        <span style="cursor:pointer;color:var(--red);margin-left:8px" onclick="deleteGrade(${realIdx})">✕</span>
+      </div>`;
+    });
+  });
+  container.innerHTML = html;
+}
+
+function exportGrades() {
+  let csv = 'Class,Assignment,Category,Grade,Date\n';
+  grades.forEach(g => { csv += `${g.class},${g.assignment},${g.category},${g.score},${g.date}\n`; });
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'grade-tracker-export.csv';
+  a.click();
+}
+
+// ===== COUNTDOWN =====
+function renderCountdown() {
+  const container = document.getElementById('countdownList');
+  let html = '';
+  AP_EXAMS.forEach(exam => {
+    const days = daysUntil(exam.date);
+    const urgent = days <= 30;
+    html += `<div class="countdown-item ${urgent ? 'urgent' : ''}">
+      <div><div class="exam-name">${exam.name}</div><div class="exam-date">${formatDate(exam.date)} • ${exam.session}</div></div>
+      <div class="days">${days}d</div>
+    </div>`;
+  });
+  container.innerHTML = html;
+}
+
+// ===== ANKI STREAK =====
+function renderAnki() {
+  document.getElementById('streakNumber').textContent = ankiStreak;
+  const last = ankiLastDone ? formatDate(ankiLastDone) : 'Not started yet';
+  document.getElementById('ankiLastDone').textContent = 'Last done: ' + last;
+}
+
+function ankiDidIt() {
+  const today = todayStr();
+  if (ankiLastDone === today) return alert('Already logged today!');
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+  if (ankiLastDone === yesterday) ankiStreak++;
+  else ankiStreak = 1;
+  ankiLastDone = today;
+  localStorage.setItem('jm_anki_streak', ankiStreak);
+  localStorage.setItem('jm_anki_last', ankiLastDone);
+  renderAnki();
+}
+
+function ankiReset() {
+  if (!confirm('Reset Anki streak to 0?')) return;
+  ankiStreak = 0;
+  ankiLastDone = '';
+  localStorage.setItem('jm_anki_streak', '0');
+  localStorage.setItem('jm_anki_last', '');
+  renderAnki();
+}
+
+// ===== CHECK-IN =====
+function getCheckinKey() { return 'jm_checkin_' + todayStr(); }
+
+function renderCheckin() {
+  const today = todayStr();
+  const key = getCheckinKey();
+  const state = JSON.parse(localStorage.getItem(key) || '{}');
+  document.getElementById('checkinDate').textContent = new Date().toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
+  const container = document.getElementById('checkinList');
+  let html = '';
+  CHECKIN_ITEMS.forEach((item, i) => {
+    const done = state[i] || false;
+    html += `<div class="checkin-item ${done ? 'done' : ''}" onclick="toggleCheckin(${i})">
+      <div class="checkbox"></div><span>${item}</span>
+    </div>`;
+  });
+  container.innerHTML = html;
+}
+
+function toggleCheckin(idx) {
+  const key = getCheckinKey();
+  const state = JSON.parse(localStorage.getItem(key) || '{}');
+  state[idx] = !state[idx];
+  localStorage.setItem(key, JSON.stringify(state));
+  renderCheckin();
+}
+
+// ===== QUIZ =====
+function loadQuiz() {
+  const topic = document.getElementById('quizTopic').value;
+  quizQuestions = topic === 'all' ? [...QUIZ_QUESTIONS] : QUIZ_QUESTIONS.filter(q => q.topic === topic);
+  // Shuffle
+  quizQuestions.sort(() => Math.random() - 0.5);
+  quizIndex = 0;
+  quizScore = 0;
+  quizAnswered = 0;
+  renderQuiz();
+}
+
+function renderQuiz() {
+  const container = document.getElementById('quizContainer');
+  if (quizIndex >= quizQuestions.length) {
+    const pct = quizQuestions.length ? Math.round(quizScore / quizQuestions.length * 100) : 0;
+    const msg = pct === 100 ? 'Perfect. You\'re ready.' : pct >= 80 ? 'Solid. Review the ones you missed.' : pct >= 60 ? 'Okay. Keep studying.' : 'Need more work. Re-read the study guide.';
+    container.innerHTML = `<div style="text-align:center;padding:30px">
+      <div style="font-size:2.5rem;font-weight:800;color:var(--accent)">${quizScore}/${quizQuestions.length}</div>
+      <div style="color:var(--dim);margin-top:8px">${pct}% — ${msg}</div>
+      <button class="btn" style="margin-top:16px" onclick="loadQuiz()">Try Again</button>
+    </div>`;
+    document.getElementById('quizScore').textContent = `Final: ${quizScore}/${quizQuestions.length}`;
+    document.getElementById('quizCount').textContent = 'Complete';
+    document.getElementById('quizProgressBar').style.width = '100%';
+    return;
+  }
+  const q = quizQuestions[quizIndex];
+  let html = `<div class="quiz-question">${quizIndex + 1}. ${q.q}</div><div class="quiz-options">`;
+  q.options.forEach((opt, i) => {
+    html += `<button class="quiz-option" onclick="answerQuiz(${i})" id="opt${i}">${opt}</button>`;
+  });
+  html += `</div><div class="quiz-feedback" id="quizFeedback"></div>`;
+  if (quizIndex < quizQuestions.length - 1) {
+    html += `<button class="btn" style="margin-top:14px;display:none" id="nextBtn" onclick="nextQuiz()">Next →</button>`;
+  } else {
+    html += `<button class="btn" style="margin-top:14px;display:none" id="nextBtn" onclick="nextQuiz()">See Results →</button>`;
+  }
+  container.innerHTML = html;
+  document.getElementById('quizScore').textContent = `Score: ${quizScore}/${quizAnswered}`;
+  document.getElementById('quizCount').textContent = `Question ${quizIndex + 1} of ${quizQuestions.length}`;
+  document.getElementById('quizProgressBar').style.width = `${(quizIndex / quizQuestions.length) * 100}%`;
+}
+
+function answerQuiz(idx) {
+  const q = quizQuestions[quizIndex];
+  quizAnswered++;
+  const options = document.querySelectorAll('.quiz-option');
+  options.forEach(o => o.classList.add('disabled'));
+  const feedback = document.getElementById('quizFeedback');
+  if (idx === q.correct) {
+    quizScore++;
+    document.getElementById('opt' + idx).classList.add('correct');
+    feedback.className = 'quiz-feedback show correct';
+    feedback.innerHTML = '✓ Correct! ' + q.explain;
+  } else {
+    document.getElementById('opt' + idx).classList.add('wrong');
+    document.getElementById('opt' + q.correct).classList.add('correct');
+    feedback.className = 'quiz-feedback show wrong';
+    feedback.innerHTML = '✗ Wrong. ' + q.explain;
+  }
+  document.getElementById('nextBtn').style.display = 'inline-block';
+  document.getElementById('quizScore').textContent = `Score: ${quizScore}/${quizAnswered}`;
+}
+
+function nextQuiz() { quizIndex++; renderQuiz(); }
+
+// ===== SCHEDULE =====
+function renderSchedule() {
+  // Determine A or B day
+  const schoolStart = new Date('2026-08-12'); // Wednesday = A day
+  const today = new Date(todayStr());
+  const diffDays = Math.floor((today - schoolStart) / (1000 * 60 * 60 * 24));
+  let dayType = '—';
+  if (diffDays >= 0) {
+    // Skip weekends: count school days
+    let schoolDays = 0;
+    for (let d = new Date(schoolStart); d <= today; d.setDate(d.getDate() + 1)) {
+      const dow = d.getDay();
+      if (dow !== 0 && dow !== 6) schoolDays++;
+    }
+    dayType = schoolDays % 2 === 1 ? 'A Day' : 'B Day'; // Aug 12 = A day (1st school day = odd = A)
+  }
+  document.getElementById('scheduleToday').textContent = dayType;
+  document.getElementById('scheduleToday').style.color = 'var(--accent)';
+  document.getElementById('scheduleToday').style.fontWeight = '700';
+
+  const colors = ['#ff6b6b','#4ecdc4','#ffe66d','#a8e6cf','#ff8a65','#81d4fa','#ce93d8','#ffd54f'];
+  let html = '';
+  ['A','B'].forEach(day => {
+    html += `<div class="schedule-day"><div class="schedule-day-label">${day}</div><div class="schedule-blocks">`;
+    SCHEDULE[day].forEach((cls, i) => {
+      const color = colors[CLASSES.indexOf(cls) % colors.length];
+      html += `<div class="schedule-block" style="background:${color}" title="${cls}">${cls}</div>`;
+    });
+    html += `</div></div>`;
+  });
+  document.getElementById('scheduleGrid').innerHTML = html;
+
+  // SAT/ACT timeline
+  let satHtml = '';
+  SAT_ACT.forEach(item => {
+    const days = daysUntil(item.date);
+    const past = days < 0;
+    satHtml += `<div class="countdown-item" style="${past ? 'opacity:0.4' : ''}">
+      <div><div class="exam-name">${item.test} — ${item.note}</div>
+      <div class="exam-date">${formatDate(item.date)} • Reg deadline: ${formatDate(item.deadline)}</div></div>
+      <div class="days" style="${past ? 'color:var(--dim)' : ''}">${past ? 'done' : days + 'd'}</div>
+    </div>`;
+  });
+  document.getElementById('satActTimeline').innerHTML = satHtml;
+}
+
+// ===== INIT =====
+document.getElementById('todayDate').textContent = new Date().toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
+renderGrades();
+renderCountdown();
+renderAnki();
+renderCheckin();
+renderSchedule();
+</script>
+</body>
+</html>

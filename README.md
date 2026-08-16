@@ -17,6 +17,7 @@ This is the system. Not a plan you read once and forget — a living infrastruct
 
 ## Daily use
 
+- **[dashboard.html](dashboard.html)** — Open this in your browser. Interactive grade tracker, AP exam countdown, Anki streak, daily check-in, quiz mode, schedule. All data saves locally.
 - **[daily-check-in.md](daily-check-in.md)** — Print this. 2-minute nightly review. The feedback loop.
 - **[grade-tracker.csv](grade-tracker.csv)** — Log every grade the day you get it.
 - **[grade-calculator.py](grade-calculator.py)** — Run `python3 grade-calculator.py` to see running averages. Shows where you stand vs 100.
