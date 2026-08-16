@@ -47,7 +47,7 @@ const Skills = {
   },
 
   renderSkillStats() {
-    const skills = ['balancing', 'conversions', 'sohcahtoa', 'algebra'];
+    const skills = ['balancing', 'conversions', 'particulate', 'sohcahtoa', 'algebra'];
     skills.forEach(id => {
       const el = document.getElementById('skillStats' + id.charAt(0).toUpperCase() + id.slice(1));
       if (!el) return;

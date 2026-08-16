@@ -809,6 +809,372 @@ function generateAlgebra(difficulty) {
   }
 }
 
+// ===== PARTICULATE DIAGRAM GENERATOR =====
+// Text-based questions about interpreting particulate diagrams
+// Covers: phases, gas behavior, solvation, alloys, ionic vs covalent, concentration
+
+function generateParticulate(difficulty) {
+  const types = {
+    easy: ['countAtoms', 'identifyPhase', 'ionRatio', 'solvation', 'alloyType'],
+    medium: ['gasChange', 'concentration', 'covalentVsIonic', 'countAtomsComplex', 'solvationDetail'],
+    hard: ['gasChangeComplex', 'concentrationRatio', 'chemicalVsPhysical', 'multiStepCount', 'pistonScenario'],
+  };
+  const type = pick(types[difficulty]);
+
+  switch (type) {
+    case 'countAtoms': {
+      const molecules = randInt(2, 6);
+      const compounds = [
+        { sym: 'H₂O', hCount: 2, oCount: 1, total: 3 },
+        { sym: 'CO₂', cCount: 1, oCount: 2, total: 3 },
+        { sym: 'NH₃', nCount: 1, hCount: 3, total: 4 },
+        { sym: 'CH₄', cCount: 1, hCount: 4, total: 5 },
+      ];
+      const c = pick(compounds);
+      const element = pick(Object.keys(c).filter(k => k.endsWith('Count')));
+      const elName = element.replace('Count', '').toUpperCase();
+      const count = c[element];
+      const total = molecules * count;
+      return {
+        id: 'part-count-' + Date.now(),
+        prompt: `A particulate diagram shows ${molecules} molecules of ${c.sym}. How many ${elName} atoms are shown in total?`,
+        answer: total + '',
+        hint: `Each ${c.sym} molecule has ${count} ${elName} atoms. Multiply by the number of molecules.`,
+        steps: [
+          `Step 1: Identify what's in the diagram.\n  ${molecules} molecules of ${c.sym}`,
+          `Step 2: Count atoms per molecule.\n  Each ${c.sym} has ${count} ${elName} atoms`,
+          `Step 3: Multiply.\n  ${molecules} × ${count} = ${total} ${elName} atoms`,
+        ],
+      };
+    }
+    case 'identifyPhase': {
+      const phases = [
+        { desc: 'molecules locked in a rigid, fixed lattice with no movement', answer: 'solid', explain: 'In a solid, particles are locked in fixed positions in a lattice. They vibrate but don\'t move past each other.' },
+        { desc: 'molecules close together but sliding past each other', answer: 'liquid', explain: 'In a liquid, particles are close but can flow past each other. No fixed shape, but fixed volume.' },
+        { desc: 'molecules spread far apart, moving fast with long arrows', answer: 'gas', explain: 'In a gas, particles are far apart and move freely at high speed. No fixed shape or volume.' },
+        { desc: 'ions arranged in a regular 3D crystal pattern of alternating + and − charges', answer: 'solid (ionic)', explain: 'Ionic compounds form crystal lattices in solid state — regular 3D arrangement of alternating cations and anions.' },
+      ];
+      const p = pick(phases);
+      return {
+        id: 'part-phase-' + Date.now(),
+        prompt: `A particulate diagram shows ${p.desc}. What phase/state is this?`,
+        answer: p.answer,
+        hint: 'Think about how particles are arranged and whether they move.',
+        steps: [
+          `Step 1: Observe the diagram.\n  ${p.desc}`,
+          `Step 2: Match to phase characteristics.\n  ${p.explain}`,
+          `Step 3: Answer: ${p.answer}`,
+        ],
+      };
+    }
+    case 'ionRatio': {
+      const compounds = [
+        { sym: 'MgCl₂', cation: 'Mg²⁺', anion: 'Cl⁻', catCount: 1, anCount: 2, ratio: '1:2' },
+        { sym: 'NaCl', cation: 'Na⁺', anion: 'Cl⁻', catCount: 1, anCount: 1, ratio: '1:1' },
+        { sym: 'CaF₂', cation: 'Ca²⁺', anion: 'F⁻', catCount: 1, anCount: 2, ratio: '1:2' },
+        { sym: 'K₂O', cation: 'K⁺', anion: 'O²⁻', catCount: 2, anCount: 1, ratio: '2:1' },
+        { sym: 'Al₂O₃', cation: 'Al³⁺', anion: 'O²⁻', catCount: 2, anCount: 3, ratio: '2:3' },
+        { sym: 'Na₂S', cation: 'Na⁺', anion: 'S²⁻', catCount: 2, anCount: 1, ratio: '2:1' },
+      ];
+      const c = pick(compounds);
+      return {
+        id: 'part-ionRatio-' + Date.now(),
+        prompt: `A particulate diagram shows ${c.sym} dissolved in water. What is the ratio of ${c.cation} to ${c.anion} ions? (Write as cation:anion, e.g. 1:2)`,
+        answer: c.ratio,
+        hint: `Balance the charges. ${c.cation} has charge ${c.cation.match(/[⁺⁻²³]+/)[0]}, ${c.anion} has charge ${c.anion.match(/[⁺⁻²³]+/)[0]}. How many of each makes the total charge zero?`,
+        steps: [
+          `Step 1: Identify the ions.\n  Cation: ${c.cation}\n  Anion: ${c.anion}`,
+          `Step 2: Balance the charges.\n  ${c.catCount} × ${c.cation} + ${c.anCount} × ${c.anion} = 0`,
+          `Step 3: Write the ratio.\n  ${c.cation}:${c.anion} = ${c.ratio}`,
+        ],
+      };
+    }
+    case 'solvation': {
+      const scenarios = [
+        { ion: 'Na⁺', charge: 'positive', correctEnd: 'oxygen (δ−)', wrongEnd: 'hydrogen (δ+)', explain: 'Na⁺ is positive → attracted to the negative end of water = oxygen (δ−)' },
+        { ion: 'Cl⁻', charge: 'negative', correctEnd: 'hydrogen (δ+)', wrongEnd: 'oxygen (δ−)', explain: 'Cl⁻ is negative → attracted to the positive end of water = hydrogen (δ+)' },
+        { ion: 'K⁺', charge: 'positive', correctEnd: 'oxygen (δ−)', wrongEnd: 'hydrogen (δ+)', explain: 'K⁺ is positive → attracted to the negative end of water = oxygen (δ−)' },
+        { ion: 'Mg²⁺', charge: 'positive', correctEnd: 'oxygen (δ−)', wrongEnd: 'hydrogen (δ+)', explain: 'Mg²⁺ is positive → attracted to the negative end of water = oxygen (δ−)' },
+        { ion: 'F⁻', charge: 'negative', correctEnd: 'hydrogen (δ+)', wrongEnd: 'oxygen (δ−)', explain: 'F⁻ is negative → attracted to the positive end of water = hydrogen (δ+)' },
+      ];
+      const s = pick(scenarios);
+      return {
+        id: 'part-solv-' + Date.now(),
+        prompt: `During solvation, which end of the water molecule surrounds the ${s.ion} ion?`,
+        answer: s.correctEnd,
+        hint: 'Water is polar. Oxygen is δ− (negative), hydrogen is δ+. Opposite charges attract.',
+        steps: [
+          `Step 1: Identify the ion's charge.\n  ${s.ion} is ${s.charge}`,
+          `Step 2: Recall water's polarity.\n  Oxygen = δ− (negative end)\n  Hydrogen = δ+ (positive end)`,
+          `Step 3: Opposite charges attract.\n  ${s.explain}`,
+          `Step 4: Answer: ${s.correctEnd}`,
+        ],
+      };
+    }
+    case 'alloyType': {
+      const alloys = [
+        { desc: 'copper atoms replaced by tin atoms of similar size', answer: 'substitutional', explain: 'Substitutional alloy: similar-size atoms replace each other in the lattice. Bronze = Cu + Sn.' },
+        { desc: 'small carbon atoms fit into gaps between iron atoms', answer: 'interstitial', explain: 'Interstitial alloy: small atoms fill the gaps (interstices) between larger atoms. Steel = Fe + C.' },
+        { desc: 'zinc atoms replace copper atoms of similar size', answer: 'substitutional', explain: 'Substitutional: similar-size atoms replace each other. Brass = Cu + Zn.' },
+        { desc: 'small nitrogen atoms fit into gaps in the iron lattice', answer: 'interstitial', explain: 'Interstitial: small atoms fill gaps between larger atoms. Nitrogen in iron.' },
+      ];
+      const a = pick(alloys);
+      return {
+        id: 'part-alloy-' + Date.now(),
+        prompt: `A particulate diagram shows ${a.desc}. What type of alloy is this?`,
+        answer: a.answer,
+        hint: 'Substitutional = similar-size atoms replace each other. Interstitial = small atoms fill gaps.',
+        steps: [
+          `Step 1: Observe the diagram.\n  ${a.desc}`,
+          `Step 2: Determine if atoms are replacing or filling gaps.\n  ${a.explain}`,
+          `Step 3: Answer: ${a.answer}`,
+        ],
+      };
+    }
+    case 'gasChange': {
+      const changes = [
+        { before: 'normal arrows, normal spacing', after: 'longer arrows, same spacing', answer: 'temperature increased at constant volume', explain: 'Longer arrows = faster particles = higher temp. Same spacing = same volume. Volume is constant.' },
+        { before: 'normal arrows, normal spacing', after: 'same arrows, particles closer together', answer: 'pressure increased at constant temperature', explain: 'Same arrows = same temp. Closer = smaller volume. External pressure compressed the gas.' },
+        { before: 'normal arrows, normal spacing', after: 'longer arrows, particles farther apart', answer: 'temperature increased at constant pressure', explain: 'Longer arrows = higher temp. Farther apart = larger volume. At constant pressure, heating expands gas (Charles\'s Law).' },
+        { before: 'longer arrows, normal spacing', after: 'normal arrows, normal spacing', answer: 'temperature decreased at constant volume', explain: 'Shorter arrows = slower particles = lower temp. Same spacing = same volume.' },
+      ];
+      const c = pick(changes);
+      return {
+        id: 'part-gas-' + Date.now(),
+        prompt: `A gas in a piston shows: BEFORE — ${c.before}. AFTER — ${c.after}. What changed?`,
+        answer: c.answer,
+        hint: 'Arrow length = speed = temperature. Spacing = volume. What stayed the same and what changed?',
+        steps: [
+          `Step 1: Compare arrows (speed/temperature).\n  Before: ${c.before}\n  After: ${c.after}`,
+          `Step 2: Compare spacing (volume).\n  Did the spacing change?`,
+          `Step 3: Identify what stayed constant.\n  ${c.explain}`,
+          `Step 4: Answer: ${c.answer}`,
+        ],
+      };
+    }
+    case 'concentration': {
+      const moleculesA = randInt(3, 8);
+      const ratio = pick([2, 3, 0.5]);
+      const moleculesB = Math.round(moleculesA * ratio);
+      const volA = randInt(1, 3);
+      const volB = pick([volA, volA, volA]); // usually same volume
+      const concA = moleculesA / volA;
+      const concB = moleculesB / volB;
+      const ratioStr = concB > concA ? Math.round(concB / concA) + '×' : Math.round(concA / concB) + '×';
+      const higher = concB > concA ? 'B' : 'A';
+      return {
+        id: 'part-conc-' + Date.now(),
+        prompt: `Two flasks have the same volume. Flask A has ${moleculesA} molecules. Flask B has ${moleculesB} molecules. Which flask has higher concentration, and by what factor? (e.g. "B 2×")`,
+        answer: `${higher} ${ratioStr}`,
+        hint: 'Concentration = molecules per volume. Same volume, so just compare molecule counts.',
+        steps: [
+          `Step 1: Count molecules.\n  Flask A: ${moleculesA} molecules\n  Flask B: ${moleculesB} molecules`,
+          `Step 2: Compare volumes.\n  Both flasks have the same volume`,
+          `Step 3: Concentration = molecules / volume.\n  Flask A: ${moleculesA} / ${volA}\n  Flask B: ${moleculesB} / ${volB}`,
+          `Step 4: Flask ${higher} has higher concentration by ${ratioStr}`,
+        ],
+      };
+    }
+    case 'covalentVsIonic': {
+      const scenarios = [
+        { desc: 'molecules stay intact in water, no separate ions visible', answer: 'covalent (molecular)', explain: 'Covalent solutes don\'t ionize — molecules stay intact. Example: sugar, HF (weak acid).' },
+        { desc: 'the compound breaks apart into separate cations and anions surrounded by water', answer: 'ionic', explain: 'Ionic compounds dissociate into separate ions in water. Example: NaCl → Na⁺ + Cl⁻.' },
+        { desc: 'molecules remain as whole units, no charged particles visible', answer: 'covalent (molecular)', explain: 'No dissociation = covalent. The molecules don\'t break into ions.' },
+        { desc: 'positive and negative ions separate and are surrounded by water molecules', answer: 'ionic', explain: 'Ions separate = ionic compound dissociating. Solvation occurs.' },
+      ];
+      const s = pick(scenarios);
+      return {
+        id: 'part-cvi-' + Date.now(),
+        prompt: `A particulate diagram shows a solute dissolving in water: ${s.desc}. Is the solute ionic or covalent (molecular)?`,
+        answer: s.answer,
+        hint: 'Ionic compounds break into separate ions. Covalent compounds stay as intact molecules.',
+        steps: [
+          `Step 1: Observe what happens to the solute.\n  ${s.desc}`,
+          `Step 2: Did it break into ions or stay as molecules?\n  ${s.explain}`,
+          `Step 3: Answer: ${s.answer}`,
+        ],
+      };
+    }
+    case 'countAtomsComplex': {
+      const molecules = randInt(3, 8);
+      const compounds = [
+        { sym: 'C₆H₁₂O₆', hCount: 12, cCount: 6, oCount: 6 },
+        { sym: 'C₂H₆', hCount: 6, cCount: 2 },
+        { sym: 'NH₃', hCount: 3, nCount: 1 },
+        { sym: 'CH₄', hCount: 4, cCount: 1 },
+      ];
+      const c = pick(compounds);
+      const elements = Object.keys(c).filter(k => k.endsWith('Count'));
+      const element = pick(elements);
+      const elName = element.replace('Count', '').toUpperCase();
+      const count = c[element];
+      const total = molecules * count;
+      return {
+        id: 'part-countC-' + Date.now(),
+        prompt: `A particulate diagram shows ${molecules} molecules of ${c.sym}. How many ${elName} atoms are shown in total?`,
+        answer: total + '',
+        hint: `Each ${c.sym} molecule contains ${count} ${elName} atoms. Count = molecules × atoms per molecule.`,
+        steps: [
+          `Step 1: Identify molecules in diagram.\n  ${molecules} molecules of ${c.sym}`,
+          `Step 2: Count ${elName} atoms per molecule.\n  Each ${c.sym} has ${count} ${elName}`,
+          `Step 3: Multiply.\n  ${molecules} × ${count} = ${total} ${elName} atoms`,
+        ],
+      };
+    }
+    case 'solvationDetail': {
+      const ions = [
+        { ion: 'Mg²⁺', charge: '+2', end: 'oxygen (δ−)', count: 6 },
+        { ion: 'Na⁺', charge: '+1', end: 'oxygen (δ−)', count: 6 },
+        { ion: 'Cl⁻', charge: '-1', end: 'hydrogen (δ+)', count: 6 },
+        { ion: 'Ca²⁺', charge: '+2', end: 'oxygen (δ−)', count: 6 },
+      ];
+      const i = pick(ions);
+      return {
+        id: 'part-solvD-' + Date.now(),
+        prompt: `In a particulate diagram of ${i.ion} being solvated by water, which end of water points toward the ion, and why?`,
+        answer: i.end + ' — opposite charges attract',
+        hint: 'Water is polar. The ion has a charge. Which end of water has the opposite charge?',
+        steps: [
+          `Step 1: Identify the ion's charge.\n  ${i.ion} has charge ${i.charge}`,
+          `Step 2: Recall water's polarity.\n  Oxygen = δ− (negative)\n  Hydrogen = δ+ (positive)`,
+          `Step 3: Opposite charges attract.\n  ${i.ion} (${i.charge}) → attracted to ${i.end}`,
+          `Step 4: Answer: ${i.end} — opposite charges attract`,
+        ],
+      };
+    }
+    case 'gasChangeComplex': {
+      const changes = [
+        { before: 'longer arrows, normal spacing', after: 'shorter arrows, particles closer together', answer: 'temperature decreased and pressure increased', explain: 'Shorter arrows = lower temp. Closer = smaller volume (higher pressure). Both temp down and pressure up.' },
+        { before: 'normal arrows, particles far apart', after: 'longer arrows, particles closer together', answer: 'temperature increased and pressure increased', explain: 'Longer arrows = higher temp. Closer = smaller volume. Temp up + pressure up (compressed and heated).' },
+        { before: 'longer arrows, particles far apart', after: 'shorter arrows, particles closer together', answer: 'temperature decreased and pressure increased', explain: 'Shorter arrows = lower temp. Closer = compressed. Temp down, pressure up.' },
+      ];
+      const c = pick(changes);
+      return {
+        id: 'part-gasC-' + Date.now(),
+        prompt: `A gas in a piston shows: BEFORE — ${c.before}. AFTER — ${c.after}. What TWO things changed?`,
+        answer: c.answer,
+        hint: 'Check arrows (temp) AND spacing (volume/pressure) separately. Both changed.',
+        steps: [
+          `Step 1: Compare arrows.\n  Before: ${c.before}\n  After: ${c.after}\n  Arrow change → temperature changed`,
+          `Step 2: Compare spacing.\n  Spacing change → volume/pressure changed`,
+          `Step 3: ${c.explain}`,
+          `Step 4: Answer: ${c.answer}`,
+        ],
+      };
+    }
+    case 'concentrationRatio': {
+      const moleculesA = randInt(4, 12);
+      const volA = pick([1, 2]);
+      const moleculesB = randInt(4, 12);
+      const volB = pick([1, 2, 3]);
+      const concA = moleculesA / volA;
+      const concB = moleculesB / volB;
+      const ratio = (Math.max(concA, concB) / Math.min(concA, concB)).toFixed(1);
+      const higher = concB > concA ? 'B' : (concA > concB ? 'A' : 'equal');
+      if (higher === 'equal') return generateParticulate(difficulty);
+      return {
+        id: 'part-concR-' + Date.now(),
+        prompt: `Flask A: ${moleculesA} molecules in ${volA}L. Flask B: ${moleculesB} molecules in ${volB}L. Which has higher concentration and by what factor? (e.g. "B 2.0×")`,
+        answer: `${higher} ${ratio}×`,
+        hint: 'Concentration = molecules ÷ volume. Calculate each, then divide the larger by the smaller.',
+        steps: [
+          `Step 1: Calculate concentration of A.\n  ${moleculesA} molecules ÷ ${volA}L = ${concA} mol/L`,
+          `Step 2: Calculate concentration of B.\n  ${moleculesB} molecules ÷ ${volB}L = ${concB} mol/L`,
+          `Step 3: Compare.\n  ${concA} vs ${concB}`,
+          `Step 4: Flask ${higher} is higher by ${ratio}×`,
+        ],
+      };
+    }
+    case 'chemicalVsPhysical': {
+      const scenarios = [
+        { desc: 'iron atoms and sulfur atoms are separate, not bonded', answer: 'mixture (physical)', explain: 'Mixture = elements visible separately, no chemical bonding. Can be separated physically.' },
+        { desc: 'iron and sulfur atoms are bonded together in a fixed 1:1 ratio as FeS', answer: 'compound (chemical)', explain: 'Compound = atoms chemically bonded in fixed ratio. New substance formed = chemical change.' },
+        { desc: 'water molecules moving from liquid to gas phase', answer: 'physical change', explain: 'Phase change = physical. Same substance (H₂O), just different state. No new substance.' },
+        { desc: 'H₂ and O₂ molecules reacting to form H₂O molecules', answer: 'chemical change', explain: 'New substance (water) formed from different substances. Bonds broken and formed.' },
+        { desc: 'NaCl dissolving in water, ions separate but no new substance formed', answer: 'physical change', explain: 'Dissolving = physical. The ions are still Na⁺ and Cl⁻, just separated. Can recover by evaporation.' },
+      ];
+      const s = pick(scenarios);
+      return {
+        id: 'part-cvp-' + Date.now(),
+        prompt: `A particulate diagram shows: ${s.desc}. Is this a chemical or physical change (or mixture)?`,
+        answer: s.answer,
+        hint: 'Chemical = new substance formed (bonds broken/formed). Physical = same substance, different state/arrangement.',
+        steps: [
+          `Step 1: Observe the diagram.\n  ${s.desc}`,
+          `Step 2: Were any new substances formed?\n  ${s.explain}`,
+          `Step 3: Answer: ${s.answer}`,
+        ],
+      };
+    }
+    case 'multiStepCount': {
+      const molecules = randInt(2, 5);
+      const compounds = [
+        { sym: 'H₂O', hCount: 2, oCount: 1 },
+        { sym: 'CO₂', cCount: 1, oCount: 2 },
+        { sym: 'NH₃', nCount: 1, hCount: 3 },
+        { sym: 'CH₄', cCount: 1, hCount: 4 },
+      ];
+      const c = pick(compounds);
+      const elements = Object.keys(c).filter(k => k.endsWith('Count'));
+      const element = pick(elements);
+      const elName = element.replace('Count', '').toUpperCase();
+      const count = c[element];
+      const total = molecules * count;
+      // Also ask for total atoms
+      const totalAtoms = molecules * Object.values(c).filter(v => typeof v === 'number').reduce((a, b) => a + b, 0);
+      const askTotal = pick([true, false]);
+      if (askTotal) {
+        return {
+          id: 'part-multi-' + Date.now(),
+          prompt: `A particulate diagram shows ${molecules} molecules of ${c.sym}. How many total atoms are shown?`,
+          answer: totalAtoms + '',
+          hint: `Count ALL atoms in each molecule, then multiply by number of molecules. ${c.sym} has ${Object.values(c).filter(v => typeof v === 'number').reduce((a, b) => a + b, 0)} atoms per molecule.`,
+          steps: [
+            `Step 1: Count atoms per ${c.sym} molecule.\n  ${Object.keys(c).filter(k => k.endsWith('Count')).map(k => k.replace('Count','').toUpperCase() + '=' + c[k]).join(', ')}\n  Total per molecule = ${Object.values(c).filter(v => typeof v === 'number').reduce((a, b) => a + b, 0)}`,
+            `Step 2: Multiply by number of molecules.\n  ${molecules} × ${Object.values(c).filter(v => typeof v === 'number').reduce((a, b) => a + b, 0)} = ${totalAtoms}`,
+            `Step 3: Answer: ${totalAtoms} total atoms`,
+          ],
+        };
+      } else {
+        return {
+          id: 'part-multi-' + Date.now(),
+          prompt: `A particulate diagram shows ${molecules} molecules of ${c.sym}. How many ${elName} atoms are shown?`,
+          answer: total + '',
+          hint: `Each ${c.sym} has ${count} ${elName} atoms. Multiply by ${molecules} molecules.`,
+          steps: [
+            `Step 1: Each ${c.sym} has ${count} ${elName} atoms`,
+            `Step 2: ${molecules} molecules × ${count} ${elName}/molecule = ${total}`,
+            `Step 3: Answer: ${total} ${elName} atoms`,
+          ],
+        };
+      }
+    }
+    case 'pistonScenario': {
+      // The exact helium piston questions from the notes
+      const scenarios = [
+        { change: 'longer arrows, same spacing', answer: 'increase temperature at constant volume', explain: 'Longer arrows = faster = higher temp. Same spacing = same volume. Piston is locked.' },
+        { change: 'longer arrows, particles farther apart', answer: 'increase temperature at constant pressure', explain: 'Longer arrows = higher temp. Farther apart = volume increased. At constant pressure, gas expands when heated (Charles\'s Law).' },
+        { change: 'same arrows, particles closer together', answer: 'increase external pressure at constant temperature', explain: 'Same arrows = same temp. Closer = compressed. External pressure increased (Boyle\'s Law).' },
+        { change: 'shorter arrows, same spacing', answer: 'decrease temperature at constant volume', explain: 'Shorter arrows = slower = lower temp. Same spacing = same volume.' },
+        { change: 'same arrows, particles farther apart', answer: 'decrease external pressure at constant temperature', explain: 'Same arrows = same temp. Farther apart = expanded. Pressure decreased (Boyle\'s Law reversed).' },
+      ];
+      const s = pick(scenarios);
+      return {
+        id: 'part-piston-' + Date.now(),
+        prompt: `A sample of helium gas is in a closed piston at 298 K. The diagram changes to show: ${s.change}. What change produced this?`,
+        answer: s.answer,
+        hint: 'Arrow length = temperature. Spacing = volume. What stayed the same?',
+        steps: [
+          `Step 1: Check arrow length (temperature).\n  ${s.change.includes('longer') ? 'Longer = higher temp' : s.change.includes('shorter') ? 'Shorter = lower temp' : 'Same = same temp'}`,
+          `Step 2: Check spacing (volume).\n  ${s.change.includes('farther') ? 'Farther = larger volume' : s.change.includes('closer') ? 'Closer = smaller volume' : 'Same = same volume'}`,
+          `Step 3: ${s.explain}`,
+          `Step 4: Answer: ${s.answer}`,
+        ],
+      };
+    }
+  }
+}
+
 // ===== SKILLS REGISTRY =====
 const SKILLS_DATA = {
   balancing: {
@@ -822,6 +1188,12 @@ const SKILLS_DATA = {
     icon: '🔄',
     description: 'Convert between grams, moles, atoms, and liters at STP',
     generate: generateConversion,
+  },
+  particulate: {
+    title: 'Particulate Diagrams',
+    icon: '🔬',
+    description: 'Interpret particle diagrams — phases, gas behavior, solvation, alloys',
+    generate: generateParticulate,
   },
 
   // ===== SOHCAHTOA =====
