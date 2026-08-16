@@ -766,6 +766,16 @@ body.focus-mode .main {
   animation: feedbackSlideIn 0.3s var(--ease);
 }
 .skill-question-card.solved { border-color: var(--green); box-shadow: 0 0 16px var(--green-glow); }
+.skill-diagram {
+  margin-bottom: 20px; padding: 16px;
+  background: var(--bg-card); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow-x: auto;
+}
+.skill-diagram svg { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+.skill-diagram-label {
+  text-align: center; font-size: 0.85rem; color: var(--text-dim);
+  margin-top: 8px; font-style: italic;
+}
 .skill-question-prompt {
   font-size: 1.2rem; font-weight: 600; color: var(--text-bright);
   margin-bottom: 20px; line-height: 1.6;

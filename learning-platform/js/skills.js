@@ -95,6 +95,7 @@ const Skills = {
     const solved = this.isSolved(this.currentProblem.id);
     container.innerHTML = `
       <div class="skill-question-card ${solved ? 'solved' : ''}">
+        ${this.currentProblem.diagram ? `<div class="skill-diagram">${this.currentProblem.diagram}</div>` : ''}
         <div class="skill-question-prompt">${this.currentProblem.prompt}</div>
         <div class="skill-answer-area">
           <input type="text" class="skill-answer-input" id="skillAnswerInput"

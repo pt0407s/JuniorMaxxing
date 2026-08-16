@@ -810,14 +810,237 @@ function generateAlgebra(difficulty) {
 }
 
 // ===== PARTICULATE DIAGRAM GENERATOR =====
-// Text-based questions about interpreting particulate diagrams
+// Diagram-based questions with SVG visualizations
 // Covers: phases, gas behavior, solvation, alloys, ionic vs covalent, concentration
+
+// --- SVG Diagram Helpers ---
+function svgGasPiston(particles, opts = {}) {
+  const { arrowLen = 15, spacing = 50, label = '', pistonOpen = true } = opts;
+  const w = 200, h = 160;
+  const cx = w / 2, cy = h / 2;
+  const cols = Math.ceil(Math.sqrt(particles.length));
+  let circles = '';
+  particles.forEach((p, i) => {
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    const x = cx - (cols - 1) * spacing / 2 + col * spacing;
+    const y = cy - (Math.ceil(particles.length / cols) - 1) * spacing / 2 + row * spacing;
+    const ax = (Math.random() - 0.5) * arrowLen * 2;
+    const ay = (Math.random() - 0.5) * arrowLen * 2;
+    circles += `<circle cx="${x}" cy="${y}" r="8" fill="#6ee7ff" stroke="#3b82f6" stroke-width="1.5"/>`;
+    circles += `<line x1="${x}" y1="${y}" x2="${x + ax}" y2="${y + ay}" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowhead)"/>`;
+    circles += `<text x="${x}" y="${y + 3}" text-anchor="middle" font-size="7" fill="#1e3a5f" font-weight="bold">He</text>`;
+  });
+  const piston = pistonOpen
+    ? `<rect x="30" y="20" width="${w - 60}" height="3" fill="#94a3b8"/><rect x="30" y="${h - 23}" width="${w - 60}" height="3" fill="#94a3b8"/>`
+    : `<rect x="30" y="20" width="${w - 60}" height="3" fill="#94a3b8"/><rect x="30" y="${h - 23}" width="${w - 60}" height="3" fill="#94a3b8"/><line x1="30" y1="20" x2="30" y2="${h - 20}" stroke="#94a3b8" stroke-width="2"/><line x1="${w - 30}" y1="20" x2="${w - 30}" y2="${h - 20}" stroke="#94a3b8" stroke-width="2"/>`;
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+    <defs><marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><polygon points="0 0, 6 3, 0 6" fill="#fbbf24"/></marker></defs>
+    ${piston}${circles}${label ? `<text x="${cx}" y="${h - 5}" text-anchor="middle" font-size="10" fill="#94a3b8">${label}</text>` : ''}
+  </svg>`;
+}
+
+function svgSolvation(ionType, opts = {}) {
+  const w = 220, h = 180;
+  const cx = w / 2, cy = h / 2;
+  const ionColor = ionType === 'cation' ? '#f87171' : '#60a5fa';
+  const ionLabel = ionType === 'cation' ? 'Na⁺' : 'Cl⁻';
+  const ionCharge = ionType === 'cation' ? '+' : '−';
+  // Water molecules arranged in circle around ion
+  let waters = '';
+  const radius = 50;
+  const numWaters = 6;
+  for (let i = 0; i < numWaters; i++) {
+    const angle = (i / numWaters) * Math.PI * 2;
+    const wx = cx + Math.cos(angle) * radius;
+    const wy = cy + Math.sin(angle) * radius;
+    // Water oriented: O toward cation (red ion), H toward anion (blue ion)
+    const oAngle = angle + Math.PI; // point toward center
+    const ox = wx + Math.cos(oAngle) * 10;
+    const oy = wy + Math.sin(oAngle) * 10;
+    const h1x = wx - Math.cos(oAngle) * 5 + Math.cos(angle + Math.PI / 2) * 5;
+    const h1y = wy - Math.sin(oAngle) * 5 + Math.sin(angle + Math.PI / 2) * 5;
+    const h2x = wx - Math.cos(oAngle) * 5 - Math.cos(angle + Math.PI / 2) * 5;
+    const h2y = wy - Math.sin(oAngle) * 5 - Math.sin(angle + Math.PI / 2) * 5;
+    if (ionType === 'cation') {
+      // O points toward cation (center)
+      waters += `<circle cx="${ox}" cy="${oy}" r="7" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1"/>`;
+      waters += `<text x="${ox}" y="${oy + 2}" text-anchor="middle" font-size="6" fill="white" font-weight="bold">O</text>`;
+      waters += `<circle cx="${h1x}" cy="${h1y}" r="4" fill="#fca5a5" stroke="#ef4444" stroke-width="0.8"/>`;
+      waters += `<text x="${h1x}" y="${h1y + 1.5}" text-anchor="middle" font-size="5" fill="#7f1d1d">H</text>`;
+      waters += `<circle cx="${h2x}" cy="${h2y}" r="4" fill="#fca5a5" stroke="#ef4444" stroke-width="0.8"/>`;
+      waters += `<text x="${h2x}" y="${h2y + 1.5}" text-anchor="middle" font-size="5" fill="#7f1d1d">H</text>`;
+      waters += `<line x1="${ox}" y1="${oy}" x2="${h1x}" y2="${h1y}" stroke="#64748b" stroke-width="1"/>`;
+      waters += `<line x1="${ox}" y1="${oy}" x2="${h2x}" y2="${h2y}" stroke="#64748b" stroke-width="1"/>`;
+    } else {
+      // H points toward anion (center)
+      waters += `<circle cx="${ox}" cy="${oy}" r="4" fill="#fca5a5" stroke="#ef4444" stroke-width="0.8"/>`;
+      waters += `<text x="${ox}" y="${oy + 1.5}" text-anchor="middle" font-size="5" fill="#7f1d1d">H</text>`;
+      waters += `<circle cx="${h1x}" cy="${h1y}" r="7" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1"/>`;
+      waters += `<text x="${h1x}" y="${h1y + 2}" text-anchor="middle" font-size="6" fill="white" font-weight="bold">O</text>`;
+      waters += `<circle cx="${h2x}" cy="${h2y}" r="7" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1"/>`;
+      waters += `<text x="${h2x}" y="${h2y + 2}" text-anchor="middle" font-size="6" fill="white" font-weight="bold">O</text>`;
+      waters += `<line x1="${ox}" y1="${oy}" x2="${h1x}" y2="${h1y}" stroke="#64748b" stroke-width="1"/>`;
+      waters += `<line x1="${ox}" y1="${oy}" x2="${h2x}" y2="${h2y}" stroke="#64748b" stroke-width="1"/>`;
+    }
+  }
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+    ${waters}
+    <circle cx="${cx}" cy="${cy}" r="12" fill="${ionColor}" stroke="${ionColor === '#f87171' ? '#dc2626' : '#2563eb'}" stroke-width="2"/>
+    <text x="${cx}" y="${cy + 3}" text-anchor="middle" font-size="9" fill="white" font-weight="bold">${ionLabel}</text>
+  </svg>`;
+}
+
+function svgFlask(molecules, label, opts = {}) {
+  const { volume = 1, showIons = false, ionData = null } = opts;
+  const w = 120, h = 140;
+  const flaskW = 80, flaskH = 100;
+  const fx = (w - flaskW) / 2, fy = 25;
+  let particles = '';
+  const cols = Math.ceil(Math.sqrt(molecules));
+  const sp = flaskW / (cols + 1);
+  for (let i = 0; i < molecules; i++) {
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    const px = fx + sp * (col + 1);
+    const py = fy + sp * (row + 1) + 5;
+    if (showIons && ionData) {
+      const isCation = i < ionData.cationCount;
+      const color = isCation ? '#f87171' : '#60a5fa';
+      const lbl = isCation ? ionData.cationLabel : ionData.anionLabel;
+      particles += `<circle cx="${px}" cy="${py}" r="6" fill="${color}" stroke="${isCation ? '#dc2626' : '#2563eb'}" stroke-width="1"/>`;
+      particles += `<text x="${px}" y="${py + 2}" text-anchor="middle" font-size="6" fill="white" font-weight="bold">${lbl}</text>`;
+    } else {
+      particles += `<circle cx="${px}" cy="${py}" r="5" fill="#a78bfa" stroke="#7c3aed" stroke-width="1"/>`;
+    }
+  }
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+    <path d="M ${fx + 15} ${fy} L ${fx + 15} ${fy + 15} L ${fx} ${fy + flaskH} L ${fx + flaskW} ${fy + flaskH} L ${fx + flaskW - 15} ${fy + 15} L ${fx + flaskW - 15} ${fy}" fill="rgba(96,165,250,0.08)" stroke="#64748b" stroke-width="1.5"/>
+    ${particles}
+    <text x="${w / 2}" y="${h - 5}" text-anchor="middle" font-size="10" fill="#94a3b8">${label}</text>
+  </svg>`;
+}
+
+function svgAlloy(type) {
+  const w = 200, h = 120;
+  const r = 12, sp = 35;
+  let atoms = '';
+  const bigColor = '#94a3b8';
+  const smallColor = '#fbbf24';
+  if (type === 'substitutional') {
+    // Grid of similar-size atoms, one replaced
+    for (let row = 0; row < 3; row++) {
+      for (let col = 0; col < 5; col++) {
+        const x = 20 + col * sp;
+        const y = 20 + row * sp;
+        if (row === 1 && col === 2) {
+          // Replaced atom (different color, same size)
+          atoms += `<circle cx="${x}" cy="${y}" r="${r}" fill="#f87171" stroke="#dc2626" stroke-width="1.5"/>`;
+          atoms += `<text x="${x}" y="${y + 3}" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Sn</text>`;
+        } else {
+          atoms += `<circle cx="${x}" cy="${y}" r="${r}" fill="${bigColor}" stroke="#475569" stroke-width="1.5"/>`;
+          atoms += `<text x="${x}" y="${y + 3}" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Cu</text>`;
+        }
+      }
+    }
+  } else {
+    // Big atoms with small ones in gaps
+    for (let row = 0; row < 3; row++) {
+      for (let col = 0; col < 5; col++) {
+        const x = 20 + col * sp;
+        const y = 20 + row * sp;
+        atoms += `<circle cx="${x}" cy="${y}" r="${r}" fill="${bigColor}" stroke="#475569" stroke-width="1.5"/>`;
+        atoms += `<text x="${x}" y="${y + 3}" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Fe</text>`;
+      }
+    }
+    // Small atoms in interstices
+    const gaps = [[37, 37], [72, 37], [107, 37], [37, 72], [72, 72], [107, 72]];
+    gaps.forEach(([gx, gy]) => {
+      atoms += `<circle cx="${gx}" cy="${gy}" r="5" fill="${smallColor}" stroke="#d97706" stroke-width="1"/>`;
+      atoms += `<text x="${gx}" y="${gy + 2}" text-anchor="middle" font-size="5" fill="#78350f" font-weight="bold">C</text>`;
+    });
+  }
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">${atoms}</svg>`;
+}
+
+function svgPhase(phase) {
+  const w = 160, h = 120;
+  let particles = '';
+  const r = 7;
+  if (phase === 'solid') {
+    // Rigid lattice
+    for (let row = 0; row < 3; row++) {
+      for (let col = 0; col < 4; col++) {
+        const x = 25 + col * 35;
+        const y = 20 + row * 35;
+        particles += `<circle cx="${x}" cy="${y}" r="${r}" fill="#6ee7ff" stroke="#3b82f6" stroke-width="1.5"/>`;
+        // bonds
+        if (col < 3) particles += `<line x1="${x + r}" y1="${y}" x2="${x + 35 - r}" y2="${y}" stroke="#475569" stroke-width="1"/>`;
+        if (row < 2) particles += `<line x1="${x}" y1="${y + r}" x2="${x}" y2="${y + 35 - r}" stroke="#475569" stroke-width="1"/>`;
+      }
+    }
+  } else if (phase === 'liquid') {
+    // Close but random
+    const pos = [[30, 30], [60, 35], [90, 28], [120, 32], [40, 60], [70, 65], [100, 58], [130, 62], [35, 90], [65, 85], [95, 92], [125, 88]];
+    pos.forEach(([x, y]) => {
+      particles += `<circle cx="${x}" cy="${y}" r="${r}" fill="#6ee7ff" stroke="#3b82f6" stroke-width="1.5"/>`;
+    });
+  } else {
+    // Gas - spread out with arrows
+    const pos = [[30, 25], [90, 35], [130, 20], [50, 70], [110, 80], [70, 100]];
+    pos.forEach(([x, y]) => {
+      particles += `<circle cx="${x}" cy="${y}" r="${r}" fill="#6ee7ff" stroke="#3b82f6" stroke-width="1.5"/>`;
+      const ax = (Math.random() - 0.5) * 20;
+      const ay = (Math.random() - 0.5) * 20;
+      particles += `<line x1="${x}" y1="${y}" x2="${x + ax}" y2="${y + ay}" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead2)"/>`;
+    });
+    particles = `<defs><marker id="arrowhead2" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><polygon points="0 0, 6 3, 0 6" fill="#fbbf24"/></marker></defs>` + particles;
+  }
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">${particles}</svg>`;
+}
+
+function svgDissolving(isIonic) {
+  const w = 200, h = 140;
+  let content = '';
+  if (isIonic) {
+    // Ions separated, surrounded by water
+    content += `<circle cx="60" cy="50" r="10" fill="#f87171" stroke="#dc2626" stroke-width="1.5"/><text x="60" y="53" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Na⁺</text>`;
+    content += `<circle cx="140" cy="50" r="10" fill="#60a5fa" stroke="#2563eb" stroke-width="1.5"/><text x="140" y="53" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Cl⁻</text>`;
+    // Water molecules
+    content += `<circle cx="40" cy="35" r="5" fill="#3b82f6"/><text x="40" y="37" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="80" cy="35" r="5" fill="#3b82f6"/><text x="80" y="37" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="160" cy="35" r="3" fill="#fca5a5"/><text x="160" y="37" text-anchor="middle" font-size="4" fill="#7f1d1d">H</text>`;
+    content += `<circle cx="120" cy="35" r="3" fill="#fca5a5"/><text x="120" y="37" text-anchor="middle" font-size="4" fill="#7f1d1d">H</text>`;
+    content += `<circle cx="40" cy="80" r="5" fill="#3b82f6"/><text x="40" y="82" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="80" cy="80" r="5" fill="#3b82f6"/><text x="80" y="82" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="160" cy="80" r="3" fill="#fca5a5"/><text x="160" y="82" text-anchor="middle" font-size="4" fill="#7f1d1d">H</text>`;
+    content += `<circle cx="120" cy="80" r="3" fill="#fca5a5"/><text x="120" y="82" text-anchor="middle" font-size="4" fill="#7f1d1d">H</text>`;
+    content += `<circle cx="100" cy="110" r="5" fill="#a78bfa"/><text x="100" y="113" text-anchor="middle" font-size="5" fill="white">H₂O</text>`;
+  } else {
+    // Molecules stay intact
+    for (let i = 0; i < 4; i++) {
+      const x = 40 + (i % 2) * 80;
+      const y = 40 + Math.floor(i / 2) * 50;
+      // Molecule (bonded atoms)
+      content += `<circle cx="${x}" cy="${y}" r="6" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>`;
+      content += `<circle cx="${x + 14}" cy="${y}" r="6" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>`;
+      content += `<line x1="${x + 6}" y1="${y}" x2="${x + 8}" y2="${y}" stroke="#475569" stroke-width="2"/>`;
+      content += `<text x="${x + 7}" y="${y + 15}" text-anchor="middle" font-size="6" fill="#94a3b8">molecule</text>`;
+    }
+    // Water around them
+    content += `<circle cx="20" cy="20" r="5" fill="#3b82f6"/><text x="20" y="22" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="180" cy="20" r="5" fill="#3b82f6"/><text x="180" y="22" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="20" cy="110" r="5" fill="#3b82f6"/><text x="20" y="112" text-anchor="middle" font-size="5" fill="white">O</text>`;
+    content += `<circle cx="180" cy="110" r="5" fill="#3b82f6"/><text x="180" y="112" text-anchor="middle" font-size="5" fill="white">O</text>`;
+  }
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">${content}</svg>`;
+}
 
 function generateParticulate(difficulty) {
   const types = {
-    easy: ['countAtoms', 'identifyPhase', 'ionRatio', 'solvation', 'alloyType'],
-    medium: ['gasChange', 'concentration', 'covalentVsIonic', 'countAtomsComplex', 'solvationDetail'],
-    hard: ['gasChangeComplex', 'concentrationRatio', 'chemicalVsPhysical', 'multiStepCount', 'pistonScenario'],
+    easy: ['countAtoms', 'identifyPhase', 'ionRatio', 'solvationDiagram', 'alloyTypeDiagram'],
+    medium: ['gasChangeDiagram', 'concentrationDiagram', 'covalentVsIonicDiagram', 'countAtomsComplex', 'solvationDetailDiagram'],
+    hard: ['gasChangeComplexDiagram', 'concentrationRatio', 'chemicalVsPhysical', 'multiStepCount', 'pistonScenarioDiagram'],
   };
   const type = pick(types[difficulty]);
 
@@ -911,6 +1134,45 @@ function generateParticulate(difficulty) {
         ],
       };
     }
+    case 'solvationDiagram': {
+      const ionType = pick(['cation', 'anion']);
+      const isCation = ionType === 'cation';
+      const ionLabel = isCation ? pick(['Na⁺', 'K⁺', 'Mg²⁺']) : pick(['Cl⁻', 'F⁻']);
+      const diagram = svgSolvation(ionType);
+      return {
+        id: 'part-solvD-' + Date.now(),
+        diagram,
+        prompt: `The diagram shows the solvation of ${ionLabel} in water. Which end of the water molecule (oxygen or hydrogen) is pointing toward the ${ionLabel} ion? Why?`,
+        answer: isCation ? 'oxygen (δ−) — opposite charges attract' : 'hydrogen (δ+) — opposite charges attract',
+        hint: 'Look at the diagram. Are the blue O atoms or the red H atoms closer to the ion? Why?',
+        steps: [
+          `Step 1: Look at the diagram — which end of water points toward ${ionLabel}?`,
+          `Step 2: ${ionLabel} is ${isCation ? 'POSITIVE (cation)' : 'NEGATIVE (anion)'}`,
+          `Step 3: Water polarity: O = δ−, H = δ+`,
+          `Step 4: Opposite charges attract → ${isCation ? 'O (δ−) points toward positive ion' : 'H (δ+) points toward negative ion'}`,
+          `Step 5: Answer: ${isCation ? 'oxygen (δ−)' : 'hydrogen (δ+)'} — opposite charges attract`,
+        ],
+      };
+    }
+    case 'solvationDetailDiagram': {
+      const ionType = pick(['cation', 'anion']);
+      const isCation = ionType === 'cation';
+      const ionLabel = isCation ? pick(['Na⁺', 'K⁺', 'Mg²⁺', 'Ca²⁺']) : pick(['Cl⁻', 'F⁻', 'O²⁻']);
+      const diagram = svgSolvation(ionType);
+      return {
+        id: 'part-solvDD-' + Date.now(),
+        diagram,
+        prompt: `The diagram shows solvation of ${ionLabel}. Which end of water points toward the ion, and why?`,
+        answer: isCation ? 'oxygen (δ−) — opposite charges attract' : 'hydrogen (δ+) — opposite charges attract',
+        hint: 'Identify the ion charge, then match to the opposite end of water.',
+        steps: [
+          `Step 1: Identify ion charge.\n  ${ionLabel} is ${isCation ? 'positive' : 'negative'}`,
+          `Step 2: Water polarity.\n  O = δ−, H = δ+`,
+          `Step 3: Opposite charges attract.\n  ${isCation ? 'O (δ−) → positive ion' : 'H (δ+) → negative ion'}`,
+          `Step 4: Answer: ${isCation ? 'oxygen (δ−)' : 'hydrogen (δ+)'} — opposite charges attract`,
+        ],
+      };
+    }
     case 'alloyType': {
       const alloys = [
         { desc: 'copper atoms replaced by tin atoms of similar size', answer: 'substitutional', explain: 'Substitutional alloy: similar-size atoms replace each other in the lattice. Bronze = Cu + Sn.' },
@@ -931,6 +1193,23 @@ function generateParticulate(difficulty) {
         ],
       };
     }
+    case 'alloyTypeDiagram': {
+      const type = pick(['substitutional', 'interstitial']);
+      const diagram = svgAlloy(type);
+      return {
+        id: 'part-alloyD-' + Date.now(),
+        diagram,
+        prompt: `The diagram shows a metal alloy. Is this a substitutional or interstitial alloy?`,
+        answer: type,
+        hint: 'Look at the atom sizes. Are the different atoms similar size (replacing) or much smaller (filling gaps)?',
+        steps: [
+          `Step 1: Look at the atom sizes in the diagram.`,
+          `Step 2: ${type === 'substitutional' ? 'The Sn atoms are SIMILAR SIZE to Cu atoms — they REPLACE them in the lattice' : 'The C atoms are MUCH SMALLER than Fe atoms — they fit in the GAPS'}`,
+          `Step 3: ${type === 'substitutional' ? 'Similar size replacing = substitutional' : 'Small atoms in gaps = interstitial'}`,
+          `Step 4: Answer: ${type}`,
+        ],
+      };
+    }
     case 'gasChange': {
       const changes = [
         { before: 'normal arrows, normal spacing', after: 'longer arrows, same spacing', answer: 'temperature increased at constant volume', explain: 'Longer arrows = faster particles = higher temp. Same spacing = same volume. Volume is constant.' },
@@ -948,6 +1227,31 @@ function generateParticulate(difficulty) {
           `Step 1: Compare arrows (speed/temperature).\n  Before: ${c.before}\n  After: ${c.after}`,
           `Step 2: Compare spacing (volume).\n  Did the spacing change?`,
           `Step 3: Identify what stayed constant.\n  ${c.explain}`,
+          `Step 4: Answer: ${c.answer}`,
+        ],
+      };
+    }
+    case 'gasChangeDiagram': {
+      // Generate two piston diagrams side by side
+      const changes = [
+        { arrowBefore: 10, arrowAfter: 20, spacingBefore: 50, spacingAfter: 50, answer: 'temperature increased at constant volume', explain: 'Longer arrows = higher temp. Same spacing = same volume.' },
+        { arrowBefore: 15, arrowAfter: 15, spacingBefore: 50, spacingAfter: 35, answer: 'pressure increased at constant temperature', explain: 'Same arrows = same temp. Closer = compressed.' },
+        { arrowBefore: 10, arrowAfter: 18, spacingBefore: 45, spacingAfter: 60, answer: 'temperature increased at constant pressure', explain: 'Longer arrows = higher temp. Farther apart = expanded.' },
+      ];
+      const c = pick(changes);
+      const particles = ['He', 'He', 'He', 'He'];
+      const before = svgGasPiston(particles, { arrowLen: c.arrowBefore, spacing: c.spacingBefore, label: 'BEFORE' });
+      const after = svgGasPiston(particles, { arrowLen: c.arrowAfter, spacing: c.spacingAfter, label: 'AFTER' });
+      return {
+        id: 'part-gasD-' + Date.now(),
+        diagram: `<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">${before}${after}</div>`,
+        prompt: `Compare the two piston diagrams. What changed from BEFORE to AFTER?`,
+        answer: c.answer,
+        hint: 'Compare arrow LENGTH (temperature) and particle SPACING (volume). What stayed the same?',
+        steps: [
+          `Step 1: Compare arrow length.\n  ${c.arrowAfter > c.arrowBefore ? 'Arrows got LONGER → temperature increased' : c.arrowAfter < c.arrowBefore ? 'Arrows got SHORTER → temperature decreased' : 'Arrows SAME → temperature unchanged'}`,
+          `Step 2: Compare spacing.\n  ${c.spacingAfter < c.spacingBefore ? 'Particles CLOSER → volume decreased (compressed)' : c.spacingAfter > c.spacingBefore ? 'Particles FARTHER → volume increased (expanded)' : 'Spacing SAME → volume unchanged'}`,
+          `Step 3: ${c.explain}`,
           `Step 4: Answer: ${c.answer}`,
         ],
       };
@@ -975,6 +1279,28 @@ function generateParticulate(difficulty) {
         ],
       };
     }
+    case 'concentrationDiagram': {
+      const moleculesA = randInt(3, 6);
+      const ratio = pick([2, 3, 0.5]);
+      const moleculesB = Math.max(2, Math.round(moleculesA * ratio));
+      const flaskA = svgFlask(moleculesA, 'Flask A');
+      const flaskB = svgFlask(moleculesB, 'Flask B');
+      const higher = moleculesB > moleculesA ? 'B' : 'A';
+      const factor = Math.round(Math.max(moleculesA, moleculesB) / Math.min(moleculesA, moleculesB));
+      return {
+        id: 'part-concD-' + Date.now(),
+        diagram: `<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">${flaskA}${flaskB}</div>`,
+        prompt: `Both flasks have the same volume. Count the molecules in each. Which flask has higher concentration, and by what factor? (e.g. "B 2×")`,
+        answer: `${higher} ${factor}×`,
+        hint: 'Count the purple circles in each flask. More molecules in the same volume = higher concentration.',
+        steps: [
+          `Step 1: Count molecules in Flask A: ${moleculesA}`,
+          `Step 2: Count molecules in Flask B: ${moleculesB}`,
+          `Step 3: Same volume, so concentration is proportional to molecule count`,
+          `Step 4: Flask ${higher} has ${factor}× the concentration`,
+        ],
+      };
+    }
     case 'covalentVsIonic': {
       const scenarios = [
         { desc: 'molecules stay intact in water, no separate ions visible', answer: 'covalent (molecular)', explain: 'Covalent solutes don\'t ionize — molecules stay intact. Example: sugar, HF (weak acid).' },
@@ -992,6 +1318,23 @@ function generateParticulate(difficulty) {
           `Step 1: Observe what happens to the solute.\n  ${s.desc}`,
           `Step 2: Did it break into ions or stay as molecules?\n  ${s.explain}`,
           `Step 3: Answer: ${s.answer}`,
+        ],
+      };
+    }
+    case 'covalentVsIonicDiagram': {
+      const isIonic = pick([true, false]);
+      const diagram = svgDissolving(isIonic);
+      return {
+        id: 'part-cviD-' + Date.now(),
+        diagram,
+        prompt: `The diagram shows a solute dissolving in water. Is the solute ionic or covalent (molecular)?`,
+        answer: isIonic ? 'ionic' : 'covalent (molecular)',
+        hint: 'Did the substance break into separate charged ions (ionic) or stay as intact molecules (covalent)?',
+        steps: [
+          `Step 1: Look at the diagram — did the solute break apart?`,
+          `Step 2: ${isIonic ? 'The substance broke into separate Na⁺ and Cl⁻ ions → IONIC' : 'The molecules stayed intact, bonded together → COVALENT'}`,
+          `Step 3: ${isIonic ? 'Ionic compounds dissociate into ions in water' : 'Covalent compounds stay as whole molecules'}`,
+          `Step 4: Answer: ${isIonic ? 'ionic' : 'covalent (molecular)'}`,
         ],
       };
     }
@@ -1039,6 +1382,55 @@ function generateParticulate(difficulty) {
           `Step 2: Recall water's polarity.\n  Oxygen = δ− (negative)\n  Hydrogen = δ+ (positive)`,
           `Step 3: Opposite charges attract.\n  ${i.ion} (${i.charge}) → attracted to ${i.end}`,
           `Step 4: Answer: ${i.end} — opposite charges attract`,
+        ],
+      };
+    }
+    case 'gasChangeComplexDiagram': {
+      const changes = [
+        { arrowBefore: 18, arrowAfter: 10, spacingBefore: 50, spacingAfter: 35, answer: 'temperature decreased and pressure increased', explain: 'Shorter arrows = lower temp. Closer = compressed. Both temp down and pressure up.' },
+        { arrowBefore: 10, arrowAfter: 18, spacingBefore: 60, spacingAfter: 35, answer: 'temperature increased and pressure increased', explain: 'Longer arrows = higher temp. Closer = compressed. Heated AND compressed.' },
+        { arrowBefore: 18, arrowAfter: 10, spacingBefore: 35, spacingAfter: 60, answer: 'temperature decreased and pressure decreased', explain: 'Shorter arrows = lower temp. Farther = expanded. Cooled AND expanded.' },
+      ];
+      const c = pick(changes);
+      const particles = ['He', 'He', 'He', 'He'];
+      const before = svgGasPiston(particles, { arrowLen: c.arrowBefore, spacing: c.spacingBefore, label: 'BEFORE' });
+      const after = svgGasPiston(particles, { arrowLen: c.arrowAfter, spacing: c.spacingAfter, label: 'AFTER' });
+      return {
+        id: 'part-gasCD-' + Date.now(),
+        diagram: `<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">${before}${after}</div>`,
+        prompt: `Compare the two piston diagrams. What TWO things changed from BEFORE to AFTER?`,
+        answer: c.answer,
+        hint: 'Check BOTH arrow length (temp) AND spacing (volume/pressure). Both changed this time.',
+        steps: [
+          `Step 1: Compare arrows.\n  ${c.arrowAfter > c.arrowBefore ? 'LONGER → temp increased' : 'SHORTER → temp decreased'}`,
+          `Step 2: Compare spacing.\n  ${c.spacingAfter < c.spacingBefore ? 'CLOSER → volume decreased (pressure up)' : 'FARTHER → volume increased (pressure down)'}`,
+          `Step 3: ${c.explain}`,
+          `Step 4: Answer: ${c.answer}`,
+        ],
+      };
+    }
+    case 'pistonScenarioDiagram': {
+      const scenarios = [
+        { arrowBefore: 10, arrowAfter: 20, spacingBefore: 50, spacingAfter: 50, answer: 'increase temperature at constant volume', explain: 'Longer arrows = higher temp. Same spacing = same volume. Piston locked.' },
+        { arrowBefore: 10, arrowAfter: 18, spacingBefore: 45, spacingAfter: 60, answer: 'increase temperature at constant pressure', explain: 'Longer arrows = higher temp. Farther apart = expanded. Charles\'s Law.' },
+        { arrowBefore: 12, arrowAfter: 12, spacingBefore: 50, spacingAfter: 35, answer: 'increase external pressure at constant temperature', explain: 'Same arrows = same temp. Closer = compressed. Boyle\'s Law.' },
+        { arrowBefore: 18, arrowAfter: 10, spacingBefore: 50, spacingAfter: 50, answer: 'decrease temperature at constant volume', explain: 'Shorter arrows = lower temp. Same spacing = same volume.' },
+      ];
+      const s = pick(scenarios);
+      const particles = ['He', 'He', 'He', 'He'];
+      const before = svgGasPiston(particles, { arrowLen: s.arrowBefore, spacing: s.spacingBefore, label: 'BEFORE (a)' });
+      const after = svgGasPiston(particles, { arrowLen: s.arrowAfter, spacing: s.spacingAfter, label: 'AFTER' });
+      return {
+        id: 'part-pistonD-' + Date.now(),
+        diagram: `<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">${before}${after}</div>`,
+        prompt: `A sample of helium gas is in a closed piston at 298 K (diagram a). What change produced the AFTER diagram?`,
+        answer: s.answer,
+        hint: 'Arrow length = temperature. Spacing = volume. What stayed the same?',
+        steps: [
+          `Step 1: Check arrow length (temperature).\n  ${s.arrowAfter > s.arrowBefore ? 'LONGER = higher temp' : s.arrowAfter < s.arrowBefore ? 'SHORTER = lower temp' : 'SAME = same temp'}`,
+          `Step 2: Check spacing (volume).\n  ${s.spacingAfter < s.spacingBefore ? 'CLOSER = smaller volume' : s.spacingAfter > s.spacingBefore ? 'FARTHER = larger volume' : 'SAME = same volume'}`,
+          `Step 3: ${s.explain}`,
+          `Step 4: Answer: ${s.answer}`,
         ],
       };
     }
