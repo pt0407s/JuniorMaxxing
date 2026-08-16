@@ -74,15 +74,27 @@ const App = {
       const count = document.getElementById('quizCountSelect').value;
       const scramble = document.getElementById('quizScrambleAns').checked;
       const timed = document.getElementById('quizTimedMode').checked;
+      const pretest = document.getElementById('quizPretestMode').checked;
+      const confidence = document.getElementById('quizConfidenceMode').checked;
+      const elaboration = document.getElementById('quizElaborationMode').checked;
       this.topicsStarted.add(topic);
-      Quiz.start(topic, count, scramble, timed);
+      Quiz.start(topic, count, scramble, timed, pretest, confidence, elaboration);
     });
     document.getElementById('retryQuizBtn').addEventListener('click', () => Quiz.start(
       document.getElementById('quizTopicSelect').value,
       document.getElementById('quizCountSelect').value,
       document.getElementById('quizScrambleAns').checked,
-      document.getElementById('quizTimedMode').checked
+      document.getElementById('quizTimedMode').checked,
+      document.getElementById('quizPretestMode').checked,
+      document.getElementById('quizConfidenceMode').checked,
+      document.getElementById('quizElaborationMode').checked
     ));
+
+    // Study mode (worked examples)
+    document.getElementById('studyWrongBtn').addEventListener('click', () => Quiz.startStudyMode());
+    document.getElementById('studyNextBtn').addEventListener('click', () => Quiz.studyNext());
+    document.getElementById('studyPrevBtn').addEventListener('click', () => Quiz.studyPrev());
+    document.getElementById('studyExitBtn').addEventListener('click', () => Quiz.studyExit());
     document.getElementById('newQuizBtn').addEventListener('click', () => Quiz.reset());
 
     // Flashcards

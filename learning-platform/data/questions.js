@@ -83,8 +83,137 @@ const QUESTIONS = [
   { id:'s11_19', topic:'chem-1.1', q:'1 mole of LiCl contains how many formula units?', options:['6.022 × 10²³','12.044 × 10²³','22.4','1'], correct:0, explain:'1 mole of anything = 6.022 × 10²³ particles. LiCl = formula units.' },
 ];
 
+// ===== WORKED EXAMPLES =====
+// Step-by-step solutions for key questions (Cognitive Load Theory: worked examples > problem solving for novices)
+// Fading: as mastery increases, fewer steps are shown (expertise reversal effect)
+
+const WORKED_EXAMPLES = {
+  's11_6': {
+    steps: [
+      'Identify the compound: H₂O (water)',
+      'Find atomic masses from periodic table: H = 1.01, O = 16.00',
+      'Count atoms: 2 hydrogen + 1 oxygen',
+      'Calculate: 2(1.01) + 1(16.00) = 2.02 + 16.00',
+      'Molar mass = 18.02 g/mol',
+    ],
+  },
+  's11_10': {
+    steps: [
+      'Given: 1.5 mol H₂, molar mass H₂ = 2.02 g/mol',
+      'Formula: mass = moles × molar mass',
+      'Plug in: mass = 1.5 × 2.02',
+      'Calculate: 1.5 × 2.02 = 3.03',
+      'Answer: 3.03 g H₂',
+    ],
+  },
+  's11_11': {
+    steps: [
+      'Given: 1.5 mol H₂ at STP',
+      'At STP, 1 mol of any gas = 22.4 L',
+      'Formula: volume = moles × 22.4 L/mol',
+      'Plug in: volume = 1.5 × 22.4',
+      'Calculate: 1.5 × 22.4 = 33.6',
+      'Answer: 33.6 L H₂',
+    ],
+  },
+  's11_12': {
+    steps: [
+      'Given: 1.8 × 10²³ molecules H₂',
+      'Avogadro\'s number: 1 mol = 6.022 × 10²³ molecules',
+      'Formula: moles = molecules ÷ Avogadro\'s number',
+      'Plug in: moles = (1.8 × 10²³) ÷ (6.022 × 10²³)',
+      'Calculate: 1.8 ÷ 6.022 = 0.299',
+      'Answer: 0.30 mol H₂',
+    ],
+  },
+  's11_13': {
+    steps: [
+      'Given: 4.5 L CO₂ at STP, molar mass CO₂ = 44.01 g/mol',
+      'Step 1: Convert liters → moles using 22.4 L/mol',
+      'moles = 4.5 ÷ 22.4 = 0.201 mol',
+      'Step 2: Convert moles → grams using molar mass',
+      'mass = 0.201 × 44.01 = 8.85',
+      'Answer: 8.8 g CO₂',
+    ],
+  },
+  's11_14': {
+    steps: [
+      'Given: 100.0 g Mg, molar mass = 24.31 g/mol',
+      'Step 1: Convert grams → moles',
+      'moles = 100.0 ÷ 24.31 = 4.114 mol',
+      'Step 2: Convert moles → atoms using Avogadro\'s number',
+      'atoms = 4.114 × 6.022 × 10²³',
+      'Calculate: 4.114 × 6.022 = 24.77',
+      'Answer: 2.4 × 10²⁴ atoms Mg',
+    ],
+  },
+  'p3': {
+    steps: [
+      'Electronegativity trends on the periodic table:',
+      'Across a period (left → right): increases (more protons = stronger pull)',
+      'Down a group (top → bottom): decreases (more shells = farther from nucleus)',
+      'Therefore: increases RIGHT and UP',
+      'Fluorine (top-right, excluding noble gases) is most electronegative',
+    ],
+  },
+  'p6': {
+    steps: [
+      'Sodium (Na) is in Group 1 → 1 valence electron',
+      'Goal: achieve stable octet (8 outer electrons, like noble gases)',
+      'Option A: gain 7 electrons → too many, impractical',
+      'Option B: lose 1 electron → reveals full shell below → stable',
+      'Na → Na⁺ + e⁻ (lost 1 electron → +1 charge = cation)',
+    ],
+  },
+  's10_3': {
+    steps: [
+      'Interstitial alloy definition: small atoms fit into GAPS of metal lattice',
+      'Think of it like marbles in a jar of larger balls',
+      'The small atoms don\'t replace — they fill spaces',
+      'Steel = Iron (large) + Carbon (small) → Carbon fills gaps in Fe lattice',
+      'Contrast with substitutional: Bronze = Cu + Sn (similar size, Sn replaces Cu)',
+    ],
+  },
+  's10_7': {
+    steps: [
+      'NaCl dissolving in water — which end of H₂O attracts Na⁺?',
+      'Na⁺ is a CATION (positive ion)',
+      'Water is polar: O is δ⁻ (partial negative), H is δ⁺ (partial positive)',
+      'Opposite charges attract: Na⁺ (positive) → attracted to O (negative)',
+      'So the OXYGEN end of water surrounds Na⁺',
+    ],
+  },
+};
+
+// ===== ELABORATION PROMPTS =====
+// After correct answers, prompt self-generated examples (constructive retrieval, 2024)
+// These are open-ended — the student generates their own answer
+
+const ELABORATION_PROMPTS = {
+  'prereq': [
+    'Can you think of a real-world example where electronegativity differences matter?',
+    'How does the concept you just answered relate to something you learned in biology?',
+    'Can you draw a quick particulate diagram of this concept?',
+    'What would happen if this principle were reversed?',
+  ],
+  'chem-1.0': [
+    'Sketch a particulate diagram showing this concept.',
+    'Can you think of another example of this type of substance?',
+    'How would this look different at a different temperature?',
+    'What real-world material uses this concept?',
+  ],
+  'chem-1.1': [
+    'Can you estimate the answer without calculating first?',
+    'What units should the answer have? Why?',
+    'Can you think of a real object that contains about 1 mole of this substance?',
+    'How would you explain this calculation to someone who hasn\'t taken chemistry?',
+  ],
+};
+
 // Make available globally
 if (typeof window !== 'undefined') {
   window.TOPICS = TOPICS;
   window.QUESTIONS = QUESTIONS;
+  window.WORKED_EXAMPLES = WORKED_EXAMPLES;
+  window.ELABORATION_PROMPTS = ELABORATION_PROMPTS;
 }

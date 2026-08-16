@@ -14,12 +14,18 @@ const Quiz = {
   results: [],
   scrambleAnswers: true,
   timedMode: true,
+  pretestMode: false,
+  confidenceMode: true,
+  elaborationMode: true,
   questionStartTime: 0,
   quizStartTime: 0,
   timerInterval: null,
   questionTimes: [],
+  confidenceRatings: [],
+  studyQueue: [],
+  studyIndex: 0,
 
-  start(topicId, count, scrambleAnswers, timedMode) {
+  start(topicId, count, scrambleAnswers, timedMode, pretestMode, confidenceMode, elaborationMode) {
     let pool = topicId === 'all'
       ? [...QUESTIONS]
       : QUESTIONS.filter(q => q.topic === topicId);
@@ -36,10 +42,19 @@ const Quiz = {
     this.score = 0;
     this.answered = 0;
     this.results = [];
+    this.confidenceRatings = [];
+    this.studyQueue = [];
     this.scrambleAnswers = scrambleAnswers;
     this.timedMode = timedMode !== false;
+    this.pretestMode = pretestMode === true;
+    this.confidenceMode = confidenceMode !== false;
+    this.elaborationMode = elaborationMode !== false;
     this.questionTimes = [];
     this.quizStartTime = Date.now();
+
+    // Hide study mode if visible
+    document.getElementById('studyMode').style.display = 'none';
+    document.getElementById('quizSetup').style.display = 'none';
     this.showQuestion();
   },
 
@@ -78,13 +93,34 @@ const Quiz = {
     // Start per-question timer
     this.startTimer();
 
+    // Pretest mode: show question with a "guess" input, no options visible
+    if (this.pretestMode) {
+      let html = `<div class="quiz-question">${q.q}</div>`;
+      html += `<div class="pretest-notice">⚠️ Pretest mode: Try to answer before seeing options. Wrong guesses help you learn (g=0.54).</div>`;
+      html += `<input type="text" id="pretestInput" class="pretest-input" placeholder="Type your best guess..." autocomplete="off">`;
+      html += `<button class="btn btn-primary" id="pretestSubmitBtn" onclick="Quiz.pretestReveal()">Reveal Options & Answer →</button>`;
+      html += `<div class="quiz-feedback" id="quizFeedback"></div>`;
+      html += `<div class="quiz-options" id="quizOptions" style="display:none"></div>`;
+      html += `<button class="btn btn-primary quiz-next-btn" id="quizNextBtn" onclick="Quiz.next()">Next →</button>`;
+      container.innerHTML = html;
+      document.getElementById('pretestInput').focus();
+      document.getElementById('pretestInput').addEventListener('keydown', e => {
+        if (e.key === 'Enter') Quiz.pretestReveal();
+      });
+      return;
+    }
+
+    // Normal mode: show options
+    this.renderOptions(container, q);
+  },
+
+  renderOptions(container, q) {
     // Scramble answer options if enabled
     let options = q.options.map((text, originalIdx) => ({ text, originalIdx }));
     if (this.scrambleAnswers) {
       this.shuffle(options);
     }
 
-    // Track which original index is correct
     const correctOriginalIdx = q.correct;
 
     let html = `<div class="quiz-question">${q.q}</div><div class="quiz-options">`;
@@ -93,9 +129,54 @@ const Quiz = {
     });
     html += `</div>`;
     html += `<div class="quiz-feedback" id="quizFeedback"></div>`;
-    html += `<button class="btn btn-primary quiz-next-btn" id="quizNextBtn" onclick="Quiz.next()">Next →</button>`;
 
+    // Confidence rating (shown after answering)
+    if (this.confidenceMode) {
+      html += `<div class="confidence-rating" id="confidenceRating" style="display:none">
+        <p class="rating-prompt">How confident were you in your answer?</p>
+        <div class="rating-buttons">
+          <button class="btn btn-rate btn-conf-1" onclick="Quiz.rateConfidence(1)">1 — Guessed</button>
+          <button class="btn btn-rate btn-conf-2" onclick="Quiz.rateConfidence(2)">2 — Unsure</button>
+          <button class="btn btn-rate btn-conf-3" onclick="Quiz.rateConfidence(3)">3 — Fairly sure</button>
+          <button class="btn btn-rate btn-conf-4" onclick="Quiz.rateConfidence(4)">4 — Certain</button>
+        </div>
+      </div>`;
+    }
+
+    html += `<button class="btn btn-primary quiz-next-btn" id="quizNextBtn" onclick="Quiz.next()">Next →</button>`;
     container.innerHTML = html;
+  },
+
+  pretestReveal() {
+    const input = document.getElementById('pretestInput');
+    const guess = input ? input.value.trim() : '';
+    const q = this.currentQuestions[this.currentIndex];
+
+    // Show options now
+    const optionsDiv = document.getElementById('quizOptions');
+    let options = q.options.map((text, originalIdx) => ({ text, originalIdx }));
+    if (this.scrambleAnswers) this.shuffle(options);
+    const correctOriginalIdx = q.correct;
+
+    let optHtml = '';
+    options.forEach(opt => {
+      optHtml += `<button class="quiz-option" data-original-idx="${opt.originalIdx}" onclick="Quiz.answer(${opt.originalIdx}, ${correctOriginalIdx}, this)">${opt.text}</button>`;
+    });
+    optionsDiv.innerHTML = optHtml;
+    optionsDiv.style.display = 'flex';
+
+    // Disable input
+    input.disabled = true;
+    document.getElementById('pretestSubmitBtn').style.display = 'none';
+
+    // Show what they guessed
+    if (guess) {
+      const feedback = document.getElementById('quizFeedback');
+      feedback.className = 'quiz-feedback show';
+      feedback.style.background = 'var(--bg-elevated)';
+      feedback.style.borderColor = 'var(--border-light)';
+      feedback.innerHTML = `<strong>Your guess:</strong> "${guess}" — Now select the correct answer from the options below.`;
+    }
   },
 
   answer(selectedIdx, correctIdx, btnElement) {
@@ -129,11 +210,24 @@ const Quiz = {
       if (this.timedMode && elapsed < 10000) {
         feedback.innerHTML += ` <span style="color:var(--green);font-weight:700">⚡ Speed bonus +5 XP!</span>`;
       }
+      // Elaboration prompt (constructive retrieval, 2024)
+      if (this.elaborationMode) {
+        const prompts = ELABORATION_PROMPTS[q.topic] || [];
+        if (prompts.length > 0) {
+          const prompt = prompts[Math.floor(Math.random() * prompts.length)];
+          feedback.innerHTML += `<div class="elaboration-prompt"><strong>🧠 Elaborate:</strong> ${prompt} <span style="color:var(--text-dim);font-size:0.78rem">(think about it — self-generated examples boost comprehension)</span></div>`;
+          App.addXP(3);
+        }
+      }
     } else {
       feedback.className = 'quiz-feedback show wrong';
       feedback.innerHTML = `<strong>✗ Wrong.</strong> ${q.explain}`;
       // Partial XP for attempting
       App.addXP(2);
+      // Add to study queue for worked examples
+      if (WORKED_EXAMPLES[q.id]) {
+        this.studyQueue.push(q);
+      }
     }
 
     // Track result for mastery
@@ -152,10 +246,35 @@ const Quiz = {
       SRS.saveCard(cards[q.id]);
     }
 
-    // Show next button
-    document.getElementById('quizNextBtn').classList.add('show');
+    // Show confidence rating if enabled
+    if (this.confidenceMode) {
+      const confDiv = document.getElementById('confidenceRating');
+      if (confDiv) confDiv.style.display = 'block';
+      // Don't show next button until confidence is rated (or if confidence mode is off)
+    } else {
+      document.getElementById('quizNextBtn').classList.add('show');
+    }
+
     document.getElementById('quizScoreDisplay').textContent =
       `Score: ${this.score}/${this.answered}`;
+  },
+
+  rateConfidence(rating) {
+    const q = this.currentQuestions[this.currentIndex];
+    const lastResult = this.results[this.results.length - 1];
+    if (lastResult) {
+      lastResult.confidence = rating;
+      this.confidenceRatings.push({ questionId: q.id, confidence: rating, correct: lastResult.correct });
+    }
+
+    // Hide confidence rating, show next button
+    document.getElementById('confidenceRating').style.display = 'none';
+    document.getElementById('quizNextBtn').classList.add('show');
+
+    // Bonus XP for high confidence + correct (rewards calibrated confidence)
+    if (rating === 4 && lastResult && lastResult.correct) {
+      App.addXP(2);
+    }
   },
 
   next() {
@@ -244,6 +363,41 @@ const Quiz = {
     breakdown += '</div>';
     document.getElementById('resultsBreakdown').innerHTML = breakdown;
 
+    // Metacognitive calibration stats
+    const calibDiv = document.getElementById('resultsCalibration');
+    if (this.confidenceMode && this.confidenceRatings.length > 0) {
+      const calib = this.computeCalibration();
+      calibDiv.innerHTML = `
+        <div class="calibration-section">
+          <strong>🧠 Metacognitive Calibration</strong>
+          <div class="calibration-grid">
+            <div class="calib-stat">
+              <span class="calib-value" style="color:${calib.accuracy >= 75 ? 'var(--green)' : calib.accuracy >= 50 ? 'var(--yellow)' : 'var(--red)'}">${calib.accuracy}%</span>
+              <span class="calib-label">Calibration Accuracy</span>
+            </div>
+            <div class="calib-stat">
+              <span class="calib-value">${calib.overconfident ? 'Overconfident ⚠️' : 'Well-calibrated ✓'}</span>
+              <span class="calib-label">${calib.avgConfidence.toFixed(1)}/4 avg confidence vs ${calib.avgCorrect.toFixed(1)}/1 accuracy</span>
+            </div>
+          </div>
+          <div class="calibration-matrix">
+            ${this.renderCalibrationMatrix()}
+          </div>
+        </div>
+      `;
+    } else {
+      calibDiv.innerHTML = '';
+    }
+
+    // Show "Study Wrong Answers" button if there are worked examples for wrong questions
+    const studyBtn = document.getElementById('studyWrongBtn');
+    if (this.studyQueue.length > 0) {
+      studyBtn.style.display = 'inline-block';
+      studyBtn.textContent = `Study ${this.studyQueue.length} Wrong Answer${this.studyQueue.length > 1 ? 's' : ''} →`;
+    } else {
+      studyBtn.style.display = 'none';
+    }
+
     // Save quiz history
     App.saveQuizHistory({
       date: Date.now(),
@@ -251,12 +405,121 @@ const Quiz = {
       total: this.currentQuestions.length,
       pct,
       topicBreakdown: topicStats,
+      calibration: this.confidenceMode ? this.computeCalibration() : null,
     });
 
     // Update mastery
     this.results.forEach(r => {
       App.updateMastery(r.topic, r.correct);
     });
+  },
+
+  computeCalibration() {
+    const total = this.confidenceRatings.length;
+    const avgConfidence = this.confidenceRatings.reduce((s, r) => s + r.confidence, 0) / total;
+    const avgCorrect = this.confidenceRatings.filter(r => r.correct).length / total;
+    // Calibration: how well does confidence predict correctness?
+    // Perfect calibration: avg confidence / 4 == avg correct
+    const expected = avgConfidence / 4;
+    const accuracy = Math.round((1 - Math.abs(expected - avgCorrect)) * 100);
+    const overconfident = expected > avgCorrect + 0.1;
+    return { accuracy, overconfident, avgConfidence, avgCorrect };
+  },
+
+  renderCalibrationMatrix() {
+    // 4 confidence levels × 2 outcomes
+    const matrix = {};
+    this.confidenceRatings.forEach(r => {
+      const key = r.confidence;
+      if (!matrix[key]) matrix[key] = { correct: 0, wrong: 0 };
+      if (r.correct) matrix[key].correct++; else matrix[key].wrong++;
+    });
+
+    let html = '<table class="calib-table"><tr><th>Confidence</th><th>Correct</th><th>Wrong</th><th>% Right</th></tr>';
+    for (let c = 4; c >= 1; c--) {
+      const m = matrix[c] || { correct: 0, wrong: 0 };
+      const total = m.correct + m.wrong;
+      const pct = total > 0 ? Math.round((m.correct / total) * 100) : '—';
+      const labels = { 4: '4 — Certain', 3: '3 — Fairly sure', 2: '2 — Unsure', 1: '1 — Guessed' };
+      html += `<tr><td>${labels[c]}</td><td>${m.correct}</td><td>${m.wrong}</td><td style="font-weight:700;color:${pct === '—' ? 'var(--text-dim)' : pct >= 75 ? 'var(--green)' : pct >= 50 ? 'var(--yellow)' : 'var(--red)'}">${pct}${pct !== '—' ? '%' : ''}</td></tr>`;
+    }
+    html += '</table>';
+    html += '<p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">Ideal: higher confidence → higher % right. If "Certain" answers are often wrong, you\'re overconfident.</p>';
+    return html;
+  },
+
+  // ===== STUDY MODE (Worked Examples with Fading) =====
+  startStudyMode() {
+    if (this.studyQueue.length === 0) return;
+    this.studyIndex = 0;
+    document.getElementById('quizResults').style.display = 'none';
+    document.getElementById('studyMode').style.display = 'block';
+    this.showStudyCard();
+  },
+
+  showStudyCard() {
+    if (this.studyIndex >= this.studyQueue.length) {
+      document.getElementById('studyContent').innerHTML = `
+        <div style="text-align:center;padding:30px">
+          <h3>✅ All worked examples reviewed!</h3>
+          <p style="color:var(--text-dim);margin:12px 0">Now retry the quiz to lock in your learning.</p>
+          <button class="btn btn-primary" onclick="Quiz.reset()">Back to Quiz Setup</button>
+        </div>`;
+      return;
+    }
+
+    const q = this.studyQueue[this.studyIndex];
+    const example = WORKED_EXAMPLES[q.id];
+    if (!example) { this.studyIndex++; this.showStudyCard(); return; }
+
+    // Check mastery for fading (expertise reversal effect)
+    const mastery = App.getMastery();
+    const topicMastery = mastery[q.topic] || { correct: 0, total: 0 };
+    const masteryPct = topicMastery.total > 0 ? topicMastery.correct / topicMastery.total : 0;
+
+    // Fading: high mastery → show fewer steps (expertise reversal)
+    let stepsToShow = example.steps;
+    let fadeLevel = 0;
+    if (masteryPct > 0.8) {
+      // High mastery: only show first and last step (max fading)
+      stepsToShow = [example.steps[0], '... (solve the middle steps yourself) ...', example.steps[example.steps.length - 1]];
+      fadeLevel = 2;
+    } else if (masteryPct > 0.6) {
+      // Moderate mastery: hide every other step (partial fading)
+      stepsToShow = example.steps.filter((_, i) => i % 2 === 0 || i === example.steps.length - 1);
+      fadeLevel = 1;
+    }
+
+    let html = `<div class="study-card">
+      <div class="study-question">${q.q}</div>
+      <div class="study-fade-level">Fading level: ${fadeLevel === 0 ? 'Full steps (novice)' : fadeLevel === 1 ? 'Partial (intermediate)' : 'Minimal (advanced)'} — mastery: ${Math.round(masteryPct * 100)}%</div>
+      <div class="study-steps">
+        <strong>Step-by-step solution:</strong>
+        <ol>`;
+    stepsToShow.forEach(step => {
+      html += `<li>${step}</li>`;
+    });
+    html += `</ol></div>
+      <div class="study-answer"><strong>Answer:</strong> ${q.options[q.correct]}</div>
+      <div class="study-explanation"><strong>Why:</strong> ${q.explain}</div>
+    </div>`;
+
+    document.getElementById('studyContent').innerHTML = html;
+  },
+
+  studyNext() {
+    this.studyIndex++;
+    this.showStudyCard();
+  },
+
+  studyPrev() {
+    if (this.studyIndex > 0) this.studyIndex--;
+    this.showStudyCard();
+  },
+
+  studyExit() {
+    document.getElementById('studyMode').style.display = 'none';
+    document.getElementById('quizResults').style.display = 'block';
   },
 
   reset() {

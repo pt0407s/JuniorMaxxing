@@ -106,6 +106,24 @@
           <span>Timed mode (track speed per question)</span>
         </label>
       </div>
+      <div class="quiz-controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="quizPretestMode">
+          <span>Pretest mode (try BEFORE studying — primes encoding, g=0.54)</span>
+        </label>
+      </div>
+      <div class="quiz-controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="quizConfidenceMode" checked>
+          <span>Confidence ratings (metacognitive calibration, d=0.42)</span>
+        </label>
+      </div>
+      <div class="quiz-controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="quizElaborationMode" checked>
+          <span>Elaboration prompts (self-generate examples after correct answers)</span>
+        </label>
+      </div>
       <button class="btn btn-primary btn-large" id="startQuizBtn">Start Quiz →</button>
     </div>
 
@@ -127,10 +145,24 @@
       <h2 id="resultsTitle">Quiz Complete</h2>
       <div class="results-score" id="resultsScore"></div>
       <div class="results-timing" id="resultsTiming"></div>
+      <div class="results-calibration" id="resultsCalibration"></div>
       <div class="results-breakdown" id="resultsBreakdown"></div>
       <div class="results-actions">
         <button class="btn btn-primary" id="retryQuizBtn">Retry</button>
+        <button class="btn btn-secondary" id="studyWrongBtn">Study Wrong Answers</button>
         <button class="btn btn-secondary" id="newQuizBtn">New Quiz</button>
+      </div>
+    </div>
+
+    <!-- WORKED EXAMPLES / STUDY MODE -->
+    <div class="study-mode" id="studyMode" style="display:none">
+      <h2>Study Mode — Worked Examples</h2>
+      <p class="quiz-desc">Step-by-step solutions. Steps fade as your mastery increases (Cognitive Load Theory).</p>
+      <div id="studyContent"></div>
+      <div class="study-controls">
+        <button class="btn btn-secondary" id="studyPrevBtn">← Previous</button>
+        <button class="btn btn-primary" id="studyNextBtn">Next →</button>
+        <button class="btn btn-secondary" id="studyExitBtn">Exit Study Mode</button>
       </div>
     </div>
   </section>
