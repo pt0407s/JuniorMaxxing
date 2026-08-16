@@ -170,9 +170,28 @@ body {
 
 .quiz-header { margin-bottom: 20px; }
 .quiz-progress-info {
-  display: flex; justify-content: space-between;
+  display: flex; justify-content: space-between; align-items: center;
   font-size: 0.8rem; color: var(--text-dim); margin-bottom: 6px;
+  gap: 12px;
 }
+.quiz-timer {
+  font-family: var(--font-mono); font-weight: 700;
+  color: var(--accent-light); font-size: 0.85rem;
+  min-width: 70px; text-align: right;
+}
+.quiz-timer.slow { color: var(--yellow); }
+.quiz-timer.very-slow { color: var(--red); }
+.results-timing {
+  margin: 12px 0 20px; font-size: 0.9rem; color: var(--text-dim);
+}
+.results-timing .timing-stat {
+  display: inline-block; margin: 0 12px;
+}
+.results-timing .timing-value {
+  font-weight: 700; color: var(--accent-light); font-family: var(--font-mono);
+}
+.results-timing .timing-best { color: var(--green); }
+.results-timing .timing-worst { color: var(--red); }
 .quiz-progress-bar-container {
   height: 4px; background: var(--bg-elevated); border-radius: 2px; overflow: hidden;
 }

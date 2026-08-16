@@ -13,8 +13,13 @@ const Quiz = {
   answered: 0,
   results: [],
   scrambleAnswers: true,
+  timedMode: true,
+  questionStartTime: 0,
+  quizStartTime: 0,
+  timerInterval: null,
+  questionTimes: [],
 
-  start(topicId, count, scrambleAnswers) {
+  start(topicId, count, scrambleAnswers, timedMode) {
     let pool = topicId === 'all'
       ? [...QUESTIONS]
       : QUESTIONS.filter(q => q.topic === topicId);
@@ -32,6 +37,9 @@ const Quiz = {
     this.answered = 0;
     this.results = [];
     this.scrambleAnswers = scrambleAnswers;
+    this.timedMode = timedMode !== false;
+    this.questionTimes = [];
+    this.quizStartTime = Date.now();
     this.showQuestion();
   },
 
@@ -67,6 +75,9 @@ const Quiz = {
     const pct = (this.currentIndex / this.currentQuestions.length) * 100;
     document.getElementById('quizProgressBar').style.width = pct + '%';
 
+    // Start per-question timer
+    this.startTimer();
+
     // Scramble answer options if enabled
     let options = q.options.map((text, originalIdx) => ({ text, originalIdx }));
     if (this.scrambleAnswers) {
@@ -91,6 +102,9 @@ const Quiz = {
     const isCorrect = selectedIdx === correctIdx;
     this.answered++;
 
+    // Stop timer and record time
+    const elapsed = this.stopTimer();
+
     // Disable all options
     document.querySelectorAll('.quiz-option').forEach(o => o.classList.add('disabled'));
 
@@ -108,8 +122,13 @@ const Quiz = {
       this.score++;
       feedback.className = 'quiz-feedback show correct';
       feedback.innerHTML = `<strong>✓ Correct!</strong> ${q.explain}`;
-      // Award XP
-      App.addXP(10);
+      // Award XP — speed bonus if answered in <10s
+      let xp = 10;
+      if (this.timedMode && elapsed < 10000) xp += 5;
+      App.addXP(xp);
+      if (this.timedMode && elapsed < 10000) {
+        feedback.innerHTML += ` <span style="color:var(--green);font-weight:700">⚡ Speed bonus +5 XP!</span>`;
+      }
     } else {
       feedback.className = 'quiz-feedback show wrong';
       feedback.innerHTML = `<strong>✗ Wrong.</strong> ${q.explain}`;
@@ -122,7 +141,9 @@ const Quiz = {
       questionId: q.id,
       topic: q.topic,
       correct: isCorrect,
+      timeMs: elapsed,
     });
+    this.questionTimes.push(elapsed);
 
     // Update SRS card
     const cards = SRS.getAllCards();
@@ -142,6 +163,31 @@ const Quiz = {
     this.showQuestion();
   },
 
+  startTimer() {
+    this.stopTimer();
+    this.questionStartTime = Date.now();
+    const display = document.getElementById('quizTimerDisplay');
+    if (!display) return;
+    display.className = 'quiz-timer';
+    display.textContent = '⏱ 0.0s';
+    this.timerInterval = setInterval(() => {
+      const elapsed = (Date.now() - this.questionStartTime) / 1000;
+      display.textContent = `⏱ ${elapsed.toFixed(1)}s`;
+      if (elapsed > 30) display.className = 'quiz-timer very-slow';
+      else if (elapsed > 15) display.className = 'quiz-timer slow';
+    }, 100);
+  },
+
+  stopTimer() {
+    if (this.timerInterval) {
+      clearInterval(this.timerInterval);
+      this.timerInterval = null;
+    }
+    const elapsed = this.questionStartTime > 0 ? Date.now() - this.questionStartTime : 0;
+    this.questionStartTime = 0;
+    return elapsed;
+  },
+
   showResults() {
     document.getElementById('quizActive').style.display = 'none';
     document.getElementById('quizResults').style.display = 'block';
@@ -157,6 +203,24 @@ const Quiz = {
     document.getElementById('resultsTitle').style.color = color;
 
     document.getElementById('resultsScore').textContent = `${this.score}/${this.currentQuestions.length} (${pct}%)`;
+
+    // Timing stats
+    const timingDiv = document.getElementById('resultsTiming');
+    if (this.timedMode && this.questionTimes.length > 0) {
+      const totalTime = this.questionTimes.reduce((a, b) => a + b, 0);
+      const avgTime = totalTime / this.questionTimes.length;
+      const bestTime = Math.min(...this.questionTimes);
+      const worstTime = Math.max(...this.questionTimes);
+      const fmt = ms => (ms / 1000).toFixed(1) + 's';
+      timingDiv.innerHTML = `
+        <span class="timing-stat">Total: <span class="timing-value">${fmt(totalTime)}</span></span>
+        <span class="timing-stat">Avg: <span class="timing-value">${fmt(avgTime)}</span></span>
+        <span class="timing-stat">Best: <span class="timing-value timing-best">${fmt(bestTime)}</span></span>
+        <span class="timing-stat">Slowest: <span class="timing-value timing-worst">${fmt(worstTime)}</span></span>
+      `;
+    } else {
+      timingDiv.innerHTML = '';
+    }
 
     // Per-topic breakdown
     const topicStats = {};

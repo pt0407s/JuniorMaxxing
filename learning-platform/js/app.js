@@ -73,13 +73,15 @@ const App = {
       const topic = document.getElementById('quizTopicSelect').value;
       const count = document.getElementById('quizCountSelect').value;
       const scramble = document.getElementById('quizScrambleAns').checked;
+      const timed = document.getElementById('quizTimedMode').checked;
       this.topicsStarted.add(topic);
-      Quiz.start(topic, count, scramble);
+      Quiz.start(topic, count, scramble, timed);
     });
     document.getElementById('retryQuizBtn').addEventListener('click', () => Quiz.start(
       document.getElementById('quizTopicSelect').value,
       document.getElementById('quizCountSelect').value,
-      document.getElementById('quizScrambleAns').checked
+      document.getElementById('quizScrambleAns').checked,
+      document.getElementById('quizTimedMode').checked
     ));
     document.getElementById('newQuizBtn').addEventListener('click', () => Quiz.reset());
 

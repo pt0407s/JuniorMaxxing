@@ -100,6 +100,12 @@
           <span>Scramble answer order</span>
         </label>
       </div>
+      <div class="quiz-controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="quizTimedMode" checked>
+          <span>Timed mode (track speed per question)</span>
+        </label>
+      </div>
       <button class="btn btn-primary btn-large" id="startQuizBtn">Start Quiz →</button>
     </div>
 
@@ -108,6 +114,7 @@
         <div class="quiz-progress-info">
           <span id="quizQuestionNum">Q1</span>
           <span id="quizScoreDisplay">Score: 0/0</span>
+          <span id="quizTimerDisplay" class="quiz-timer">⏱ 0.0s</span>
         </div>
         <div class="quiz-progress-bar-container">
           <div class="quiz-progress-bar" id="quizProgressBar"></div>
@@ -119,6 +126,7 @@
     <div class="quiz-results" id="quizResults" style="display:none">
       <h2 id="resultsTitle">Quiz Complete</h2>
       <div class="results-score" id="resultsScore"></div>
+      <div class="results-timing" id="resultsTiming"></div>
       <div class="results-breakdown" id="resultsBreakdown"></div>
       <div class="results-actions">
         <button class="btn btn-primary" id="retryQuizBtn">Retry</button>
