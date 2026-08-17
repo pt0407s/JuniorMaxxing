@@ -19,6 +19,7 @@ const App = {
     this.updateStreak();
     this.renderAll();
     this.updateHeader();
+    if (typeof Skills !== 'undefined') Skills.init();
   },
 
   loadState() {
@@ -137,8 +138,8 @@ const App = {
     document.querySelector(`[data-view="${view}"]`).classList.add('active');
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
     document.getElementById(`view-${view}`).classList.add('active');
-    // Focus mode only during quiz and flashcards
-    if (view === 'quiz' || view === 'flashcards') {
+    // Focus mode only during quiz, skills, and flashcards
+    if (view === 'quiz' || view === 'skills' || view === 'flashcards') {
       document.body.classList.add('focus-mode');
     } else {
       document.body.classList.remove('focus-mode');
@@ -146,6 +147,7 @@ const App = {
     if (view === 'dashboard') Dashboard.render();
     if (view === 'grades') Grades.render();
     if (view === 'stats') Stats.render();
+    if (view === 'skills') Skills.renderSkillStats();
   },
 
   addXP(amount) {

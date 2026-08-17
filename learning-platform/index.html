@@ -36,6 +36,7 @@
 <nav class="nav" id="nav">
   <button class="nav-btn active" data-view="dashboard">Dashboard</button>
   <button class="nav-btn" data-view="quiz">Quiz</button>
+  <button class="nav-btn" data-view="skills">Skills</button>
   <button class="nav-btn" data-view="flashcards">Flashcards</button>
   <button class="nav-btn" data-view="grades">Grades</button>
   <button class="nav-btn" data-view="stats">Stats</button>
@@ -168,6 +169,67 @@
     </div>
   </section>
 
+  <!-- SKILLS MASTERY VIEW -->
+  <section class="view" id="view-skills">
+    <div class="skills-setup" id="skillsSetup">
+      <h2>Skills Mastery</h2>
+      <p class="quiz-desc">Practice applying concepts, not just memorizing. Each skill has difficulty levels, a timer, and step-by-step solutions. Stuck? Ask the AI tutor.</p>
+
+      <div class="skills-class-header">
+        <h3>Chemistry</h3>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card" onclick="Skills.startSkill('balancing')">
+          <div class="skill-card-icon">⚖️</div>
+          <div class="skill-card-body">
+            <div class="skill-card-title">Balancing Equations</div>
+            <div class="skill-card-desc">Apply conservation of mass — balance atoms on both sides</div>
+            <div class="skill-card-stats" id="skillStatsBalancing"></div>
+          </div>
+        </div>
+        <div class="skill-card" onclick="Skills.startSkill('conversions')">
+          <div class="skill-card-icon">🔄</div>
+          <div class="skill-card-body">
+            <div class="skill-card-title">Mole Conversions</div>
+            <div class="skill-card-desc">Convert between grams, moles, atoms, and liters at STP</div>
+            <div class="skill-card-stats" id="skillStatsConversions"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILL PRACTICE -->
+    <div class="skill-practice" id="skillPractice" style="display:none">
+      <div class="skill-practice-header">
+        <button class="btn btn-secondary btn-sm" id="skillExitBtn">← Back</button>
+        <span class="skill-practice-title" id="skillPracticeTitle"></span>
+        <span class="skill-timer" id="skillTimer">⏱ 0.0s</span>
+      </div>
+      <div class="skill-difficulty-bar">
+        <span class="skill-difficulty-label">Difficulty:</span>
+        <button class="btn btn-sm btn-difficulty active" data-difficulty="easy">Easy</button>
+        <button class="btn btn-sm btn-difficulty" data-difficulty="medium">Medium</button>
+        <button class="btn btn-sm btn-difficulty" data-difficulty="hard">Hard</button>
+        <span class="skill-score-display" id="skillScoreDisplay">Score: 0/0</span>
+      </div>
+      <div class="skill-question-container" id="skillQuestionContainer"></div>
+    </div>
+
+    <!-- AI TUTOR -->
+    <div class="ai-tutor" id="aiTutor" style="display:none">
+      <div class="ai-tutor-header">
+        <span class="ai-tutor-title">🤖 AI Tutor — Step-by-Step Help</span>
+        <button class="btn btn-secondary btn-sm" id="aiTutorCloseBtn">Close</button>
+      </div>
+      <div class="ai-tutor-messages" id="aiTutorMessages"></div>
+      <div class="ai-tutor-input-area">
+        <input type="text" id="aiTutorInput" class="ai-tutor-input" placeholder="Ask a question about this problem..." autocomplete="off">
+        <button class="btn btn-primary" id="aiTutorSendBtn">Send</button>
+      </div>
+    </div>
+  </section>
+
   <!-- FLASHCARDS VIEW -->
   <section class="view" id="view-flashcards">
     <div class="flashcard-setup" id="flashcardSetup">
@@ -259,12 +321,15 @@
 
 <!-- Scripts -->
 <script src="data/questions.js"></script>
+<script src="data/skills-data.js"></script>
 <script src="js/spaced-repetition.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/flashcards.js"></script>
 <script src="js/grades.js"></script>
 <script src="js/dashboard.js"></script>
 <script src="js/stats.js"></script>
+<script src="js/ai-tutor.js"></script>
+<script src="js/skills.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
