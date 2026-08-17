@@ -161,12 +161,12 @@ const Skills = {
   },
 
   normalizeAnswer(s) {
+    const SUBSCRIPTS = { '₀':'0','₁':'1','₂':'2','₃':'3','₄':'4','₅':'5','₆':'6','₇':'7','₈':'8','₉':'9' };
     return s.toLowerCase()
-      .replace(/\s+/g, '')
-      .replace(/→/g, '=')
-      .replace(/-/g, '')
-      .replace(/[₂₃₄₅₆₇₈₉₀₁]/g, c => '₀₁₂₃₄₅₆₇₈₉'.indexOf(c))
-      .replace(/[₀₁₂₃₄₅₆₇₈₉]/g, c => '0123456789'['₀₁₂₃₄₅₆₇₈₉'.indexOf(c)]);
+      .replace(/\s+/g, '')           // remove all whitespace
+      .replace(/→|-->|->|⇒|⟶/g, '=') // all arrow variants → =
+      .replace(/[₀₁₂₃₄₅₆₇₈₉]/g, c => SUBSCRIPTS[c] || c) // subscripts → digits
+      .replace(/⁻/g, '-');           // superscript minus → minus
   },
 
   showSolution() {
