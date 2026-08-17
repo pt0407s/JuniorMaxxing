@@ -28,7 +28,6 @@ const Skills = {
         this.currentDifficulty = btn.dataset.difficulty;
         document.querySelectorAll('.btn-difficulty').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        this.loadProblemQueue();
         this.showProblem();
       });
     });
@@ -75,7 +74,6 @@ const Skills = {
     const data = SKILLS_DATA[skillId];
     document.getElementById('skillPracticeTitle').textContent = data.icon + ' ' + data.title;
     this.startTimer();
-    this.loadProblemQueue();
     this.showProblem();
   },
 
@@ -87,18 +85,10 @@ const Skills = {
     this.renderSkillStats();
   },
 
-  loadProblemQueue() {
-    const problems = SKILLS_DATA[this.currentSkill].problems[this.currentDifficulty];
-    // Shuffle and pick all (small sets)
-    this.problemQueue = [...problems].sort(() => Math.random() - 0.5);
-    this.problemIndex = 0;
-  },
-
   showProblem() {
-    if (this.problemIndex >= this.problemQueue.length) {
-      this.loadProblemQueue();
-    }
-    this.currentProblem = this.problemQueue[this.problemIndex];
+    // Generate a new problem on the fly — infinite supply
+    const skillData = SKILLS_DATA[this.currentSkill];
+    this.currentProblem = skillData.generate(this.currentDifficulty);
     this.questionStartTime = Date.now();
 
     const container = document.getElementById('skillQuestionContainer');
@@ -158,9 +148,8 @@ const Skills = {
       feedback.innerHTML = `<div class="skill-correct">✓ Correct! (${timeStr}s) — Answer: ${this.currentProblem.answer}</div>`;
       input.disabled = true;
       document.getElementById('skillSubmitBtn').disabled = true;
-      // Auto-advance after 1.5s
+      // Auto-advance after 1.5s — generates a fresh problem
       setTimeout(() => {
-        this.problemIndex++;
         this.showProblem();
       }, 1500);
     } else {
